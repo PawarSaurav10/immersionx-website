@@ -1,0 +1,9 @@
+@import "./css/style.css";
+@import "./css/fonts.css";
+@import "./css/custom.css";
+/* @import "./css/rtl.css"; */
+@import "./css/theme.css";
+@import "./css/plugins.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

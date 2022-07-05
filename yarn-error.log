@@ -1,0 +1,60 @@
+Arguments: 
+  C:\Program Files (x86)\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js
+
+PATH: 
+  C:\Users\Admin\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Admin\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files (x86)\Yarn\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\nodejs;C:\Users\Admin\AppData\Local\Microsoft\WindowsApps;C:\Users\Admin\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Admin\AppData\Local\Yarn\bin;C:\Users\Admin\AppData\Roaming\npm;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.22.5
+
+Node version: 
+  14.15.1
+
+Platform: 
+  win32 ia32
+
+Trace: 
+  Error: EPERM: operation not permitted, open 'C:\Working\Gatsby\immerstion\node_modules\webpack\node_modules\acorn-import-assertions\node_modules\.bin\acorn.cmd'
+
+npm manifest: 
+  {
+    "name": "my-gatsby-site",
+    "version": "1.0.0",
+    "private": true,
+    "description": "my-gatsby-site",
+    "author": "hariom shah",
+    "keywords": [
+      "gatsby"
+    ],
+    "scripts": {
+      "develop": "gatsby develop",
+      "start": "gatsby develop",
+      "build": "gatsby build",
+      "serve": "gatsby serve",
+      "clean": "gatsby clean"
+    },
+    "dependencies": {
+      "gatsby": "^4.17.2",
+      "gatsby-plugin-image": "^2.17.0",
+      "gatsby-plugin-react-helmet": "^5.17.0",
+      "gatsby-plugin-sharp": "^4.17.0",
+      "gatsby-plugin-sitemap": "^5.17.0",
+      "gatsby-source-filesystem": "^4.17.0",
+      "gatsby-transformer-sharp": "^4.17.0",
+      "react": "^18.1.0",
+      "react-dom": "^18.1.0",
+      "react-helmet": "^6.1.0"
+    },
+    "devDependencies": {
+      "autoprefixer": "^10.4.7",
+      "gatsby-plugin-postcss": "^5.17.0",
+      "postcss": "^8.4.14",
+      "tailwindcss": "^3.1.4"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

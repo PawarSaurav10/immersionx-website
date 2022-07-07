@@ -4,6 +4,7 @@
 /* @import "./css/rtl.css"; */
 @import "./css/theme.css";
 @import "./css/plugins.css";
+@import "./css/fitness-style.css";
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

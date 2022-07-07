@@ -41,11 +41,15 @@ const Layout = ({ children }) => {
                           {/* </a> */}
                         </li>
                         <li className="dropdown">
-                          <Link to="/our-work">Our Work</Link>
+                          <Link to="/our-work">Work</Link>
                           {/* <a href=""></a> */}
                         </li>
                         <li className="dropdown">
-                          <Link to="/our-industries">Our Industries</Link>
+                          <Link to="/our-industries">Solutions</Link>
+                          {/* <a href="/our-industries">Our Industries</a> */}
+                        </li>
+                        <li className="dropdown">
+                          <Link to="/our-industries">Studio</Link>
                           {/* <a href="/our-industries">Our Industries</a> */}
                         </li>
                         <li className="dropdown mega-menu-item">
@@ -184,6 +188,7 @@ const Layout = ({ children }) => {
             </div>
           </footer> */}
           {/* //  end: Footer  */}
+          
         </div>
         {/* //  end: Body Inner  */}
         {/* //  Scroll top  */}

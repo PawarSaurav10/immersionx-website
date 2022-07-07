@@ -2,6 +2,7 @@
 // import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import img from "../images/04_STUDIO/videos@2x.png";
+import Video from "./Video";
 
 const Studio = () => {
   return (
@@ -18,8 +19,10 @@ const Studio = () => {
             </div>
           </div>
         </div>
-        <div className="flex w-full">
-          <img src={img} alt=""/>
+        <div className="flex justify-center">
+          <Video
+            videoSrcURL="https://www.youtube.com/embed/dQw4w9WgXcQ"
+            videoTitle="Official Music Video on YouTube" />
         </div>
         <div className="pt-6 pb-6 lg:pb-0">
           <div className="flex justify-center text-white font-bold text-base">

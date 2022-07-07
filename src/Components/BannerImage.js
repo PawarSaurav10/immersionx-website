@@ -5,9 +5,9 @@ const BannerImage = () => {
     <div
       id="slider"
       className="inspiro-slider slider-fullscreen dots-creative bg-hero-pattern bg-no-repeat bg-cover"
-      //   data-height-xs="360"
+    //   data-height-xs="360"
     >
-      <div className="slide kenburns">
+      {/* <div className="slide kenburns">
         <div className="container flex flex-col lg:flex-row justify-between lg:items-center">
           <div className="uppercase text-2xl md:text-5xl lg:text-8xl text-white text-center lg:text-left font-light max-w-xs md:max-w-xl mx-auto lg:mx-0 pb-0 md:pb-8 lg:pb-0">
             We are a <span className="font-bold">Creative + Technology</span>{" "}
@@ -16,22 +16,32 @@ const BannerImage = () => {
           <div>
             <div className="text-white max-w-sm md:max-w-xl lg:max-w-sm md:mx-auto text-justify text-xs md:text-base">
               <div className="">
-                Nulla varius consequat magna, id molestie ipsum volutpat quis. A
-                true story, that never been told!.Nulla varius consequat magna,
-                id molestie ipsum volutpat quis. A true story, that never been
-                told!.Nulla varius consequat magna, id molestie ipsum volutpat
-                quis.
+                Collabration is the very essence of the great creative outputs.
+                At ImmersionX, Art meets Technology to drive Innovation.
               </div>
               <div className="">
-                A true story, that never been told!.Nulla varius consequat
-                magna, id molestie ipsum volutpat quis. A true story, that never
-                been told!.Nulla varius consequat magna, id molestie ipsum
-                volutpat quis.
+                Whether its VR Collabrations, Digital assets like the metaverse, motion captures,
+                photogrammetry, Holographic Live Streams, experince centers, innovation hubs, museums, retail, and office environments - WE'VE GOT YOU COVERED!
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> */}
+      <div id="slider" className="inspiro-slider slider-fullscreen dots-creative bg-hero-pattern bg-no-repeat bg-cover" data-height-xs="360" data-animate-in="fadeIn" data-animate-out="fadeOut" data-items="1" data-loop="true" data-autoplay="true">
+
+        <div className="slide " >
+          <div className="container">
+            <div className="slide-captions text-right">
+              <div className="hero-heading-2 m-b-20 m-t-20 col-lg-6 float-right">
+                <h1 className="text-colored text-xl">LIFE IS<span className="text-rotator" data-animation="fadeIn" data-speed="3000">FITNESS, TO BE STRONG, TO BE FIT </span></h1>
+                <p className="lead text-light">Lorem ipsum dolor sit amet, consectetur adi pisi cing elit.Lorem ipsum dolor sit amet, consectetur adi pisi cing elit.</p>
+                <a className="btn btn-light" href="http://themeforest.net/item/polo-responsive-multipurpose-html5-template/13708923">Purchase POLO</a>
               </div>
             </div>
           </div>
         </div>
       </div>
+
     </div>
   );
 };

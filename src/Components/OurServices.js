@@ -41,16 +41,49 @@ const OurServices = () => {
           <div className="px-3 py-3">
             <div className=" grid grid-cols-5 gap-3 ">
               <div className="col-span-2">
-                <Link to="/service-detail">
+                {/* <Link to="/service-detail">
                   <img src={img1} className="h-full" alt="" />
-                </Link>
+                </Link> */}
+                <div className="portfolio-item img-zoom ct-marketing ct-media ct-branding ct-marketing ct-webdesign">
+                  <div className="portfolio-item-wrap">
+                    <div className="portfolio-image">
+                      <Link to="/service-detail"><img src={img1} alt="" /></Link>
+                    </div>
+                    <div className="portfolio-description">
+                      <Link to="/service-detail">
+                        <h3>Last Iceland Sunshine</h3>
+                        <span>Graphics</span>
+                      </Link>
+                    </div>
+                  </div>
+                </div>
               </div>
               <div className="col-span-3">
-                <div className="pb-3">
-                  <img src={img2} alt=""/>
+                <div className="portfolio-item img-zoom ct-marketing ct-media ct-branding ct-marketing ct-webdesign">
+                  <div className="portfolio-item-wrap">
+                    <div className="portfolio-image">
+                      <Link to="/service-detail"><img src={img2} alt="" /></Link>
+                    </div>
+                    <div className="portfolio-description">
+                      <Link to="/service-detail">
+                        <h3>Last Iceland Sunshine</h3>
+                        <span>Graphics</span>
+                      </Link>
+                    </div>
+                  </div>
                 </div>
-                <div>
-                  <img src={img3} alt=""/>
+                <div className="portfolio-item img-zoom ct-marketing ct-media ct-branding ct-marketing ct-webdesign">
+                  <div className="portfolio-item-wrap">
+                    <div className="portfolio-image">
+                      <Link to="/service-detail"><img src={img3} alt="" /></Link>
+                    </div>
+                    <div className="portfolio-description">
+                      <Link to="/service-detail">
+                        <h3>Last Iceland Sunshine</h3>
+                        <span>Graphics</span>
+                      </Link>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -58,19 +91,62 @@ const OurServices = () => {
           <div className="py-3 px-3">
             <div className="grid grid-cols-5 gap-3 ">
               <div className="col-span-2">
-                <div className="pb-3">
+                {/* <div className="pb-3">
                   <img src={img4} alt=""/>
+                </div> */}
+                <div className="portfolio-item img-zoom ct-marketing ct-media ct-branding ct-marketing ct-webdesign">
+                  <div className="portfolio-item-wrap">
+                    <div className="portfolio-image">
+                      <Link to="/service-detail"><img src={img4} alt="" /></Link>
+                    </div>
+                    <div className="portfolio-description">
+                      <Link to="/service-detail">
+                        <h3>Last Iceland Sunshine</h3>
+                        <span>Graphics</span>
+                      </Link>
+                    </div>
+                  </div>
                 </div>
-                <div>
-                  <img src={img5} alt=""/>
+                <div className="portfolio-item img-zoom ct-marketing ct-media ct-branding ct-marketing ct-webdesign">
+                  <div className="portfolio-item-wrap">
+                    <div className="portfolio-image">
+                      <Link to="/service-detail"><img src={img5} alt="" /></Link>
+                    </div>
+                    <div className="portfolio-description">
+                      <Link to="/service-detail">
+                        <h3>Last Iceland Sunshine</h3>
+                        <span>Graphics</span>
+                      </Link>
+                    </div>
+                  </div>
                 </div>
               </div>
               <div className="col-span-3">
-                <div className="pb-3">
-                  <img src={img6} alt=""/>
+                <div className="portfolio-item img-zoom ct-marketing ct-media ct-branding ct-marketing ct-webdesign">
+                  <div className="portfolio-item-wrap">
+                    <div className="portfolio-image">
+                      <Link to="/service-detail"><img src={img6} alt="" /></Link>
+                    </div>
+                    <div className="portfolio-description">
+                      <Link to="/service-detail">
+                        <h3>Last Iceland Sunshine</h3>
+                        <span>Graphics</span>
+                      </Link>
+                    </div>
+                  </div>
                 </div>
-                <div>
-                  <img src={img7} alt=""/>
+                <div className="portfolio-item img-zoom ct-marketing ct-media ct-branding ct-marketing ct-webdesign">
+                  <div className="portfolio-item-wrap">
+                    <div className="portfolio-image">
+                      <Link to="/service-detail"><img src={img7} alt="" /></Link>
+                    </div>
+                    <div className="portfolio-description">
+                      <Link to="/service-detail">
+                        <h3>Last Iceland Sunshine</h3>
+                        <span>Graphics</span>
+                      </Link>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>

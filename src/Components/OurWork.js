@@ -18,7 +18,7 @@ const OurWork = () => {
         <div className="slide kenburns">
           <div className="container text-left ">
             <div className="py-5">
-              <div className="uppercase text-2xl md:text-5xl lg:text-8xl text-white text-left font-bold pb-0 md:pb-8 lg:pb-20 pt-4">
+              <div className="uppercase text-3xl md:text-5xl lg:text-8xl text-white text-left font-bold pb-0 md:pb-8 lg:pb-20 pt-4">
                 Our Work
               </div>
               <div className="pb-4 lg:pb-8 uppercase text-lg lg:text-3xl text-white text-left font-semibold">
@@ -39,20 +39,102 @@ const OurWork = () => {
           </div>
         </div>
       </div>
-      <div className="flex p-4">
+      <div className="flex p-2">
         <div className="px-2 flex-1 flex flex-col">
-          <Link to="/work-detail">
-            <img src={img1} className="py-2" alt=""/>
-          </Link>
+          {/* <Link to="/work-detail">
+            <img src={img1} className="py-2" alt="" />
+          </Link> */}
+          <div className="portfolio-item img-zoom ct-marketing ct-media ct-branding ct-marketing ct-webdesign py-2 ">
+            <div className="portfolio-item-wrap">
+              <div className="portfolio-image">
+                <Link to="/work-detail"><img src={img1} alt="" /></Link>
+              </div>
+              <div className="portfolio-description" style={{ bottom: "-40px", display: "flex", justifyContent: "flex-start" }}>
+                <Link to="/work-detail">
+                  <div className="text-base md:text-3xl font-bold text-white">WNS</div>
+                  {/* <span>Graphics</span> */}
+                </Link>
+              </div>
+            </div>
+          </div>
 
-          <img src={img2} className="py-2" alt=""/>
-          <img src={img3} className="py-2" alt=""/>
+          <div className="portfolio-item img-zoom ct-marketing ct-media ct-branding ct-marketing ct-webdesign py-2">
+            <div className="portfolio-item-wrap">
+              <div className="portfolio-image">
+                <Link to="/work-detail"><img src={img2} alt="" /></Link>
+              </div>
+              <div className="portfolio-description" style={{ bottom: "-40px", display: "flex", justifyContent: "flex-start" }}>
+                <Link to="/work-detail">
+                  <div className="text-base md:text-3xl font-bold text-white">HCL</div>
+                  {/* <span>Graphics</span> */}
+                </Link>
+              </div>
+            </div>
+          </div>
+          <div className="portfolio-item img-zoom ct-marketing ct-media ct-branding ct-marketing ct-webdesign py-2">
+            <div className="portfolio-item-wrap">
+              <div className="portfolio-image">
+                <Link to="/work-detail"><img src={img3} alt="" /></Link>
+              </div>
+              <div className="portfolio-description" style={{ bottom: "-40px", display: "flex", justifyContent: "flex-start" }}>
+                <Link to="/work-detail">
+                  <div className="text-base md:text-3xl font-bold text-white">MYNTRA</div>
+                  {/* <span>Graphics</span> */}
+                </Link>
+              </div>
+            </div>
+          </div>
         </div>
         <div className="flex-1 px-2 flex flex-col">
-          <img src={img4} className="py-2" alt=""/>
-          <img src={img5} className="py-2" alt=""/>
-          <img src={img6} className="py-2" alt=""/>
-          <img src={img7} className="py-2" alt=""/>
+          <div className="portfolio-item img-zoom ct-marketing ct-media ct-branding ct-marketing ct-webdesign py-2">
+            <div className="portfolio-item-wrap">
+              <div className="portfolio-image">
+                <Link to="/work-detail"><img src={img4} alt="" /></Link>
+              </div>
+              <div className="portfolio-description" style={{ bottom: "-40px", display: "flex", justifyContent: "flex-start" }}>
+                <Link to="/work-detail">
+                  <div className="text-base md:text-3xl font-bold text-white">TCL</div>
+                  {/* <span>Graphics</span> */}
+                </Link>
+              </div>
+            </div>
+          </div><div className="portfolio-item img-zoom ct-marketing ct-media ct-branding ct-marketing ct-webdesign py-2">
+            <div className="portfolio-item-wrap">
+              <div className="portfolio-image">
+                <Link to="/work-detail"><img src={img5} alt="" /></Link>
+              </div>
+              <div className="portfolio-description" style={{ bottom: "-40px", display: "flex", justifyContent: "flex-start" }}>
+                <Link to="/work-detail">
+                  <div className="text-base md:text-3xl font-bold text-white">ACCENTURE</div>
+                  {/* <span>Graphics</span> */}
+                </Link>
+              </div>
+            </div>
+          </div><div className="portfolio-item img-zoom ct-marketing ct-media ct-branding ct-marketing ct-webdesign py-2">
+            <div className="portfolio-item-wrap">
+              <div className="portfolio-image">
+                <Link to="/work-detail"><img src={img6} alt="" /></Link>
+              </div>
+              <div className="portfolio-description" style={{ bottom: "-40px", display: "flex", justifyContent: "flex-start" }}>
+                <Link to="/work-detail">
+                  <div className="text-base md:text-3xl font-bold text-white">MIND</div>
+                  {/* <span>Graphics</span> */}
+                </Link>
+              </div>
+            </div>
+          </div><div className="portfolio-item img-zoom ct-marketing ct-media ct-branding ct-marketing ct-webdesign py-2">
+            <div className="portfolio-item-wrap">
+              <div className="portfolio-image">
+                <Link to="/work-detail"><img src={img7} alt="" /></Link>
+              </div>
+              <div className="portfolio-description" style={{ bottom: "-40px", display: "flex", justifyContent: "flex-start" }}>
+                <Link to="/work-detail">
+                  <div className="text-base md:text-3xl font-bold text-white">MUSO</div>
+                  {/* <span>Graphics</span> */}
+                </Link>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </>

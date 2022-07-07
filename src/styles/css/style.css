@@ -5967,7 +5967,7 @@ Portfolio
   width: 100%;
   float: left;
   height: auto;
-  padding: 0 0 20px 0;
+  /* padding: 0 0 20px 0; */
   cursor: pointer; /*hover state*/ /*Portfolio Effects*/ /*Styles*/
 }
 
@@ -6086,18 +6086,19 @@ Portfolio
 .grid-item .portfolio-links {
   left: 0;
   margin: 0 auto;
-  padding: 20px;
+  padding:  20px 10px;
   opacity: 0;
   position: absolute;
   right: 0;
-  text-align: center;
-  top: 48%;
+  text-align: left;
+  /* top: 48%; */
+  /* bottom: -10%; */
   -webkit-transform: translate3d(0px, -38%, 0px);
   transform: translate3d(0px, -38%, 0px);
   -webkit-transition: all 250ms ease-in-out 0s;
   transition: all 250ms ease-in-out 0s;
   visibility: hidden;
-  width: 70%;
+  /* width: 70%; */
   z-index: 3;
 }
 
@@ -6247,7 +6248,7 @@ Portfolio
 .grid-item:not(.no-overlay):hover .portfolio-links {
   -webkit-transform: translate3d(0, -50%, 0);
   transform: translate3d(0, -50%, 0);
-  opacity: 1;
+  opacity: 2;
   visibility: visible;
 }
 

@@ -1,7 +1,7 @@
 // import { faArrowAltCircleRight } from "@fortawesome/free-solid-svg-icons";
 // import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
-import img from "../images/04_STUDIO/videos@2x.png";
+// import img from "../images/04_STUDIO/videos@2x.png";
 import Video from "./Video";
 
 const Studio = () => {
@@ -21,7 +21,7 @@ const Studio = () => {
         </div>
         <div className="flex justify-center">
           <Video
-            videoSrcURL="https://www.youtube.com/embed/dQw4w9WgXcQ"
+            videoSrcURL="https://www.youtube.com/embed/lMhr86ZaiR0"
             videoTitle="Official Music Video on YouTube" />
         </div>
         <div className="pt-6 pb-6 lg:pb-0">

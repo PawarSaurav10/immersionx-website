@@ -1,5 +1,5 @@
 Arguments: 
-  C:\Program Files\nodejs\node.exe C:\Users\SAURAV\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add react-reveal
+  C:\Program Files\nodejs\node.exe C:\Users\SAURAV\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js
 
 PATH: 
   C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\SAURAV\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client;C:\Program Files\Intel\iCLS Client;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\System32\OpenSSH;C:\Program Files\Microsoft SQL Server\130\Tools\Binn;C:\Program Files (x86)\Brackets\command;C:\Program Files\Git\cmd;C:\Program Files\nodejs;C:\Users\SAURAV\AppData\Local\Microsoft\WindowsApps;C:\Users\SAURAV\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\SAURAV\AppData\Roaming\npm
@@ -14,7 +14,7 @@ Platform:
   win32 x64
 
 Trace: 
-  Error: EPERM: operation not permitted, unlink 'C:\Working\immertionx-gatsby-website\node_modules\@ardatan\relay-compiler\node_modules\.bin'
+  Error: EPERM: operation not permitted, unlink 'C:\Working\immertionx-gatsby-website\node_modules\@babel\generator\node_modules\.bin'
 
 npm manifest: 
   {
@@ -44,6 +44,9 @@ npm manifest:
       "gatsby-transformer-sharp": "^4.17.0",
       "react": "^18.1.0",
       "react-dom": "^18.1.0",
+      "react-reveal": "^1.2.2",
+      "react-share": "^4.4.0",
+      "react-slick": "^0.28.1",
       "react-helmet": "^6.1.0",
       "react-icons": "^4.4.0",
       "sharp": "^0.30.7"

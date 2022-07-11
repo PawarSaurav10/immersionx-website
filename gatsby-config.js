@@ -1,3 +1,4 @@
+
 module.exports = {
   siteMetadata: {
     title: `My Gatsby Site`,
@@ -14,9 +15,16 @@ module.exports = {
       resolve: "gatsby-source-filesystem",
       options: {
         name: "images",
-        path: "./src/images/",
+        path: `${__dirname}/src/images`,
       },
       __key: "images",
     },
+    // {
+    //   resolve: 'gatsby-background-image-es5',
+    //   options: {
+    //     // add your own characters to escape, replacing the default ':/'
+    //     specialChars: '/:',
+    //   },
+    // },
   ],
 };

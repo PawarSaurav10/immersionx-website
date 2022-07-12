@@ -2,10 +2,10 @@ import React from "react";
 import Layout from "../Components/Layout";
 import WorkDtl from "../Components/WorkDetail";
 
-const WorkDetail = () => {
+const WorkDetail = ({ location }) => {
   return (
     <Layout>
-      <WorkDtl />
+      <WorkDtl data={location?.state?.data} />
     </Layout>
   );
 };

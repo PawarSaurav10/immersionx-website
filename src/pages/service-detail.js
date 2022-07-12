@@ -2,10 +2,11 @@ import React from "react";
 import ImgTextComponent from "../Components/ImgTextComponent";
 import Layout from "../Components/Layout";
 
-const ServiceDtl = () => {
+const ServiceDtl = ({ location }) => {
+  // console.log(location, "location")
   return (
     <Layout>
-      <ImgTextComponent />
+      <ImgTextComponent data={location.state.data} />
     </Layout>
   );
 };

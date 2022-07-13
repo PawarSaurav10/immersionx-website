@@ -9,9 +9,10 @@ const ImgTextComponent = (props) => {
   return (
     <>
       <div id="slider" className="bg-COLLABORATIVEVRBG bg-cover bg-no-repeat">
-        {/* <img src={backGroundImage} style={{height:"100%",width:"100%"}}/> */}
-        <div className=" md:text-5xl text-white pt-80 text-lg pb-8 text-left ml-16 uppercase">
-          {props?.data?.title}
+        <div className="container">
+          <div className="text-2xl md:text-5xl text-white pt-40 md:pt-80 pb-4 md:pb-8 text-left ml-8 md:ml-16 uppercase">
+            {props?.data?.title}
+          </div>
         </div>
       </div>
       {props?.data?.data1 &&

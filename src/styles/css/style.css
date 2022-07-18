@@ -113,7 +113,7 @@ body .container-wide {
     margin: 0 auto;
   }
   body.modern .body-inner .container {
-    max-width: 1500px;
+    max-width: 1280px;
   }
   body.frame:before,
   body.frame:after {

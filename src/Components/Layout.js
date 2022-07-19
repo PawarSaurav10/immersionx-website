@@ -16,13 +16,13 @@ const Layout = ({ children }) => {
   });
   return (
     <>
-    <div>
-    <div id="full-page-loader">
-        <LoaderPage />
+      <div>
+        <div id="full-page-loader">
+          <LoaderPage />
+        </div>
+        <Header />
+        {children}
       </div>
-      <Header />
-      {children}
-    </div>
     </>
   );
 };

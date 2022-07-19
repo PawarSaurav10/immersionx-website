@@ -1,14 +1,8 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import Logo from "../images/01_screensaver/immersionlogo@2x.png";
-// import Logo from "../../assets/images/header_logo.png";
-// import GatsbyImageCustom from "../Images/GatsbyImageCustom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faBars,
-  // faEnvelope,
-  // faLocationArrow,
-  faMapMarkerAlt,
-  faPhoneAlt,
 } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "gatsby";
 
@@ -74,7 +68,7 @@ const Header = () => {
                       <Link
                         className="cursor-pointer "
                         to="/"
-                        activeClassName="text-white md:actve-nav "
+                        
                       >
                         Home
                       </Link>
@@ -83,7 +77,7 @@ const Header = () => {
                       <Link
                         className="cursor-pointer "
                         to="/our-work/"
-                        activeClassName="text-white md:actve-nav "
+                        
                       >
                         Work
                       </Link>
@@ -92,7 +86,7 @@ const Header = () => {
                       <Link
                         className="cursor-pointer "
                         to="/our-work/"
-                        activeClassName="text-white md:actve-nav "
+                        
                       >
                         Solutions
                       </Link>
@@ -101,7 +95,7 @@ const Header = () => {
                       <Link
                         className="cursor-pointer "
                         to="/our-industries/"
-                        activeClassName="text-white md:actve-nav "
+                        
                       >
                         Studio
                       </Link>
@@ -110,9 +104,9 @@ const Header = () => {
                       <Link
                         className="cursor-pointer "
                         to="/contact-us/"
-                        activeClassName="text-white md:actve-nav "
+                        
                       >
-                        Contact Us
+                        Contact
                       </Link>
                     </li>
 

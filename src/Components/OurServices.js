@@ -183,7 +183,7 @@ const OurServices = () => {
                     <div className="portfolio-item-wrap">
                       <div className="portfolio-image">
                         <Link
-                          to="/service-detail"
+                          to="/service-detail/"
                           state={{ data: CollabrateVRData }}
                         >
                           <img src={img1} alt="" className="" />
@@ -198,7 +198,7 @@ const OurServices = () => {
                         }}
                       >
                         <Link
-                          to="/service-detail"
+                          to="/service-detail/"
                           state={{ data: CollabrateVRData }}
                         >
                           <div className="text-base md:text-2xl font-bold text-white">
@@ -214,7 +214,7 @@ const OurServices = () => {
                   <div className="portfolio-item img-zoom ct-marketing ct-media ct-branding ct-marketing ct-webdesign pb-3">
                     <div className="portfolio-item-wrap">
                       <div className="portfolio-image">
-                        <Link to="/service-detail" state={{ data: VolumetricStudioData }}>
+                        <Link to="/service-detail/" state={{ data: VolumetricStudioData }}>
                           <img src={img2} alt="" />
                         </Link>
                       </div>
@@ -226,7 +226,7 @@ const OurServices = () => {
                           justifyContent: "flex-start",
                         }}
                       >
-                        <Link to="/service-detail" state={{ data: VolumetricStudioData }}>
+                        <Link to="/service-detail/" state={{ data: VolumetricStudioData }}>
                           <div className="text-base md:text-2xl font-bold text-white uppercase">
                             Volumetric Studio
                           </div>
@@ -238,7 +238,7 @@ const OurServices = () => {
                   <div className="portfolio-item img-zoom ct-marketing ct-media ct-branding ct-marketing ct-webdesign pb-0 md:pb-3">
                     <div className="portfolio-item-wrap">
                       <div className="portfolio-image">
-                        <Link to="/service-detail" state={{ data: MetaverseData }}>
+                        <Link to="/service-detail/" state={{ data: MetaverseData }}>
                           <img src={img3} alt="" />
                         </Link>
                       </div>
@@ -250,7 +250,7 @@ const OurServices = () => {
                           justifyContent: "flex-start",
                         }}
                       >
-                        <Link to="/service-detail" state={{ data: MetaverseData }}>
+                        <Link to="/service-detail/" state={{ data: MetaverseData }}>
                           <div className="text-base md:text-2xl font-bold text-white">
                             METAVERSE
                           </div>
@@ -273,7 +273,7 @@ const OurServices = () => {
                   <div className="portfolio-item img-zoom ct-marketing ct-media ct-branding ct-marketing ct-webdesign pb-3">
                     <div className="portfolio-item-wrap">
                       <div className="portfolio-image">
-                        <Link to="/service-detail" state={{ data: VolumetricStudioData }}>
+                        <Link to="/service-detail/" state={{ data: VolumetricStudioData }}>
                           <img src={img4} alt="" />
                         </Link>
                       </div>
@@ -285,7 +285,7 @@ const OurServices = () => {
                           justifyContent: "flex-start",
                         }}
                       >
-                        <Link to="/service-detail" state={{ data: VolumetricStudioData }}> 
+                        <Link to="/service-detail/" state={{ data: VolumetricStudioData }}> 
                           <div className="text-base md:text-2xl font-bold text-white">
                             INTERACTIVE DIGITAL INSTALLATION
                           </div>
@@ -297,7 +297,7 @@ const OurServices = () => {
                   <div className="portfolio-item img-zoom ct-marketing ct-media ct-branding ct-marketing ct-webdesign pb-0 md:pb-3">
                     <div className="portfolio-item-wrap">
                       <div className="portfolio-image">
-                        <Link to="/service-detail" state={{ data: VolumetricStudioData }}>
+                        <Link to="/service-detail/" state={{ data: VolumetricStudioData }}>
                           <img src={img5} alt="" />
                         </Link>
                       </div>
@@ -309,7 +309,7 @@ const OurServices = () => {
                           justifyContent: "flex-start",
                         }}
                       >
-                        <Link to="/service-detail" state={{ data: VolumetricStudioData }}>
+                        <Link to="/service-detail/" state={{ data: VolumetricStudioData }}>
                           <div className="text-base md:text-2xl font-bold text-white">
                             AUGMENTED REALITY
                           </div>
@@ -323,7 +323,7 @@ const OurServices = () => {
                   <div className="portfolio-item img-zoom ct-marketing ct-media ct-branding ct-marketing ct-webdesign pb-3">
                     <div className="portfolio-item-wrap">
                       <div className="portfolio-image">
-                        <Link to="/service-detail" state={{ data: MultitactionData }}>
+                        <Link to="/service-detail/" state={{ data: MultitactionData }}>
                           <img src={img6} alt="" />
                         </Link>
                       </div>
@@ -335,7 +335,7 @@ const OurServices = () => {
                           justifyContent: "flex-start",
                         }}
                       >
-                        <Link to="/service-detail" state={{ data: MultitactionData }}>
+                        <Link to="/service-detail/" state={{ data: MultitactionData }}>
                           <div className="text-base md:text-2xl font-bold text-white">
                             MULTITACTION
                           </div>
@@ -347,7 +347,7 @@ const OurServices = () => {
                   <div className="portfolio-item img-zoom ct-marketing ct-media ct-branding ct-marketing ct-webdesign pb-0 md:pb-3">
                     <div className="portfolio-item-wrap">
                       <div className="portfolio-image">
-                        <Link to="/service-detail" state={{ data: VRCaveData }}>
+                        <Link to="/service-detail/" state={{ data: VRCaveData }}>
                           <img src={img7} alt="" />
                         </Link>
                       </div>
@@ -359,7 +359,7 @@ const OurServices = () => {
                           justifyContent: "flex-start",
                         }}
                       >
-                        <Link to="/service-detail" state={{ data: VRCaveData }}>
+                        <Link to="/service-detail/" state={{ data: VRCaveData }}>
                           <div className="text-base md:text-2xl font-bold text-white">
                             VR CAVE
                           </div>

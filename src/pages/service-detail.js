@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import ImgTextComponent from "../Components/ImgTextComponent";
 import Layout from "../Components/Layout";
-import LoaderPage from "../Components/LoaderPage";
+import LoaderPage from "./loader";
 
 const ServiceDtl = ({ location }) => {
   console.log(location, "location");

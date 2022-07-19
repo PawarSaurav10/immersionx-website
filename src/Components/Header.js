@@ -82,7 +82,7 @@ const Header = () => {
                     <li className="nav-bar-menu">
                       <Link
                         className="cursor-pointer "
-                        to="/our-work"
+                        to="/our-work/"
                         activeClassName="text-white md:actve-nav "
                       >
                         Work
@@ -91,7 +91,7 @@ const Header = () => {
                     <li className="nav-bar-menu">
                       <Link
                         className="cursor-pointer "
-                        to="/our-work"
+                        to="/our-work/"
                         activeClassName="text-white md:actve-nav "
                       >
                         Solutions
@@ -100,7 +100,7 @@ const Header = () => {
                     <li className="nav-bar-menu">
                       <Link
                         className="cursor-pointer "
-                        to="/our-industries"
+                        to="/our-industries/"
                         activeClassName="text-white md:actve-nav "
                       >
                         Studio
@@ -109,7 +109,7 @@ const Header = () => {
                     <li className="nav-bar-menu">
                       <Link
                         className="cursor-pointer "
-                        to="/contact-us"
+                        to="/contact-us/"
                         activeClassName="text-white md:actve-nav "
                       >
                         Contact Us

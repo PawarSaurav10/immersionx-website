@@ -7,6 +7,24 @@
 
 */
 
+.video1 {
+  object-fit: cover;
+  /* width: 100vw;
+  height: 100vh; */
+  /* position: fixed; */
+  top: 0;
+  left: 0;
+}
+
+.viewport-header {
+  position: relative;
+  height: 50vh;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .slidingHorizontal {
   display: inline-block;
   text-indent: 8px;

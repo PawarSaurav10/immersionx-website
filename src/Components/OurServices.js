@@ -6,6 +6,12 @@ import img4 from "../images/02_OURSERVICES/INTERACTIVEDIGITALINSTALLATION@2x.png
 import img5 from "../images/02_OURSERVICES/AUGMENTEDREALITY@2x@2x.png";
 import img6 from "../images/02_OURSERVICES/MULTITACTION@2x.png";
 import img7 from "../images/02_OURSERVICES/VRCAVE@2x.png";
+import Capsuleimg1 from "../images/09_pages/CAPSULE/im_1@2x.png";
+import Capsuleimg3 from "../images/09_pages/CAPSULE/im_3@2x.png";
+import Capsuleimg4 from "../images/09_pages/CAPSULE/im_4@2x.png";
+import VRCAVEimg1 from "../images/09_pages/VRCAVE/im_1@2x.png";
+import VRCAVEimg3 from "../images/09_pages/VRCAVE/im_3@2x.png";
+import VRCAVEimg4 from "../images/09_pages/VRCAVE/im_4@2x.png";
 import COLLABORATIVEVRim1 from "../images/02_OURSERVICES/pages/COLLABORATIVEVR/COLLABORATIVEVRim_1@2x.png";
 import COLLABORATIVEVRim2 from "../images/02_OURSERVICES/pages/COLLABORATIVEVR/COLLABORATIVEVRim_2@2x.png";
 import { Link } from "gatsby";
@@ -72,14 +78,19 @@ const OurServices = () => {
     title: "VR Cave",
     data1: {
       numberofcolspan: 3,
-      imageurl: COLLABORATIVEVRim1,
+      imageurl: VRCAVEimg1,
       h1: "Our collaborative VR platform will allow for people and businesses to collaborate and meet up in the virtual world",
       p1: "Teamwork is crucial and has become a challenge for global firms whose departments or subsidiaries are spread all over the world. Using virtual reality collaborative tools, you can gather all thestakeholders of your project in the same VR workspace and display your virtual prototype at scale to create and collaborate.",
       p2: "Our VIRTUAL REALITY CAVE SOLUTION will help you visualize your product better. It is an immersive, interactive 3D experience theatre that requires practically no footprint. With ultra short-throw projection and VR COLLABORATIVE TOOLS, nearly any existing room can be converted into a mind-blowing visualization center.",
       p3: "Can be used for Virtual meeting rooms, training spaces, virtual shopping experiences, remote collaborations, etc.",
     },
     data2: {
-      imageurl: COLLABORATIVEVRim2,
+      imageurl: VRCAVEimg3,
+      p1: "Teamwork is crucial and has become a challenge for global firms whose departments or subsidiaries are spread all over the world. Using virtual reality collaborative tools, you can gather all thestakeholders of your project in the same VR workspace and display your virtual prototype at scale to create and collaborate.",
+      p3: "Can be used for Virtual meeting rooms, training spaces, virtual shopping experiences, remote collaborations, etc.",
+    },
+    data3: {
+      imageurl: VRCAVEimg4,
       p1: "Teamwork is crucial and has become a challenge for global firms whose departments or subsidiaries are spread all over the world. Using virtual reality collaborative tools, you can gather all thestakeholders of your project in the same VR workspace and display your virtual prototype at scale to create and collaborate.",
       p3: "Can be used for Virtual meeting rooms, training spaces, virtual shopping experiences, remote collaborations, etc.",
     },
@@ -89,14 +100,19 @@ const OurServices = () => {
     title: "Capsule",
     data1: {
       numberofcolspan: 3,
-      imageurl: COLLABORATIVEVRim1,
+      imageurl: Capsuleimg1,
       h1: "CAPSULE is a hologram display that creates incredible interactive experiences.",
       p1: "CAPSULE is a consumer-facing holographic display that is plug-and-play for events in all lighting conditions and can be permanently installed for retail and other consumer or user-facing applications. CAPSULE can beam-in live hologram presenters by leveraging HoloPresence capabilities, as well as playback pre-recorded programmatic content that viewers can interact with using touch.",
       // p2: "Our VIRTUAL REALITY CAVE SOLUTION will help you visualize your product better. It is an immersive, interactive 3D experience theatre that requires practically no footprint. With ultra short-throw projection and VR COLLABORATIVE TOOLS, nearly any existing room can be converted into a mind-blowing visualization center.",
       // p3: " Can be used for Virtual meeting rooms, training spaces, virtual shopping experiences, remote collaborations, etc.",
     },
     data2: {
-      imageurl: COLLABORATIVEVRim2,
+      imageurl: Capsuleimg3,
+      p1: "Teamwork is crucial and has become a challenge for global firms whose departments or subsidiaries are spread all over the world. Using virtual reality collaborative tools, you can gather all thestakeholders of your project in the same VR workspace and display your virtual prototype at scale to create and collaborate.",
+      p3: "Can be used for Virtual meeting rooms, training spaces, virtual shopping experiences, remote collaborations, etc.",
+    },
+    data2: {
+      imageurl: Capsuleimg4,
       p1: "Teamwork is crucial and has become a challenge for global firms whose departments or subsidiaries are spread all over the world. Using virtual reality collaborative tools, you can gather all thestakeholders of your project in the same VR workspace and display your virtual prototype at scale to create and collaborate.",
       p3: "Can be used for Virtual meeting rooms, training spaces, virtual shopping experiences, remote collaborations, etc.",
     },

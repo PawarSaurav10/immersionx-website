@@ -1,10 +1,8 @@
 import React from "react";
-
 import LeftTextRightImage from "./imageandtextcomponent/LeftTextRightImage";
 import LeftImageRightText from "./imageandtextcomponent/LeftImageRightText";
 
 const ImgTextComponent = (props) => {
-  // console.log(props, "props")
 
   return (
     <>

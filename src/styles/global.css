@@ -25,7 +25,7 @@
     @apply block lg:m-auto w-full;
   }
   .nav-bar-menu {
-    @apply block lg:inline-block  lg:pl-5 px-4 lg:px-0 py-3 lg:py-0 lg:hover:bg-transparent hover:text-white border-gray-100 border-solid lg:border-b-0 ;
+    @apply block lg:inline-block  lg:pl-5 px-4 lg:px-0 py-3 lg:py-0 lg:hover:bg-transparent hover:text-white border-b-2 border-gray-100 border-solid lg:border-b-0 ;
   }
   .nav-bar-has-sublink {
     @apply flex justify-between w-full  px-4 lg:px-0 py-3 lg:pb-0 lg:py-0 group-hover:bg-gray-100  border-b-2 border-gray-100 border-solid lg:border-b-0;
@@ -40,6 +40,6 @@
   }
 
   .actve-nav {
-    @apply rounded-lg p-2 transition-colors duration-500 ease-in-out text-blue-800;
+    @apply  rounded-lg p-2 text-white transition-colors duration-500 ease-in-out;
   }
 }

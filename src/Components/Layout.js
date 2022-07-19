@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 // import { Helmet } from "react-helmet";
 import Header from "./Header";
-import LoaderPage from "../pages/loader";
+import Loader from "../pages/loader";
 
 const Layout = ({ children }) => {
   useEffect(() => {
@@ -18,7 +18,7 @@ const Layout = ({ children }) => {
     <>
       <div>
         <div id="full-page-loader">
-          <LoaderPage />
+          <Loader />
         </div>
         <Header />
         {children}

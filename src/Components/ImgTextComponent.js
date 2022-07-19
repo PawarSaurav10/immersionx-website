@@ -18,6 +18,8 @@ const ImgTextComponent = (props) => {
 
       {props?.data?.data2 &&
         <LeftTextRightImage data={props?.data?.data2} />}
+        {props?.data?.data3 &&
+        <LeftTextRightImage data={props?.data?.data3} />}
 
     </>
   );

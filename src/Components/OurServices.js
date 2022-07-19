@@ -111,7 +111,7 @@ const OurServices = () => {
       p1: "Teamwork is crucial and has become a challenge for global firms whose departments or subsidiaries are spread all over the world. Using virtual reality collaborative tools, you can gather all thestakeholders of your project in the same VR workspace and display your virtual prototype at scale to create and collaborate.",
       p3: "Can be used for Virtual meeting rooms, training spaces, virtual shopping experiences, remote collaborations, etc.",
     },
-    data2: {
+    data3: {
       imageurl: Capsuleimg4,
       p1: "Teamwork is crucial and has become a challenge for global firms whose departments or subsidiaries are spread all over the world. Using virtual reality collaborative tools, you can gather all thestakeholders of your project in the same VR workspace and display your virtual prototype at scale to create and collaborate.",
       p3: "Can be used for Virtual meeting rooms, training spaces, virtual shopping experiences, remote collaborations, etc.",
@@ -273,7 +273,7 @@ const OurServices = () => {
                   <div className="portfolio-item img-zoom ct-marketing ct-media ct-branding ct-marketing ct-webdesign pb-3">
                     <div className="portfolio-item-wrap">
                       <div className="portfolio-image">
-                        <Link to="/service-detail">
+                        <Link to="/service-detail" state={{ data: VolumetricStudioData }}>
                           <img src={img4} alt="" />
                         </Link>
                       </div>
@@ -285,7 +285,7 @@ const OurServices = () => {
                           justifyContent: "flex-start",
                         }}
                       >
-                        <Link to="/service-detail">
+                        <Link to="/service-detail" state={{ data: VolumetricStudioData }}> 
                           <div className="text-base md:text-2xl font-bold text-white">
                             INTERACTIVE DIGITAL INSTALLATION
                           </div>
@@ -297,7 +297,7 @@ const OurServices = () => {
                   <div className="portfolio-item img-zoom ct-marketing ct-media ct-branding ct-marketing ct-webdesign pb-0 md:pb-3">
                     <div className="portfolio-item-wrap">
                       <div className="portfolio-image">
-                        <Link to="/service-detail">
+                        <Link to="/service-detail" state={{ data: VolumetricStudioData }}>
                           <img src={img5} alt="" />
                         </Link>
                       </div>
@@ -309,7 +309,7 @@ const OurServices = () => {
                           justifyContent: "flex-start",
                         }}
                       >
-                        <Link to="/service-detail">
+                        <Link to="/service-detail" state={{ data: VolumetricStudioData }}>
                           <div className="text-base md:text-2xl font-bold text-white">
                             AUGMENTED REALITY
                           </div>

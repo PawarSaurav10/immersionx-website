@@ -3,7 +3,7 @@ import React from "react";
 import LeftImageRightText from "./imageandtextcomponent/LeftImageRightText";
 import LeftTextRightImage from "./imageandtextcomponent/LeftTextRightImage";
 
-const OurWork = (props) => {
+const WorkDetail = (props) => {
   console.log(props, "props")
 
   return (
@@ -29,4 +29,4 @@ const OurWork = (props) => {
   );
 };
 
-export default OurWork;
+export default WorkDetail;

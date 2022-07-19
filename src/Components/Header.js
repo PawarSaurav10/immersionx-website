@@ -13,17 +13,17 @@ import {
 import { Link } from "gatsby";
 
 const Header = () => {
-  const isBrowser = typeof window !== "undefined";
+  // const isBrowser = typeof window !== "undefined";
   //   const [hideTopBar, setHideTopBar] = useState();
   const [navBar, setNavBar] = useState(false);
-  useEffect(() => {
-    let body = document.getElementsByTagName("body");
-    if (navBar && isBrowser && window.innerWidth < 768) {
-      if (body.length > 0) body[0].classList.add("overflow-hidden");
-    } else {
-      body[0].classList.remove("overflow-hidden");
-    }
-  }, [navBar]);
+  // useEffect(() => {
+  //   let body = document.getElementsByTagName("body");
+  //   if (navBar && isBrowser && window.innerWidth < 768) {
+  //     if (body.length > 0) body[0].classList.add("overflow-hidden");
+  //   } else {
+  //     body[0].classList.remove("overflow-hidden");
+  //   }
+  // }, [navBar]);
 
   return (
     <>

@@ -1,5 +1,5 @@
 import { graphql, useStaticQuery } from "gatsby";
-import BackgroundImage from "gatsby-background-image";
+// import BackgroundImage from "gatsby-background-image";
 import video1 from "../images/Untitled.mp4";
 import React from "react";
 import { Fade } from "react-reveal";
@@ -19,7 +19,7 @@ const BannerImage = () => {
     `
   );
 
-  const imageData = data.desktop.childImageSharp.fluid;
+  // const imageData = data.desktop.childImageSharp.fluid;
   return (
     // <BackgroundImage
     //   Tag="section"

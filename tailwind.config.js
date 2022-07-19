@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        "hero-pattern": "url('../images/ImmersionxShowreel_v02.mp4')",
+        // "hero-pattern": "url('../images/ImmersionxShowreel_v02.mp4')",
         "our-service": "url('../images/02_OURSERVICES/Ourservicesbg@2x.png')",
         "our-process": "url('../images/03_OURPROCESS/ourprocessBG@2x.png')",
         studio: "url('../images/04_STUDIO/Studiobg@2x.png')",

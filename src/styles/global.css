@@ -8,3 +8,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .nav-bar-container {
+    @apply py-2 flex fixed lg:w-auto lg:h-auto top-20 lg:top-0 lg:opacity-100 right-0 lg:static lg:border-t-0 border-solid overflow-auto lg:overflow-visible;
+  }
+}

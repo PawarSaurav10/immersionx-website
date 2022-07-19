@@ -1,18 +1,21 @@
 import { Link } from "gatsby";
-import React from "react";
+import React, { useState } from "react";
 import { Helmet } from "react-helmet";
 import logo from "../images/01_screensaver/immersionlogo@2x.png"
-// import "../../js/"
+// import polofnct from "../js/functions"
+// import polojquery from '../js/jquery'
+// import poloplugins from '../js/plugins'
 
 const Layout = ({ children }) => {
+  const [navBar, setNavBar] = useState(false);
   return (
     <>
       <Helmet>
-        <script src="../../js/jquery.js"></script>
-        <script src="../../js/plugins.js"></script>
+        {/* <script src={polojquery} />
+        <script src={poloplugins} />
 
 
-        <script src="../../js/functions.js"></script>
+        <script src={polofnct} /> */}
         {/* <title>{data.page.meta_title || data.page.title}</title>
         <meta
           property="og:title"
@@ -44,7 +47,6 @@ const Layout = ({ children }) => {
         <script></script>
       </Helmet>
       <div className="body-inner">
-        {/* //  Header  */}
         <header
           id="header"
           data-transparent="true"
@@ -53,57 +55,111 @@ const Layout = ({ children }) => {
         >
           <div className="header-inner">
             <div className="container">
-              {/* // Logo */}
-              <div id="logo" className="flex items-center justify-center lg:justify-start">
-                {/* <a href="/"> */}
+              {/* <div id="logo" className="flex items-center justify-center lg:justify-start">
                 <Link to="/">
                   <span className="m-2 "><img src={logo} className="h-14 " alt="img" /></span>
-                  {/* <span className="logo-dark">IMMERTIONX</span> */}
                 </Link>
-                {/* </a> */}
               </div>
-              {/* // End: Logo */}
-              {/* // Navigation Resposnive Trigger */}
               <div id="mainMenu-trigger">
                 <a className="lines-button x" href="">
                   <span className="lines"></span>
                 </a>
               </div>
-              {/* // end: Navigation Resposnive Trigger */}
-              {/* // Navigation */}
               <div id="mainMenu">
                 <div className="container">
                   <nav>
                     <ul>
                       <li>
-                        {/* <a> */} <Link to="/">Home</Link>
-                        {/* </a> */}
+                        <Link to="/">Home</Link>
                       </li>
                       <li className="dropdown">
                         <Link to="/our-work">Work</Link>
-                        {/* <a href=""></a> */}
                       </li>
                       <li className="dropdown">
                         <Link to="/our-industries">Solutions</Link>
-                        {/* <a href="/our-industries">Our Industries</a> */}
                       </li>
                       <li className="dropdown">
                         <Link to="/our-industries">Studio</Link>
-                        {/* <a href="/our-industries">Our Industries</a> */}
                       </li>
                       <li className="dropdown mega-menu-item">
                         <Link to="/contact-us">Contact Us</Link>
-                        {/* <a href="/">Contact Us</a> */}
                       </li>
                     </ul>
                   </nav>
                 </div>
+              </div> */}
+              <div className="container shadow-lg">
+                <div className="max-w-6xl mx-auto">
+                  <div className="flex text-white justify-between font-bold px-4 py-4">
+                    <div className="px-6">
+                      {/* <Link to="/" className="flex space-x-2"> */}
+                      {/* <img src={logo} className="h-14 " alt="img" /> */}
+                      <div id="logo" className="flex items-center justify-center lg:justify-start">
+                        <Link to="/">
+                          <span className="m-2 "><img src={logo} className="h-14 " alt="img" /></span>
+                        </Link>
+                      </div>
+                      {/* <img
+                        src={logo}
+                        alt="img-1"
+                        className="h-12 w-auto md:block hidden"
+                      /> */}
+                      {/* </Link> */}
+                    </div>
+
+                    <div className="lg:hidden py-2 flex">
+                      <div className="block m-auto">
+                        <div
+                          className="nav-bar-btn"
+                          onClick={() => {
+                            setNavBar(!navBar);
+                          }}
+                          onKeyDown={() => {
+                            setNavBar(!navBar);
+                          }}
+                        >
+                          <span
+                            className="pr-2 flex items-center"
+                            style={{ paddingBottom: 3 }}
+                          >
+                            <a className="lines-button x" href="">
+                              <span className="lines"></span>
+                            </a>
+                          </span>
+                          {/* <span className="font-medium"> Menu</span> */}
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      className={`transition-width transition-height duration-300 ease-in-out ${navBar ? `w-full opacity-100 nav-open` : `w-0 h-0 opacity-0`
+                        } lg:w-auto lg:h-auto opacity-100 nav-bar-container bg-secondary-darkblue-500`}
+                    >
+                      {/* <nav> */}
+                      <ul className="flex lg:flex-row flex-col lg:items-center items-start space-x-0 lg:space-x-3 xl:space-x-5 w-full">
+                        <li>
+                          <Link to="/">Home</Link>
+                        </li>
+                        <li>
+                          <Link to="/our-work">Work</Link>
+                        </li>
+                        <li>
+                          <Link to="/our-industries">Solutions</Link>
+                        </li>
+                        <li>
+                          <Link to="/our-industries">Studio</Link>
+                        </li>
+                        <li >
+                          <Link to="/contact-us">Contact Us</Link>
+                        </li>
+                      </ul>
+                      {/* </nav> */}
+                    </div>
+                  </div>
+                </div>
               </div>
-              {/* // end: Navigation */}
             </div>
           </div>
         </header>
-        {/* //  end: Header  */}
         {children}
         {/* //  Footer  */}
         {/* <footer id="footer">

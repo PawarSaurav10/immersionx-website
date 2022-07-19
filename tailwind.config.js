@@ -14,7 +14,7 @@ module.exports = {
           "url('../images/07_OURINDUSTRIES/OURINDUSTRIESBG@2x.png')",
         "our-industry-1":
           "url('../images/07_OURINDUSTRIES/OURINDUSTRIESimageBG@2x.png')",
-        "contact-us": "url('../images/08_CONTACTUS/CONTACTUSimageBG@2x.png')",
+        "contact-us": "url('../images/08_CONTACTUS/CONTACTUSimageBG2x1.png')",
         "COLLABORATIVEVRBG":
           "url('../images/02_OURSERVICES/pages/COLLABORATIVEVR/COLLABORATIVEVRBG@2x.png')",
         "TataCommunicationsBG":
@@ -30,6 +30,9 @@ module.exports = {
         'desktop': '1440px',
         // => @media (min-width: 1280px) { ... }
       },
+      maxWidth: {
+        "8xl": "1440px"
+      }
     },
   },
   plugins: [],

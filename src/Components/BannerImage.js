@@ -1,9 +1,9 @@
 // import { graphql, useStaticQuery } from "gatsby";
 // import BackgroundImage from "gatsby-background-image";
 // import video1 from "../images/Untitled.mp4";
-// import video1 from "../images/30secondsvideo.mp4";
+import video1 from "../images/30secondsvideo.mp4";
 // import video1 from "../images/ImmersionxShowreel_v02.mp4";
-import video1 from "../images/Originalvideocompressed.mp4";
+// import video1 from "../images/Originalvideocompressed.mp4";
 import React from "react";
 import { Fade } from "react-reveal";
 

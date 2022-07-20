@@ -1,23 +1,26 @@
-import { graphql, useStaticQuery } from "gatsby";
+// import { graphql, useStaticQuery } from "gatsby";
 // import BackgroundImage from "gatsby-background-image";
-import video1 from "../images/Untitled.mp4";
+// import video1 from "../images/Untitled.mp4";
+// import video1 from "../images/30secondsvideo.mp4";
+// import video1 from "../images/ImmersionxShowreel_v02.mp4";
+import video1 from "../images/Originalvideocompressed.mp4";
 import React from "react";
 import { Fade } from "react-reveal";
 
 const BannerImage = () => {
-  const data = useStaticQuery(
-    graphql`
-      query {
-        desktop: file(relativePath: { eq: "01_screensaver/bg@2x.png" }) {
-          childImageSharp {
-            fluid(quality: 100) {
-              ...GatsbyImageSharpFluid_withWebp
-            }
-          }
-        }
-      }
-    `
-  );
+  // const data = useStaticQuery(
+  //   graphql`
+  //     query {
+  //       desktop: file(relativePath: { eq: "01_screensaver/bg@2x.png" }) {
+  //         childImageSharp {
+  //           fluid(quality: 100) {
+  //             ...GatsbyImageSharpFluid_withWebp
+  //           }
+  //         }
+  //       }
+  //     }
+  //   `
+  // );
 
   // const imageData = data.desktop.childImageSharp.fluid;
   return (
@@ -38,21 +41,21 @@ const BannerImage = () => {
               <div className="self-start md:h-52 h-0">
                 <div className="absolute">
                   <div class="slidingHorizontal">
-                    <span className="uppercase text-2xl md:text-5xl lg:text-8xl text-blue-900 text-center lg:text-left font-light  mx-auto lg:mx-0 pb-0 md:pb-8 lg:pb-0">
+                    <span className="uppercase text-3xl md:text-5xl lg:text-8xl text-blue-900 text-center lg:text-left font-light  mx-auto lg:mx-0 pb-0 md:pb-8 lg:pb-0">
                       We are a
                       <div className="font-bold">Creative + Technology</div>
                       Company
                     </span>
-                    <span className="uppercase text-2xl md:text-5xl lg:text-8xl text-blue-900 text-center lg:text-left font-light  mx-auto lg:mx-0 pb-0 md:pb-8 lg:pb-0">
+                    <span className="uppercase text-3xl md:text-5xl lg:text-8xl text-blue-900 text-center lg:text-left font-light  mx-auto lg:mx-0 pb-0 md:pb-8 lg:pb-0">
                       We
                       <div className="font-bold">Innovate+ Research</div>
                     </span>
-                    <span className="uppercase text-2xl md:text-5xl lg:text-8xl text-blue-900 text-center lg:text-left font-light  mx-auto lg:mx-0 pb-0 md:pb-8 lg:pb-0">
+                    <span className="uppercase text-3xl md:text-5xl lg:text-8xl text-blue-900 text-center lg:text-left font-light  mx-auto lg:mx-0 pb-0 md:pb-8 lg:pb-0">
                       {/* max-w-xs md:max-w-xl */}
                       We
                       <div className="font-bold">Design + Collaborate</div>
                     </span>
-                    <span className="uppercase text-2xl md:text-5xl lg:text-8xl text-blue-900 text-center lg:text-left font-light  mx-auto lg:mx-0 pb-0 md:pb-8 lg:pb-0">
+                    <span className="uppercase text-3xl md:text-5xl lg:text-8xl text-blue-900 text-center lg:text-left font-light  mx-auto lg:mx-0 pb-0 md:pb-8 lg:pb-0">
                       {/* max-w-xs md:max-w-xl */}
                       We
                       <div className="font-bold">Execute+ Deliver</div>
@@ -64,7 +67,7 @@ const BannerImage = () => {
 
             <Fade right cascade>
               <div>
-                <div className="text-white max-w-sm md:max-w-xl lg:max-w-sm md:mx-auto text-justify text-xs md:text-base font-medium">
+                <div className="text-white max-w-sm md:max-w-xl lg:max-w-lg mx-auto text-justify text-base md:text-lg font-medium">
                   <div className="">
                     Collabration is the very essence of the great creative
                     outputs.
@@ -89,7 +92,7 @@ const BannerImage = () => {
             autoPlay
             loop
             muted
-            className="absolute z-10 w-auto min-w-full min-h-full max-w-none"
+            className="absolute z-10 w-auto min-w-full min-h-full max-w-none brightness-50"
           ></video>
         </div>
       </div>

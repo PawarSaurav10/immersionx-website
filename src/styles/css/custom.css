@@ -43,37 +43,37 @@
 
 @media (max-width: 1499px) {
   .slidingHorizontal span {
-    top: -88px;
+    top: -66px;
     left: 0px;
   }
   .slidingHorizontal span:nth-child(2) {
-    top: -44px;
+    top: -22px;
     left: 0px;
   }
   .slidingHorizontal span:nth-child(3) {
-    top: -44px;
+    top: -22px;
     left: 0px;
   }
   .slidingHorizontal span:nth-child(4) {
-    top: -44px;
+    top: -22px;
     left: 0px;
   }
 }
 @media (min-width: 1500px) {
   .slidingHorizontal span {
-    top: -88px;
+    top: -66px;
     left: 0px;
   }
   .slidingHorizontal span:nth-child(2) {
-    top: -44px;
+    top: -22px;
     left: 0px;
   }
   .slidingHorizontal span:nth-child(3) {
-    top: -44px;
+    top: -22px;
     left: 0px;
   }
   .slidingHorizontal span:nth-child(4) {
-    top: -44px;
+    top: -22px;
     left: 0px;
   }
 }
@@ -99,41 +99,41 @@
 @media (max-width: 991.98px) {
   .slidingHorizontal span {
     top: 0px;
-    left: 194px;
+    left: 220px;
   }
   .slidingHorizontal {
     max-width: 1400px;
   }
   .slidingHorizontal span:nth-child(2) {
     top: 40px;
-    left: 224px;
+    left: 240px;
   }
   .slidingHorizontal span:nth-child(3) {
     top: 40px;
-    left: 194px;
+    left: 220px;
   }
   .slidingHorizontal span:nth-child(4) {
     top: 40px;
-    left: 224px;
+    left: 240px;
   }
 }
 
 @media (max-width: 425px) {
   .slidingHorizontal span {
-    top: -130px;
-    left: 86px;
+    top: -150px;
+    left: 118px;
   }
   .slidingHorizontal span:nth-child(2) {
-    top: -102px;
-    left: 100px;
+    top: -122px;
+    left: 130px;
   }
   .slidingHorizontal span:nth-child(3) {
-    top: -102px;
-    left: 86px;
+    top: -122px;
+    left: 118px;
   }
   .slidingHorizontal span:nth-child(4) {
-    top: -102px;
-    left: 100px;
+    top: -122px;
+    left: 130px;
   }
 }
 

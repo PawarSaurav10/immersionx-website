@@ -28,8 +28,8 @@ const Header = () => {
             </div> */}
       <div className="fixed z-50 w-full">
         <div className="bg-black shadow-lg">
-          <div className="max-w-8xl mx-auto">
-            <div className="flex text-white justify-between font-bold px-4 py-4">
+          <div className="container">
+            <div className="flex text-white justify-between font-bold py-4">
               <div className="px-6">
                 <Link to="/" className="flex space-x-2">
                   <img src={Logo} className="h-14 " alt="img" />

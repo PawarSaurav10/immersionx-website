@@ -136,7 +136,6 @@ const OurServices = () => {
     },
   };
 
-
   // let history = useHistory();
 
   // const handleClick = (data) => {
@@ -151,20 +150,26 @@ const OurServices = () => {
     <div className="bg-our-service bg-no-repeat bg-cover">
       <div className="container">
         <div className="flex flex-col lg:flex-row justify-between text-white pb-8 pt-5">
-          <Fade bottom big cascade>
-            <div className="uppercase font-bold text-base md:text-2xl lg:text-5xl pt-8 lg:pt-40 text-left text-white pb-4 lg:pb-8 px-3">
-              Solutions
-            </div>
-          </Fade>
-          <Fade right cascade>
-            <div className="text-white text-left lg:text-right max-w-2xl text-xs md:text-base pt-8 lg:pt-40 pb-4 lg:pb-8 px-3">
-              <div>
-                Our technology and design prowess enables us to come up with cutting edge solutions which go through
-                a series of prototyping and user-testing entailing constant refinements which are finally executed for a
-                seamless, unified story telling and brand connect.
+          <div>
+            <Fade bottom big cascade>
+              <div className="uppercase font-bold text-2xl md:text-5xl pt-8 lg:pt-40 text-left text-white pb-4 lg:pb-8 px-3">
+                Solutions
               </div>
-            </div>
-          </Fade>
+            </Fade>
+          </div>
+          <div>
+            <Fade right cascade>
+              <div className="text-white text-left lg:text-right max-w-2xl text-xs md:text-base pt-8 lg:pt-40 pb-4 lg:pb-8 px-3">
+                <div>
+                  Our technology and design prowess enables us to come up with
+                  cutting edge solutions which go through a series of
+                  prototyping and user-testing entailing constant refinements
+                  which are finally executed for a seamless, unified story
+                  telling and brand connect.
+                </div>
+              </div>
+            </Fade>
+          </div>
         </div>
         {/* <Fade bottom big cascade>
           <div className="uppercase font-bold text-base md:text-2xl lg:text-5xl pt-8 lg:pt-40 text-left text-white pb-4 lg:pb-8 px-3">
@@ -214,7 +219,10 @@ const OurServices = () => {
                   <div className="portfolio-item img-zoom ct-marketing ct-media ct-branding ct-marketing ct-webdesign pb-3">
                     <div className="portfolio-item-wrap">
                       <div className="portfolio-image">
-                        <Link to="/service-detail/" state={{ data: VolumetricStudioData }}>
+                        <Link
+                          to="/service-detail/"
+                          state={{ data: VolumetricStudioData }}
+                        >
                           <img src={img2} alt="" />
                         </Link>
                       </div>
@@ -226,7 +234,10 @@ const OurServices = () => {
                           justifyContent: "flex-start",
                         }}
                       >
-                        <Link to="/service-detail/" state={{ data: VolumetricStudioData }}>
+                        <Link
+                          to="/service-detail/"
+                          state={{ data: VolumetricStudioData }}
+                        >
                           <div className="text-base md:text-2xl font-bold text-white uppercase">
                             Volumetric Studio
                           </div>
@@ -238,7 +249,10 @@ const OurServices = () => {
                   <div className="portfolio-item img-zoom ct-marketing ct-media ct-branding ct-marketing ct-webdesign pb-0 md:pb-3">
                     <div className="portfolio-item-wrap">
                       <div className="portfolio-image">
-                        <Link to="/service-detail/" state={{ data: MetaverseData }}>
+                        <Link
+                          to="/service-detail/"
+                          state={{ data: MetaverseData }}
+                        >
                           <img src={img3} alt="" />
                         </Link>
                       </div>
@@ -250,7 +264,10 @@ const OurServices = () => {
                           justifyContent: "flex-start",
                         }}
                       >
-                        <Link to="/service-detail/" state={{ data: MetaverseData }}>
+                        <Link
+                          to="/service-detail/"
+                          state={{ data: MetaverseData }}
+                        >
                           <div className="text-base md:text-2xl font-bold text-white">
                             METAVERSE
                           </div>
@@ -273,7 +290,10 @@ const OurServices = () => {
                   <div className="portfolio-item img-zoom ct-marketing ct-media ct-branding ct-marketing ct-webdesign pb-3">
                     <div className="portfolio-item-wrap">
                       <div className="portfolio-image">
-                        <Link to="/service-detail/" state={{ data: VolumetricStudioData }}>
+                        <Link
+                          to="/service-detail/"
+                          state={{ data: VolumetricStudioData }}
+                        >
                           <img src={img4} alt="" />
                         </Link>
                       </div>
@@ -285,7 +305,10 @@ const OurServices = () => {
                           justifyContent: "flex-start",
                         }}
                       >
-                        <Link to="/service-detail/" state={{ data: VolumetricStudioData }}> 
+                        <Link
+                          to="/service-detail/"
+                          state={{ data: VolumetricStudioData }}
+                        >
                           <div className="text-base md:text-2xl font-bold text-white">
                             INTERACTIVE DIGITAL INSTALLATION
                           </div>
@@ -297,7 +320,10 @@ const OurServices = () => {
                   <div className="portfolio-item img-zoom ct-marketing ct-media ct-branding ct-marketing ct-webdesign pb-0 md:pb-3">
                     <div className="portfolio-item-wrap">
                       <div className="portfolio-image">
-                        <Link to="/service-detail/" state={{ data: VolumetricStudioData }}>
+                        <Link
+                          to="/service-detail/"
+                          state={{ data: VolumetricStudioData }}
+                        >
                           <img src={img5} alt="" />
                         </Link>
                       </div>
@@ -309,7 +335,10 @@ const OurServices = () => {
                           justifyContent: "flex-start",
                         }}
                       >
-                        <Link to="/service-detail/" state={{ data: VolumetricStudioData }}>
+                        <Link
+                          to="/service-detail/"
+                          state={{ data: VolumetricStudioData }}
+                        >
                           <div className="text-base md:text-2xl font-bold text-white">
                             AUGMENTED REALITY
                           </div>
@@ -323,7 +352,10 @@ const OurServices = () => {
                   <div className="portfolio-item img-zoom ct-marketing ct-media ct-branding ct-marketing ct-webdesign pb-3">
                     <div className="portfolio-item-wrap">
                       <div className="portfolio-image">
-                        <Link to="/service-detail/" state={{ data: MultitactionData }}>
+                        <Link
+                          to="/service-detail/"
+                          state={{ data: MultitactionData }}
+                        >
                           <img src={img6} alt="" />
                         </Link>
                       </div>
@@ -335,7 +367,10 @@ const OurServices = () => {
                           justifyContent: "flex-start",
                         }}
                       >
-                        <Link to="/service-detail/" state={{ data: MultitactionData }}>
+                        <Link
+                          to="/service-detail/"
+                          state={{ data: MultitactionData }}
+                        >
                           <div className="text-base md:text-2xl font-bold text-white">
                             MULTITACTION
                           </div>
@@ -347,7 +382,10 @@ const OurServices = () => {
                   <div className="portfolio-item img-zoom ct-marketing ct-media ct-branding ct-marketing ct-webdesign pb-0 md:pb-3">
                     <div className="portfolio-item-wrap">
                       <div className="portfolio-image">
-                        <Link to="/service-detail/" state={{ data: VRCaveData }}>
+                        <Link
+                          to="/service-detail/"
+                          state={{ data: VRCaveData }}
+                        >
                           <img src={img7} alt="" />
                         </Link>
                       </div>
@@ -359,7 +397,10 @@ const OurServices = () => {
                           justifyContent: "flex-start",
                         }}
                       >
-                        <Link to="/service-detail/" state={{ data: VRCaveData }}>
+                        <Link
+                          to="/service-detail/"
+                          state={{ data: VRCaveData }}
+                        >
                           <div className="text-base md:text-2xl font-bold text-white">
                             VR CAVE
                           </div>

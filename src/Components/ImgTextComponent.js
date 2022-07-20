@@ -3,7 +3,6 @@ import LeftTextRightImage from "./imageandtextcomponent/LeftTextRightImage";
 import LeftImageRightText from "./imageandtextcomponent/LeftImageRightText";
 
 const ImgTextComponent = (props) => {
-
   return (
     <>
       <div id="slider" className="bg-COLLABORATIVEVRBG bg-cover bg-no-repeat">
@@ -13,14 +12,9 @@ const ImgTextComponent = (props) => {
           </div>
         </div>
       </div>
-      {props?.data?.data1 &&
-        <LeftImageRightText data={props?.data?.data1} />}
-
-      {props?.data?.data2 &&
-        <LeftTextRightImage data={props?.data?.data2} />}
-        {props?.data?.data3 &&
-        <LeftTextRightImage data={props?.data?.data3} />}
-
+      {props?.data?.data1 && <LeftImageRightText data={props?.data?.data1} />}
+      {props?.data?.data2 && <LeftTextRightImage data={props?.data?.data2} />}
+      {props?.data?.data3 && <LeftTextRightImage data={props?.data?.data3} />}
     </>
   );
 };

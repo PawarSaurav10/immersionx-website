@@ -4,7 +4,7 @@ import { BsDot } from "@react-icons/all-files/bs/BsDot";
 
 const LeftTextRightImage = (props) => {
   return (
-    <div className="bg-black">
+    <div className="bg-slate-900">
       <div className="container ">
         <div className="grid md:grid-cols-5">
           <div className="md:col-span-2 bg-black text-white">
@@ -15,6 +15,8 @@ const LeftTextRightImage = (props) => {
                 </div>
               )}
               {props?.data?.p1 && <p className="pt-5 ">{props?.data?.p1}</p>}
+              {props?.data?.p2 && <p className="pt-5 ">{props?.data?.p2}</p>}
+              {props?.data?.p3 && <p className="pt-5 ">{props?.data?.p3}</p>}
 
               <div className="list-disc">
                 {props?.data?.l1 && (
@@ -40,14 +42,27 @@ const LeftTextRightImage = (props) => {
                 )}
               </div>
 
+
+
               {props?.data?.h2 && (
                 <div className="pt-7 text-xl text-orange-300 ">
                   {props?.data?.h2}
                 </div>
               )}
-              {props?.data?.p2 && <p className="pt-5 ">{props?.data?.p2}</p>}
-              {props?.data?.p3 && <p className="pt-5 ">{props?.data?.p3}</p>}
+              
               {props?.data?.p4 && <p className="pt-5 ">{props?.data?.p4}</p>}
+              {props?.data?.h3 && (
+                <div className="pt-7 text-xl text-orange-300 ">
+                  {props?.data?.h3}
+                </div>
+              )}
+              {props?.data?.p5 && <p className="pt-5 ">{props?.data?.p5}</p>}
+              {props?.data?.h4 && (
+                <div className="pt-7 text-xl text-orange-300 ">
+                  {props?.data?.h4}
+                </div>
+              )}
+              {props?.data?.p6 && <p className="pt-5 ">{props?.data?.p6}</p>}
             </div>
           </div>
           <div className="md:col-span-3">

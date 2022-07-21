@@ -33,14 +33,14 @@ const BannerImage = () => {
     //   <h2>gatsby-background-image</h2>
     // </BackgroundImage>
     <>
-      <div>
-        <div class="relative flex items-center justify-center h-screen overflow-hidden">
+      <div className="relative">
+        <div class="bg-fixed relative flex items-center justify-center h-screen overflow-hidden">
           {/* <div class=" p-5 text-2xl text-white bg-purple-300 bg-opacity-50 rounded-xl"> */}
           <div className="container flex flex-col lg:flex-row justify-between lg:items-center relative z-30">
             <Fade bottom cascade>
               <div className="self-start md:h-52 h-0">
                 <div className="absolute">
-                  <div class="slidingHorizontal">
+                  <div class="verticalFlip">
                     <span className="uppercase text-3xl md:text-5xl lg:text-8xl text-blue-900 text-center lg:text-left font-light  mx-auto lg:mx-0 pb-0 md:pb-8 lg:pb-0">
                       We are a
                       <div className="font-bold">Creative + Technology</div>
@@ -73,7 +73,7 @@ const BannerImage = () => {
                     outputs.
                   </div>
                   <div>At ImmersionX,</div>
-                  <div className="font-extrabold text-black">
+                  <div className="font-extrabold text-white">
                      Art meets Technology to drive Innovation.
                   </div>
                   <div className="mt-4">
@@ -92,7 +92,7 @@ const BannerImage = () => {
             autoPlay
             loop
             muted
-            className="absolute z-10 w-auto min-w-full min-h-full max-w-none brightness-50"
+            className="absolute z-10 w-auto min-w-full min-h-full max-w-none brightness-50 "
           ></video>
         </div>
       </div>

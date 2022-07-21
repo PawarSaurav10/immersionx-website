@@ -22,9 +22,9 @@ const OurPartners = () => {
     { img: art },
   ];
   return (
-    <div className="bg-our-partners bg-no-repeat bg-cover">
-      <div className="container">
-        <div className="pt-5 lg:pt-40">
+    <div className="bg-fixed bg-our-partners bg-no-repeat bg-cover h-screen">
+      <div className="container pt-5 lg:pt-64">
+        <div className="">
           <div className="flex justify-between text-white pb-2">
             <Fade bottom big cascade>
               <div className="uppercase font-bold text-2xl md:text-5xl text-left">
@@ -60,7 +60,6 @@ const OurPartners = () => {
               })}
           </div>
         </Fade>
-
       </div>
     </div>
   );

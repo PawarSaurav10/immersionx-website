@@ -1,31 +1,18 @@
 import React, { useState } from "react";
 import Logo from "../images/01_screensaver/immersionlogo@2x.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faBars,
-} from "@fortawesome/free-solid-svg-icons";
+import { faBars, faClose } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "gatsby";
 
-const Header = () => {
+const Header = ({location}) => {
+  console.log(location,"location")
   // const isBrowser = typeof window !== "undefined";
   //   const [hideTopBar, setHideTopBar] = useState();
   const [navBar, setNavBar] = useState(false);
-  // useEffect(() => {
-  //   let body = document.getElementsByTagName("body");
-  //   if (navBar && isBrowser && window.innerWidth < 768) {
-  //     if (body.length > 0) body[0].classList.add("overflow-hidden");
-  //   } else {
-  //     body[0].classList.remove("overflow-hidden");
-  //   }
-  // }, [navBar]);
+  // console.log(navBar, "navbar");
 
   return (
     <>
-      {/* <div className="header-inner">
-            <div className="container">
-                
-            </div>
-            </div> */}
       <div className="fixed z-50 w-full">
         <div className="bg-black shadow-lg">
           <div className="container">
@@ -36,7 +23,7 @@ const Header = () => {
                 </Link>
               </div>
 
-              <div className="lg:hidden py-2 flex">
+              <div className="py-2 flex">
                 <div className="block m-auto">
                   <div
                     className="nav-bar-btn"
@@ -47,84 +34,101 @@ const Header = () => {
                       setNavBar(!navBar);
                     }}
                   >
-                    <span
-                      className="pr-2 flex items-center"
-                      style={{ paddingBottom: 3 }}
-                    >
-                      <FontAwesomeIcon icon={faBars} size={"lg"} />
+                    <span className="text-white font-semibold text-xl pr-3 uppercase">
+                      Menu
                     </span>
-                    {/* <span className="font-medium"> Menu</span> */}
+                    {!navBar && (
+                      <span
+                        className="pr-2 flex items-center"
+                        style={{ paddingBottom: 3 }}
+                      >
+                        <FontAwesomeIcon icon={faBars} size={"2xl"} />
+                      </span>
+                    )}
+                    {navBar && (
+                      <span
+                        className="pr-2 flex items-center"
+                        style={{ paddingBottom: 3 }}
+                      >
+                        <FontAwesomeIcon icon={faClose} size={"2xl"} />
+                      </span>
+                    )}
                   </div>
                 </div>
-              </div>
-              <div
-                className={`transition-width transition-height duration-300 ease-in-out ${
-                  navBar ? `w-full opacity-100 nav-open` : `w-0 h-0 opacity-0`
-                } lg:w-auto lg:h-auto opacity-100 nav-bar-container bg-black lg:contents`}
-              >
-                <div className="lg:flex">
-                  <ul className="flex lg:flex-row flex-col text-white lg:items-center items-start space-x-0 lg:space-x-3 xl:space-x-5 w-full">
-                    <li className="nav-bar-menu">
+                <div className="height-full-viewport">
+                  <ul
+                    className={`w-full ${
+                      navBar
+                        ? `opacity-100 dropdown_header  py-2 overflow-hidden`
+                        : `close_dropdown_header overflow-hidden`
+                    } flex-col nav-bar-container bg-black `}
+                  >
+                    <li className="navbar nav-bar-menu ">
                       <Link
                         className="cursor-pointer "
                         to="/"
-                        
+                        onClick={() => {
+                          setNavBar(!navBar);
+                        }}
                       >
-                        Home
-                      </Link>
-                    </li>
-                    <li className="nav-bar-menu">
-                      <Link
-                        className="cursor-pointer "
-                        to="/our-work/"
-                        
-                      >
-                        Work
-                      </Link>
-                    </li>
-                    <li className="nav-bar-menu">
-                      <Link
-                        className="cursor-pointer "
-                        to="/our-work/"
-                        
-                      >
-                        Solutions
-                      </Link>
-                    </li>
-                    <li className="nav-bar-menu">
-                      <Link
-                        className="cursor-pointer "
-                        to="/our-industries/"
-                        
-                      >
-                        Studio
-                      </Link>
-                    </li>
-                    <li className="nav-bar-menu">
-                      <Link
-                        className="cursor-pointer "
-                        to="/contact-us/"
-                        
-                      >
-                        Contact
+                        <div className=" hover:text-red-700 hover:pl-9 pl-3 relative link before:content-[''] before:transition-width before:delay-100 before:ease-in hover:before:content-link  before:h-0 hover:before:h-3 before:absolute before:left-0 hover:before:-left-2.5 before:top-0.5 hover:before:0 hover:before:absolute">
+                          Home
+                        </div>
                       </Link>
                     </li>
 
-                    {/* <Link to="/" className="lg:p-0 p-4">
-                    <li>Home</li>
-                  </Link> */}
-                    {/* <Link to="/our-work" className="lg:p-0 p-4">
-                    <li>Work</li>
-                  </Link>
-                  <Link to="/our-work" className="lg:p-0 p-4">
-                    <li>Solutions</li>
-                  </Link>
-                  <Link to="/our-industries" className="lg:p-0 p-4">
-                    <li>Studio</li>
-                  </Link>
-                  <Link to="/contact-us" className="lg:p-0 p-4">
-                    <li>Contact Us</li>
-                  </Link> */}
+                    <li className="navbar nav-bar-menu">
+                      <Link
+                        className="cursor-pointer"
+                        to="/our-work"
+                        onClick={() => {
+                          setNavBar(!navBar);
+                        }}
+                      >
+                        <span className="hover:text-red-700 hover:pl-9 pl-3 relative link before:content-[''] before:transition-width before:delay-100 before:ease-in hover:before:content-link  before:h-0 hover:before:h-3 before:absolute before:left-0 hover:before:-left-2.5 before:top-0.5 hover:before:0 hover:before:absolute">
+                          Work
+                        </span>
+                      </Link>
+                    </li>
+                    <li className="navbar nav-bar-menu ">
+                      <Link
+                        className="cursor-pointer "
+                        to="#solutions"
+                        onClick={() => {
+                          setNavBar(!navBar);
+                        }}
+                      >
+                        <span className="hover:text-red-700 hover:pl-9 pl-3 relative link before:content-[''] before:transition-width before:delay-100 before:ease-in hover:before:content-link  before:h-0 hover:before:h-3 before:absolute before:left-0 hover:before:-left-2.5 before:top-0.5 hover:before:0 hover:before:absolute">
+                          Solutions
+                        </span>
+                      </Link>
+                    </li>
+                    <li className="navbar nav-bar-menu ">
+                      <Link
+                        className="cursor-pointer "
+                        to="#studio"
+                        onClick={() => {
+                          setNavBar(!navBar);
+                        }}
+                      >
+                        <span className="hover:text-red-700 hover:pl-9 pl-3 relative link before:content-[''] before:transition-width before:delay-100 before:ease-in hover:before:content-link  before:h-0 hover:before:h-3 before:absolute before:left-0 hover:before:-left-2.5 before:top-0.5 hover:before:0 hover:before:absolute">
+                          Studio
+                        </span>
+                      </Link>
+                    </li>
+                    <li className="navbar nav-bar-menu ">
+                      <Link
+                        className="cursor-pointer "
+                        to="/contact-us"
+                        onClick={() => {
+                          setNavBar(!navBar);
+                        }}
+                      >
+                        <span className="hover:text-red-700 hover:pl-9 pl-3 relative link before:content-[''] before:transition-width before:delay-100 before:ease-in hover:before:content-link  before:h-0 hover:before:h-3 before:absolute before:left-0 hover:before:-left-2.5 before:top-0.5 hover:before:0 hover:before:absolute">
+                          Contact
+                        </span>
+                      </Link>
+                    </li>
                   </ul>
                 </div>
               </div>

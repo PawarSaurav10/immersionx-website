@@ -4,13 +4,13 @@ import LeftImageRightText from "./imageandtextcomponent/LeftImageRightText";
 import LeftTextRightImage from "./imageandtextcomponent/LeftTextRightImage";
 
 const WorkDetail = (props) => {
-  console.log(props, "props")
+  // console.log(props, "props")
 
   return (
     <>
       <div
         id="slider"
-        className="bg-TataCommunicationsBG bg-cover bg-no-repeat"
+        className={`${props?.data?.bg} bg-cover bg-no-repeat`}
       ><div className="container">
           <div className="text-2xl md:text-5xl text-white pt-40 md:pt-80 pb-4 md:pb-8 text-left ml-8 md:ml-16 w-2/4 uppercase">
             {props?.data?.title}

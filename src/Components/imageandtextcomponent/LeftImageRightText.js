@@ -3,7 +3,7 @@ import React from "react";
 
 const LeftImageRightText = (props) => {
   return (
-    <div className="bg-black">
+    <div className="bg-slate-900">
       <div className="container ">
         <div className="hidden md:grid md:grid-cols-5">
           <div

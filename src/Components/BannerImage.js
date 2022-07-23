@@ -51,12 +51,10 @@ const BannerImage = () => {
                       <div className="font-bold">Innovate+ Research</div>
                     </span>
                     <span className="uppercase text-3xl md:text-5xl lg:text-8xl text-blue-900 text-center lg:text-left font-light  mx-auto lg:mx-0 pb-0 md:pb-8 lg:pb-0">
-                      {/* max-w-xs md:max-w-xl */}
                       We
                       <div className="font-bold">Design + Collaborate</div>
                     </span>
                     <span className="uppercase text-3xl md:text-5xl lg:text-8xl text-blue-900 text-center lg:text-left font-light  mx-auto lg:mx-0 pb-0 md:pb-8 lg:pb-0">
-                      {/* max-w-xs md:max-w-xl */}
                       We
                       <div className="font-bold">Execute+ Deliver</div>
                     </span>

@@ -6,142 +6,11 @@ import img4 from "../images/02_OURSERVICES/INTERACTIVEDIGITALINSTALLATION@2x.png
 import img5 from "../images/02_OURSERVICES/AUGMENTEDREALITY@2x@2x.png";
 import img6 from "../images/02_OURSERVICES/MULTITACTION@2x.png";
 import img7 from "../images/02_OURSERVICES/VRCAVE@2x.png";
-import Capsuleimg1 from "../images/09_pages/CAPSULE/im_1@2x.png";
-import Capsuleimg3 from "../images/09_pages/CAPSULE/im_3@2x.png";
-import Capsuleimg4 from "../images/09_pages/CAPSULE/im_4@2x.png";
-import VRCAVEimg1 from "../images/09_pages/VRCAVE/im_1@2x.png";
-import VRCAVEimg3 from "../images/09_pages/VRCAVE/im_3@2x.png";
-import VRCAVEimg4 from "../images/09_pages/VRCAVE/im_4@2x.png";
-import COLLABORATIVEVRim1 from "../images/02_OURSERVICES/pages/COLLABORATIVEVR/COLLABORATIVEVRim_1@2x.png";
-import COLLABORATIVEVRim2 from "../images/02_OURSERVICES/pages/COLLABORATIVEVR/COLLABORATIVEVRim_2@2x.png";
 import { Link } from "gatsby";
 import { Fade } from "react-reveal";
 // import { useHistory } from "react-router-dom";
 
 const OurServices = () => {
-  const CollabrateVRData = {
-    bg:"bg-COLLABORATIVEVRBG",
-    title: "COLLABORATIVE AR/VR",
-    data1: {
-      numberofcolspan: 3,
-      imageurl: COLLABORATIVEVRim1,
-      h1: "Join us in a new dimension.",
-      p1: "Augmented and virtual reality have come a long way, from being just a gimmick to being an integral part of the ‘digital revolution’. Brands look at these technologies as weapons of MASS ENGAGEMENT. Be it, augmenting key information over objects &amp; surroundings or transcending the user to a make-believe virtual world, where the content can be delivered more effectively than any other medium.",
-      p2: "AR &amp; VR are the first steps towards a brand’s Digital transformation and a gateway into the future of collaboration. With tools such as VR or AR glasses and devices enabled with AR and VR collaboration is seamless and empowering. The ease of use is another added advantage since many applications are built to support these technologies. The applications of AR and VR are endless, liberate your imagination, THINK BIG.",
-      // p3: " Can be used for Virtual meeting rooms, training spaces, virtual shopping experiences, remote collaborations, etc.",
-    },
-    data2: {
-      imageurl: COLLABORATIVEVRim2,
-      // p1: "With tools such as VR or AR glasses and devices enabled with AR and VR collaboration is seamless and empowering. The ease of use is another added advantage since many applications are built to support these technologies. The applications of AR and VR are endless, liberate your imagination, think BIG.",
-      // p3: "Can be used for Virtual meeting rooms, training spaces, virtual shopping experiences, remote collaborations, etc.",
-    },
-  };
-
-  const VolumetricStudioData = {
-    bg:"bg-COLLABORATIVEVRBG",
-    title: "Volumetric Studio",
-    data1: {
-      numberofcolspan: 3,
-      imageurl: COLLABORATIVEVRim1,
-      h1: "Volumetric Capture",
-      p1: `“Volumetric capture" (also known as "volumetric intelligence") technology converts a person, object, or place into 3D digital data and reproduces it as a high-quality image. Basically, volumetric capture can create spatial models of moving objects and people in real-time. This video technique captures you from different viewpoints. It captures moving images of people and creates them in 3D in NO TIME! `,
-      // p2: "",
-      p2: "Think of it as like taking one photograph of each side of a cube and then gluing the photos together into a cube shape. You now have a spatial model created from two-dimensional representations of the real thing.",
-    },
-    data2: {
-      imageurl: COLLABORATIVEVRim2,
-      h1: "Creating the Metaverse with Volumetric Video and Virtual Production",
-      p1: "The metaverse is one of those big concepts that tends to spur all kinds of ideas. Sometimes practical, often theoretical.",
-      p3: "Immersiox creates that platform to collaborate in the metaverse and bring your business into ‘THAT VIRTUAL WORLD’. We provide you the state-of-the-art, 3D volumetric video capture studio and 3D solutions—using our volumetric capture is perfect for traversing into the metaverse as representations of real people, real objects or environments.",
-    },
-  };
-
-  const MetaverseData = {
-    bg:"bg-COLLABORATIVEVRBG",
-    title: "Metaverse",
-    data1: {
-      numberofcolspan: 3,
-      imageurl: COLLABORATIVEVRim1,
-      h1: "Creating the Metaverse with Volumetric Video and Virtual Production",
-      p1: "The metaverse is one of those big concepts that tends to spur all kinds of ideas. Sometimes practical, often theoretical.Immersiox creates that platform to collaborate in the metaverse and bring your business into ‘THAT VIRTUAL WORLD’.",
-      p2: "We provide you the state-of-the-art, 3D volumetric video capture studio and 3D solutions—using our volumetric capture is perfect for traversing into the metaverse as representations of real people, real objects or environments.",
-    },
-    data2: {
-      imageurl: COLLABORATIVEVRim2,
-      h1: "How Does It Work",
-      l1: "STEP 1: The human is captured in the studio using the green screen set-up and multiple cameras.",
-      l2: "STEP 2: The software converts the human figure into a digital 3d human using our backend software",
-      l3: "STEP 3: The 3d content extracted of the human figure can now be used in any digital environment",
-      // l4: "Creates opportunities to shorten sales cycles",
-    },
-  };
-
-  const VRCaveData = {
-    bg:"bg-VRCAVEBG",
-    title: "VR Cave",
-    data1: {
-      numberofcolspan: 3,
-      imageurl: VRCAVEimg1,
-      // h1: "",
-      p1: "Our collaborative VR platform will allow for people and businesses to collaborate and meet up in the virtual world. Teamwork is crucial and has become a challenge for global firms whose departments or subsidiaries are spread all over the world. Using virtual reality collaborative tools, you can gather all thestakeholders of your project in the same VR workspace and display your virtual prototype at scale to create and collaborate.",
-      p2: "Our VIRTUAL REALITY CAVE SOLUTION will help you visualize your product better. It is an immersive, interactive 3D experience theatre that requires practically no footprint. With ultra short-throw projection and VR COLLABORATIVE TOOLS, nearly any existing room can be converted into a mind-blowing visualization center. Can be used for Virtual meeting rooms, training spaces, virtual shopping experiences, remote collaborations, etc.",
-      // p3: "",
-    },
-    data2: {
-      imageurl: VRCAVEimg3,
-      // p1: "Teamwork is crucial and has become a challenge for global firms whose departments or subsidiaries are spread all over the world. Using virtual reality collaborative tools, you can gather all thestakeholders of your project in the same VR workspace and display your virtual prototype at scale to create and collaborate.",
-      // p3: "Can be used for Virtual meeting rooms, training spaces, virtual shopping experiences, remote collaborations, etc.",
-    },
-    data3: {
-      imageurl: VRCAVEimg4,
-      // p1: "Teamwork is crucial and has become a challenge for global firms whose departments or subsidiaries are spread all over the world. Using virtual reality collaborative tools, you can gather all thestakeholders of your project in the same VR workspace and display your virtual prototype at scale to create and collaborate.",
-      // p3: "Can be used for Virtual meeting rooms, training spaces, virtual shopping experiences, remote collaborations, etc.",
-    },
-  };
-
-  const CapsuleData = {
-    bg:"bg-CAPSULEBG",
-    title: "Capsule",
-    data1: {
-      numberofcolspan: 3,
-      imageurl: Capsuleimg1,
-      h1: "The Brief",
-      p1: "CAPSULE is a hologram display that creates incredible interactive experiences.",
-      p2: "CAPSULE is a consumer-facing holographic display that is plug-and-play for events in all lighting conditions and can be permanently installed for retail and other consumer or user-facing applications. CAPSULE can beam-in live hologram presenters by leveraging HoloPresence capabilities, as well as playback pre-recorded programmatic content that viewers can interact with using touch.",
-      // p2: "Our VIRTUAL REALITY CAVE SOLUTION will help you visualize your product better. It is an immersive, interactive 3D experience theatre that requires practically no footprint. With ultra short-throw projection and VR COLLABORATIVE TOOLS, nearly any existing room can be converted into a mind-blowing visualization center.",
-      // p3: " Can be used for Virtual meeting rooms, training spaces, virtual shopping experiences, remote collaborations, etc.",
-    },
-    data2: {
-      imageurl: Capsuleimg3,
-      // p1: "Teamwork is crucial and has become a challenge for global firms whose departments or subsidiaries are spread all over the world. Using virtual reality collaborative tools, you can gather all thestakeholders of your project in the same VR workspace and display your virtual prototype at scale to create and collaborate.",
-      // p3: "Can be used for Virtual meeting rooms, training spaces, virtual shopping experiences, remote collaborations, etc.",
-    },
-    data3: {
-      imageurl: Capsuleimg4,
-      // p1: "Teamwork is crucial and has become a challenge for global firms whose departments or subsidiaries are spread all over the world. Using virtual reality collaborative tools, you can gather all thestakeholders of your project in the same VR workspace and display your virtual prototype at scale to create and collaborate.",
-      // p3: "Can be used for Virtual meeting rooms, training spaces, virtual shopping experiences, remote collaborations, etc.",
-    },
-  };
-
-  const MultitactionData = {
-    bg:"bg-COLLABORATIVEVRBG",
-    title: "Multitaction",
-    data1: {
-      numberofcolspan: 3,
-      imageurl: COLLABORATIVEVRim1,
-      // h1: "Volumetric Capture",
-      p1: `The epitome of collaboration, MultiTaction is the benchmark in touch-based interactive installations. Compatible with a number of add-ons and accessories such as markers, pens and other. The iWall is an extension of the Multitaction technology that provides an unparalleled user experience with a unique hardware design with unmatched capabilities.`,
-      p2: "The MultiTaction iWall can be designed to any size format depending on the user’s requirement and purpose – large format walls, touch tables, curved walls etc.",
-      // p3: "Think of it as like taking one photograph of each side of a cube and then gluing the photos together into a cube shape. You now have a spatial model created from two-dimensional representations of the real thing.",
-    },
-    data2: {
-      imageurl: COLLABORATIVEVRim2,
-      h1: "CANVUS COLLABORATIVE SOFTWARE",
-      p1: "Over the years, there have been many attempts at achieving team collaboration, from video conferencing to shared document services. But, these platforms have always fallen short of realizing a truly unified collaboration experience.",
-      p3: "Now, with Canvus, there is a collaboration platform that can deliver on the promise of anywhere, anytime, any device collaboration.",
-    },
-  };
-
   // let history = useHistory();
 
   // const handleClick = (data) => {
@@ -153,7 +22,10 @@ const OurServices = () => {
   // };
 
   return (
-    <div className="bg-fixed bg-our-service bg-no-repeat bg-cover" id="solutions">
+    <div
+      className="bg-fixed bg-our-service bg-no-repeat bg-cover"
+      id="solutions"
+    >
       <div className="container">
         <div className="flex flex-col lg:flex-row justify-between text-white pb-8 pt-5">
           <div>
@@ -193,10 +65,7 @@ const OurServices = () => {
                   <div className="portfolio-item img-zoom ct-marketing ct-media ct-branding ct-marketing ct-webdesign">
                     <div className="portfolio-item-wrap">
                       <div className="portfolio-image">
-                        <Link
-                          to="/service-detail/"
-                          state={{ data: CollabrateVRData }}
-                        >
+                        <Link to="/solutions/collaborative_ar-vr">
                           <img src={img1} alt="" className="" />
                         </Link>
                       </div>
@@ -208,10 +77,7 @@ const OurServices = () => {
                           justifyContent: "flex-start",
                         }}
                       >
-                        <Link
-                          to="/service-detail/"
-                          state={{ data: CollabrateVRData }}
-                        >
+                        <Link to="/solutions/collaborative_ar-vr">
                           <div className="text-base md:text-2xl font-bold text-white">
                             COLLABRATIVE VR
                           </div>
@@ -225,10 +91,7 @@ const OurServices = () => {
                   <div className="portfolio-item img-zoom ct-marketing ct-media ct-branding ct-marketing ct-webdesign pb-3">
                     <div className="portfolio-item-wrap">
                       <div className="portfolio-image">
-                        <Link
-                          to="/service-detail/"
-                          state={{ data: VolumetricStudioData }}
-                        >
+                        <Link to="/solutions/volumetric-studio">
                           <img src={img2} alt="" />
                         </Link>
                       </div>
@@ -240,10 +103,7 @@ const OurServices = () => {
                           justifyContent: "flex-start",
                         }}
                       >
-                        <Link
-                          to="/service-detail/"
-                          state={{ data: VolumetricStudioData }}
-                        >
+                        <Link to="/solutions/volumetric-studio">
                           <div className="text-base md:text-2xl font-bold text-white uppercase">
                             Volumetric Studio
                           </div>
@@ -255,10 +115,7 @@ const OurServices = () => {
                   <div className="portfolio-item img-zoom ct-marketing ct-media ct-branding ct-marketing ct-webdesign pb-0 md:pb-3">
                     <div className="portfolio-item-wrap">
                       <div className="portfolio-image">
-                        <Link
-                          to="/service-detail/"
-                          state={{ data: MetaverseData }}
-                        >
+                        <Link to="/solutions/metaverse">
                           <img src={img3} alt="" />
                         </Link>
                       </div>
@@ -270,10 +127,7 @@ const OurServices = () => {
                           justifyContent: "flex-start",
                         }}
                       >
-                        <Link
-                          to="/service-detail/"
-                          state={{ data: MetaverseData }}
-                        >
+                        <Link to="/solutions/metaverse">
                           <div className="text-base md:text-2xl font-bold text-white">
                             METAVERSE
                           </div>
@@ -296,10 +150,7 @@ const OurServices = () => {
                   <div className="portfolio-item img-zoom ct-marketing ct-media ct-branding ct-marketing ct-webdesign pb-3">
                     <div className="portfolio-item-wrap">
                       <div className="portfolio-image">
-                        <Link
-                          to="/service-detail/"
-                          state={{ data: CapsuleData }}
-                        >
+                        <Link to="/solutions/capsule">
                           <img src={img4} alt="" />
                         </Link>
                       </div>
@@ -311,10 +162,7 @@ const OurServices = () => {
                           justifyContent: "flex-start",
                         }}
                       >
-                        <Link
-                          to="/service-detail/"
-                          state={{ data: CapsuleData }}
-                        >
+                        <Link to="/solutions/capsule">
                           <div className="text-base md:text-2xl font-bold text-white">
                             CAPSULE
                           </div>
@@ -326,10 +174,7 @@ const OurServices = () => {
                   <div className="portfolio-item img-zoom ct-marketing ct-media ct-branding ct-marketing ct-webdesign pb-0 md:pb-3">
                     <div className="portfolio-item-wrap">
                       <div className="portfolio-image">
-                        <Link
-                          to="/service-detail/"
-                          state={{ data: VolumetricStudioData }}
-                        >
+                        <Link to="/solutions/volumetric-studio">
                           <img src={img5} alt="" />
                         </Link>
                       </div>
@@ -341,10 +186,7 @@ const OurServices = () => {
                           justifyContent: "flex-start",
                         }}
                       >
-                        <Link
-                          to="/service-detail/"
-                          state={{ data: VolumetricStudioData }}
-                        >
+                        <Link to="/solutions/volumetric-studio">
                           <div className="text-base md:text-2xl font-bold text-white">
                             AUGMENTED REALITY
                           </div>
@@ -358,10 +200,7 @@ const OurServices = () => {
                   <div className="portfolio-item img-zoom ct-marketing ct-media ct-branding ct-marketing ct-webdesign pb-3">
                     <div className="portfolio-item-wrap">
                       <div className="portfolio-image">
-                        <Link
-                          to="/service-detail/"
-                          state={{ data: MultitactionData }}
-                        >
+                        <Link to="/solutions/multitaction">
                           <img src={img6} alt="" />
                         </Link>
                       </div>
@@ -373,10 +212,7 @@ const OurServices = () => {
                           justifyContent: "flex-start",
                         }}
                       >
-                        <Link
-                          to="/service-detail/"
-                          state={{ data: MultitactionData }}
-                        >
+                        <Link to="/solutions/multitaction">
                           <div className="text-base md:text-2xl font-bold text-white">
                             MULTITACTION
                           </div>
@@ -388,10 +224,7 @@ const OurServices = () => {
                   <div className="portfolio-item img-zoom ct-marketing ct-media ct-branding ct-marketing ct-webdesign pb-0 md:pb-3">
                     <div className="portfolio-item-wrap">
                       <div className="portfolio-image">
-                        <Link
-                          to="/service-detail/"
-                          state={{ data: VRCaveData }}
-                        >
+                        <Link to="/solutions/vr-cave">
                           <img src={img7} alt="" />
                         </Link>
                       </div>
@@ -403,10 +236,7 @@ const OurServices = () => {
                           justifyContent: "flex-start",
                         }}
                       >
-                        <Link
-                          to="/service-detail/"
-                          state={{ data: VRCaveData }}
-                        >
+                        <Link to="/solutions/vr-cave">
                           <div className="text-base md:text-2xl font-bold text-white">
                             VR CAVE
                           </div>

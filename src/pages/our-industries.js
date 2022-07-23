@@ -2,9 +2,9 @@ import React from "react";
 import Layout from "../Components/Layout";
 import Industries from "../Components/OurIndustries";
 
-const OurIndustries = () => {
+const OurIndustries = ({location}) => {
   return (
-    <Layout>
+    <Layout location={location?.pathname}>
       <Industries />
     </Layout>
   );

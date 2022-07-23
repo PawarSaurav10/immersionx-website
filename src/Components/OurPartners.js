@@ -55,8 +55,8 @@ const OurPartners = () => {
         <Fade left>
           <div className="grid grid-cols-2 gap-4 lg:grid-cols-4 xl:grid-cols-8 place-items-center ">
             {imageData &&
-              imageData.map((aa) => {
-                return <img src={aa.img} className="px-4 py-4" alt="" />;
+              imageData.map((aa,idx) => {
+                return <img src={aa.img} key={idx} className="px-4 py-4" alt="" />;
               })}
           </div>
         </Fade>

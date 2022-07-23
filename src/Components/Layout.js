@@ -3,7 +3,8 @@ import React, { useEffect } from "react";
 import Header from "./Header";
 import Loader from "../pages/loader";
 
-const Layout = ({ children }) => {
+const Layout = ({ children,location }) => {
+  // console.log(location,"layoutlocation")
   useEffect(() => {
     setTimeout(() => {
       try {
@@ -20,7 +21,7 @@ const Layout = ({ children }) => {
         <div id="full-page-loader">
           <Loader />
         </div>
-        <Header />
+        <Header data={location}/>
         {children}
       </div>
     </>

@@ -6,10 +6,10 @@ import OurPartners from "../Components/OurPartners";
 import OurProcess from "../Components/OurProcess";
 import Studio from "../Components/Studio";
 
-const IndexPage = () => {
+const IndexPage = ({location}) => {
   return (
     <>
-      <Layout>
+      <Layout location={location?.pathname}>
         <BannerImage />
         <OurServices />
         <OurProcess />

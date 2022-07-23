@@ -2,9 +2,9 @@ import React from "react";
 import ContactUs from "../Components/ContactUs";
 import Layout from "../Components/Layout";
 
-const Contact = () => {
+const Contact = ({location}) => {
   return (
-    <Layout>
+    <Layout location={location?.pathname}>
       <ContactUs />
     </Layout>
   );

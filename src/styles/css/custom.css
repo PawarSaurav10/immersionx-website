@@ -34,6 +34,22 @@
 .navbar .link{
   transition: all .3s ease;
 }
+.sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: black;
+  box-shadow: 0 2px 2px #151515;
+  z-index: 9999;
+}
+
+.fix {
+  position: relative;
+  width: 100%;
+  z-index: 9999;
+}
+
 
 .height-full-viewport {
   position: fixed;
@@ -41,15 +57,15 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* overflow-y: auto; */
+  overflow-y: auto;
   left: 0;
   top: 0;
   width: 100%;
-  /* height: 0%; */
+  height: 0%;
   background-color: #151515;
   z-index: 5;
   overflow: hidden;
-  /* transition: height .8s cubic-bezier(0.3, 1, 0.3, 1) .1s; */
+  transition: height .8s cubic-bezier(0.3, 1, 0.3, 1) .1s;
 }
 .ms-navbar .ms-btn {
   font-size: 1.75em;

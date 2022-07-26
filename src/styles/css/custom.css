@@ -30,6 +30,7 @@
   opacity: 1;
   transition: opacity 2s cubic-bezier(0.16, 1.08, 0.38, 0.98) .3s;
   width: 2rem;
+  color: #1E6EA7;
 }
 .navbar .link{
   transition: all .3s ease;
@@ -452,8 +453,81 @@
   }
 }
 
+.text_hidder{
+	display: inline;
+	text-indent: 8px;
+}
+
+.text_hidder span{ 
+  animation: vertical 10s linear infinite 0s; 
+	-ms-animation: vertical 10s linear infinite 0s;
+	-webkit-animation: vertical 10s linear infinite 0s;
+  margin-top: 5rem;
+}
+/* .text_hidder span:nth-child(2){
+	animation-delay: 2.5s;
+	-ms-animation-delay: 2.5s;
+	-webkit-animation-delay: 2.5s;
+  display: hidden;
+}
+.text_hidder span:nth-child(3){
+	animation-delay: 5s;
+	-ms-animation-delay: 5s;
+	-webkit-animation-delay: 5s;
+  display: hidden;
+}
+.text_hidder span:nth-child(4){
+	animation-delay: 7.5s;
+	-ms-animation-delay: 7.5s;
+	-webkit-animation-delay: 7.5s;
+  display: hidden;
+}
+.text_hidder span:nth-child(5){
+	animation-delay: 10s;
+	-ms-animation-delay: 10s;
+	-webkit-animation-delay: 10s;
+  display: hidden;
+} */
+
 /*Vertical Flip*/
 .verticalFlip{
+	display: inline;
+	text-indent: 8px;
+}
+.verticalFlip span{
+	animation: vertical 10s linear infinite 0s;
+	-ms-animation: vertical 10s linear infinite 0s;
+	-webkit-animation: vertical 10s linear infinite 0s;
+	color: #ffffff;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+  left: 0;
+  top: 80px;
+}
+
+
+.verticalFlip span:nth-child(2){
+	animation-delay: 2.5s;
+	-ms-animation-delay: 2.5s;
+	-webkit-animation-delay: 2.5s;
+}
+.verticalFlip span:nth-child(3){
+	animation-delay: 5s;
+	-ms-animation-delay: 5s;
+	-webkit-animation-delay: 5s;
+}
+.verticalFlip span:nth-child(4){
+	animation-delay: 7.5s;
+	-ms-animation-delay: 7.5s;
+	-webkit-animation-delay: 7.5s;
+}
+.verticalFlip span:nth-child(5){
+	animation-delay: 10s;
+	-ms-animation-delay: 10s;
+	-webkit-animation-delay: 10s;
+}
+/* .verticalFlip{
   display: inline-block;
   text-indent: 8px;
   position: relative;
@@ -583,7 +657,7 @@
 	animation-delay: 10s;
 	-ms-animation-delay: 10s;
 	-webkit-animation-delay: 10s;
-}
+} */
 
 /* .verticalFlip span:nth-child(2){
 	animation-delay: 2.5s;

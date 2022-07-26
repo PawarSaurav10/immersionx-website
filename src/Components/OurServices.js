@@ -29,8 +29,8 @@ const OurServices = () => {
       <div className="container">
         <div className="flex flex-col lg:flex-row justify-between text-white pb-8 pt-5">
           <div>
-            <Fade bottom big cascade>
-              <div className="uppercase font-bold text-2xl md:text-5xl pt-8 lg:pt-40 text-left text-white pb-4 lg:pb-8 px-3">
+            <Fade bottom >
+              <div className="uppercase font-bold text-2xl md:text-7xl pt-8 lg:pt-40 text-left text-white pb-4 lg:pb-8 px-3">
                 Solutions
               </div>
             </Fade>

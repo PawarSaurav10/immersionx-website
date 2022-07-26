@@ -52,7 +52,7 @@ const Header = (props) => {
                       className="pr-2 flex items-center"
                       style={{ paddingBottom: 3 }}
                     >
-                      <FontAwesomeIcon icon={faBarsStaggered} size={"2xl"} />
+                      <FontAwesomeIcon icon={faBarsStaggered} className="h-9 w-8" />
                     </span>
                   )}
                   {navBar && (
@@ -60,7 +60,7 @@ const Header = (props) => {
                       className="pr-2 flex items-center close_btn"
                       style={{ paddingBottom: 3 }}
                     >
-                      <FontAwesomeIcon icon={faClose} size={"2xl"} />
+                      <FontAwesomeIcon icon={faClose} className="h-9 w-8" />
                     </span>
                   )}
                 </div>
@@ -101,7 +101,8 @@ const Header = (props) => {
                               >
                                 <FontAwesomeIcon
                                   icon={faBarsStaggered}
-                                  size={"2xl"}
+                                  className="h-9 w-8"
+                                  // size={"2xl"}
                                 />
                               </span>
                             )}
@@ -110,7 +111,7 @@ const Header = (props) => {
                                 className="pr-2 flex items-center close_btn"
                                 style={{ paddingBottom: 3 }}
                               >
-                                <FontAwesomeIcon icon={faClose} size={"2xl"} />
+                                <FontAwesomeIcon icon={faClose} className="h-9 w-8" />
                               </span>
                             )}
                           </div>
@@ -128,7 +129,7 @@ const Header = (props) => {
                             setNavBar(!navBar);
                           }}
                         >
-                          <div className=" hover:text-red-700 hover:pl-9 pl-3 relative link before:content-[''] before:transition-width before:delay-100 before:ease-in hover:before:content-link  before:h-0 hover:before:h-3 before:absolute before:left-0 hover:before:-left-2.5 before:top-0.5 hover:before:0 hover:before:absolute">
+                          <div className=" hover:pl-9 pl-3 relative link before:content-[''] before:transition-width before:delay-100 before:ease-in hover:before:content-link  before:h-0 hover:before:h-3 before:absolute before:left-0 hover:before:-left-2.5 before:top-0.5 hover:before:0 hover:before:absolute">
                             Home
                           </div>
                         </Link>
@@ -142,7 +143,7 @@ const Header = (props) => {
                             setNavBar(!navBar);
                           }}
                         >
-                          <span className="hover:text-red-700 hover:pl-9 pl-3 relative link before:content-[''] before:transition-width before:delay-100 before:ease-in hover:before:content-link  before:h-0 hover:before:h-3 before:absolute before:left-0 hover:before:-left-2.5 before:top-0.5 hover:before:0 hover:before:absolute">
+                          <span className="hover:pl-9 pl-3 relative link before:content-[''] before:transition-width before:delay-100 before:ease-in hover:before:content-link  before:h-0 hover:before:h-3 before:absolute before:left-0 hover:before:-left-2.5 before:top-0.5 hover:before:0 hover:before:absolute">
                             Work
                           </span>
                         </Link>
@@ -155,7 +156,7 @@ const Header = (props) => {
                             setNavBar(!navBar);
                           }}
                         >
-                          <span className="hover:text-red-700 hover:pl-9 pl-3 relative link before:content-[''] before:transition-width before:delay-100 before:ease-in hover:before:content-link  before:h-0 hover:before:h-3 before:absolute before:left-0 hover:before:-left-2.5 before:top-0.5 hover:before:0 hover:before:absolute">
+                          <span className="hover:pl-9 pl-3 relative link before:content-[''] before:transition-width before:delay-100 before:ease-in hover:before:content-link  before:h-0 hover:before:h-3 before:absolute before:left-0 hover:before:-left-2.5 before:top-0.5 hover:before:0 hover:before:absolute">
                             Solutions
                           </span>
                         </Link>
@@ -168,7 +169,7 @@ const Header = (props) => {
                             setNavBar(!navBar);
                           }}
                         >
-                          <span className="hover:text-red-700 hover:pl-9 pl-3 relative link before:content-[''] before:transition-width before:delay-100 before:ease-in hover:before:content-link  before:h-0 hover:before:h-3 before:absolute before:left-0 hover:before:-left-2.5 before:top-0.5 hover:before:0 hover:before:absolute">
+                          <span className="hover:pl-9 pl-3 relative link before:content-[''] before:transition-width before:delay-100 before:ease-in hover:before:content-link  before:h-0 hover:before:h-3 before:absolute before:left-0 hover:before:-left-2.5 before:top-0.5 hover:before:0 hover:before:absolute">
                             Studio
                           </span>
                         </Link>
@@ -181,7 +182,7 @@ const Header = (props) => {
                             setNavBar(!navBar);
                           }}
                         >
-                          <span className="hover:text-red-700 hover:pl-9 pl-3 relative link before:content-[''] before:transition-width before:delay-100 before:ease-in hover:before:content-link  before:h-0 hover:before:h-3 before:absolute before:left-0 hover:before:-left-2.5 before:top-0.5 hover:before:0 hover:before:absolute">
+                          <span className="hover:pl-9 pl-3 relative link before:content-[''] before:transition-width before:delay-100 before:ease-in hover:before:content-link  before:h-0 hover:before:h-3 before:absolute before:left-0 hover:before:-left-2.5 before:top-0.5 hover:before:0 hover:before:absolute">
                             Contact
                           </span>
                         </Link>

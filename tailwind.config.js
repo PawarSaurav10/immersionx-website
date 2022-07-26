@@ -48,7 +48,10 @@ module.exports = {
       content: {
         'link': "url('../images/minus.png')",
       },
-
+      brightness: {
+        25: '.25',
+        175: '1.75',
+      }
     },
   },
   plugins: [],

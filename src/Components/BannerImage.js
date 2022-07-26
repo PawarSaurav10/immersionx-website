@@ -1,8 +1,8 @@
 // import { graphql, useStaticQuery } from "gatsby";
 // import BackgroundImage from "gatsby-background-image";
 // import video1 from "../images/Untitled.mp4";
-import video1 from "../images/30secondsvideo.mp4";
-// import video1 from "../images/ImmersionxShowreel_v02.mp4";
+// import video1 from "../images/30secondsvideo.mp4";
+import video1 from "../images/ImmersionxShowreel_v02.mp4";
 // import video1 from "../images/Originalvideocompressed.mp4";
 import React from "react";
 import { Fade } from "react-reveal";
@@ -34,12 +34,29 @@ const BannerImage = () => {
     // </BackgroundImage>
     <>
       <div className="relative">
-        <div class="bg-fixed relative flex items-center justify-center h-screen overflow-hidden">
+        <div class="relative flex items-end justify-center h-screen overflow-hidden ">
           {/* <div class=" p-5 text-2xl text-white bg-purple-300 bg-opacity-50 rounded-xl"> */}
-          <div className="container flex flex-col lg:flex-row justify-between lg:items-center relative z-30">
+          <div className="container flex-1 flex flex-col lg:flex-row justify-between items-center relative z-30 pb-20">
             <Fade bottom cascade>
-              <div className="self-start md:h-52 h-0">
-                <div className="absolute">
+              <div className="self-start">
+                <div className="uppercase max-w-2xl text-3xl md:text-5xl lg:text-8xl text-white text-center lg:text-left font-light  mx-auto lg:m-auto pb-0 md:pb-8 lg:pb-0">
+                  <div className="text_hidder">
+                    We <span>are a</span>
+                  </div>
+                  <div className="pb-44">
+                    <div className="verticalFlip">
+                      <span className="font-bold">Creative + Technology</span>
+                      <span className="font-bold">Innovate+ Research</span>
+                      <span className="font-bold">Design + Collaborate</span>
+                      <span className="font-bold">Execute+ Deliver</span>
+                      {/* <span>Adorable.</span> */}
+                    </div>
+                  </div>
+                  <div className="text_hidder">
+                    <span>Company</span>
+                  </div>
+                </div>
+                {/* <div className="absolute">
                   <div class="verticalFlip">
                     <span className="uppercase text-3xl md:text-5xl lg:text-8xl text-blue-900 text-center lg:text-left font-light  mx-auto lg:mx-0 pb-0 md:pb-8 lg:pb-0">
                       We are a
@@ -59,21 +76,28 @@ const BannerImage = () => {
                       <div className="font-bold">Execute+ Deliver</div>
                     </span>
                   </div>
-                </div>
+                </div> */}
               </div>
             </Fade>
 
             <Fade right cascade>
               <div>
                 <div className="text-white max-w-sm md:max-w-xl lg:max-w-lg mx-auto text-justify text-base md:text-lg font-medium">
-                  <div className="">
+                  <div>
+                    ImmersionX is an experimental marketing agency that creates
+                    bespoke solutions for brands and our mantra is to 'stay
+                    relevant'. We do that by breaking the glass ceiling with our
+                    collaborative solutions and experince driven technologies -
+                    virtual, live or compound.
+                  </div>
+                  {/* <div className="">
                     Collabration is the very essence of the great creative
                     outputs.
                   </div>
                   <div>At ImmersionX,</div>
                   <div className="font-extrabold text-white">
-                     Art meets Technology to drive Innovation.
-                  </div>
+                    Art meets Technology to drive Innovation.
+                  </div> */}
                   <div className="mt-4">
                     Whether its VR Collabrations, Digital assets like the
                     metaverse, motion captures, photogrammetry, Holographic Live
@@ -90,7 +114,7 @@ const BannerImage = () => {
             autoPlay
             loop
             muted
-            className="absolute z-10 w-auto min-w-full min-h-full max-w-none brightness-50 "
+            className="absolute z-10 w-auto min-w-full min-h-full max-w-none brightness-25 "
           ></video>
         </div>
       </div>

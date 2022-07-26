@@ -7,8 +7,8 @@ const OurProcess = () => {
     <div className="bg-fixed bg-our-process bg-no-repeat bg-cover ">
       <div className="container">
         <div>
-          <Fade bottom big cascade>
-            <div className="uppercase font-bold text-2xl md:text-5xl pt-5 lg:pt-40 text-left text-white pb-4">
+          <Fade bottom>
+            <div className="uppercase font-bold text-2xl md:text-7xl pt-5 lg:pt-40 text-left text-white pb-4">
               Process
             </div>
           </Fade>

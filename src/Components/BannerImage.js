@@ -4,6 +4,7 @@
 // import video1 from "../images/30secondsvideo.mp4";
 import video1 from "../images/ImmersionxShowreel_v02.mp4";
 // import video1 from "../images/Originalvideocompressed.mp4";
+import mouse from "../images/01_screensaver/scrollicon@2x.png"
 import React from "react";
 import { Fade } from "react-reveal";
 
@@ -35,9 +36,12 @@ const BannerImage = () => {
     <>
       <div className="relative">
         <div class="relative flex items-end justify-center h-screen overflow-hidden ">
+        <div className="flex justify-center">
+            <img src={mouse} className="w-auto h-auto"/>
+          </div>
           {/* <div class=" p-5 text-2xl text-white bg-purple-300 bg-opacity-50 rounded-xl"> */}
           <div className="container flex-1 flex flex-col lg:flex-row justify-between items-center relative z-30 pb-20">
-            <Fade bottom cascade>
+            <Fade bottom >
               <div className="">
                 <div className="uppercase max-w-2xl text-3xl md:text-5xl lg:text-8xl text-white text-center lg:text-left font-light  mx-auto lg:m-auto pb-0 md:pb-8 lg:pb-0">
                   <div className="fadeIn">
@@ -115,6 +119,7 @@ const BannerImage = () => {
             </Fade>
             {/* </div> */}
           </div>
+         
           <video
             src={video1}
             autoPlay

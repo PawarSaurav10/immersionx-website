@@ -37,7 +37,7 @@ const BannerImage = () => {
       <div className="relative">
         <div class="relative flex flex-col justify-end h-screen overflow-hidden ">
           {/* <div class=" p-5 text-2xl text-white bg-purple-300 bg-opacity-50 rounded-xl"> */}
-          <div className="container flex flex-col lg:flex-row justify-between items-center relative z-30">
+          <div className="container flex flex-col lg:flex-row justify-between items-center relative z-30 pb-20">
             <Fade bottom>
               <div className="">
                 <div className="uppercase max-w-2xl text-3xl md:text-5xl lg:text-8xl text-white text-center lg:text-left font-light  mx-auto lg:m-auto pb-0 md:pb-8 lg:pb-0">
@@ -120,9 +120,9 @@ const BannerImage = () => {
 
             {/* </div> */}
           </div>
-          <div className="flex justify-center">
+          {/* <div className="flex justify-center">
             <img src={mouse} className="w-20 h-32" />
-          </div>
+          </div> */}
 
           <video
             src={video1}

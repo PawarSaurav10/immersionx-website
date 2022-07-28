@@ -33,7 +33,7 @@ const OurPartners = () => {
             </Fade>
 
           </div>
-          <div className="flex flex-col lg:flex-row justify-between pt-0 lg:pt-28 2xl:pt-52">
+          <div className="flex flex-col lg:flex-row justify-between pt-0 lg:pt-52 2xl:pt-64">
             <Fade left>
               <div className="text-white text-left max-w-2xl flex items-center text-base lg:text-lg pb-6 lg:pb-0">
                 <div>

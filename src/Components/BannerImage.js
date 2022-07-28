@@ -4,7 +4,7 @@
 // import video1 from "../images/30secondsvideo.mp4";
 import video1 from "../images/ImmersionxShowreel_v02.mp4";
 // import video1 from "../images/Originalvideocompressed.mp4";
-import mouse from "../images/01_screensaver/scrollicon@2x.png"
+import mouse from "../images/01_screensaver/scrollicon@2x.png";
 import React from "react";
 import { Fade } from "react-reveal";
 
@@ -35,13 +35,10 @@ const BannerImage = () => {
     // </BackgroundImage>
     <>
       <div className="relative">
-        <div class="relative flex items-end justify-center h-screen overflow-hidden ">
-        <div className="flex justify-center">
-            <img src={mouse} className="w-auto h-auto"/>
-          </div>
+        <div class="relative flex flex-col justify-end h-screen overflow-hidden ">
           {/* <div class=" p-5 text-2xl text-white bg-purple-300 bg-opacity-50 rounded-xl"> */}
-          <div className="container flex-1 flex flex-col lg:flex-row justify-between items-center relative z-30 pb-20">
-            <Fade bottom >
+          <div className="container flex flex-col lg:flex-row justify-between items-center relative z-30">
+            <Fade bottom>
               <div className="">
                 <div className="uppercase max-w-2xl text-3xl md:text-5xl lg:text-8xl text-white text-center lg:text-left font-light  mx-auto lg:m-auto pb-0 md:pb-8 lg:pb-0">
                   <div className="fadeIn">
@@ -89,37 +86,44 @@ const BannerImage = () => {
                 </div> */}
               </div>
             </Fade>
-
-            <Fade right cascade>
-              <div>
-                <div className="text-white max-w-sm md:max-w-xl lg:max-w-lg mx-auto text-justify text-base md:text-lg font-medium">
-                  <div>
-                    ImmersionX is an experimental marketing agency that creates
-                    bespoke solutions for brands and our mantra is to 'stay
-                    relevant'. We do that by breaking the glass ceiling with our
-                    collaborative solutions and experince driven technologies -
-                    virtual, live or compound.
-                  </div>
-                  {/* <div className="">
-                    Collabration is the very essence of the great creative
-                    outputs.
-                  </div>
-                  <div>At ImmersionX,</div>
-                  <div className="font-extrabold text-white">
-                    Art meets Technology to drive Innovation.
-                  </div> */}
-                  <div className="mt-4">
-                    Whether its VR Collabrations, Digital assets like the
-                    metaverse, motion captures, photogrammetry, Holographic Live
-                    Streams, experince centers, innovation hubs, museums,
-                    retail, and office environments - WE'VE GOT YOU COVERED!
+            <div>
+              <Fade right cascade>
+                <div>
+                  <div className="text-white max-w-sm md:max-w-xl lg:max-w-lg mx-auto text-justify text-base md:text-lg font-medium">
+                    {/* <div>
+                      ImmersionX is an experimental marketing agency that
+                      creates bespoke solutions for brands and our mantra is to
+                      'stay relevant'. We do that by breaking the glass ceiling
+                      with our collaborative solutions and experince driven
+                      technologies - virtual, live or compound.
+                    </div> */}
+                    <div className="">
+                      Collaboration is the very essence of the greatest creative
+                      outputs.
+                    </div>
+                    <div>
+                      At ImmersionX, {""}
+                      <span className="font-extrabold text-white">
+                        Art meets Technology to drive Innovation.
+                      </span>
+                    </div>
+                    <div className="mt-4">
+                      Whether its VR Collabrations, Digital assets like the
+                      metaverse, motion captures, photogrammetry, Holographic
+                      Live Streams, experince centers, innovation hubs, museums,
+                      retail, and office environments - WE'VE GOT YOU COVERED!
+                    </div>
                   </div>
                 </div>
-              </div>
-            </Fade>
+              </Fade>
+            </div>
+
             {/* </div> */}
           </div>
-         
+          <div className="flex justify-center">
+            <img src={mouse} className="w-20 h-32" />
+          </div>
+
           <video
             src={video1}
             autoPlay

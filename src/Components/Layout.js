@@ -17,7 +17,7 @@ const Layout = ({ children,location }) => {
   });
   return (
     <>
-      <div>
+      <div className="scroll-smooth">
         <div id="full-page-loader">
           <Loader />
         </div>

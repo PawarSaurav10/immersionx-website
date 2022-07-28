@@ -20,7 +20,7 @@ const Studio = () => {
             </div>
             <div>
               <Fade right cascade>
-                <div className="text-white text-left lg:text-right max-w-2xl text-xs md:text-base pt-8 lg:pt-40 pb-4 lg:pb-8 px-3">
+                <div className="text-white text-left lg:text-right max-w-2xl text-base md:text-lg pt-8 lg:pt-40 pb-4 lg:pb-8 px-3">
                   <div>
                     An exhibition of our technologies, an album of our
                     solutions, an experience center is a theatricals act of

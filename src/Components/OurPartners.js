@@ -35,7 +35,7 @@ const OurPartners = () => {
           </div>
           <div className="flex flex-col md:flex-row justify-between pt-0 lg:pt-52 xl:pt-28 2xl:pt-32">
             <Fade left>
-              <div className="text-white text-left max-w-2xl flex items-center text-xs lg:text-base pb-6 lg:pb-0">
+              <div className="text-white text-left max-w-2xl flex items-center text-base lg:text-lg pb-6 lg:pb-0">
                 <div>
                   An exhibition of our technologies, an album of our solutions, an
                   experience center is a theatricals act of characters in the form

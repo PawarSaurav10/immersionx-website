@@ -38,12 +38,15 @@ const BannerImage = () => {
           {/* <div class=" p-5 text-2xl text-white bg-purple-300 bg-opacity-50 rounded-xl"> */}
           <div className="container flex-1 flex flex-col lg:flex-row justify-between items-center relative z-30 pb-20">
             <Fade bottom cascade>
-              <div className="self-start">
+              <div className="">
                 <div className="uppercase max-w-2xl text-3xl md:text-5xl lg:text-8xl text-white text-center lg:text-left font-light  mx-auto lg:m-auto pb-0 md:pb-8 lg:pb-0">
-                  <div className="text_hidder">
+                  <div className="fadeIn">
                     We <span>are a</span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
                   </div>
-                  <div className="pb-44">
+                  <div className=" pb-14 lg:pb-44">
                     <div className="verticalFlip">
                       <span className="font-bold">Creative + Technology</span>
                       <span className="font-bold">Innovate+ Research</span>
@@ -52,8 +55,11 @@ const BannerImage = () => {
                       {/* <span>Adorable.</span> */}
                     </div>
                   </div>
-                  <div className="text_hidder">
+                  <div className="fadeIn">
                     <span>Company</span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
                   </div>
                 </div>
                 {/* <div className="absolute">

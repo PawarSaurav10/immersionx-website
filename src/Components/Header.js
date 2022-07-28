@@ -15,7 +15,7 @@ const Header = (props) => {
   useEffect(() => {
     window.onscroll = () => {
       if (window.pageYOffset > 299) {
-        setHideTopBar("sticky");
+        setHideTopBar("fixed");
       } else {
         setHideTopBar("fixed");
       }

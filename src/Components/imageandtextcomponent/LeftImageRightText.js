@@ -13,13 +13,23 @@ const LeftImageRightText = (props) => {
                 : "md:col-span-3"
             } `}
           >
-            <img
+           {props?.data?.imageurl && <img
               src={props?.data?.imageurl}
               className={`${
                 props?.data?.imageurl2 ? "h-1/2" : "h-full"
               } w-full`}
               alt=""
-            />
+            />}
+             {props?.data?.videourl && 
+             <video
+              loop
+              autoPlay
+              width="750" height="500" controls
+              // className={`${
+              //   props?.data?.imageurl2 ? "h-1/2" : "h-full"
+              // } w-full`}
+              alt=""
+            ><source src={props?.data?.videourl} type="video/mp4"/></video>}
             {props?.data?.imageurl2 && (
               <img
                 src={props?.data?.imageurl2}

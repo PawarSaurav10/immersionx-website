@@ -1,6 +1,7 @@
 import React from "react";
 import img1 from "../images/02_OURSERVICES/COLLABORATIVEVR@2x.png";
 import img2 from "../images/02_OURSERVICES/VOLUMETRICSTUIO@2x.png";
+// import img2 from "../images/09_pages/VOLUSTUDIO/im_1@2x.png";
 import img3 from "../images/02_OURSERVICES/METAVERSE@2x.png";
 import img4 from "../images/02_OURSERVICES/INTERACTIVEDIGITALINSTALLATION@2x.png";
 import img5 from "../images/02_OURSERVICES/AUGMENTEDREALITY@2x@2x.png";

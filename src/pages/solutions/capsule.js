@@ -5,6 +5,7 @@ import Layout from "../../Components/Layout";
 import Capsuleimg1 from "../../images/09_pages/CAPSULE/im_1@2x.png";
 import Capsuleimg3 from "../../images/09_pages/CAPSULE/im_3@2x.png";
 import Capsuleimg4 from "../../images/09_pages/CAPSULE/im_4@2x.png";
+import capsulevideo from "../../images/09_pages/CAPSULE/Capsule.mp4"
 
 const Capsule = ({ location }) => {
   const CapsuleData = {
@@ -20,15 +21,15 @@ const Capsule = ({ location }) => {
       // p3: " Can be used for Virtual meeting rooms, training spaces, virtual shopping experiences, remote collaborations, etc.",
     },
     data2: {
-      imageurl: Capsuleimg3,
+      videourl: capsulevideo,
       // p1: "Teamwork is crucial and has become a challenge for global firms whose departments or subsidiaries are spread all over the world. Using virtual reality collaborative tools, you can gather all thestakeholders of your project in the same VR workspace and display your virtual prototype at scale to create and collaborate.",
       // p3: "Can be used for Virtual meeting rooms, training spaces, virtual shopping experiences, remote collaborations, etc.",
     },
-    data3: {
-      imageurl: Capsuleimg4,
-      // p1: "Teamwork is crucial and has become a challenge for global firms whose departments or subsidiaries are spread all over the world. Using virtual reality collaborative tools, you can gather all thestakeholders of your project in the same VR workspace and display your virtual prototype at scale to create and collaborate.",
-      // p3: "Can be used for Virtual meeting rooms, training spaces, virtual shopping experiences, remote collaborations, etc.",
-    },
+    // data3: {
+    //   imageurl: Capsuleimg4,
+    //   // p1: "Teamwork is crucial and has become a challenge for global firms whose departments or subsidiaries are spread all over the world. Using virtual reality collaborative tools, you can gather all thestakeholders of your project in the same VR workspace and display your virtual prototype at scale to create and collaborate.",
+    //   // p3: "Can be used for Virtual meeting rooms, training spaces, virtual shopping experiences, remote collaborations, etc.",
+    // },
   };
   return (
     <Layout location={location?.pathname}>

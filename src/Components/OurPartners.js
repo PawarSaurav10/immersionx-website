@@ -23,9 +23,9 @@ const OurPartners = () => {
   ];
   return (
     <div className=" bg-our-partners bg-no-repeat bg-cover h-screen">
-      <div className="container pt-5 lg:pt-64">
+      <div className="container pt-5 lg:pt-44">
         <div className="">
-          <div className="flex justify-between text-white pb-2">
+          <div className="flex justify-between text-white pt-8 lg:pt-0 pb-12 lg:pb-0">
             <Fade bottom>
               <div className="uppercase font-bold text-2xl md:text-7xl text-left">
                 Our Partners
@@ -33,7 +33,7 @@ const OurPartners = () => {
             </Fade>
 
           </div>
-          <div className="flex flex-col md:flex-row justify-between pt-0 lg:pt-52 xl:pt-28 2xl:pt-32">
+          <div className="flex flex-col lg:flex-row justify-between pt-0 lg:pt-28 2xl:pt-52">
             <Fade left>
               <div className="text-white text-left max-w-2xl flex items-center text-base lg:text-lg pb-6 lg:pb-0">
                 <div>
@@ -46,7 +46,7 @@ const OurPartners = () => {
             </Fade>
 
             <div className="w-full pb-6 lg:pb-0">
-              <img src={img} className="h-60 lg:h-79 mx-auto" alt="" />
+              <img src={img} className="h-60 md:h-96 mx-auto lg:mx-0 lg:ml-auto" alt="" />
             </div>
           </div>
         </div>

@@ -7,7 +7,7 @@ import COLLABORATIVEVRim2 from "../../images/02_OURSERVICES/pages/COLLABORATIVEV
 
 const VolumetricStudio = ({ location }) => {
   const VolumetricStudioData = {
-    bg: "bg-COLLABORATIVEVRBG",
+    bg: "bg-volumetric",
     title: "Volumetric Studio",
     data1: {
       numberofcolspan: 3,

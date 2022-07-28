@@ -17,6 +17,8 @@ module.exports = {
         "contact-us": "url('../images/08_CONTACTUS/CONTACTUSimageBG2x1.png')",
         COLLABORATIVEVRBG:
           "url('../images/02_OURSERVICES/pages/COLLABORATIVEVR/COLLABORATIVEVRBG@2x.png')",
+          volumetric:
+          "url('../images/02_OURSERVICES/pages/COLLABORATIVEVR/coverimagevolumetric.png')",
         TataCommunicationsBG:
           "url('../images/06_OURWORK/pages/TataCommunicationsExperienceCentre/TataCommunicationsBG@2x.png')",
         AUDIBG: "url('../images/09_pages/AUDI/AUDIBG@2x.png')",

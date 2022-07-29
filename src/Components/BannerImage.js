@@ -4,9 +4,12 @@
 // import video1 from "../images/30secondsvideo.mp4";
 import video1 from "../images/ImmersionxShowreel_v02.mp4";
 // import video1 from "../images/Originalvideocompressed.mp4";
-import mouse from "../images/01_screensaver/scrollicon@2x.png";
+// import mouse from "../images/01_screensaver/scrollicon@2x.png";
+// import mouse from "../images/01_screensaver/scrolldownmousedark.png";
+import mouse from "../images/01_screensaver/scrolldown-mouse.png";
 import React from "react";
 import { Fade } from "react-reveal";
+import { Link } from "gatsby";
 
 const BannerImage = () => {
   // const data = useStaticQuery(
@@ -37,7 +40,7 @@ const BannerImage = () => {
       <div className="relative">
         <div class="relative flex flex-col justify-end h-screen overflow-hidden ">
           {/* <div class=" p-5 text-2xl text-white bg-purple-300 bg-opacity-50 rounded-xl"> */}
-          <div className="container flex flex-col lg:flex-row justify-between items-center relative z-30 pb-20">
+          <div className="container flex flex-col lg:flex-row justify-between items-center relative z-30">
             <Fade bottom>
               <div className="">
                 <div className="uppercase max-w-2xl text-3xl md:text-5xl lg:text-8xl text-white text-center lg:text-left font-light  mx-auto lg:m-auto pb-0 md:pb-8 lg:pb-0">
@@ -120,9 +123,11 @@ const BannerImage = () => {
 
             {/* </div> */}
           </div>
-          {/* <div className="flex justify-center">
-            <img src={mouse} className="w-20 h-32" />
-          </div> */}
+          <div className="flex justify-center z-30 pb-3">
+            <Link to="#solutions">
+            <img src={mouse} className="w-auto h-auto" />
+            </Link>
+          </div>
 
           <video
             src={video1}

@@ -9,9 +9,10 @@ import img7 from "../images/06_OURWORK/muso@2x.png";
 // import Groheimg2 from "../images/09_pages/GROHE/im_2@2x.png";
 import { Link } from "gatsby";
 import { Fade } from "react-reveal";
+import mouse from "../images/01_screensaver/scrolldown-mouse.png";
 
 const OurWork = ({ location }) => {
-  console.log(location);
+  // console.log(location);
   return (
     <>
       <div
@@ -19,6 +20,7 @@ const OurWork = ({ location }) => {
         className="inspiro-slider slider-fullscreen dots-creative bg-our-work bg-no-repeat bg-cover"
       >
         <div className="slide kenburns">
+          <div className="flex justify-end flex-col flex-1">
           <div className="container text-left ">
             <div className="py-5">
               <div className="uppercase text-3xl md:text-5xl lg:text-8xl text-white text-left font-bold pb-0 md:pb-8 lg:pb-20 pt-4">
@@ -38,11 +40,19 @@ const OurWork = ({ location }) => {
                   unforgettable business and brand experience.
                 </div>
               </div>
+
             </div>
+            </div>
+            <div className="flex justify-center pb-3">
+                <Link to="#work-clients">
+                  <img src={mouse} className="w-auto h-auto" />
+                </Link>
+              </div> 
           </div>
         </div>
+        
       </div>
-      <div className="flex flex-col md:flex-row p-2">
+      <div className="flex flex-col md:flex-row p-2 close_dropdown_header" id="work-clients">
         <div>
           <Fade bottom big cascade>
             <div className="px-2 py-2 md:py-0 flex-1 flex flex-col">

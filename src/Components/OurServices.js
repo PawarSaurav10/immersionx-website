@@ -1,7 +1,7 @@
 import React from "react";
 import img1 from "../images/02_OURSERVICES/COLLABORATIVEVR@2x.png";
 import img2 from "../images/02_OURSERVICES/VOLUMETRICSTUIO@2x.png";
-// import img2 from "../images/09_pages/VOLUSTUDIO/im_1@2x.png";
+// import img2 from "../images/09_pages/VOLUSTUDIO/coverimagevolumetric.png";
 import img3 from "../images/02_OURSERVICES/METAVERSE@2x.png";
 import img4 from "../images/02_OURSERVICES/INTERACTIVEDIGITALINSTALLATION@2x.png";
 import img5 from "../images/02_OURSERVICES/AUGMENTEDREALITY@2x@2x.png";
@@ -24,7 +24,7 @@ const OurServices = () => {
 
   return (
     <div
-      className="bg-fixed bg-our-service bg-no-repeat bg-cover"
+      className="bg-fixed bg-our-service bg-no-repeat bg-cover close_dropdown_header"
       id="solutions"
     >
       <div className="container">
@@ -93,7 +93,7 @@ const OurServices = () => {
                     <div className="portfolio-item-wrap">
                       <div className="portfolio-image">
                         <Link to="/solutions/volumetric-studio">
-                          <img src={img2} alt="" />
+                          <img src={img2} alt=""/>
                         </Link>
                       </div>
                       <div

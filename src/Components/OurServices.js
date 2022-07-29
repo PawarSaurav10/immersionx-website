@@ -24,7 +24,7 @@ const OurServices = () => {
 
   return (
     <div
-      className="bg-fixed bg-our-service bg-no-repeat bg-cover close_dropdown_header"
+      className="bg-fixed bg-our-service bg-no-repeat bg-cover "
       id="solutions"
     >
       <div className="container">

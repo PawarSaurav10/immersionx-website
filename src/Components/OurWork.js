@@ -45,14 +45,15 @@ const OurWork = ({ location }) => {
             </div>
             <div className="flex justify-center pb-3">
                 <Link to="#work-clients">
-                  <img src={mouse} className="w-auto h-auto" />
+                <div className="icon-scroll"></div>
+                  {/* <img src={mouse} className="w-auto h-auto" /> */}
                 </Link>
               </div> 
           </div>
         </div>
         
       </div>
-      <div className="flex flex-col md:flex-row p-2 close_dropdown_header" id="work-clients">
+      <div className="flex flex-col md:flex-row p-2" id="work-clients">
         <div>
           <Fade bottom big cascade>
             <div className="px-2 py-2 md:py-0 flex-1 flex flex-col">

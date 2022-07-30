@@ -14,8 +14,8 @@ const Header = (props) => {
 
   useEffect(() => {
     window.onscroll = () => {
-      if (window.pageYOffset > 299) {
-        setHideTopBar("fixed");
+      if (window.pageYOffset > 399) {
+        setHideTopBar("sticky");
       } else {
         setHideTopBar("fixed");
       }
@@ -121,7 +121,7 @@ const Header = (props) => {
                   </div>
                   <div className="flex-1 flex justify-center items-center">
                     <ul className="">
-                      <li className="navbar nav-bar-menu ">
+                      <li className="navbar nav-bar-menu text-center hover:scale-110 transition-all ">
                         <Link
                           className="cursor-pointer "
                           to="/"
@@ -129,13 +129,13 @@ const Header = (props) => {
                             setNavBar(!navBar);
                           }}
                         >
-                          <div className=" hover:pl-9 pl-3 relative link before:content-[''] before:transition-width before:delay-100 before:ease-in hover:before:content-link  before:h-0 hover:before:h-3 before:absolute before:left-0 hover:before:-left-2.5 before:top-0.5 hover:before:0 hover:before:absolute">
+                          <span className="nav-bar-menu-span link ">
                             Home
-                          </div>
+                          </span>
                         </Link>
                       </li>
 
-                      <li className="navbar nav-bar-menu">
+                      <li className="navbar nav-bar-menu text-center hover:scale-110 transition-all">
                         <Link
                           className="cursor-pointer"
                           to="/our-work/"
@@ -143,12 +143,12 @@ const Header = (props) => {
                             setNavBar(!navBar);
                           }}
                         >
-                          <span className="hover:pl-9 pl-3 relative link before:content-[''] before:transition-width before:delay-100 before:ease-in hover:before:content-link  before:h-0 hover:before:h-3 before:absolute before:left-0 hover:before:-left-2.5 before:top-0.5 hover:before:0 hover:before:absolute">
+                          <span className="nav-bar-menu-span link">
                             Work
                           </span>
                         </Link>
                       </li>
-                      <li className="navbar nav-bar-menu ">
+                      <li className="navbar nav-bar-menu text-center hover:scale-110 transition-all ">
                         <Link
                           className="cursor-pointer "
                           to={props.data === "/" ? "#solutions" : "/#solutions"}
@@ -156,12 +156,25 @@ const Header = (props) => {
                             setNavBar(!navBar);
                           }}
                         >
-                          <span className="hover:pl-9 pl-3 relative link before:content-[''] before:transition-width before:delay-100 before:ease-in hover:before:content-link  before:h-0 hover:before:h-3 before:absolute before:left-0 hover:before:-left-2.5 before:top-0.5 hover:before:0 hover:before:absolute">
+                          <span className="nav-bar-menu-span link">
                             Solutions
                           </span>
                         </Link>
                       </li>
-                      <li className="navbar nav-bar-menu ">
+                      <li className="navbar nav-bar-menu text-center hover:scale-110 transition-all ">
+                        <Link
+                          className="cursor-pointer "
+                          // to={props.data === "/" ? "#solutions" : "/#solutions"}
+                          // onClick={() => {
+                          //   setNavBar(!navBar);
+                          // }}
+                        >
+                          <span className="nav-bar-menu-span link">
+                            Applications
+                          </span>
+                        </Link>
+                      </li>
+                      <li className="navbar nav-bar-menu text-center hover:scale-110 transition-all ">
                         <Link
                           className="cursor-pointer "
                           to={props.data === "/" ? "#studio" : "/#studio"}
@@ -169,12 +182,12 @@ const Header = (props) => {
                             setNavBar(!navBar);
                           }}
                         >
-                          <span className="hover:pl-9 pl-3 relative link before:content-[''] before:transition-width before:delay-100 before:ease-in hover:before:content-link  before:h-0 hover:before:h-3 before:absolute before:left-0 hover:before:-left-2.5 before:top-0.5 hover:before:0 hover:before:absolute">
+                          <span className="nav-bar-menu-span link">
                             Studio
                           </span>
                         </Link>
                       </li>
-                      <li className="navbar nav-bar-menu ">
+                      <li className="navbar nav-bar-menu text-center hover:scale-110 transition-all ">
                         <Link
                           className="cursor-pointer "
                           to="/contact-us"
@@ -182,7 +195,7 @@ const Header = (props) => {
                             setNavBar(!navBar);
                           }}
                         >
-                          <span className="hover:pl-9 pl-3 relative link before:content-[''] before:transition-width before:delay-100 before:ease-in hover:before:content-link  before:h-0 hover:before:h-3 before:absolute before:left-0 hover:before:-left-2.5 before:top-0.5 hover:before:0 hover:before:absolute">
+                          <span className="nav-bar-menu-span link">
                             Contact
                           </span>
                         </Link>

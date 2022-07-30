@@ -5,6 +5,7 @@ import OurServices from "../Components/OurServices";
 import OurPartners from "../Components/OurPartners";
 import OurProcess from "../Components/OurProcess";
 import Studio from "../Components/Studio";
+import StudioNew from "../Components/StudioNew";
 
 const IndexPage = ({location}) => {
   return (
@@ -13,7 +14,8 @@ const IndexPage = ({location}) => {
         <BannerImage />
         <OurServices />
         <OurProcess />
-        <Studio />
+        {/* <Studio /> */}
+        <StudioNew/>
         <OurPartners />
       </Layout>
     </>

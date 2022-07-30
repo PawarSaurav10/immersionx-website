@@ -40,7 +40,7 @@ const BannerImage = () => {
       <div className="relative">
         <div class="relative flex flex-col justify-end h-screen overflow-hidden ">
           {/* <div class=" p-5 text-2xl text-white bg-purple-300 bg-opacity-50 rounded-xl"> */}
-          <div className="container flex flex-col lg:flex-row justify-between items-center relative z-30 pb-16">
+          <div className="container flex flex-col lg:flex-row justify-between  items-center lg:items-start relative z-30 pb-16">
             <Fade bottom>
               <div className="">
                 <div className="uppercase max-w-2xl text-3xl md:text-5xl lg:text-8xl text-white text-center lg:text-left font-light  mx-auto lg:m-auto pb-0 md:pb-8 lg:pb-0">
@@ -53,12 +53,12 @@ const BannerImage = () => {
                       <span></span>
                     </div>
                   </div>
-                  <div className=" pb-16 lg:pb-44">
+                  <div className="pb-16 md:pb-24 lg:pb-44">
                     <div className="verticalFlip">
                       <span className="font-bold">Creative + Technology</span>
-                      <span className="font-bold">Innovate+ Research</span>
+                      <span className="font-bold">Innovate +  Research</span>
                       <span className="font-bold">Design + Collaborate</span>
-                      <span className="font-bold">Execute+ Deliver</span>
+                      <span className="font-bold">Execute + Deliver</span>
                       {/* <span>Adorable.</span> */}
                     </div>
                   </div>

@@ -7,8 +7,8 @@ const LeftTextRightImage = (props) => {
     <div className="bg-slate-900">
       <div className="container ">
         <div className="grid md:grid-cols-5">
-          <div className="md:col-span-2 bg-black text-white">
-            <div className="pl-12 pr-12 pb-12 pt-20 text-left">
+          <div className=" flex justify-center md:col-span-2 bg-black text-white">
+            <div className="flex flex-col justify-center pl-12 pr-12 pb-12 pt-20 text-left">
               {props?.data?.h1 && (
                 <div className="pt-7 text-xl text-orange-300 ">
                   {props?.data?.h1}
@@ -65,9 +65,21 @@ const LeftTextRightImage = (props) => {
               {props?.data?.p6 && <p className="pt-5 ">{props?.data?.p6}</p>}
             </div>
           </div>
-          <div className="md:col-span-3">
-           {props?.data?.imageurl && <img src={props?.data?.imageurl} className="h-full w-full" alt="" />}
-           {props?.data?.videourl && 
+          <div
+            className={`${
+              props?.data?.numberofcolspan === 2
+                ? "md:col-span-3"
+                : "md:col-span-3"
+            } `}
+          >
+           {props?.data?.imageurl && <img
+              src={props?.data?.imageurl}
+              className={`${
+                props?.data?.imageurl2 ? "h-1/2" : "h-full"
+              } w-full`}
+              alt=""
+            />}
+             {props?.data?.videourl && 
              <video
               loop
               autoPlay
@@ -77,7 +89,13 @@ const LeftTextRightImage = (props) => {
               // } w-full`}
               alt=""
             ><source src={props?.data?.videourl} type="video/mp4"/></video>}
-
+            {props?.data?.imageurl2 && (
+              <img
+                src={props?.data?.imageurl2}
+                className="h-1/2 w-full"
+                alt=""
+              />
+            )}
           </div>
         </div>
       </div>

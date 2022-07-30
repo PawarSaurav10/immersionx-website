@@ -29,7 +29,7 @@ const Header = (props) => {
           <div className="flex text-white justify-between font-bold py-4">
             <div className="px-6">
               <Link to="/" className="flex space-x-2">
-                <img src={Logo} className="h-14 " alt="img" />
+                <img src={Logo} className="h-8 " alt="img" />
               </Link>
             </div>
 

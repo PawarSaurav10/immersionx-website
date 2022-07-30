@@ -97,7 +97,7 @@ const BannerImage = () => {
             <div>
               <Fade right cascade>
                 <div>
-                  <div className="text-white max-w-sm md:max-w-xl lg:max-w-lg mx-auto text-justify text-base md:text-lg font-medium">
+                  <div className="text-white max-w-sm md:max-w-xl lg:max-w-lg mx-auto text-left text-base font-medium " >
                     {/* <div>
                       ImmersionX is an experimental marketing agency that
                       creates bespoke solutions for brands and our mantra is to
@@ -105,7 +105,7 @@ const BannerImage = () => {
                       with our collaborative solutions and experince driven
                       technologies - virtual, live or compound.
                     </div> */}
-                    <div className="">
+                    <div className=" ">
                       Collaboration is the very essence of the greatest creative
                       outputs.
                     </div>

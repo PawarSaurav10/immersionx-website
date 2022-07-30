@@ -39,13 +39,14 @@ const LeftImageRightText = (props) => {
             )}
           </div>
           <div
-            className={`${
+            className={`flex ${
               props?.data?.numberofcolspan === 2
                 ? "md:col-span-3"
                 : "md:col-span-2"
             } bg-black text-white`}
           >
-            <div className="p-12 text-left">
+            <div className="flex flex-1 flex-col justify-center">
+            <div className=" p-12 text-left">
               {props?.data?.h1 && (
                 <div className="pt-7 text-xl text-orange-300 ">
                   {props?.data?.h1}
@@ -56,15 +57,16 @@ const LeftImageRightText = (props) => {
               {props?.data?.p3 && <div className="pt-5">{props?.data?.p3}</div>}
               {props?.data?.p4 && <div className="pt-5">{props?.data?.p4}</div>}
             </div>
+            </div>
           </div>
         </div>
         <div className="grid md:hidden md:grid-cols-5">
           <div
-            className={`${
+            className={` ${
               props?.data?.numberofcolspan === 2
                 ? "md:col-span-3"
                 : "md:col-span-2"
-            } bg-black text-white`}
+            } bg-black text-white `}
           >
             <div className="p-12 text-left">
               {props?.data?.h1 && (

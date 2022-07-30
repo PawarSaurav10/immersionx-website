@@ -8,7 +8,7 @@ import COLLABORATIVEVRim2 from "../../images/02_OURSERVICES/pages/COLLABORATIVEV
 const CollaborativeVRAR = ({ location }) => {
   const CollabrateVRData = {
     bg: "bg-COLLABORATIVEVRBG",
-    title: "COLLABORATIVE AR/VR",
+    title: "COLLABORATIVE AR/XR",
     data1: {
       numberofcolspan: 3,
       imageurl: COLLABORATIVEVRim1,

@@ -27,7 +27,7 @@ const Header = (props) => {
       <div className={`${hideTopBar} z-50 w-full`}>
         <div className="container">
           <div className="flex text-white justify-between font-bold py-4">
-            <div className="px-6">
+            <div className=" self-center px-6">
               <Link to="/" className="flex space-x-2">
                 <img src={Logo} className="h-8 " alt="img" />
               </Link>

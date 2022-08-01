@@ -24,7 +24,7 @@ const Layout = ({ children,location }) => {
         </div>
         <Header data={location}/>
         {children}
-        <ScroolToTopButton/>
+        {/* <ScroolToTopButton/> */}
       </div>
     </>
   );

@@ -30,7 +30,7 @@ const OurServices = () => {
       <div className="container">
         <div className="flex flex-col lg:flex-row justify-between text-white pb-8 pt-5">
           <div>
-            <Fade bottom >
+            <Fade bottom>
               <div className="uppercase font-bold text-2xl md:text-5xl xl:text-7xl pt-8 lg:pt-40 text-left text-white pb-4 lg:pb-8 px-3">
                 Solutions
               </div>
@@ -60,82 +60,85 @@ const OurServices = () => {
             <Fade bottom>
               <div className=" grid grid-cols-1 md:grid-cols-8 gap-3 ">
                 <div className="col-span-1 md:col-span-2 ">
-                  {/* <Link to="/service-detail">
+                  <Link to="/solutions/collaborative_ar-vr">
+                    {/* <Link to="/service-detail">
                   <img src={img1} className="h-full" alt="" />
                 </Link> */}
-                  <div className="portfolio-item img-zoom ct-marketing ct-media ct-branding ct-marketing ct-webdesign">
-                    <div className="portfolio-item-wrap">
-                      <div className="portfolio-image">
-                        <Link to="/solutions/collaborative_ar-vr">
+                    <div className="portfolio-item img-zoom ct-marketing ct-media ct-branding ct-marketing ct-webdesign">
+                      <div className="portfolio-item-wrap">
+                        <div className="portfolio-image">
                           <img src={img1} alt="" className="" />
-                        </Link>
-                      </div>
-                      <div
-                        className="portfolio-description"
-                        style={{
-                          bottom: "-40px",
-                          display: "flex",
-                          justifyContent: "flex-start",
-                        }}
-                      >
-                        <Link to="/solutions/collaborative_ar-vr">
+                        </div>
+                        <div
+                          className="portfolio-description"
+                          style={{
+                            bottom: "-40px",
+                            display: "flex",
+                            justifyContent: "flex-start",
+                          }}
+                        >
+                          {/* <Link to="/solutions/collaborative_ar-vr"> */}
                           <div className="text-base md:text-2xl font-bold text-white">
                             COLLABRATIVE XR
                           </div>
                           {/* <span>Graphics</span> */}
-                        </Link>
+                          {/* </Link> */}
+                        </div>
                       </div>
                     </div>
-                  </div>
+                  </Link>
                 </div>
                 <div className="col-span-1 md:col-span-3">
                   <div className="portfolio-item img-zoom ct-marketing ct-media ct-branding ct-marketing ct-webdesign pb-3">
-                    <div className="portfolio-item-wrap">
-                      <div className="portfolio-image">
-                        <Link to="/solutions/volumetric-studio">
-                          <img src={img2} alt=""/>
-                        </Link>
-                      </div>
-                      <div
-                        className="portfolio-description"
-                        style={{
-                          bottom: "-42px",
-                          display: "flex",
-                          justifyContent: "flex-start",
-                        }}
-                      >
-                        <Link to="/solutions/volumetric-studio">
+                    <Link to="/solutions/volumetric-studio">
+                      <div className="portfolio-item-wrap">
+                        <div className="portfolio-image">
+                          <div>
+                            <img src={img2} alt="" />
+                          </div>
+                        </div>
+                        <div
+                          className="portfolio-description"
+                          style={{
+                            bottom: "-42px",
+                            display: "flex",
+                            justifyContent: "flex-start",
+                          }}
+                        >
+                          {/* <Link to="/solutions/volumetric-studio"> */}
                           <div className="text-base md:text-2xl font-bold text-white uppercase">
                             Volumetric Studio
                           </div>
                           {/* <span>Graphics</span> */}
-                        </Link>
+                          {/* </Link> */}
+                        </div>
                       </div>
-                    </div>
+                    </Link>
                   </div>
+
                   <div className="portfolio-item img-zoom ct-marketing ct-media ct-branding ct-marketing ct-webdesign pb-3">
-                    <div className="portfolio-item-wrap">
-                      <div className="portfolio-image">
-                        <Link to="/solutions/capsule">
+                    <Link to="/solutions/capsule">
+                      <div className="portfolio-item-wrap">
+                        <div className="portfolio-image">
                           <img src={img3} alt="" />
-                        </Link>
-                      </div>
-                      <div
-                        className="portfolio-description"
-                        style={{
-                          bottom: "-42px",
-                          display: "flex",
-                          justifyContent: "flex-start",
-                        }}
-                      >
-                        <Link to="/solutions/capsule">
+                        </div>
+                        <div
+                          className="portfolio-description"
+                          style={{
+                            bottom: "-42px",
+                            display: "flex",
+                            justifyContent: "flex-start",
+                          }}
+                        >
+                          {/* <Link to="/solutions/capsule"> */}
                           <div className="text-base md:text-2xl font-bold text-white">
                             CAPSULE
                           </div>
                           {/* <span>Graphics</span>  */}
-                        </Link>
+                          {/* </Link> */}
+                        </div>
                       </div>
-                    </div>
+                    </Link>
                   </div>
                   {/* <div className="portfolio-item img-zoom ct-marketing ct-media ct-branding ct-marketing ct-webdesign pb-0 md:pb-3">
                     <div className="portfolio-item-wrap">
@@ -164,52 +167,52 @@ const OurServices = () => {
                 </div>
                 <div className="col-span-1 md:col-span-3 ">
                   <div className="portfolio-item img-zoom ct-marketing ct-media ct-branding ct-marketing ct-webdesign pb-3">
-                    <div className="portfolio-item-wrap">
-                      <div className="portfolio-image">
-                        <Link to="/solutions/multitaction">
+                    <Link to="/solutions/multitaction">
+                      <div className="portfolio-item-wrap">
+                        <div className="portfolio-image">
                           <img src={img6} alt="" />
-                        </Link>
-                      </div>
-                      <div
-                        className="portfolio-description"
-                        style={{
-                          bottom: "-42px",
-                          display: "flex",
-                          justifyContent: "flex-start",
-                        }}
-                      >
-                        <Link to="/solutions/multitaction">
+                        </div>
+                        <div
+                          className="portfolio-description"
+                          style={{
+                            bottom: "-42px",
+                            display: "flex",
+                            justifyContent: "flex-start",
+                          }}
+                        >
+                          {/* <Link to="/solutions/multitaction"> */}
                           <div className="text-base md:text-2xl font-bold text-white">
                             MULTITACTION
                           </div>
                           {/* <span>Graphics</span> */}
-                        </Link>
+                          {/* </Link> */}
+                        </div>
                       </div>
-                    </div>
+                    </Link>
                   </div>
                   <div className="portfolio-item img-zoom ct-marketing ct-media ct-branding ct-marketing ct-webdesign pb-0 md:pb-3">
-                    <div className="portfolio-item-wrap">
-                      <div className="portfolio-image">
-                        <Link to="/solutions/vr-cave">
+                    <Link to="/solutions/vr-cave">
+                      <div className="portfolio-item-wrap">
+                        <div className="portfolio-image">
                           <img src={img7} alt="" />
-                        </Link>
-                      </div>
-                      <div
-                        className="portfolio-description"
-                        style={{
-                          bottom: "-42px",
-                          display: "flex",
-                          justifyContent: "flex-start",
-                        }}
-                      >
-                        <Link to="/solutions/vr-cave">
+                        </div>
+                        <div
+                          className="portfolio-description"
+                          style={{
+                            bottom: "-42px",
+                            display: "flex",
+                            justifyContent: "flex-start",
+                          }}
+                        >
+                          {/* <Link to="/solutions/vr-cave"> */}
                           <div className="text-base md:text-2xl font-bold text-white">
                             VR CAVE
                           </div>
                           {/* <span>Graphics</span> */}
-                        </Link>
+                          {/* </Link> */}
+                        </div>
                       </div>
-                    </div>
+                    </Link>
                   </div>
                 </div>
               </div>

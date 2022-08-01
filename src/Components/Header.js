@@ -16,12 +16,6 @@ const Header = (props) => {
 
   useEffect(() => {
     window.onscroll = () => {
-<<<<<<< HEAD
-      if (window.pageYOffset > 399) {
-        setHideTopBar("sticky");
-      } else {
-        setHideTopBar("fixed");
-=======
       console.log("third")
       if (window.pageYOffset > 299) {
         console.log("first")
@@ -31,7 +25,6 @@ const Header = (props) => {
         console.log("second")
         setHideTopBar("bg-transparent");
         setVisible(false);
->>>>>>> 6531eeba03984c56479e5fea9051f8815ce7ebfb
       }
     };
   }, []);

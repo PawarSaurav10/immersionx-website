@@ -43,7 +43,7 @@ const BannerImage = () => {
           <div className="container flex flex-col lg:flex-row justify-between  items-center lg:items-start relative z-30 pb-16">
             <Fade bottom>
               <div className="">
-                <div className="uppercase max-w-2xl text-3xl md:text-5xl lg:text-8xl text-white text-center lg:text-left font-light  mx-auto lg:m-auto pb-0 md:pb-8 lg:pb-0">
+                <div className="uppercase max-w-2xl text-3xl md:text-6xl  xl:text-8xl text-white text-center lg:text-left font-light  mx-auto lg:m-auto pb-0 md:pb-8 lg:pb-0">
                   <div className="flex flex-col lg:flex-row">
                     <div>We</div>
                     <div className="fadeIn">
@@ -53,7 +53,7 @@ const BannerImage = () => {
                       <span></span>
                     </div>
                   </div>
-                  <div className="pb-16 md:pb-24 lg:pb-44">
+                  <div className="pb-16 md:pb-24 lg:pb-32 xl:pb-44">
                     <div className="verticalFlip">
                       <span className="font-bold">Creative + Technology</span>
                       <span className="font-bold">Innovate +  Research</span>

@@ -32,9 +32,12 @@ module.exports = {
       },
       height: {
         79: 315,
+        400: 400
       },
       width: {
         79: 315,
+        800: 800,
+        600:600
       },
       fontSize: {
         xxs: 10,

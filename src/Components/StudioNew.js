@@ -1,5 +1,5 @@
-// import { faArrowAltCircleRight } from "@fortawesome/free-solid-svg-icons";
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowAltCircleRight } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import { Fade } from "react-reveal";
 // import img from "../images/04_STUDIO/videos@2x.png";
@@ -12,7 +12,7 @@ const StudioNew = () => {
           <div className="flex flex-col text-white pb-8 pt-5">
             <div>
               <Fade bottom>
-                <div className="uppercase font-bold text-2xl md:text-7xl text-left text-white pb-4 lg:pb-8 px-3">
+                <div className="uppercase font-bold text-2xl md:text-5xl xl:text-7xl text-left text-white pb-4 lg:pb-8 px-3">
                   Studio
                 </div>
               </Fade>
@@ -31,16 +31,26 @@ const StudioNew = () => {
               </Fade>
             </div>
           </div>
-          <div>
-            <Fade bottom>
-              <div className="flex justify-center">
-                <Video
-                  videoSrcURL="https://www.youtube.com/embed/lMhr86ZaiR0"
-                  videoTitle="Official Music Video on YouTube"
-                  className="w-full"
-                />
+          <div className="flex flex-col justify-center">
+            <div className="">
+              <Fade bottom>
+                <div className="flex justify-center">
+                  <Video
+                    videoSrcURL="https://www.youtube.com/embed/lMhr86ZaiR0"
+                    videoTitle="Official Music Video on YouTube"
+                  />
+                </div>
+              </Fade>
+            </div>
+
+            {/* <div className="pt-10 pb-6 lg:pb-0">
+              <div className="flex justify-center text-white font-bold text-base">
+                Explore
+                <span className="ml-2">
+                  <FontAwesomeIcon icon={faArrowAltCircleRight} />
+                </span>
               </div>
-            </Fade>
+            </div> */}
           </div>
         </div>
       </div>

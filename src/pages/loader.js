@@ -1,6 +1,8 @@
 import React from "react";
 // import Fade from "react-reveal";
-import loadingSpinner from "../images/loader2.gif"
+// import loadingSpinner from "../images/loader2.gif"
+// import loadingSpinner from "../images/loader.gif"
+import loadingSpinner from "../images/loader1.gif"
 
 const LoaderPage = () => {
   return (
@@ -13,7 +15,7 @@ const LoaderPage = () => {
         justifyContent: "center",
         alignItems: "center",
         zIndex: 600,
-        backgroundColor: "#FFF",
+        backgroundColor: "#000000",
       }}
     >
       {/* <img src={bg_img}/> */}
@@ -21,8 +23,8 @@ const LoaderPage = () => {
         src={loadingSpinner}
         className="bg-logo bg-no-repeat bg-center rounded-full"
         alt="loader"
-        width="150px"
-        height="150px"
+        width="200px"
+        height="200px"
       />
     </div>
     // <div

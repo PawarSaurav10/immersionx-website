@@ -8,7 +8,7 @@ const OurProcess = () => {
       <div className="container">
         <div>
           <Fade bottom>
-            <div className="uppercase font-bold text-2xl md:text-7xl pt-5 lg:pt-40 text-left text-white pb-4">
+            <div className="uppercase font-bold text-2xl md:text-5xl xl:text-7xl pt-5 lg:pt-40 text-left text-white pb-4">
               Process
             </div>
           </Fade>

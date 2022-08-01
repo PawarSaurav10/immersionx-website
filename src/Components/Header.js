@@ -5,26 +5,49 @@ import {
   // faBars,
   faBarsStaggered,
   faClose,
+  faAngleUp,
 } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "gatsby";
 
 const Header = (props) => {
-  const [hideTopBar, setHideTopBar] = useState("fixed");
+  const [hideTopBar, setHideTopBar] = useState("bg-transparent");
   const [navBar, setNavBar] = useState(false);
+  const [visible, setVisible] = useState(false);
 
   useEffect(() => {
     window.onscroll = () => {
+<<<<<<< HEAD
       if (window.pageYOffset > 399) {
         setHideTopBar("sticky");
       } else {
         setHideTopBar("fixed");
+=======
+      console.log("third")
+      if (window.pageYOffset > 299) {
+        console.log("first")
+        setHideTopBar("bg-black");
+        setVisible(true);
+      } else {
+        console.log("second")
+        setHideTopBar("bg-transparent");
+        setVisible(false);
+>>>>>>> 6531eeba03984c56479e5fea9051f8815ce7ebfb
       }
     };
   }, []);
 
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+      /* you can also use 'auto' behaviour
+         in place of 'smooth' */
+    });
+  };
+
   return (
     <>
-      <div className={`${hideTopBar} z-50 w-full`}>
+      <div className={`${hideTopBar}   fixed z-50 w-full`}>
         <div className="container">
           <div className="flex text-white justify-between font-bold py-4">
             <div className=" self-center px-6">
@@ -208,6 +231,26 @@ const Header = (props) => {
           </div>
         </div>
       </div>
+      <div>
+      {visible && (
+        <button
+          onClick={scrollToTop}
+          className="animate-bounce transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-200 rounded-full h-10 w-10 md:h-14 md:w-14 text-right right-6 md:right-16 bottom-6 md:bottom-12 bg-blue-500 hover:bg-blue-900"
+          style={{
+            position: "fixed",
+            zIndex: 1,
+            cursor: "pointer",
+
+            //   color: "green",
+          }}
+        >
+          <FontAwesomeIcon
+            icon={faAngleUp}
+            className="h-6 w-6 mr-2 md:h-8 md:w-8 md:mr-3 text-white"
+          />
+        </button>
+      )}
+    </div>
     </>
 
     // <div className="fixed z-50 top-0 w-full ">

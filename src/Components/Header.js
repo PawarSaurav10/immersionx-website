@@ -14,10 +14,11 @@ const Header = (props) => {
 
   useEffect(() => {
     window.onscroll = () => {
-      if (window.pageYOffset > 399) {
-        console.log(window.pageOffset)
+      if (window.pageYOffset > 299) {
+        // console.log("first")
         setHideTopBar("sticky");
       } else {
+        // console.log("second")
         setHideTopBar("fixed");
       }
     };
@@ -254,7 +255,7 @@ const Header = (props) => {
     //               </div>
     //             </div>
     //             <div
-    //               className={`transition-width transition-height duration-300 ease-in-out ${
+    //               className={`transition-width duration-300 ease-in-out ${
     //                 navBar
     //                   ? `w-full h-4/5 opacity-100 bg-secondary-blue-400 nav-open`
     //                   : `w-0 h-0 opacity-0`

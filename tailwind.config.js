@@ -33,6 +33,9 @@ module.exports = {
       height: {
         79: 315,
       },
+      width: {
+        79: 315,
+      },
       fontSize: {
         xxs: 10,
       },

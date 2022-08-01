@@ -34,7 +34,7 @@ const ScroolToTopButton = () => {
       {visible && (
         <button
           onClick={scrollToTop}
-          className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-200 rounded-full h-10 w-10 md:h-14 md:w-14 text-right right-6 bottom-6 md:bottom-12 bg-blue-500 hover:bg-blue-900"
+          className="animate-bounce transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-200 rounded-full h-10 w-10 md:h-14 md:w-14 text-right right-6 bottom-6 md:bottom-12 bg-blue-500 hover:bg-blue-900"
           style={{
             position: "fixed",
             zIndex: 1,

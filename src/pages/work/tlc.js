@@ -36,7 +36,7 @@ const TLC = ({ location }) => {
       l2: "Facilitate new business relationships",
       l3: "Create opportunities to increase share of wallet",
       l4: "Creates opportunities to shorten sales cycles",
-      h2: "The outcome",
+      // h2: "The outcome",
       p2: "All-in-all, our solution combined the latest innovative technology, rich content design, a robust content management systen and a carefully designed space that curated a story enabling Tata communications to give their visitors an unforgettable brand experience.",
       p3: "Total deployment time was 6 months right from concept building till end delivery",
     },

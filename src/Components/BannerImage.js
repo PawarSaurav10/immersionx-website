@@ -47,7 +47,7 @@ const BannerImage = () => {
                   <div className="flex flex-col lg:flex-row">
                     <div>We</div>
                     <div className="fadeIn">
-                      <span>are a</span>
+                      <span className="pl-3">are a</span>
                       <span></span>
                       <span></span>
                       <span></span>

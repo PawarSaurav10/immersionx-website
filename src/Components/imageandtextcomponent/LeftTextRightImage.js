@@ -8,7 +8,7 @@ const LeftTextRightImage = (props) => {
       <div className="container ">
         <div className="grid md:grid-cols-5">
           <div className=" flex justify-center md:col-span-2 bg-black text-white">
-            <div className="flex flex-col justify-center pl-12 pr-12 pb-12 pt-20 text-left">
+            <div className="flex flex-col justify-center p-12  text-left">
               {props?.data?.h1 && (
                 <div className="pt-7 text-xl text-orange-300 ">
                   {props?.data?.h1}
@@ -42,14 +42,12 @@ const LeftTextRightImage = (props) => {
                 )}
               </div>
 
-
-
               {props?.data?.h2 && (
                 <div className="pt-7 text-xl text-orange-300 ">
                   {props?.data?.h2}
                 </div>
               )}
-              
+
               {props?.data?.p4 && <p className="pt-5 ">{props?.data?.p4}</p>}
               {props?.data?.h3 && (
                 <div className="pt-7 text-xl text-orange-300 ">
@@ -72,23 +70,30 @@ const LeftTextRightImage = (props) => {
                 : "md:col-span-3"
             } `}
           >
-           {props?.data?.imageurl && <img
-              src={props?.data?.imageurl}
-              className={`${
-                props?.data?.imageurl2 ? "h-1/2" : "h-full"
-              } w-full`}
-              alt=""
-            />}
-             {props?.data?.videourl && 
-             <video
-              loop
-              autoPlay
-              width="750" height="500" controls
-              // className={`${
-              //   props?.data?.imageurl2 ? "h-1/2" : "h-full"
-              // } w-full`}
-              alt=""
-            ><source src={props?.data?.videourl} type="video/mp4"/></video>}
+            {props?.data?.imageurl && (
+              <img
+                src={props?.data?.imageurl}
+                className={`${
+                  props?.data?.imageurl2 ? "h-1/2" : "h-full"
+                } w-full`}
+                alt=""
+              />
+            )}
+            {props?.data?.videourl && (
+              <video
+                loop
+                autoPlay
+                width="750"
+                height="500"
+                controls
+                // className={`${
+                //   props?.data?.imageurl2 ? "h-1/2" : "h-full"
+                // } w-full`}
+                alt=""
+              >
+                <source src={props?.data?.videourl} type="video/mp4" />
+              </video>
+            )}
             {props?.data?.imageurl2 && (
               <img
                 src={props?.data?.imageurl2}

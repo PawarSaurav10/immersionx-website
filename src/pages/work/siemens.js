@@ -13,15 +13,14 @@ const Siemens = ({ location }) => {
     title: "SIEMENS",
     data1: {
       numberofcolspan: 2,
-      imageurl: SIEMENSimg2,
-      imageurl2: SIEMENSimg3,
+      // imageurl: SIEMENSimg2,
+      imageurl: SIEMENSimg3,
       h1: "The Brief",
       p1: "With digital transformation at the fore-front, Siemens chose two major domains Smart Infrastructure and Power & Gas to showcase their developments in Smart Infrastructure, we put together an impactful 3-sided display controlled by a touch screen. The sharp and engaging content created in-house depicted the products in surreal detail. The interaction was controlled by a 32-inch touch screen, allowing for seamless interaction with the content.",
       // p2: "At the power and gas booth, Xenium Digital showcased the efficiency of transformers and switch gears. A scale-to-ratio 3D model of a substation, that worked in unison with screens placed in an L-shape, all of which was controlled by a tablet with an engaging UI. The journey of the content commenced with the content highlighting traditional methods of power distribution, its evolution over some time and upgraded solutions with their benefits.",
       // p2: "",
     },
     data2: {
-      
       imageurl: SIEMENSimg4,
       // imageurl2: SIEMENSimg3,
       // h1: "Our Approach",

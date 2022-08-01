@@ -1,9 +1,10 @@
 import {
   faAngleUp,
+  faChevronCircleUp,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React, { useEffect, useState } from "react";
-
+import { FaArrowCircleUp } from "react-icons/fa";
 
 const ScroolToTopButton = () => {
   const [visible, setVisible] = useState(false);
@@ -11,10 +12,10 @@ const ScroolToTopButton = () => {
   useEffect(() => {
     window.onscroll = () => {
       if (window.pageYOffset > 299) {
-        console.log("first")
+        console.log(window.pageYOffset, "true");
         setVisible(true);
       } else {
-        console.log("second")
+        console.log(window.pageYOffset, "false");
         setVisible(false);
       }
     };

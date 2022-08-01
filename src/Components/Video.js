@@ -1,6 +1,6 @@
 import React from "react"
 const Video = ({ videoSrcURL, videoTitle, ...props }) => (
-    <div className="video" style={{ width: "800px", height: "400px" }}>
+    <div className="video lg:w-600 xl:w-800">
         <iframe
             src={videoSrcURL}
             title={videoTitle}

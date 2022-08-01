@@ -31,14 +31,14 @@ const OurServices = () => {
         <div className="flex flex-col lg:flex-row justify-between text-white pb-8 pt-5">
           <div>
             <Fade bottom >
-              <div className="uppercase font-bold text-2xl md:text-7xl pt-8 lg:pt-40 text-left text-white pb-4 lg:pb-8 px-3">
+              <div className="uppercase font-bold text-2xl md:text-5xl xl:text-7xl pt-8 lg:pt-40 text-left text-white pb-4 lg:pb-8 px-3">
                 Solutions
               </div>
             </Fade>
           </div>
           <div>
             <Fade right cascade>
-              <div className="text-white text-left lg:text-right max-w-2xl text-base md:text-lg pt-8 lg:pt-40 pb-4 lg:pb-8 px-3">
+              <div className="text-white text-left lg:text-right max-w-2xl text-base xl:text-lg pt-8 lg:pt-40 pb-4 lg:pb-8 px-3">
                 <div>
                   Our technology and design prowess enables us to come up with
                   cutting edge solutions which go through a series of

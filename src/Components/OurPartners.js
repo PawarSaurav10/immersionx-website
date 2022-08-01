@@ -23,19 +23,19 @@ const OurPartners = () => {
   ];
   return (
     <div className=" bg-our-partners bg-no-repeat bg-cover h-screen">
-      <div className="container pt-5 lg:pt-44">
+      <div className="container pt-5 lg:pt-44 pr-0">
         <div className="">
           <div className="flex justify-between text-white pt-8 lg:pt-0 pb-12 lg:pb-0">
             <Fade bottom>
-              <div className="uppercase font-bold text-2xl md:text-7xl text-left">
+              <div className="uppercase font-bold text-2xl md:text-5xl xl:text-7xl text-left">
                 Our Partners
               </div>
             </Fade>
 
           </div>
-          <div className="flex flex-col lg:flex-row justify-between pt-0 lg:pt-52 2xl:pt-64">
+          <div className="flex flex-col lg:flex-row justify-between pt-0 lg:pt-48 2xl:pt-64">
             <Fade left>
-              <div className="text-white text-left max-w-2xl flex items-center text-base lg:text-lg pb-6 lg:pb-0">
+              <div className="text-white text-left max-w-xl flex items-center text-base xl:text-lg pb-6 lg:pb-0">
                 <div>
                   An exhibition of our technologies, an album of our solutions, an
                   experience center is a theatricals act of characters in the form

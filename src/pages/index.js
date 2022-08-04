@@ -8,6 +8,7 @@ import Studio from "../Components/Studio";
 import StudioNew from "../Components/StudioNew";
 
 const IndexPage = ({location}) => {
+
   return (
     <>
       <Layout location={location?.pathname}>

@@ -42,7 +42,7 @@ const Header = (props) => {
     <>
       <div className={`${hideTopBar}   fixed z-50 w-full`}>
         <div className="container">
-          <div className="flex text-white justify-between font-bold">
+          <div className="flex text-white justify-between font-bold py-4">
             <div className=" self-center px-6">
               <Link to="/" className="flex space-x-2">
                 <img src={Logo} className="h-8 " alt="img" />
@@ -90,10 +90,10 @@ const Header = (props) => {
                   } flex-col nav-bar-container bg-black `}
                 >
                   <div className="container">
-                    <div className="flex text-white justify-between font-bold">
-                      <div className=" self-center px-6">
+                    <div className="flex text-white justify-between font-bold py-4">
+                      <div className="px-6">
                         <Link to="/" className="flex space-x-2">
-                          <img src={Logo} className="h-8" alt="img" />
+                          <img src={Logo} className="h-14 " alt="img" />
                         </Link>
                       </div>
                       <div className="py-2 flex">
@@ -289,7 +289,7 @@ const Header = (props) => {
     //               </div>
     //             </div>
     //             <div
-    //               className={`transition-width duration-300 ease-in-out ${
+    //               className={`transition-width transition-height duration-300 ease-in-out ${
     //                 navBar
     //                   ? `w-full h-4/5 opacity-100 bg-secondary-blue-400 nav-open`
     //                   : `w-0 h-0 opacity-0`

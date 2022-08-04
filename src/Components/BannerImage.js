@@ -28,6 +28,92 @@ const BannerImage = () => {
 
   // const imageData = data.desktop.childImageSharp.fluid;
   return (
+    <>
+      <div
+        id="slider"
+        className="inspiro-slider slider-fullscreen dots-creative bg-hero-pattern bg-no-repeat bg-cover"
+        //   data-height-xs="360"
+      >
+        <div className="slide kenburns flex flex-col">
+          <div className="container ">
+            <div className="flex flex-col justify-between  items-center lg:items-start relative z-30">
+              <Fade bottom>
+                <div className="pb-10">
+                  <div className="uppercase max-w-2xl text-3xl md:text-6xl  xl:text-8xl text-white text-center lg:text-left font-light  mx-auto lg:m-auto pb-0 md:pb-8 lg:pb-0">
+                    <div className="flex flex-col lg:flex-row">
+                      <div>We</div>
+                      <div className="fadeIn">
+                        <span className="pl-3">are a</span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                      </div>
+                    </div>
+                    <div className="pb-16 md:pb-24 lg:pb-32 xl:pb-44">
+                      <div className="verticalFlip">
+                        <span className="font-bold">Creative + Technology</span>
+                        <span className="font-bold">Innovate + Research</span>
+                        <span className="font-bold">Design + Collaborate</span>
+                        <span className="font-bold">Execute + Deliver</span>
+                        {/* <span>Adorable.</span> */}
+                      </div>
+                    </div>
+                    {/* <div> */}
+                    <div className="fadeIn">
+                      <span>Company</span>
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                    </div>
+                    {/* </div> */}
+                  </div>
+                </div>
+              </Fade>
+              <div>
+                <Fade right cascade>
+                  <div>
+                    <div className="text-white max-w-sm md:max-w-xl lg:max-w-md mx-auto text-left text-sm xl:text-base font-medium ">
+                      <div className=" ">
+                        Collaboration is the very essence of the greatest
+                        creative outputs.
+                      </div>
+                      <div>
+                        At ImmersionX, {""}
+                        <span className="font-extrabold text-white">
+                          Art meets Technology to drive Innovation.
+                        </span>
+                      </div>
+                      <div className="mt-4">
+                        Whether its VR Collabrations, Digital assets like the
+                        metaverse, motion captures, photogrammetry, Holographic
+                        Live Streams, experince centers, innovation hubs,
+                        museums, retail, and office environments - WE'VE GOT YOU
+                        COVERED!
+                      </div>
+                    </div>
+                  </div>
+                </Fade>
+              </div>
+            </div>
+            <div className="flex justify-center z-30 pb-3">
+              <Link to="#solutions">
+                <div className="icon-scroll"></div>
+                {/* <img src={mouse} className="w-auto h-auto" /> */}
+              </Link>
+            </div>
+          </div>
+          <video
+            // style={{width: 900, height:800}}
+            src={video1}
+            autoPlay
+            loop
+            muted
+            className="relative lg:absolute lg:right-[70px] xl:right-[170px] top-0 z-10 lg:w-700 h-500 xl:w-1250 xl:h-600 brightness-40 bottom-0 m-auto"
+          ></video>
+        </div>
+      </div>
+    </>
+
     // <BackgroundImage
     //   Tag="section"
     //   className={"inspiro-slider slider-fullscreen dots-creative bg-no-repeat bg-cover"}
@@ -36,115 +122,115 @@ const BannerImage = () => {
     // >
     //   <h2>gatsby-background-image</h2>
     // </BackgroundImage>
-    <>
-      <div className="relative">
-        <div class="relative flex flex-col justify-end h-screen overflow-hidden ">
-          {/* <div class=" p-5 text-2xl text-white bg-purple-300 bg-opacity-50 rounded-xl"> */}
-          <div className="container flex flex-col lg:flex-row justify-between  items-center lg:items-start relative z-30 pb-16">
-            <Fade bottom>
-              <div className="">
-                <div className="uppercase max-w-2xl text-3xl md:text-6xl  xl:text-8xl text-white text-center lg:text-left font-light  mx-auto lg:m-auto pb-0 md:pb-8 lg:pb-0">
-                  <div className="flex flex-col lg:flex-row">
-                    <div>We</div>
-                    <div className="fadeIn">
-                      <span className="pl-3">are a</span>
-                      <span></span>
-                      <span></span>
-                      <span></span>
-                    </div>
-                  </div>
-                  <div className="pb-16 md:pb-24 lg:pb-32 xl:pb-44">
-                    <div className="verticalFlip">
-                      <span className="font-bold">Creative + Technology</span>
-                      <span className="font-bold">Innovate +  Research</span>
-                      <span className="font-bold">Design + Collaborate</span>
-                      <span className="font-bold">Execute + Deliver</span>
-                      {/* <span>Adorable.</span> */}
-                    </div>
-                  </div>
-                  {/* <div> */}
-                    <div className="fadeIn">
-                      <span>Company</span>
-                      <span></span>
-                      <span></span>
-                      <span></span>
-                    </div>
-                  {/* </div> */}
-                </div>
-                {/* <div className="absolute">
-                  <div class="verticalFlip">
-                    <span className="uppercase text-3xl md:text-5xl lg:text-8xl text-blue-900 text-center lg:text-left font-light  mx-auto lg:mx-0 pb-0 md:pb-8 lg:pb-0">
-                      We are a
-                      <div className="font-bold">Creative + Technology</div>
-                      Company
-                    </span>
-                    <span className="uppercase text-3xl md:text-5xl lg:text-8xl text-blue-900 text-center lg:text-left font-light  mx-auto lg:mx-0 pb-0 md:pb-8 lg:pb-0">
-                      We
-                      <div className="font-bold">Innovate+ Research</div>
-                    </span>
-                    <span className="uppercase text-3xl md:text-5xl lg:text-8xl text-blue-900 text-center lg:text-left font-light  mx-auto lg:mx-0 pb-0 md:pb-8 lg:pb-0">
-                      We
-                      <div className="font-bold">Design + Collaborate</div>
-                    </span>
-                    <span className="uppercase text-3xl md:text-5xl lg:text-8xl text-blue-900 text-center lg:text-left font-light  mx-auto lg:mx-0 pb-0 md:pb-8 lg:pb-0">
-                      We
-                      <div className="font-bold">Execute+ Deliver</div>
-                    </span>
-                  </div>
-                </div> */}
-              </div>
-            </Fade>
-            <div>
-              <Fade right cascade>
-                <div>
-                  <div className="text-white max-w-sm md:max-w-xl lg:max-w-lg mx-auto text-left text-base font-medium " >
-                    {/* <div>
-                      ImmersionX is an experimental marketing agency that
-                      creates bespoke solutions for brands and our mantra is to
-                      'stay relevant'. We do that by breaking the glass ceiling
-                      with our collaborative solutions and experince driven
-                      technologies - virtual, live or compound.
-                    </div> */}
-                    <div className=" ">
-                      Collaboration is the very essence of the greatest creative
-                      outputs.
-                    </div>
-                    <div>
-                      At ImmersionX, {""}
-                      <span className="font-extrabold text-white">
-                        Art meets Technology to drive Innovation.
-                      </span>
-                    </div>
-                    <div className="mt-4">
-                      Whether its VR Collabrations, Digital assets like the
-                      metaverse, motion captures, photogrammetry, Holographic
-                      Live Streams, experince centers, innovation hubs, museums,
-                      retail, and office environments - WE'VE GOT YOU COVERED!
-                    </div>
-                  </div>
-                </div>
-              </Fade>
-            </div>
+    // <>
+    //   <div className="relative">
+    //     <div class="relative flex flex-col justify-end h-screen overflow-hidden ">
+    //       {/* <div class=" p-5 text-2xl text-white bg-purple-300 bg-opacity-50 rounded-xl"> */}
+    //       <div className="container flex flex-col lg:flex-row justify-between  items-center lg:items-start relative z-30 pb-16">
+    //         <Fade bottom>
+    //           <div className="">
+    //             <div className="uppercase max-w-2xl text-3xl md:text-6xl  xl:text-8xl text-white text-center lg:text-left font-light  mx-auto lg:m-auto pb-0 md:pb-8 lg:pb-0">
+    //               <div className="flex flex-col lg:flex-row">
+    //                 <div>We</div>
+    //                 <div className="fadeIn">
+    //                   <span className="pl-3">are a</span>
+    //                   <span></span>
+    //                   <span></span>
+    //                   <span></span>
+    //                 </div>
+    //               </div>
+    //               <div className="pb-16 md:pb-24 lg:pb-32 xl:pb-44">
+    //                 <div className="verticalFlip">
+    //                   <span className="font-bold">Creative + Technology</span>
+    //                   <span className="font-bold">Innovate +  Research</span>
+    //                   <span className="font-bold">Design + Collaborate</span>
+    //                   <span className="font-bold">Execute + Deliver</span>
+    //                   {/* <span>Adorable.</span> */}
+    //                 </div>
+    //               </div>
+    //               {/* <div> */}
+    //                 <div className="fadeIn">
+    //                   <span>Company</span>
+    //                   <span></span>
+    //                   <span></span>
+    //                   <span></span>
+    //                 </div>
+    //               {/* </div> */}
+    //             </div>
+    //             {/* <div className="absolute">
+    //               <div class="verticalFlip">
+    //                 <span className="uppercase text-3xl md:text-5xl lg:text-8xl text-blue-900 text-center lg:text-left font-light  mx-auto lg:mx-0 pb-0 md:pb-8 lg:pb-0">
+    //                   We are a
+    //                   <div className="font-bold">Creative + Technology</div>
+    //                   Company
+    //                 </span>
+    //                 <span className="uppercase text-3xl md:text-5xl lg:text-8xl text-blue-900 text-center lg:text-left font-light  mx-auto lg:mx-0 pb-0 md:pb-8 lg:pb-0">
+    //                   We
+    //                   <div className="font-bold">Innovate+ Research</div>
+    //                 </span>
+    //                 <span className="uppercase text-3xl md:text-5xl lg:text-8xl text-blue-900 text-center lg:text-left font-light  mx-auto lg:mx-0 pb-0 md:pb-8 lg:pb-0">
+    //                   We
+    //                   <div className="font-bold">Design + Collaborate</div>
+    //                 </span>
+    //                 <span className="uppercase text-3xl md:text-5xl lg:text-8xl text-blue-900 text-center lg:text-left font-light  mx-auto lg:mx-0 pb-0 md:pb-8 lg:pb-0">
+    //                   We
+    //                   <div className="font-bold">Execute+ Deliver</div>
+    //                 </span>
+    //               </div>
+    //             </div> */}
+    //           </div>
+    //         </Fade>
+    //         <div>
+    //           <Fade right cascade>
+    //             <div>
+    //               <div className="text-white max-w-sm md:max-w-xl lg:max-w-lg mx-auto text-left text-base font-medium " >
+    //                 {/* <div>
+    //                   ImmersionX is an experimental marketing agency that
+    //                   creates bespoke solutions for brands and our mantra is to
+    //                   'stay relevant'. We do that by breaking the glass ceiling
+    //                   with our collaborative solutions and experince driven
+    //                   technologies - virtual, live or compound.
+    //                 </div> */}
+    //                 <div className=" ">
+    //                   Collaboration is the very essence of the greatest creative
+    //                   outputs.
+    //                 </div>
+    //                 <div>
+    //                   At ImmersionX, {""}
+    //                   <span className="font-extrabold text-white">
+    //                     Art meets Technology to drive Innovation.
+    //                   </span>
+    //                 </div>
+    //                 <div className="mt-4">
+    //                   Whether its VR Collabrations, Digital assets like the
+    //                   metaverse, motion captures, photogrammetry, Holographic
+    //                   Live Streams, experince centers, innovation hubs, museums,
+    //                   retail, and office environments - WE'VE GOT YOU COVERED!
+    //                 </div>
+    //               </div>
+    //             </div>
+    //           </Fade>
+    //         </div>
 
-            {/* </div> */}
-          </div>
-          <div className="flex justify-center z-30 pb-3">
-            <Link to="#solutions">
-              <div className="icon-scroll"></div>
-              {/* <img src={mouse} className="w-auto h-auto" /> */}
-            </Link>
-          </div>
+    //         {/* </div> */}
+    //       </div>
+    //       <div className="flex justify-center z-30 pb-3">
+    //         <Link to="#solutions">
+    //           <div className="icon-scroll"></div>
+    //           {/* <img src={mouse} className="w-auto h-auto" /> */}
+    //         </Link>
+    //       </div>
 
-          <video
-            src={video1}
-            autoPlay
-            loop
-            muted
-            className="absolute z-10 w-auto min-w-full min-h-full max-w-none brightness-40 "
-          ></video>
-        </div>
-      </div>
-    </>
+    //       <video
+    //         src={video1}
+    //         autoPlay
+    //         loop
+    //         muted
+    //         className="absolute z-10 w-auto min-w-full min-h-full max-w-none brightness-40 "
+    //       ></video>
+    //     </div>
+    //   </div>
+    // </>
     // <div
     //   id="slider"
     //   className="inspiro-slider slider-fullscreen dots-creative bg-hero-pattern bg-no-repeat bg-cover"

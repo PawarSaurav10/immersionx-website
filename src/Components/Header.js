@@ -40,7 +40,7 @@ const Header = (props) => {
 
   return (
     <>
-      <div className={`${hideTopBar}   fixed z-50 w-full`}>
+      <div className={`${hideTopBar} fixed z-50 w-full`}>
         <div className="container">
           <div className="flex text-white justify-between font-bold py-4">
             <div className=" self-center px-6">
@@ -91,9 +91,9 @@ const Header = (props) => {
                 >
                   <div className="container">
                     <div className="flex text-white justify-between font-bold py-4">
-                      <div className="px-6">
+                      <div className="self-center px-6">
                         <Link to="/" className="flex space-x-2">
-                          <img src={Logo} className="h-14 " alt="img" />
+                          <img src={Logo} className="h-8 " alt="img" />
                         </Link>
                       </div>
                       <div className="py-2 flex">

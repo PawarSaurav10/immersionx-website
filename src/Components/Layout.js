@@ -3,6 +3,7 @@ import React, { useEffect } from "react";
 import Header from "./Header";
 import Loader from "../pages/loader";
 import ScroolToTopButton from "./ScroolToTopButton";
+import Footer from "./footer";
 
 const Layout = ({ children,location }) => {
   // console.log(location,"layoutlocation")
@@ -24,6 +25,7 @@ const Layout = ({ children,location }) => {
         </div>
         <Header data={location}/>
         {children}
+        <Footer/>
         {/* <ScroolToTopButton/> */}
       </div>
     </>

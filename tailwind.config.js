@@ -5,8 +5,8 @@ module.exports = {
     extend: {
       backgroundImage: {
         // "hero-pattern": "url('../images/ImmersionxShowreel_v02.mp4')",
-        "our-service": "url('../images/02_OURSERVICES/Ourservicesbg@2x.png')",
-        "our-process": "url('../images/03_OURPROCESS/ourprocessBG@2x.png')",
+        "our-service": "url('../images/02_OURSERVICES/Ourservicesbg@2x.jpg')",
+        "our-process": "url('../images/03_OURPROCESS/ourprocessBG@2x.jpg')",
         "our-studio": "url('../images/04_STUDIO/Studiobg@2x.png')",
         "our-partners": "url('../images/05_OURPARTNERS/OURPARTNERSBG@2x.png')",
         "our-work": "url('../images/06_OURWORK/OURWORKBG@2x.png')",

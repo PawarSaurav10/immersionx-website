@@ -574,9 +574,9 @@
   }
 }
 
-@media (max-width: 991.98px) {
+@media (min-width: 426px) and (max-width: 991px) {
   .verticalFlip span {
-    top: 84px;
+    top: 95px;
     left: -38px;
     width: auto;
   }
@@ -584,24 +584,24 @@
     max-width: 1400px;
   }
   .verticalFlip span:nth-child(2) {
-    top: 40px;
+    top: 55px;
     left: -36px;
-    width: 300px;
+    width: 335px;
   }
   .verticalFlip span:nth-child(3) {
-    top: 40px;
+    top: 55px;
     left: -36px;
     width: auto;
   }
   .verticalFlip span:nth-child(4) {
-    top: 40px;
+    top: 55px;
     left: -36px;
     width: 300px;
   }
 }
-@media (max-width: 1024px) {
+@media (min-width: 992px) and (max-width: 1279px) {
   .verticalFlip span {
-    top: 56px;
+    top: 50px;
     left: 0px;
     width: auto;
   }
@@ -609,19 +609,44 @@
     max-width: 1400px;
   }
   .verticalFlip span:nth-child(2) {
-    top:56px;
+    top:50px;
     left: 0px;
-    width: 325px;
+    width: 580px;
   }
   .verticalFlip span:nth-child(3) {
-    top:56px;
+    top:50px;
     left: 0px;
     width: auto;
   }
   .verticalFlip span:nth-child(4) {
-    top:56px;
+    top:50px;
     left: 0px;
-    width: 300px;
+    width: 460px;
+  }
+}
+@media (min-width: 1280px) {
+  .verticalFlip span {
+    top: 80px;
+    left: 0px;
+    width: auto;
+  }
+  .verticalFlip {
+    max-width: 1400px;
+  }
+  .verticalFlip span:nth-child(2) {
+    top:65px;
+    left: 0px;
+    width: 580px;
+  }
+  .verticalFlip span:nth-child(3) {
+    top:65px;
+    left: 0px;
+    width: auto;
+  }
+  .verticalFlip span:nth-child(4) {
+    top:65px;
+    left: 0px;
+    width: 460px;
   }
 }
 

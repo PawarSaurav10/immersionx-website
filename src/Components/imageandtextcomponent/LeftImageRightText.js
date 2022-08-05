@@ -1,3 +1,4 @@
+import { BsDot } from "@react-icons/all-files/bs/BsDot";
 import React from "react";
 // import COLLABORATIVEVRim1 from "../..images/06_OURWORK/pages//COLLABORATIVEVRim1.png";
 
@@ -71,26 +72,52 @@ const LeftImageRightText = (props) => {
                 {props?.data?.p4 && (
                   <div className="pt-5">{props?.data?.p4}</div>
                 )}
+                <div className="list-disc">
+                  {props?.data?.l1 && (
+                    <div className="flex">
+                      <BsDot />
+                      {props?.data?.l1}
+                    </div>
+                  )}
+                  {props?.data?.l2 && (
+                    <div className="flex">
+                      <BsDot /> {props?.data?.l2}
+                    </div>
+                  )}
+                  {props?.data?.l3 && (
+                    <div className="flex">
+                      <BsDot /> {props?.data?.l3}
+                    </div>
+                  )}
+                  {props?.data?.l4 && (
+                    <div className="flex">
+                      <BsDot /> {props?.data?.l4}
+                    </div>
+                  )}
+                </div>
               </div>
+
               {props?.data?.h2 && (
                 <div className="pt-7 text-xl text-orange-300 ">
                   {props?.data?.h2}
                 </div>
               )}
 
-              {props?.data?.p4 && <p className="pt-5 ">{props?.data?.p4}</p>}
+              {props?.data?.p5 && <p className="pt-5 ">{props?.data?.p5}</p>}
               {props?.data?.h3 && (
                 <div className="pt-7 text-xl text-orange-300 ">
                   {props?.data?.h3}
                 </div>
               )}
-              {props?.data?.p5 && <p className="pt-5 ">{props?.data?.p5}</p>}
+              {props?.data?.p6 && <p className="pt-5 ">{props?.data?.p6}</p>}
               {props?.data?.h4 && (
                 <div className="pt-7 text-xl text-orange-300 ">
                   {props?.data?.h4}
                 </div>
               )}
-              {props?.data?.p6 && <p className="pt-5 ">{props?.data?.p6}</p>}
+              {props?.data?.p7 && <p className="pt-5 ">{props?.data?.p7}</p>}
+              {/* {props?.data?.p7 && <p className="pt-5 ">{props?.data?.p7}</p>} */}
+              {props?.data?.p8 && <p className="pt-5 ">{props?.data?.p8}</p>}
             </div>
           </div>
         </div>
@@ -112,26 +139,52 @@ const LeftImageRightText = (props) => {
               {props?.data?.p2 && <div className="pt-5">{props?.data?.p2}</div>}
               {props?.data?.p3 && <div className="pt-5">{props?.data?.p3}</div>}
               {props?.data?.p4 && <div className="pt-5">{props?.data?.p4}</div>}
+              <div className="list-disc">
+                {props?.data?.l1 && (
+                  <div className="flex">
+                    <BsDot />
+                    {props?.data?.l1}
+                  </div>
+                )}
+                {props?.data?.l2 && (
+                  <div className="flex">
+                    <BsDot /> {props?.data?.l2}
+                  </div>
+                )}
+                {props?.data?.l3 && (
+                  <div className="flex">
+                    <BsDot /> {props?.data?.l3}
+                  </div>
+                )}
+                {props?.data?.l4 && (
+                  <div className="flex">
+                    <BsDot /> {props?.data?.l4}
+                  </div>
+                )}
+              </div>
             </div>
+
             {props?.data?.h2 && (
               <div className="pt-7 text-xl text-orange-300 ">
                 {props?.data?.h2}
               </div>
             )}
 
-            {props?.data?.p4 && <p className="pt-5 ">{props?.data?.p4}</p>}
+            {props?.data?.p5 && <p className="pt-5 ">{props?.data?.p5}</p>}
             {props?.data?.h3 && (
               <div className="pt-7 text-xl text-orange-300 ">
                 {props?.data?.h3}
               </div>
             )}
-            {props?.data?.p5 && <p className="pt-5 ">{props?.data?.p5}</p>}
+            {props?.data?.p6 && <p className="pt-5 ">{props?.data?.p6}</p>}
             {props?.data?.h4 && (
               <div className="pt-7 text-xl text-orange-300 ">
                 {props?.data?.h4}
               </div>
             )}
-            {props?.data?.p6 && <p className="pt-5 ">{props?.data?.p6}</p>}
+            {props?.data?.p7 && <p className="pt-5 ">{props?.data?.p7}</p>}
+            {/* {props?.data?.p7 && <p className="pt-5 ">{props?.data?.p7}</p>} */}
+            {props?.data?.p8 && <p className="pt-5 ">{props?.data?.p8}</p>}
           </div>
           <div
             className={`${

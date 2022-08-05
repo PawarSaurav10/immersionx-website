@@ -17,7 +17,7 @@ const StudioNew = () => {
                 </div>
               </Fade>
             </div>
-            <div className="flex-1 flex justify-center items-center">
+            <div className="flex-1 flex lg:justify-center lg:items-center">
               <Fade right cascade>
                 <div className="text-white text-left max-w-2xl text-base md:text-lg px-3">
                   <div>
@@ -31,10 +31,10 @@ const StudioNew = () => {
               </Fade>
             </div>
           </div>
-          <div className="flex flex-col justify-center">
+          <div className="flex flex-col ">
             <div className="">
               <Fade bottom>
-                <div className="flex justify-center">
+                <div className="flex">
                   <Video
                     videoSrcURL="https://www.youtube.com/embed/lMhr86ZaiR0"
                     videoTitle="Official Music Video on YouTube"

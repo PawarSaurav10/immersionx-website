@@ -13,20 +13,25 @@ const TLC = ({ location }) => {
     title: "Tata Communications Experience Centre",
     data1: {
       imageurl: TATAimg1,
-      h1: "The Brief",
-      p1: "Designed and built a customer experience centre for Tata Communication at their BKC office in Mumbai. The intent of setting up this centre was to enable, showcase and demonstrate their capabilities across various industry vertical that they operated in.",
-      p2: "Keeping this objective, we curated and deployed a centre that changed the way they use to converse with their customers. Keeping this objective, we curated and deployed a centre that changed the way they use to converse with their customers. ",
+      h1: "Interactive Experience Centre with integration of the Digital Toolkit",
+      p1: "Designed and built a customer experience centre for Tata Communication at their BKC office in Mumbai. The intent of setting up this centre was to enable, showcase and demonstrate their capabilities across various industry vertical .",
     },
 
     data2: {
       numberofcolspan: 2,
       imageurl: TATAimg2,
       imageurl2: TATAimg3,
-      h1: "Our Approach",
-      p1: "Tata Communications is a digital ecosystem enabler that powers today's fast-growing digital economy. They are one of the biggest operating giant's in the telecom domain. With their vast pool of operations across the globe, they host a humangeous set of data on their central server.With all that data that the brand wanted to showcase, we had to work around a more refined approach. We don't take a traditional approach to solving complex problems, or delivering client outcomes. We know that our clients want premium, bespoke and innovative technologies that drives their brand experiences. This is why we create solutions, with immersive experiences that re-frame the possible.",
-      p2: "Our modern solution orientated approach, proven managed capabilities in designing such centres and proposed cutting-edge technologies and in-frastructure enabled us to stitch their entire journey and mend a story around it.",
-      p3: "We used the latest cutting edge technologies like sliding displays, marker recognition panels, multi-touch interfaces, projection mapping and collaborative tools for conducting meetings and virtual conferences. Further, our carefully curated and designed content enabled them to change the way they use to converse with their end customers. We gave them a CMS, the heart to their content management within the centre.",
-      p4: "All the content  was hosted on the cloud with a strong CMS that would allow them to change content depending upon the kind of customer that visits the centre. Different customer profiles could be created depending on the industry the customer was visiting from. Our designed approach enabled them to make every interaction count with simplified and secure experiences further allowing them to create immersive customer journey's through the power of videos and virtual collaborations",
+      // h1: "Our Approach",
+      p1: "Keeping this objective, we curated and deployed a centre that changed the way they use to converse with their customers. Keeping this objective, we curated and deployed a centre that changed the way they use to converse with their customers. ",
+      p2: "Our proposition included setting up their experience centre for both virtual as well as physical platforms.",
+      p3: "Creating this centre enabled Tata Communications to;",
+      l1: "Strengthens existing relationships with their clients",
+      l2: "Facilitate new business relationships",
+      l3: "Create opportunities to increase share of wallet",
+      l4: "Creates opportunities to shorten sales cycles",
+      p4: "Our solution orientated approach, proven managed capabilities in designing such centres and proposed cutting-edge technologies and in-frastructure enabled us to stitch their entire journey and mend a story around it.",
+      p5: "With our approach Tata Communications was able to showcase their solutions with the next level of intelligence which included cloud, mobility, Internet of Things (loT), collaboration, security and network services.",
+      p6: "All the content  was hosted on the cloud with a strong CMS that would allow them to change content depending upon the kind of customer that visits the centre.",
     },
     // data3: {
     //   imageurl: TATAimg4,
@@ -49,8 +54,8 @@ const TLC = ({ location }) => {
           <div className="container">
             <div className="pt-0 md:pt-48 xl:pt-96">
               <div className="text-2xl md:text-5xl font-bold text-white pt-28 pb-4 md:pb-8 text-left ml-8 md:ml-16 uppercase">
-              Tata Communications
-              <div>Experience Centre</div>
+                Tata Communications
+                <div>Experience Centre</div>
               </div>
             </div>
           </div>

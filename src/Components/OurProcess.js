@@ -12,7 +12,7 @@ const OurProcess = () => {
   return (
     <div className="bg-fixed bg-our-process bg-no-repeat bg-cover lg:h-screen">
       <div className="container">
-        <div className="flex justify-center flex-col">
+        <div className="flex justify-center flex-col pb-8 pt-5 px-3">
           <div className="">
             <Fade bottom>
               <div className="uppercase font-bold text-2xl md:text-5xl xl:text-7xl pt-5 lg:pt-40 text-left text-white pb-4">

@@ -6,7 +6,7 @@ import { faPhone, faPhoneSquare } from "@fortawesome/free-solid-svg-icons";
 const ContactUs = () => {
   return (
     <>
-      <div id="slider" className=" bg-contact-us bg-no-repeat bg-cover -z-10">
+      <div id="slider" className=" bg-contact-us bg-no-repeat bg-cover h-screen">
         <div className="uppercase text-2xl md:text-5xl font-bold text-white pb-32 pl-28 lg:pb-60 pt-36">
           Contact Us
           <div className="text-white font-bold text-base mt-2">
@@ -15,6 +15,12 @@ const ContactUs = () => {
             </span>
             (+91) 022 67418601
           </div>
+          <div className="text-white font-bold text-base mt-2">
+            <span className="mr-2">
+              <FontAwesomeIcon icon={faEnvelope} />
+            </span>
+            immersionx.io
+          </div>
         </div>
         {/* <div className="container">
           <div className="uppercase text-2xl md:text-5xl font-bold text-white text-center pb-32 pt-32 lg:pt-64">
@@ -22,7 +28,7 @@ const ContactUs = () => {
           </div>
         </div> */}
       </div>
-      <div className="pb-20 z-50">
+      {/* <div className="pb-20 z-50">
         <div className="container">
           <div className="px-0 lg:px-28">
             <div className="flex flex-col lg:flex-row justify-between">
@@ -72,7 +78,7 @@ const ContactUs = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </>
   );
 };

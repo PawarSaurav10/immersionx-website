@@ -2,10 +2,11 @@ import React from "react";
 import LeftImageRightText from "../../Components/imageandtextcomponent/LeftImageRightText";
 import LeftTextRightImage from "../../Components/imageandtextcomponent/LeftTextRightImage";
 import Layout from "../../Components/Layout";
-import Audiimg1 from "../../images/09_pages/AUDI/im_1@2x.png";
-import Audiimg2 from "../../images/09_pages/AUDI/im_2@2x.png";
-import Audiimg3 from "../../images/09_pages/AUDI/im_3@2x.png";
-import Audiimg4 from "../../images/09_pages/AUDI/im_4@2x.png";
+// import Audiimg1 from "../../images/09_pages/AUDI/im_1@2x.png";
+import Audiimg1 from "../../images/09_pages/AUDI/im_1.jpg";
+import Audiimg2 from "../../images/09_pages/AUDI/im_2@2x.jpg";
+// import Audiimg3 from "../../images/09_pages/AUDI/im_3@2x.png";
+// import Audiimg4 from "../../images/09_pages/AUDI/im_4@2x.png";
 
 const Audi = ({ location }) => {
   const AudiData = {

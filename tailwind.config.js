@@ -8,11 +8,14 @@ module.exports = {
         "our-service": "url('../images/02_OURSERVICES/Ourservicesbg@2x.jpg')",
         "our-process": "url('../images/03_OURPROCESS/ourprocessBG@2x.jpg')",
         "our-studio": "url('../images/04_STUDIO/Studiobg@2x.png')",
-        "our-partners": "url('../images/05_OURPARTNERS/OURPARTNERSBG@2x.png')",
-        // "our-partners": "url('../images/05_OURPARTNERS/PARTNERSBG.png')",
-        "our-work": "url('../images/06_OURWORK/OURWORKBG@2x.png')",
+        // "our-partners": "url('../images/05_OURPARTNERS/OURPARTNERSBG@2x.png')",
+        "our-partners": "url('../images/05_OURPARTNERS/PARTNERSBG.png')",
+        // "our-partners": "url('../images/05_OURPARTNERS/PARTNERSBGmin.png')",
+        "our-work": "url('../images/WORK/WORKBG.png')",
         "our-industry":
           "url('../images/07_OURINDUSTRIES/OURINDUSTRIESBG@2x.png')",
+          "footer":
+          "url('../images/Copyright/Rectangle657.png')",
         "our-industry-1":
           "url('../images/07_OURINDUSTRIES/OURINDUSTRIESimageBG@2x.png')",
         "contact-us": "url('../images/08_CONTACTUS/CONTACTUSimageBG2x1.png')",
@@ -22,7 +25,8 @@ module.exports = {
           "url('../images/09_pages/VOLUSTUDIO/coverimagevolumetric.png')",
         TataCommunicationsBG:
           "url('../images/06_OURWORK/pages/TataCommunicationsExperienceCentre/TataCommunicationsBG@2x.png')",
-        AUDIBG: "url('../images/09_pages/AUDI/AUDIBG@2x.png')",
+        // AUDIBG: "url('../images/09_pages/AUDI/AUDIBG@2x.png')",
+        AUDIBG: "url('../images/09_pages/AUDI/AUDIBG.jpg')",
         CAPSULEBG: "url('../images/09_pages/CAPSULE/CAPSULEBG@2x.png')",
         WNSBG: "url('../images/09_pages/WNS/wnsexperiencecentre@2x.png')",
         GROHEBG: "url('../images/09_pages/GROHE/GROHEBG@2x.png')",

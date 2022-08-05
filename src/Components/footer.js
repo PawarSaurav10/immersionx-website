@@ -14,9 +14,9 @@ const Footer = () => {
     { image: yt },
   ];
   return (
-    <div className="bg-white">
+    <div className="bg-footer bg-no-repeat bg-cover">
       <div className="container">
-        <div className="flex">
+        <div className="flex flex-col lg:flex-row">
           <div className="p-8 flex-1 flex justify-center text-black text-base">
             Copyright © 2022 ImmersionX
           </div>

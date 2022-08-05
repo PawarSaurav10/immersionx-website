@@ -4,8 +4,8 @@ import LeftImageRightText from "../../Components/imageandtextcomponent/LeftImage
 import LeftTextRightImage from "../../Components/imageandtextcomponent/LeftTextRightImage";
 import SIEMENSimg1 from "../../images/09_pages/SIEMENS/im_1@2x.png";
 import SIEMENSimg2 from "../../images/09_pages/SIEMENS/im_2@2x.png";
-import SIEMENSimg3 from "../../images/09_pages/SIEMENS/im_3@2x.png";
-import SIEMENSimg4 from "../../images/09_pages/SIEMENS/im_4@2x.png";
+import SIEMENSimg3 from "../../images/09_pages/SIEMENS/im_1.jpg";
+import SIEMENSimg4 from "../../images/09_pages/SIEMENS/im_2.jpg";
 
 const Siemens = ({ location }) => {
   const SiemensData = {

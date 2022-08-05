@@ -2,12 +2,12 @@ import React from "react";
 import LeftImageRightText from "../../Components/imageandtextcomponent/LeftImageRightText";
 import LeftTextRightImage from "../../Components/imageandtextcomponent/LeftTextRightImage";
 import Layout from "../../Components/Layout";
-import COLLABORATIVEVRim1 from "../../images/02_OURSERVICES/pages/COLLABORATIVEVR/COLLABORATIVEVRim_1@2x.png";
-import COLLABORATIVEVRim2 from "../../images/02_OURSERVICES/pages/COLLABORATIVEVR/COLLABORATIVEVRim_2@2x.png";
+import COLLABORATIVEVRim1 from "../../images/02_OURSERVICES/pages/COLLABORATIVEVR/MULTITACTIONim_1.jpg";
+import COLLABORATIVEVRim2 from "../../images/02_OURSERVICES/pages/COLLABORATIVEVR/MULTITACTIONim_2.jpg";
 
 const Multitaction = ({ location }) => {
   const MultitactionData = {
-    bg: "bg-COLLABORATIVEVRBG",
+    bg: "bg-MULTITACTION",
     title: "Multitaction",
     data1: {
       numberofcolspan: 3,

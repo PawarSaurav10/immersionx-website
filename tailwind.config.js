@@ -22,18 +22,19 @@ module.exports = {
         COLLABORATIVEVRBG:
           "url('../images/02_OURSERVICES/pages/COLLABORATIVEVR/COLLABORATIVEVRBG@2x.png')",
         volumetric:
-          "url('../images/09_pages/VOLUSTUDIO/coverimagevolumetric.png')",
+          "url('../images/09_pages/VOLUSTUDIO/VOLUMETRICSTUDIOBG.jpg')",
         TataCommunicationsBG:
-          "url('../images/06_OURWORK/pages/TataCommunicationsExperienceCentre/TataCommunicationsBG@2x.png')",
+          "url('../images/06_OURWORK/pages/TataCommunicationsExperienceCentre/TataCommunicationsBG.jpg')",
         // AUDIBG: "url('../images/09_pages/AUDI/AUDIBG@2x.png')",
         AUDIBG: "url('../images/09_pages/AUDI/AUDIBG.jpg')",
         CAPSULEBG: "url('../images/09_pages/CAPSULE/CAPSULEBG@2x.png')",
-        WNSBG: "url('../images/09_pages/WNS/wnsexperiencecentre@2x.png')",
+        WNSBG: "url('../images/09_pages/WNS/wnsexperiencecentreBG.jpg')",
         GROHEBG: "url('../images/09_pages/GROHE/GROHEBG@2x.png')",
-        KANAKIABG: "url('../images/09_pages/KANAKIA/KANAKIABG@2x.png')",
-        LEGRANDBG: "url('../images/09_pages/LEGRAND/LEGRANDBG@2x.png')",
-        SIEMENSBG: "url('../images/09_pages/SIEMENS/SIEMENSBG@2x.png')",
-        VRCAVEBG: "url('../images/09_pages/VRCAVE/VRCAVEBG@2x.png')",
+        KANAKIABG: "url('../images/09_pages/KANAKIA/KANAKIABG@2x.jpg')",
+        LEGRANDBG: "url('../images/09_pages/LEGRAND/LEGRANDBG@2x.jpg')",
+        SIEMENSBG: "url('../images/09_pages/SIEMENS/SIEMENSBG@2x.jpg')",
+        VRCAVEBG: "url('../images/09_pages/VRCAVE/VIRTUALREALITYCAVEBG.jpg')",
+        MULTITACTION: "url('../images/02_OURSERVICES/pages/COLLABORATIVEVR/MULTITACTIONBG.jpg')"
       },
       height: {
         79: 315,

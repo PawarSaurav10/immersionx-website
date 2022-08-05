@@ -14,9 +14,9 @@ const Audi = ({ location }) => {
     title: "AUDI",
     data1: {
       imageurl: Audiimg1,
-      h1: "The Brief",
-      p1: "It was the Unconference event, at Jaigarh Fort which is located at Jaipur, Rajasthan, where Audi team wanted to create something innovative that could enable the car lovers to witness the true potential of the newly launched Audi R8 V10 Plus.",
-      p2: "MultiTaction is a Multi-Touch and Multi-User platform based on Computer Vision technology. It has unique features like QR Marker Code recognition and enabled with IR Pen. Leveraging on the same Xenium’s creative team defined interactions for the users to explore the features of Audi R8 V10 ",
+      h1: "A multitouch display with marker recognition (MultiTaction) capabilities designed for Audi",
+      p1: "It was the Unconference event, at Jaigarh Fort which is located at Jaipur, Rajasthan, where Audi team wanted to create something innovative that could enable the car lovers to witness the true potential of the newly launched Audi R8 V10 Plus. The event being organized by YPO (Young Presidents Organization) and sponsored by AUDI, it was obvious the audience would be young and vibrant. Keeping in view of the same Xenium Digital conceptualized an experience involving state-of-the-art MultiTaction Technology.",
+      // p2: "MultiTaction is a Multi-Touch and Multi-User platform based on Computer Vision technology. It has unique features like QR Marker Code recognition and enabled with IR Pen. Leveraging on the same Xenium’s creative team defined interactions for the users to explore the features of Audi R8 V10 ",
     },
 
     data2: {
@@ -24,7 +24,7 @@ const Audi = ({ location }) => {
       imageurl: Audiimg2,
       // imageurl2: Audiimg3,
       // h1: "Our Approach",
-      p1: "At the stall the user had to just place the specific code on the table to learn about the feature or specification of the car. All of the features of the car were showcased with nicely designed visuals and 3D graphics. It was an almost overwhelming experience for each one among the users, since it was a never seen before.",
+      p1: "MultiTaction is a Multi-Touch and Multi-User platform based on Computer Vision technology. It has unique features like QR Marker Code recognition and enabled with IR Pen. Leveraging on the same Xenium’s creative team defined interactions for the users to explore the features of Audi R8 V10 plus car. Initially Xenium’s team delved into the list of specifications and features of the car and later mapped each of these against a QR Code. At the stal the user had to just place the specific code on the table to learn about the feature or specification of the car. All of the features of the car were showcased with nicely designed visuals and 3D graphics. It was an almost overwhelming experience for each one among the users, since it was a never seen before stuff.",
       // p1: " plus car. Initially Xenium’s team delved into the list of specifications and features of the car and later mapped each of these against a QR Code.",
       // p2: "At the stall the user had to just place the specific code on the table to learn about the feature or specification of the car. All of the features of the car were showcased with nicely designed visuals and 3D graphics. It was an almost overwhelming experience for each one among the users, since it was a never seen before stuff. The ultimate goal for Audi was thus met.",
       // p3: "We used the latest cutting edge technologies like sliding displays, marker recognition panels, multi-touch interfaces, projection mapping and collaborative tools for conducting meetings and virtual conferences. Further, our carefully curated and designed content enabled them to change the way they use to converse with their end customers. We gave them a CMS, the heart to their content management within the centre.",

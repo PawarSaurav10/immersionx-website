@@ -2,24 +2,28 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 import { faPhone, faPhoneSquare } from "@fortawesome/free-solid-svg-icons";
+import img1 from "../images/08_CONTACTUS/Layer.png";
+import img2 from "../images/08_CONTACTUS/Layer1.png";
 
 const ContactUs = () => {
   return (
     <>
-      <div id="slider" className=" bg-contact-us bg-no-repeat bg-cover h-screen">
-        <div className="uppercase text-2xl md:text-5xl font-bold text-white pb-32 pl-28 lg:pb-60 pt-36">
-          Contact Us
-          <div className="text-white font-bold text-base mt-2">
+      <div id="slider" className=" bg-contact-us bg-no-repeat bg-cover">
+        <div className="uppercase text-2xl md:text-5xl text-white pb-32 pl-10 md:pl-28 lg:pb-60 pt-36">
+         <div className=" font-bold"> Contact Us</div>
+          <div className="text-white text-base mt-10">
             <span className="mr-2">
               <FontAwesomeIcon icon={faPhone} />
             </span>
             (+91) 022 67418601
+            <div className="mt-2 ml-6"> (+91) 022 67418601</div>
           </div>
-          <div className="text-white font-bold text-base mt-2">
+          {/* <div> (+91) 022 67418601</div> */}
+          <div className="text-white text-base lowercase mt-2">
             <span className="mr-2">
               <FontAwesomeIcon icon={faEnvelope} />
             </span>
-            immersionx.io
+            www.immersionx.io
           </div>
         </div>
         {/* <div className="container">
@@ -28,6 +32,28 @@ const ContactUs = () => {
           </div>
         </div> */}
       </div>
+      <div className="flex flex-col lg:flex-row bg-black">
+        <div className="flex-1 m-6">
+          <img src={img1} alt="" />
+          <div className=" text-center m-6 text-white ">
+            Office-401, Hubtown Viva, Western Express Hwy, Saraswati Baug,
+            Shankarwadi, Jogeshwari East, Mumbai, Maharashtra 400060
+          </div>
+        </div>
+        <div className="flex-1 m-6">
+          <img src={img2} alt="" />
+          <div className=" text-center m-6 text-white ">
+            Studio-303-305, Ecoster, Near Udipi Vihar Restaurant Off Aarey Road,
+            Vishveshwar Nagar Rd, Churi Wadi, Goregaon, Mumbai, Maharashtra
+            400063
+          </div>
+        </div>
+        {/* <img src={img1} alt=""/> */}
+      </div>
+      {/* <div className="flex flex-row">
+        <img src={img1} alt=""/>
+        <img src={img2} alt=""/>
+      </div> */}
       {/* <div className="pb-20 z-50">
         <div className="container">
           <div className="px-0 lg:px-28">

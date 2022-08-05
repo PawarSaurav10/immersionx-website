@@ -4,22 +4,22 @@ import LeftImageRightText from "../../Components/imageandtextcomponent/LeftImage
 import LeftTextRightImage from "../../Components/imageandtextcomponent/LeftTextRightImage";
 import KANAKIAimg1 from "../../images/09_pages/KANAKIA/im_1@2x.png";
 import KANAKIAimg2 from "../../images/09_pages/KANAKIA/im_2@2x.png";
-import KANAKIAimg3 from "../../images/09_pages/KANAKIA/im_3@2x.png";
-import KANAKIAimg4 from "../../images/09_pages/KANAKIA/im_4@2x.png";
+import KANAKIAimg3 from "../../images/09_pages/KANAKIA/im_2.jpg";
+import KANAKIAimg4 from "../../images/09_pages/KANAKIA/im_1.jpg";
 
 const Kanakia = ({ location }) => {
   const KanakiaData = {
     bg: "bg-KANAKIABG",
     title: "Kanakia",
     data1: {
-      imageurl: KANAKIAimg1,
+      imageurl: KANAKIAimg4,
       h1: "The Brief",
       p1: "A zone of immersion, interaction and fun-play for kids and adults. Our main idea was to create a virtual world for the kids, one where they can observe, play and learn. The entire experience was a culmination of art, technology and content. The Aquarium would bring a sketch to life and showcase it within the wall projection that would replicate the ocean.",
       p2: "The user would be given an outline to sketch, once the user has personalized the outline of the sea creature as per their liking, they would have to scan it and within seconds would witness the sea creature come to life.",
     },
     data2: {
       numberofcolspan: 2,
-      imageurl: KANAKIAimg2,
+      imageurl: KANAKIAimg3,
       // imageurl2: KANAKIAimg3,
       // h1: "Our Approach",
       p1: "The users could then interact with their creation, touch it and other elements on the projection to stay immersed, be mesmerized. With meticulous attention to detail, the team transferred the entire setup with decimal level accuracy from workshop to site in 4 days. With all the pointers on the checklist tick-marked, it is safe to safe that WE delivered as promised.",

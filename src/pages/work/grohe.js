@@ -14,6 +14,7 @@ const Grohe = ({ location }) => {
       h1: "The Brief",
       p1: "Grohe understood that shower systems could not be experienced first-hand by their customers. A problem they had identified quite some time back but could not come up with a solution for it.",
       p2: "We created a VR CAVE SIMULATION coupled with 3d glasses and a 4-sided projection simulation replicating an actual bathroom. The concept was simple, choose the shower system you wish to experience with the handheld joysticks and the projection will showcase the pattern in which the shower system would dispense the water. ",
+      p3:"The user could control the pattern in the way that the water would bedispensed with the help of a remote control. This eliminates all the drawbacks associated with taking an actual shower."
     },
     data2: {
       numberofcolspan: 2,
@@ -51,9 +52,10 @@ const Grohe = ({ location }) => {
             </div>
           </div>
         </div>
-        {GroheData?.data1 && <LeftTextRightImage data={GroheData?.data1} />}
-        {GroheData?.data2 && <LeftImageRightText data={GroheData?.data2} />}
-        {GroheData?.data3 && <LeftTextRightImage data={GroheData?.data3} />}
+        {/* {GroheData?.data1 && <LeftTextRightImage data={GroheData?.data1} />} */}
+        {GroheData?.data1 && <LeftImageRightText data={GroheData?.data1} />}
+        {/* {GroheData?.data3 && <LeftTextRightImage data={GroheData?.data3} />} */}
+        <img src={Groheimg2}  alt =""/>
       </div>
     </Layout>
   );

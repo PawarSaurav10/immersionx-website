@@ -2,8 +2,8 @@ import React from "react";
 import Layout from "../../Components/Layout";
 import LeftImageRightText from "../../Components/imageandtextcomponent/LeftImageRightText";
 import LeftTextRightImage from "../../Components/imageandtextcomponent/LeftTextRightImage";
-import WNSimg1 from "../../images/09_pages/WNS/im_1@2x.png";
-import WNSimg2 from "../../images/09_pages/WNS/im_2@2x.png";
+import WNSimg1 from "../../images/09_pages/WNS/im_1.jpg";
+import WNSimg2 from "../../images/09_pages/WNS/im_2.jpg";
 import WNSimg3 from "../../images/09_pages/WNS/im_3@2x.png";
 import WNSimg4 from "../../images/09_pages/WNS/im_4@2x.png";
 
@@ -13,7 +13,7 @@ const WNS = ({ location }) => {
     title: "WNS",
     desc: "EXPERINCE CENTER",
     data1: {
-      imageurl:  WNSimg4,
+      imageurl:  WNSimg1,
       h1: "The Brief",
       p1: "The WNS experience center is the perfect instrument to resonate an idea, create a melodious track of business-driven solutions.",
       p2: "Truly, a masterpiece. A symphony of experiences",
@@ -25,7 +25,7 @@ const WNS = ({ location }) => {
     data2: {
       numberofcolspan: 2,
       imageurl: WNSimg2,
-      imageurl2: WNSimg3,
+      // imageurl2: WNSimg3,
       h3: "The Co-creation Zone",
       p5: "A place where the content is displayed, it encourages the visitor to browse through it, interact with it first-hand. It lets other stakeholders and participants interact with the content remotely, make changes with the help of the Digital Whiteboard and add their thoughts to it.",
       h4: "The Lounge Area",
@@ -58,10 +58,10 @@ const WNS = ({ location }) => {
         <div className={`${WNSData?.bg} bg-cover bg-no-repeat bg-center`}>
           <div className="container">
             <div className="pt-0 md:pt-48 xl:pt-96">
-              <div className={`text-2xl md:text-5xl font-bold text-black pt-28 pb-4 md:pb-8 text-left ml-8 md:ml-16 uppercase`}>
+              <div className={`text-2xl md:text-5xl font-bold text-white pt-28 pb-4 md:pb-8 text-left ml-8 md:ml-16 uppercase`}>
                 {WNSData?.title}
               </div>
-              <div className={`text-2xl md:text-5xl font-bold text-black pb-4 md:pb-8 text-left ml-8 md:ml-16 uppercase`}>
+              <div className={`text-2xl md:text-5xl font-bold text-white pb-4 md:pb-8 text-left ml-8 md:ml-16 uppercase`}>
                 {WNSData?.desc}
               </div>
             </div>

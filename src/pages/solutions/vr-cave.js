@@ -2,16 +2,16 @@ import React from "react";
 import LeftImageRightText from "../../Components/imageandtextcomponent/LeftImageRightText";
 import LeftTextRightImage from "../../Components/imageandtextcomponent/LeftTextRightImage";
 import Layout from "../../Components/Layout";
-import VRCAVEimg1 from "../../images/09_pages/VRCAVE/im_1@2x.png";
-import VRCAVEimg3 from "../../images/09_pages/VRCAVE/im_3@2x.png";
+import VRCAVEimg1 from "../../images/09_pages/VRCAVE/im_1.jpg";
+import VRCAVEimg3 from "../../images/09_pages/VRCAVE/im_3.jpg";
 import VRCAVEimg4 from "../../images/09_pages/VRCAVE/im_4@2x.png";
 
 const VRCave = ({ location }) => {
   const VRCaveData = {
     bg: "bg-VRCAVEBG",
-    title: "VR Cave",
+    title: "VIRTUAL REALITY CAVE",
     data1: {
-      numberofcolspan: 3,
+      
       imageurl: VRCAVEimg1,
       // h1: "",
       p1: "Our collaborative VR platform will allow for people and businesses to collaborate and meet up in the virtual world. Teamwork is crucial and has become a challenge for global firms whose departments or subsidiaries are spread all over the world. Using virtual reality collaborative tools, you can gather all thestakeholders of your project in the same VR workspace and display your virtual prototype at scale to create and collaborate.",
@@ -19,15 +19,16 @@ const VRCave = ({ location }) => {
       // p3: "",
     },
     data2: {
+      numberofcolspan: 2,
       imageurl: VRCAVEimg3,
       // p1: "Teamwork is crucial and has become a challenge for global firms whose departments or subsidiaries are spread all over the world. Using virtual reality collaborative tools, you can gather all thestakeholders of your project in the same VR workspace and display your virtual prototype at scale to create and collaborate.",
       // p3: "Can be used for Virtual meeting rooms, training spaces, virtual shopping experiences, remote collaborations, etc.",
     },
-    data3: {
-      imageurl: VRCAVEimg4,
-      // p1: "Teamwork is crucial and has become a challenge for global firms whose departments or subsidiaries are spread all over the world. Using virtual reality collaborative tools, you can gather all thestakeholders of your project in the same VR workspace and display your virtual prototype at scale to create and collaborate.",
-      // p3: "Can be used for Virtual meeting rooms, training spaces, virtual shopping experiences, remote collaborations, etc.",
-    },
+    // data3: {
+    //   imageurl: VRCAVEimg4,
+    // p1: "Teamwork is crucial and has become a challenge for global firms whose departments or subsidiaries are spread all over the world. Using virtual reality collaborative tools, you can gather all thestakeholders of your project in the same VR workspace and display your virtual prototype at scale to create and collaborate.",
+    // p3: "Can be used for Virtual meeting rooms, training spaces, virtual shopping experiences, remote collaborations, etc.",
+    // },
   };
 
   return (
@@ -42,9 +43,10 @@ const VRCave = ({ location }) => {
             </div>
           </div>
         </div>
-        {VRCaveData?.data1 && <LeftImageRightText data={VRCaveData?.data1} />}
-        {VRCaveData?.data2 && <LeftTextRightImage data={VRCaveData?.data2} />}
-        {VRCaveData?.data3 && <LeftImageRightText data={VRCaveData?.data3} />}
+        {VRCaveData?.data2 && <LeftTextRightImage data={VRCaveData?.data1} />}
+        {VRCaveData?.data1 && <LeftImageRightText data={VRCaveData?.data2} />}
+        {/* {VRCaveData?.data2 && <LeftTextRightImage data={VRCaveData?.data2} />} */}
+        {/* {VRCaveData?.data3 && <LeftImageRightText data={VRCaveData?.data3} />} */}
       </div>
     </Layout>
   );

@@ -5,7 +5,7 @@ import LeftTextRightImage from "../../Components/imageandtextcomponent/LeftTextR
 import TATAimg1 from "../../images/06_OURWORK/pages/TataCommunicationsExperienceCentre/im_1.jpg";
 import TATAimg2 from "../../images/06_OURWORK/pages/TataCommunicationsExperienceCentre/im_2.jpg";
 import TATAimg3 from "../../images/06_OURWORK/pages/TataCommunicationsExperienceCentre/im_3.jpg";
-import TATAimg4 from "../../images/06_OURWORK/pages/TataCommunicationsExperienceCentre/im_4@2x.png";
+// import TATAimg4 from "../../images/06_OURWORK/pages/TataCommunicationsExperienceCentre/im_4@2x.png";
 
 const TLC = ({ location }) => {
   const TCLData = {

@@ -4,8 +4,8 @@ import LeftImageRightText from "../../Components/imageandtextcomponent/LeftImage
 import LeftTextRightImage from "../../Components/imageandtextcomponent/LeftTextRightImage";
 import WNSimg1 from "../../images/09_pages/WNS/im_1.jpg";
 import WNSimg2 from "../../images/09_pages/WNS/im_2.jpg";
-import WNSimg3 from "../../images/09_pages/WNS/im_3@2x.png";
-import WNSimg4 from "../../images/09_pages/WNS/im_4@2x.png";
+// import WNSimg3 from "../../images/09_pages/WNS/im_3@2x.png";
+// import WNSimg4 from "../../images/09_pages/WNS/im_4@2x.png";
 
 const WNS = ({ location }) => {
   const WNSData = {

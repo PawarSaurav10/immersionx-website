@@ -1,5 +1,5 @@
 import React from "react";
-import { Fade } from "react-reveal";
+import { Fade, Slide } from "react-reveal";
 import img from "../images/03_OURPROCESS/icon@2x.png";
 import img1 from "../images/03_OURPROCESS/001.png";
 import img2 from "../images/03_OURPROCESS/002.png";
@@ -21,7 +21,7 @@ const OurProcess = () => {
             </Fade>
           </div>
           <div>
-            <Fade left cascade>
+            <Slide left cascade>
               <div className=" pt-40 flex flex-1 flex-col lg:flex-row justify-center">
                 <div className="flex flex-col items-center">
                   <div className="pb-8">
@@ -88,7 +88,7 @@ const OurProcess = () => {
                   </div>
                 </div>
               </div>
-            </Fade>
+            </Slide>
           </div>
 
           {/* <div className="px-40" style={{ marginTop: 126 }}>

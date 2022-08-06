@@ -55,7 +55,7 @@ const OurServices = () => {
             Our Services
           </div>
         </Fade> */}
-        <div className="flex flex-col lg:flex-row justify-between pb-6 px-3">
+        <div className="flex flex-col lg:flex-row justify-between pb-6 ">
           <div className="pr-0 lg:pr-3 py-3">
             <Fade bottom>
               <div className=" grid grid-cols-1 md:grid-cols-6 gap-3 ">
@@ -116,7 +116,7 @@ const OurServices = () => {
                     </Link>
                   </div>
 
-                  <div className="portfolio-item img-zoom ct-marketing ct-media ct-branding ct-marketing ct-webdesign pb-3">
+                  <div className="portfolio-item img-zoom ct-marketing ct-media ct-branding ct-marketing ct-webdesign">
                     <Link to="/solutions/capsule">
                       <div className="portfolio-item-wrap">
                         <div className="portfolio-image">

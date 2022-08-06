@@ -14,8 +14,7 @@ module.exports = {
         "our-work": "url('../images/WORK/WORKBG.png')",
         "our-industry":
           "url('../images/07_OURINDUSTRIES/OURINDUSTRIESBG@2x.png')",
-          "footer":
-          "url('../images/Copyright/Rectangle657.png')",
+        footer: "url('../images/Copyright/Rectangle657.png')",
         "our-industry-1":
           "url('../images/07_OURINDUSTRIES/OURINDUSTRIESimageBG@2x.png')",
         "contact-us": "url('../images/08_CONTACTUS/CONTACTUSimageBG2x1.png')",
@@ -34,11 +33,13 @@ module.exports = {
         LEGRANDBG: "url('../images/09_pages/LEGRAND/LEGRANDBG@2x.jpg')",
         SIEMENSBG: "url('../images/09_pages/SIEMENS/SIEMENSBG@2x.jpg')",
         VRCAVEBG: "url('../images/09_pages/VRCAVE/VIRTUALREALITYCAVEBG.jpg')",
-        MULTITACTION: "url('../images/02_OURSERVICES/pages/COLLABORATIVEVR/MULTITACTIONBG.jpg')"
+        MULTITACTION:
+          "url('../images/02_OURSERVICES/pages/COLLABORATIVEVR/MULTITACTIONBG.jpg')",
       },
       height: {
         79: 315,
         400: 400,
+        473: 473,
         600: 600,
         650: 650,
         500: 500,

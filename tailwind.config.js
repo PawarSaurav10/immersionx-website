@@ -27,14 +27,15 @@ module.exports = {
           "url('../images/06_OURWORK/pages/TataCommunicationsExperienceCentre/TataCommunicationsBG.jpg')",
         // AUDIBG: "url('../images/09_pages/AUDI/AUDIBG@2x.png')",
         AUDIBG: "url('../images/09_pages/AUDI/AUDIBG.jpg')",
-        CAPSULEBG: "url('../images/09_pages/CAPSULE/CAPSULEBG@2x.png')",
+        CAPSULEBG: "url('../images/09_pages/CAPSULE/HOLOGRAPHICCAPSULEBG.jpg')",
         WNSBG: "url('../images/09_pages/WNS/wnsexperiencecentreBG.jpg')",
         GROHEBG: "url('../images/09_pages/GROHE/GROHEBG@2x.png')",
         KANAKIABG: "url('../images/09_pages/KANAKIA/KANAKIABG@2x.jpg')",
         LEGRANDBG: "url('../images/09_pages/LEGRAND/LEGRANDBG@2x.jpg')",
         SIEMENSBG: "url('../images/09_pages/SIEMENS/SIEMENSBG@2x.jpg')",
         VRCAVEBG: "url('../images/09_pages/VRCAVE/VIRTUALREALITYCAVEBG.jpg')",
-        MULTITACTION: "url('../images/02_OURSERVICES/pages/COLLABORATIVEVR/MULTITACTIONBG.jpg')"
+        MULTITACTION: "url('../images/02_OURSERVICES/pages/COLLABORATIVEVR/MULTITACTIONBG.jpg')",
+        APPLICATION: "url('../images/10_APPLICATIONs/applicationBG.jpg')"
       },
       height: {
         79: 315,

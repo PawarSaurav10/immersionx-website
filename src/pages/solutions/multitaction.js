@@ -13,8 +13,8 @@ const Multitaction = ({ location }) => {
       numberofcolspan: 3,
       imageurl: COLLABORATIVEVRim1,
       // h1: "Volumetric Capture",
-      p1: `The epitome of collaboration, MultiTaction is the benchmark in touch-based interactive installations. Compatible with a number of add-ons and accessories such as markers, pens and other. The iWall is an extension of the Multitaction technology that provides an unparalleled user experience with a unique hardware design with unmatched capabilities.`,
-      p2: "The MultiTaction iWall can be designed to any size format depending on the user’s requirement and purpose – large format walls, touch tables, curved walls etc.",
+      p1: `The epitome of collaboration, MultiTaction is the benchmark in touch-based interactive installations. Compatible with a number of add-ons and accessories such as markers, pens and other. `,
+      p2: "The iWall is an extension of the Multitaction technology that provides an unparalleled user experience with a unique hardware design with unmatched capabilities. The MultiTaction iWall can be designed to any size format depending on the user’s requirement and purpose – large format walls, touch tables, curved walls etc.",
       // p3: "Think of it as like taking one photograph of each side of a cube and then gluing the photos together into a cube shape. You now have a spatial model created from two-dimensional representations of the real thing.",
     },
     data2: {

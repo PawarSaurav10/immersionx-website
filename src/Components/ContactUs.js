@@ -9,7 +9,7 @@ const ContactUs = () => {
   return (
     <>
       <div id="slider" className=" bg-contact-us bg-no-repeat bg-cover">
-        <div className="uppercase text-2xl md:text-5xl text-white pb-32 pl-10 md:pl-28 lg:pb-60 pt-36">
+        <div className="container uppercase text-2xl md:text-5xl text-white pb-32 lg:pb-60 pt-40 lg:pt-56">
          <div className=" font-bold"> Contact Us</div>
           <div className="text-white text-base mt-10">
             <span className="mr-2">

@@ -24,12 +24,12 @@ const OurServices = () => {
 
   return (
     <div
-      className="bg-fixed bg-our-service bg-no-repeat bg-cover "
+      className="bg-fixed bg-our-service bg-no-repeat bg-cover"
       id="solutions"
     >
       <div className="container">
-        <div className="flex flex-col justify-between text-white pb-8 pt-5">
-          <div>
+        <div className="flex flex-col justify-between text-white pb-8 pt-5 pl-0 md:pl-16">
+          <div className="">
             <Fade bottom>
               <div className="uppercase font-bold text-2xl md:text-5xl xl:text-7xl pt-8 lg:pt-20 text-left text-white pb-2 px-3">
                 Solutions
@@ -55,7 +55,7 @@ const OurServices = () => {
             Our Services
           </div>
         </Fade> */}
-        <div className="flex flex-col lg:flex-row justify-between pb-6">
+        <div className="flex flex-col lg:flex-row justify-between pb-6 px-3">
           <div className="pr-0 lg:pr-3 py-3">
             <Fade bottom>
               <div className=" grid grid-cols-1 md:grid-cols-6 gap-3 ">

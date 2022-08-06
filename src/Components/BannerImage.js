@@ -130,17 +130,17 @@ const BannerImage = () => {
             <div className="px-4">
               <Fade bottom>
                 <div className="">
-                  <div className="uppercase max-w-2xl text-3xl md:text-6xl  xl:text-8xl text-white text-center lg:text-left font-light  mx-auto lg:m-auto pb-0 md:pb-8 lg:pb-0">
+                  <div className="uppercase max-w-2xl text-3xl md:text-6xl lg:text-7xl desktop:text-8xl text-white text-center lg:text-left font-light  mx-auto lg:m-auto pb-0 md:pb-8 lg:pb-0">
                     <div className="flex flex-col lg:flex-row">
                       <div>We</div>
                       <div className="fadeIn">
-                        <span className="pl-3">are a</span>
+                        <span className="pl-0 lg:pl-3">are a</span>
                         <span></span>
                         <span></span>
                         <span></span>
                       </div>
                     </div>
-                    <div className="pb-16 md:pb-24 lg:pb-32 xl:pb-44">
+                    <div className="pb-16 md:pb-32 lg:pb-36 desktop:pb-44">
                       <div className="verticalFlip">
                         <span className="font-bold">Creative + Technology</span>
                         <span className="font-bold">Innovate + Research</span>
@@ -186,7 +186,7 @@ const BannerImage = () => {
             <div>
               <Fade right cascade>
                 <div>
-                  <div className="text-white max-w-sm md:max-w-xl lg:max-w-lg mx-auto text-left text-base font-medium ">
+                  <div className="text-white max-w-sm md:max-w-lg lg:max-w-sm mx-auto text-left text-sm xl:text-base font-medium ">
                     {/* <div>
                       ImmersionX is an experimental marketing agency that
                       creates bespoke solutions for brands and our mantra is to

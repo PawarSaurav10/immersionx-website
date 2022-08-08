@@ -58,7 +58,7 @@ const application = ({ location }) => {
     dots: true,
     infinite: true,
     autoplay: true,
-    speed: 500,
+    // speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
     // appendDots: (dots) => <ul className="p-4">{dots}</ul>,
@@ -145,7 +145,7 @@ const application = ({ location }) => {
         <div className="border-r-0 lg:border-r-2 border-b-2">
           <div className="pl-12 pr-12 pt-6 pb-4">
             <div>
-              <Slider {...settings}>
+              <Slider speed={500} {...settings}>
                 {groheImageData.map((aa) => (
                   <div>
                     <img src={aa.image} alt="" className="h-64 mx-auto" />
@@ -166,7 +166,7 @@ const application = ({ location }) => {
         <div className=" grid-cols-1 border-r-0 lg:border-r-2 border-b-2">
           <div className="pl-12 pr-12 pt-6 pb-4">
             <div>
-              <Slider {...settings}>
+              <Slider speed={700} {...settings}>
                 {accentureImageData.map((aa) => (
                   <div>
                     <img src={aa.image} alt="" className="h-64 mx-auto" />
@@ -184,7 +184,7 @@ const application = ({ location }) => {
         <div className=" grid-cols-1 border-b-2">
           <div className="pl-12 pr-12 pt-6 pb-4">
             <div>
-              <Slider {...settings}>
+              <Slider speed={600} {...settings}>
                 {interactionImageData.map((aa) => (
                   <div>
                     <img src={aa.image} alt="" className="h-64 mx-auto" />
@@ -206,7 +206,7 @@ const application = ({ location }) => {
         <div className="grid-cols-1 border-r-0 lg:border-r-2 border-b-2">
           <div className="pl-12 pr-12 pt-6 pb-4">
             <div>
-              <Slider {...settings}>
+              <Slider speed={600} {...settings}>
                 {mahindraImageData.map((aa) => (
                   <div>
                     <img src={aa.image} alt="" className="h-64 mx-auto" />
@@ -226,7 +226,7 @@ const application = ({ location }) => {
         <div className=" grid-cols-1 border-r-0 lg:border-r-2 border-b-2">
           <div className="pl-12 pr-12 pt-6 pb-4">
             <div>
-              <Slider {...settings}>
+              <Slider speed={600} {...settings}>
                 {digiracerImageData.map((aa) => (
                   <div>
                     <img src={aa.image} alt="" className="h-64 mx-auto" />
@@ -246,7 +246,7 @@ const application = ({ location }) => {
         <div className=" grid-cols-1 border-b-2">
           <div className="pl-12 pr-12 pt-6 pb-4">
             <div>
-              <Slider {...settings}>
+              <Slider speed={500} {...settings}>
                 {rothamImageData.map((aa) => (
                   <div>
                     <img src={aa.image} alt="" className="h-64 mx-auto" />
@@ -268,7 +268,7 @@ const application = ({ location }) => {
         <div className="grid-cols-1 border-r-0 lg:border-r-2 border-b-2">
           <div className="pl-12 pr-12 pt-6 pb-4">
             <div>
-              <Slider {...settings}>
+              <Slider speed={500} {...settings}>
                 {tataImageData.map((aa) => (
                   <div>
                     <img src={aa.image} alt="" className="h-64 mx-auto" />
@@ -288,7 +288,7 @@ const application = ({ location }) => {
         <div className=" grid-cols-1 border-r-0 lg:border-r-2 border-b-2">
           <div className="pl-12 pr-12 pt-6 pb-4">
             <div>
-              <Slider {...settings}>
+              <Slider speed={700} {...settings}>
                 {electroluxImageData.map((aa) => (
                   <div>
                     <img src={aa.image} alt="" className="h-64 mx-auto" />
@@ -308,7 +308,7 @@ const application = ({ location }) => {
         <div className=" grid-cols-1 border-b-2">
           <div className="pl-12 pr-12 pt-6 pb-4">
             <div>
-              <Slider {...settings}>
+              <Slider speed={700} {...settings}>
                 {panteneImageData.map((aa) => (
                   <div>
                     <img src={aa.image} alt="" className="h-64 mx-auto" />
@@ -328,7 +328,7 @@ const application = ({ location }) => {
         <div className="grid-cols-1 border-r-0 lg:border-r-2 border-b-2">
           <div className="pl-12 pr-12 pt-6 pb-4">
             <div>
-              <Slider {...settings}>
+              <Slider speed={700} {...settings}>
                 {allaroImageData.map((aa) => (
                   <div>
                     <img src={aa.image} alt="" className="h-64 mx-auto" />
@@ -348,7 +348,7 @@ const application = ({ location }) => {
         <div className=" grid-cols-1 border-r-0 lg:border-r-2 border-b-2">
           <div className="pl-12 pr-12 pt-6 pb-4">
             <div>
-              <Slider {...settings}>
+              <Slider speed={700} {...settings}>
                 {castrolImageData.map((aa) => (
                   <div>
                     <img src={aa.image} alt="" className="h-64 mx-auto" />
@@ -366,7 +366,7 @@ const application = ({ location }) => {
         <div className=" grid-cols-1 border-b-2">
           <div className="pl-12 pr-12 pt-6 pb-4">
             <div>
-              <Slider {...settings}>
+              <Slider speed={600} {...settings}>
                 {chotabheemImageData.map((aa) => (
                   <div>
                     <img src={aa.image} alt="" className="h-64 mx-auto" />
@@ -388,7 +388,7 @@ const application = ({ location }) => {
         <div className="grid-cols-1 border-r-0 lg:border-r-2 border-b-2">
           <div className="pl-12 pr-12 pt-6 pb-4">
             <div>
-              <Slider {...settings}>
+              <Slider speed={700} {...settings}>
                 {closeupImageData.map((aa) => (
                   <div>
                     <img src={aa.image} alt="" className="h-64 mx-auto" />
@@ -406,7 +406,7 @@ const application = ({ location }) => {
         <div className=" grid-cols-1 border-r-0 lg:border-r-2 border-b-2">
           <div className="pl-12 pr-12 pt-6 pb-4">
             <div>
-              <Slider {...settings}>
+              <Slider speed={700} {...settings}>
                 {dorothyImageData.map((aa) => (
                   <div>
                     <img src={aa.image} alt="" className="h-64 mx-auto" />
@@ -426,7 +426,7 @@ const application = ({ location }) => {
         <div className=" grid-cols-1 border-b-2">
           <div className="pl-12 pr-12 pt-6 pb-4">
             <div>
-              <Slider {...settings}>
+              <Slider speed={700} {...settings}>
                 {emcureImageData.map((aa) => (
                   <div>
                     <img src={aa.image} alt="" className="h-64 mx-auto" />
@@ -446,7 +446,7 @@ const application = ({ location }) => {
         <div className="grid-cols-1 border-r-0 lg:border-r-2 border-b-2">
           <div className="pl-12 pr-12 pt-6 pb-4">
             <div>
-              <Slider {...settings}>
+              <Slider speed={700} {...settings}>
                 {godrejImageData.map((aa) => (
                   <div>
                     <img src={aa.image} alt="" className="h-64 mx-auto" />
@@ -466,7 +466,7 @@ const application = ({ location }) => {
         <div className=" grid-cols-1 border-r-0 lg:border-r-2 border-b-2">
           <div className="pl-12 pr-12 pt-6 pb-4">
             <div>
-              <Slider {...settings}>
+              <Slider speed={700} {...settings}>
                 {larsenImageData.map((aa) => (
                   <div>
                     <img src={aa.image} alt="" className="h-64 mx-auto" />
@@ -486,7 +486,7 @@ const application = ({ location }) => {
         <div className=" grid-cols-1 border-b-2">
           <div className="pl-12 pr-12 pt-6 pb-4">
             <div>
-              <Slider {...settings}>
+              <Slider speed={700} {...settings}>
                 {raymondImageData.map((aa) => (
                   <div>
                     <img src={aa.image} alt="" className="h-64 mx-auto" />

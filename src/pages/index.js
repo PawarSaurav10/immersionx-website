@@ -7,6 +7,7 @@ import OurProcess from "../Components/OurProcess";
 import Studio from "../Components/Studio";
 import StudioNew from "../Components/StudioNew";
 import Partners from "../Components/Partners";
+import AboutUs from "../Components/AboutUs";
 import dassaualtSystem from "../images/05_OURPARTNERS/DassaultSystèmeslogo@2x.png";
 import multitaction from "../images/05_OURPARTNERS/multitactionlogo@2x.png";
 import arhtMedia from "../images/05_OURPARTNERS/Arhtmedia@2x.png";
@@ -33,6 +34,7 @@ const IndexPage = ({location}) => {
     <>
       <Layout location={location?.pathname}>
         <BannerImage />
+        <AboutUs />
         <OurServices />
         <OurProcess />
         {/* <Studio /> */}

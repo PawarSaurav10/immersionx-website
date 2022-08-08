@@ -218,7 +218,7 @@ const BannerImage = () => {
             {/* </div> */}
           </div>
           <div className="flex justify-center z-30 pb-3">
-            <Link to="#solutions">
+            <Link to="#about-us">
               <div className="icon-scroll"></div>
               {/* <img src={mouse} className="w-auto h-auto" /> */}
             </Link>

@@ -34,7 +34,8 @@ module.exports = {
         SIEMENSBG: "url('../images/09_pages/SIEMENS/SIEMENSBG@2x.jpg')",
         VRCAVEBG: "url('../images/09_pages/VRCAVE/VIRTUALREALITYCAVEBG.jpg')",
         MULTITACTION: "url('../images/02_OURSERVICES/pages/COLLABORATIVEVR/MULTITACTIONBG.jpg')",
-        APPLICATION: "url('../images/10_APPLICATIONs/applicationBG.jpg')"
+        APPLICATION: "url('../images/10_APPLICATIONs/applicationBG.jpg')",
+        ABOUTUS: "url('../images/11_ABOUTUS/aboutusbg.jpg')"
       },
       height: {
         79: 315,

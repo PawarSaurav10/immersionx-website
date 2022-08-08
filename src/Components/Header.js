@@ -151,6 +151,19 @@ const Header = (props) => {
                           </span>
                         </Link>
                       </li>
+                      <li className="navbar nav-bar-menu text-center hover:scale-110 transition-all ">
+                        <Link
+                          className="cursor-pointer "
+                          to={props.data === "/" ? "#about-us" : "/#about-us"}
+                          onClick={() => {
+                            setNavBar(!navBar);
+                          }}
+                        >
+                          <span className="nav-bar-menu-span link ">
+                            About Us
+                          </span>
+                        </Link>
+                      </li>
 
                       <li className="navbar nav-bar-menu text-center hover:scale-110 transition-all">
                         <Link

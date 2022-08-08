@@ -127,8 +127,8 @@ const application = ({ location }) => {
   return (
     <Layout location={location?.pathname}>
       {/* <div className=" bg-APPLICATION bg-cover bg-no-repeat bg-center"> */}
-        <div className="pt-24 lg:pt-0 bg-black">
-          <div className={` bg-APPLICATION bg-cover bg-no-repeat bg-center`}>
+        {/* <div className="pt-24 lg:pt-0 bg-black"> */}
+          <div className={` bg-APPLICATION bg-cover bg-no-repeat bg-center pt-24 lg:pt-0 bg-black`}>
             <div className="container">
               <div className="pt-0 md:pt-48 xl:pt-96">
                 <div
@@ -139,7 +139,7 @@ const application = ({ location }) => {
               </div>
             </div>
           </div>
-        </div>
+        {/* </div> */}
       {/* </div> */}
       <div className=" grid grid-cols-1 lg:grid-cols-3 mt-0 lg:mt-20">
         <div className="border-r-0 lg:border-r-2 border-b-2">

@@ -49,8 +49,11 @@ import larsenimg1 from "../images/10_APPLICATIONS/LARSEN_TOUBRO/01.png";
 import larsenimg2 from "../images/10_APPLICATIONS/LARSEN_TOUBRO/02.png";
 import raymondimg1 from "../images/10_APPLICATIONS/RAYMOND/01.jpg";
 import raymondimg2 from "../images/10_APPLICATIONS/RAYMOND/02.png";
+// import { faAngleRight } from "@fortawesome/free-solid-svg-icons";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const application = ({ location }) => {
+
   const settings = {
     dots: true,
     infinite: true,
@@ -58,6 +61,12 @@ const application = ({ location }) => {
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
+    // appendDots: (dots) => <ul className="p-4">{dots}</ul>,
+    // customPaging: (i) => (
+    //   <div className="ft-slick__dots--custom">
+    //     <div className="loading" />
+    //   </div>
+    // ),
   };
   const groheImageData = [
     { image: groheimg1 },
@@ -117,14 +126,24 @@ const application = ({ location }) => {
 
   return (
     <Layout location={location?.pathname}>
-      <div className=" bg-APPLICATION bg-cover bg-no-repeat bg-center">
-        <div className="flex text-white text-5xl pt-60">
-          <div className=" p-36 pb-12">AR, VR & MR APPS</div>
+      {/* <div className=" bg-APPLICATION bg-cover bg-no-repeat bg-center"> */}
+        <div className="pt-24 lg:pt-0 bg-black">
+          <div className={` bg-APPLICATION bg-cover bg-no-repeat bg-center`}>
+            <div className="container">
+              <div className="pt-0 md:pt-48 xl:pt-96">
+                <div
+                  className={`text-2xl md:text-5xl font-bold text-white pt-28 pb-4 md:pb-8 text-left ml-8 md:ml-16 uppercase`}
+                >
+                  AR. VR & MR APPS
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
-      <div className=" grid grid-cols-3 mt-20">
-        <div className="border-r-2 border-b-2">
-          <div className="pl-12 pr-12">
+      {/* </div> */}
+      <div className=" grid grid-cols-1 lg:grid-cols-3 mt-0 lg:mt-20">
+        <div className="border-r-0 lg:border-r-2 border-b-2">
+          <div className="pl-12 pr-12 pt-6 pb-4">
             <div>
               <Slider {...settings}>
                 {groheImageData.map((aa) => (
@@ -135,17 +154,17 @@ const application = ({ location }) => {
               </Slider>
             </div>
 
-            <div className="pt-6 font-bold text-2xl text-center">
+            <div className=" pt-2 font-bold text-2xl text-center">
               GROHE APPLICATION
             </div>
-            <div className=" text-center">
+            <div className="max-w-md mx-auto text-center">
               Since the brief isn't product-specific the business problem is
               always identified after a thorough brainstorming session
             </div>
           </div>
         </div>
-        <div className=" grid-cols-1 border-r-2 border-b-2">
-          <div className="pl-12 pr-12">
+        <div className=" grid-cols-1 border-r-0 lg:border-r-2 border-b-2">
+          <div className="pl-12 pr-12 pt-6 pb-4">
             <div>
               <Slider {...settings}>
                 {accentureImageData.map((aa) => (
@@ -155,15 +174,15 @@ const application = ({ location }) => {
                 ))}
               </Slider>
             </div>
-            <div className="pt-6 font-bold text-2xl text-center">ACCENTURE</div>
-            <div className=" text-center">
+            <div className="pt-2 font-bold text-2xl text-center">ACCENTURE</div>
+            <div className=" text-center max-w-md mx-auto">
               Since the brief isn't product-specific the business problem is
               always identified after a thorough brainstorming session
             </div>
           </div>
         </div>
         <div className=" grid-cols-1 border-b-2">
-          <div className="pl-12 pr-12">
+          <div className="pl-12 pr-12 pt-6 pb-4">
             <div>
               <Slider {...settings}>
                 {interactionImageData.map((aa) => (
@@ -173,19 +192,19 @@ const application = ({ location }) => {
                 ))}
               </Slider>
             </div>
-            <div className="pt-6 font-bold text-2xl text-center">
+            <div className="pt-2 font-bold text-2xl text-center">
               INTERTACTIVE MULTITACTION DISPLAY
             </div>
-            <div className=" text-center">
+            <div className=" text-center max-w-md mx-auto">
               Since the brief isn't product-specific the business problem is
               always identified after a thorough brainstorming session
             </div>
           </div>
         </div>
       </div>
-      <div className="grid grid-cols-3">
-        <div className="grid-cols-1 border-r-2 border-b-2">
-          <div className="pl-12 pr-12 pt-6 pb-2">
+      <div className="grid grid-cols-1 lg:grid-cols-3 mt-0 lg:mt-20">
+        <div className="grid-cols-1 border-r-0 lg:border-r-2 border-b-2">
+          <div className="pl-12 pr-12 pt-6 pb-4">
             <div>
               <Slider {...settings}>
                 {mahindraImageData.map((aa) => (
@@ -195,17 +214,17 @@ const application = ({ location }) => {
                 ))}
               </Slider>
             </div>
-            <div className="pt-6 font-bold text-2xl text-center">
+            <div className="pt-2 font-bold text-2xl text-center">
               MAHINDRA SUV
             </div>
-            <div className=" text-center">
+            <div className=" text-center max-w-md mx-auto">
               Since the brief isn't product-specific the business problem is
               always identified after a thorough brainstorming session
             </div>
           </div>
         </div>
-        <div className=" grid-cols-1 border-r-2 border-b-2">
-          <div className="pl-12 pr-12 pt-6 pb-2">
+        <div className=" grid-cols-1 border-r-0 lg:border-r-2 border-b-2">
+          <div className="pl-12 pr-12 pt-6 pb-4">
             <div>
               <Slider {...settings}>
                 {digiracerImageData.map((aa) => (
@@ -215,17 +234,17 @@ const application = ({ location }) => {
                 ))}
               </Slider>
             </div>
-            <div className="pt-6 font-bold text-2xl text-center">
+            <div className="pt-2 font-bold text-2xl text-center">
               DIGI RACER GAME
             </div>
-            <div className=" text-center">
+            <div className=" text-center max-w-md mx-auto">
               Since the brief isn't product-specific the business problem is
               always identified after a thorough brainstorming session
             </div>
           </div>
         </div>
         <div className=" grid-cols-1 border-b-2">
-          <div className="pl-12 pr-12 pt-6 pb-2">
+          <div className="pl-12 pr-12 pt-6 pb-4">
             <div>
               <Slider {...settings}>
                 {rothamImageData.map((aa) => (
@@ -235,19 +254,19 @@ const application = ({ location }) => {
                 ))}
               </Slider>
             </div>
-            <div className="pt-6 font-bold text-2xl text-center">
+            <div className="pt-2 font-bold text-2xl text-center">
               ROTHAMS OF LONDON
             </div>
-            <div className=" text-center">
+            <div className=" text-center max-w-md mx-auto">
               Since the brief isn't product-specific the business problem is
               always identified after a thorough brainstorming session
             </div>
           </div>
         </div>
       </div>
-      <div className="grid grid-cols-3">
-        <div className="grid-cols-1 border-r-2 border-b-2">
-          <div className="pl-12 pr-12 pt-6 pb-2">
+      <div className="grid grid-cols-1 lg:grid-cols-3 mt-0 lg:mt-20">
+        <div className="grid-cols-1 border-r-0 lg:border-r-2 border-b-2">
+          <div className="pl-12 pr-12 pt-6 pb-4">
             <div>
               <Slider {...settings}>
                 {tataImageData.map((aa) => (
@@ -257,17 +276,17 @@ const application = ({ location }) => {
                 ))}
               </Slider>
             </div>
-            <div className="pt-6 font-bold text-2xl text-center">
+            <div className="pt-2 font-bold text-2xl text-center">
               TATA MANZA
             </div>
-            <div className=" text-center">
+            <div className=" text-center max-w-md mx-auto">
               Since the brief isn't product-specific the business problem is
               always identified after a thorough brainstorming session
             </div>
           </div>
         </div>
-        <div className=" grid-cols-1 border-r-2 border-b-2">
-          <div className="pl-12 pr-12 pt-6 pb-2">
+        <div className=" grid-cols-1 border-r-0 lg:border-r-2 border-b-2">
+          <div className="pl-12 pr-12 pt-6 pb-4">
             <div>
               <Slider {...settings}>
                 {electroluxImageData.map((aa) => (
@@ -277,17 +296,17 @@ const application = ({ location }) => {
                 ))}
               </Slider>
             </div>
-            <div className="pt-6 font-bold text-2xl text-center">
+            <div className="pt-2 font-bold text-2xl text-center">
               ELECTROLUX
             </div>
-            <div className=" text-center">
+            <div className=" text-center max-w-md mx-auto">
               Since the brief isn't product-specific the business problem is
               always identified after a thorough brainstorming session
             </div>
           </div>
         </div>
         <div className=" grid-cols-1 border-b-2">
-          <div className="pl-12 pr-12 pt-6 pb-2">
+          <div className="pl-12 pr-12 pt-6 pb-4">
             <div>
               <Slider {...settings}>
                 {panteneImageData.map((aa) => (
@@ -297,17 +316,17 @@ const application = ({ location }) => {
                 ))}
               </Slider>
             </div>
-            <div className="pt-6 font-bold text-2xl text-center">PANTENE</div>
-            <div className=" text-center">
+            <div className="pt-2 font-bold text-2xl text-center">PANTENE</div>
+            <div className=" text-center max-w-md mx-auto">
               Since the brief isn't product-specific the business problem is
               always identified after a thorough brainstorming session
             </div>
           </div>
         </div>
       </div>
-      <div className="grid grid-cols-3">
-        <div className="grid-cols-1 border-r-2 border-b-2">
-          <div className="pl-12 pr-12 pt-6 pb-2">
+      <div className="grid grid-cols-1 lg:grid-cols-3 mt-0 lg:mt-20">
+        <div className="grid-cols-1 border-r-0 lg:border-r-2 border-b-2">
+          <div className="pl-12 pr-12 pt-6 pb-4">
             <div>
               <Slider {...settings}>
                 {allaroImageData.map((aa) => (
@@ -317,17 +336,17 @@ const application = ({ location }) => {
                 ))}
               </Slider>
             </div>
-            <div className="pt-6 font-bold text-2xl text-center">
+            <div className="pt-2 font-bold text-2xl text-center">
               ALLARO HOMES
             </div>
-            <div className=" text-center">
+            <div className=" text-center max-w-md mx-auto">
               Since the brief isn't product-specific the business problem is
               always identified after a thorough brainstorming session
             </div>
           </div>
         </div>
-        <div className=" grid-cols-1 border-r-2 border-b-2">
-          <div className="pl-12 pr-12 pt-6 pb-2">
+        <div className=" grid-cols-1 border-r-0 lg:border-r-2 border-b-2">
+          <div className="pl-12 pr-12 pt-6 pb-4">
             <div>
               <Slider {...settings}>
                 {castrolImageData.map((aa) => (
@@ -337,15 +356,15 @@ const application = ({ location }) => {
                 ))}
               </Slider>
             </div>
-            <div className="pt-6 font-bold text-2xl text-center">CASTROL</div>
-            <div className=" text-center">
+            <div className="pt-2 font-bold text-2xl text-center">CASTROL</div>
+            <div className=" text-center max-w-md mx-auto">
               Since the brief isn't product-specific the business problem is
               always identified after a thorough brainstorming session
             </div>
           </div>
         </div>
         <div className=" grid-cols-1 border-b-2">
-          <div className="pl-12 pr-12 pt-6 pb-2">
+          <div className="pl-12 pr-12 pt-6 pb-4">
             <div>
               <Slider {...settings}>
                 {chotabheemImageData.map((aa) => (
@@ -355,19 +374,19 @@ const application = ({ location }) => {
                 ))}
               </Slider>
             </div>
-            <div className="pt-6 font-bold text-2xl text-center">
+            <div className="pt-2 font-bold text-2xl text-center">
               CHHOTA BHEEM
             </div>
-            <div className=" text-center">
+            <div className=" text-center max-w-md mx-auto">
               Since the brief isn't product-specific the business problem is
               always identified after a thorough brainstorming session
             </div>
           </div>
         </div>
       </div>
-      <div className="grid grid-cols-3">
-        <div className="grid-cols-1 border-r-2 border-b-2">
-          <div className="pl-12 pr-12 pt-6 pb-2">
+      <div className="grid grid-cols-1 lg:grid-cols-3 mt-0 lg:mt-20">
+        <div className="grid-cols-1 border-r-0 lg:border-r-2 border-b-2">
+          <div className="pl-12 pr-12 pt-6 pb-4">
             <div>
               <Slider {...settings}>
                 {closeupImageData.map((aa) => (
@@ -377,15 +396,15 @@ const application = ({ location }) => {
                 ))}
               </Slider>
             </div>
-            <div className="pt-6 font-bold text-2xl text-center">CLOSE UP</div>
-            <div className=" text-center">
+            <div className="pt-2 font-bold text-2xl text-center">CLOSE UP</div>
+            <div className=" text-center max-w-md mx-auto">
               Since the brief isn't product-specific the business problem is
               always identified after a thorough brainstorming session
             </div>
           </div>
         </div>
-        <div className=" grid-cols-1 border-r-2 border-b-2">
-          <div className="pl-12 pr-12 pt-6 pb-2">
+        <div className=" grid-cols-1 border-r-0 lg:border-r-2 border-b-2">
+          <div className="pl-12 pr-12 pt-6 pb-4">
             <div>
               <Slider {...settings}>
                 {dorothyImageData.map((aa) => (
@@ -395,17 +414,17 @@ const application = ({ location }) => {
                 ))}
               </Slider>
             </div>
-            <div className="pt-6 font-bold text-2xl text-center">
+            <div className="pt-2 font-bold text-2xl text-center">
               DOROTHY OF OZ-THE
             </div>
-            <div className=" text-center">
+            <div className=" text-center max-w-md mx-auto">
               Since the brief isn't product-specific the business problem is
               always identified after a thorough brainstorming session
             </div>
           </div>
         </div>
         <div className=" grid-cols-1 border-b-2">
-          <div className="pl-12 pr-12 pt-6 pb-2">
+          <div className="pl-12 pr-12 pt-6 pb-4">
             <div>
               <Slider {...settings}>
                 {emcureImageData.map((aa) => (
@@ -415,17 +434,17 @@ const application = ({ location }) => {
                 ))}
               </Slider>
             </div>
-            <div className="pt-6 font-bold text-2xl text-center">EMCURE</div>
-            <div className=" text-center">
+            <div className="pt-2 font-bold text-2xl text-center">EMCURE</div>
+            <div className=" text-center max-w-md mx-auto">
               Since the brief isn't product-specific the business problem is
               always identified after a thorough brainstorming session
             </div>
           </div>
         </div>
       </div>
-      <div className="grid grid-cols-3">
-        <div className="grid-cols-1 border-r-2 border-b-2">
-          <div className="pl-12 pr-12 pt-6 pb-2">
+      <div className="grid grid-cols-1 lg:grid-cols-3 mt-0 lg:mt-20">
+        <div className="grid-cols-1 border-r-0 lg:border-r-2 border-b-2">
+          <div className="pl-12 pr-12 pt-6 pb-4">
             <div>
               <Slider {...settings}>
                 {godrejImageData.map((aa) => (
@@ -435,17 +454,17 @@ const application = ({ location }) => {
                 ))}
               </Slider>
             </div>
-            <div className="pt-6 font-bold text-2xl text-center">
+            <div className="pt-2 font-bold text-2xl text-center">
               GODREJ EON
             </div>
-            <div className=" text-center">
+            <div className=" text-center max-w-md mx-auto">
               Since the brief isn't product-specific the business problem is
               always identified after a thorough brainstorming session
             </div>
           </div>
         </div>
-        <div className=" grid-cols-1 border-r-2 border-b-2">
-          <div className="pl-12 pr-12 pt-6 pb-2">
+        <div className=" grid-cols-1 border-r-0 lg:border-r-2 border-b-2">
+          <div className="pl-12 pr-12 pt-6 pb-4">
             <div>
               <Slider {...settings}>
                 {larsenImageData.map((aa) => (
@@ -455,17 +474,17 @@ const application = ({ location }) => {
                 ))}
               </Slider>
             </div>
-            <div className="pt-6 font-bold text-2xl text-center">
+            <div className="pt-2 font-bold text-2xl text-center">
               LARSEN & TOUBRO
             </div>
-            <div className=" text-center">
+            <div className=" text-center max-w-md mx-auto">
               Since the brief isn't product-specific the business problem is
               always identified after a thorough brainstorming session
             </div>
           </div>
         </div>
         <div className=" grid-cols-1 border-b-2">
-          <div className="pl-12 pr-12 pt-6 pb-2">
+          <div className="pl-12 pr-12 pt-6 pb-4">
             <div>
               <Slider {...settings}>
                 {raymondImageData.map((aa) => (
@@ -475,8 +494,8 @@ const application = ({ location }) => {
                 ))}
               </Slider>
             </div>
-            <div className="pt-6 font-bold text-2xl text-center">RAYMOND</div>
-            <div className=" text-center">
+            <div className="pt-2 font-bold text-2xl text-center">RAYMOND</div>
+            <div className="max-w-md text-center">
               Since the brief isn't product-specific the business problem is
               always identified after a thorough brainstorming session
             </div>

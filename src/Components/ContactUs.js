@@ -8,7 +8,7 @@ import img2 from "../images/08_CONTACTUS/Layer1.png";
 const ContactUs = () => {
   return (
     <>
-      <div id="slider" className=" bg-contact-us bg-no-repeat bg-cover">
+      <div id="slider" className=" bg-contact-us bg-no-repeat bg-cover">  
         <div className="container uppercase text-2xl md:text-5xl text-white pb-32 lg:pb-60 pt-40 lg:pt-56">
           <div className=" font-bold"> Contact Us</div>
           <div className="text-white text-base mt-10">

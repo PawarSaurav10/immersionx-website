@@ -7,16 +7,36 @@
 
 */
 
-/* .slick-dots {
-  position: absolute;
-  bottom: -25px;
+.slick-dots {
+  position: relative !important;
+  bottom: 0 !important;
   display: block;
   width: 100%;
-  padding: 20px;
+  padding-top: 0px !important;
   margin: 0;
   list-style: none;
   text-align: center;
-} */
+}
+
+.slick-dots li button:hover:before, .slick-dots li button:focus:before {
+  color: red !important;
+}
+
+.grid li:before {
+  border-left: 0px !important;
+}
+
+.grid li:after {
+  border-bottom: 0px !important;
+}
+.slick-dots li.slick-active button:before {
+  opacity: .75;
+  color: red !important;
+}
+
+.slick-dots .slick-active .ft-slick__dots--custom {
+  width: 56px;
+}
 
 
 .dropdown_header {

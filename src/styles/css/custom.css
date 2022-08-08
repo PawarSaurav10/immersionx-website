@@ -6,8 +6,21 @@
  <link href="css/custom.css" rel="stylesheet">
 
 */
+
+/* .slick-dots {
+  position: absolute;
+  bottom: -25px;
+  display: block;
+  width: 100%;
+  padding: 20px;
+  margin: 0;
+  list-style: none;
+  text-align: center;
+} */
+
+
 .dropdown_header {
-  height: 100vh;
+  height: 100vh;  
   transition: height 1s ease;
 }
 

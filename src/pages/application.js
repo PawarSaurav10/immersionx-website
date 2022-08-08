@@ -1,5 +1,6 @@
 import React from "react";
 import Layout from "../Components/Layout";
+import Slider from "react-slick";
 import Accenture1 from "../images/10_APPLICATIONS/ACCENTURE/01.png";
 import Accenture2 from "../images/10_APPLICATIONS/ACCENTURE/02.png";
 import groheimg1 from "../images/10_APPLICATIONS/grohe_application/01.png";
@@ -50,6 +51,70 @@ import raymondimg1 from "../images/10_APPLICATIONS/RAYMOND/01.jpg";
 import raymondimg2 from "../images/10_APPLICATIONS/RAYMOND/02.png";
 
 const application = ({ location }) => {
+  const settings = {
+    dots: true,
+    infinite: true,
+    autoplay: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+  };
+  const groheImageData = [
+    { image: groheimg1 },
+    { image: groheimg2 },
+    { image: groheimg3 },
+    { image: groheimg4 },
+    { image: groheimg5 },
+  ];
+  const accentureImageData = [{ image: Accenture1 }, { image: Accenture2 }];
+  const interactionImageData = [
+    { image: interactionimg1 },
+    { image: interactionimg2 },
+    { image: interactionimg3 },
+  ];
+  const mahindraImageData = [
+    { image: mahindraimg1 },
+    { image: mahindraimg2 },
+    { image: mahindraimg3 },
+  ];
+  const digiracerImageData = [
+    { image: digiracerimg1 },
+    { image: digiracerimg2 },
+    { image: digiracerimg3 },
+  ];
+  const rothamImageData = [
+    { image: rothomsimg1 },
+    { image: rothomsimg2 },
+    { image: rothomsimg3 },
+    { image: rothomsimg4 },
+    { image: rothomsimg5 },
+  ];
+  const tataImageData = [
+    { image: tatamanzaimg1 },
+    { image: tatamanzaimg2 },
+    { image: tatamanzaimg3 },
+    { image: tatamanzaimg4 },
+    { image: tatamanzaimg5 },
+  ];
+  const electroluxImageData = [
+    { image: electroluximg1 },
+    { image: electroluximg2 },
+  ];
+  const panteneImageData = [{ image: panteneimg1 }, { image: panteneimg2 }];
+  const allaroImageData = [{ image: allaroimg1 }, { image: allaroimg2 }];
+  const castrolImageData = [{ image: castrolimg1 }, { image: castrolimg2 }];
+  const chotabheemImageData = [
+    { image: chotabheemimg1 },
+    { image: chotabheemimg2 },
+    { image: chotabheemimg3 },
+  ];
+  const closeupImageData = [{ image: closeupimg1 }];
+  const dorothyImageData = [{ image: dorothyimg1 }, { image: dorothyimg2 }];
+  const emcureImageData = [{ image: emcureimg1 }, { image: emcureimg2 }];
+  const godrejImageData = [{ image: godrejimg1 }, { image: godrejimg2 }];
+  const larsenImageData = [{ image: larsenimg1 }, { image: larsenimg2 }];
+  const raymondImageData = [{ image: raymondimg1 }, { image: raymondimg2 }];
+
   return (
     <Layout location={location?.pathname}>
       <div className=" bg-APPLICATION bg-cover bg-no-repeat bg-center">
@@ -58,9 +123,18 @@ const application = ({ location }) => {
         </div>
       </div>
       <div className=" grid grid-cols-3 mt-20">
-        <div className="grid-cols-1 border-r-2 border-b-2">
+        <div className="border-r-2 border-b-2">
           <div className="pl-12 pr-12">
-            <img src={groheimg1} alt="" className=" h-64" />
+            <div>
+              <Slider {...settings}>
+                {groheImageData.map((aa) => (
+                  <div>
+                    <img src={aa.image} alt="" className="h-64 mx-auto" />
+                  </div>
+                ))}
+              </Slider>
+            </div>
+
             <div className="pt-6 font-bold text-2xl text-center">
               GROHE APPLICATION
             </div>
@@ -72,7 +146,15 @@ const application = ({ location }) => {
         </div>
         <div className=" grid-cols-1 border-r-2 border-b-2">
           <div className="pl-12 pr-12">
-            <img src={Accenture1} alt="" className=" h-64" />
+            <div>
+              <Slider {...settings}>
+                {accentureImageData.map((aa) => (
+                  <div>
+                    <img src={aa.image} alt="" className="h-64 mx-auto" />
+                  </div>
+                ))}
+              </Slider>
+            </div>
             <div className="pt-6 font-bold text-2xl text-center">ACCENTURE</div>
             <div className=" text-center">
               Since the brief isn't product-specific the business problem is
@@ -82,7 +164,15 @@ const application = ({ location }) => {
         </div>
         <div className=" grid-cols-1 border-b-2">
           <div className="pl-12 pr-12">
-            <img src={interactionimg1} alt="" className=" h-64" />
+            <div>
+              <Slider {...settings}>
+                {interactionImageData.map((aa) => (
+                  <div>
+                    <img src={aa.image} alt="" className="h-64 mx-auto" />
+                  </div>
+                ))}
+              </Slider>
+            </div>
             <div className="pt-6 font-bold text-2xl text-center">
               INTERTACTIVE MULTITACTION DISPLAY
             </div>
@@ -96,7 +186,15 @@ const application = ({ location }) => {
       <div className="grid grid-cols-3">
         <div className="grid-cols-1 border-r-2 border-b-2">
           <div className="pl-12 pr-12 pt-6 pb-2">
-            <img src={mahindraimg1} alt="" className=" h-64" />
+            <div>
+              <Slider {...settings}>
+                {mahindraImageData.map((aa) => (
+                  <div>
+                    <img src={aa.image} alt="" className="h-64 mx-auto" />
+                  </div>
+                ))}
+              </Slider>
+            </div>
             <div className="pt-6 font-bold text-2xl text-center">
               MAHINDRA SUV
             </div>
@@ -108,7 +206,15 @@ const application = ({ location }) => {
         </div>
         <div className=" grid-cols-1 border-r-2 border-b-2">
           <div className="pl-12 pr-12 pt-6 pb-2">
-            <img src={digiracerimg1} alt="" className=" h-64" />
+            <div>
+              <Slider {...settings}>
+                {digiracerImageData.map((aa) => (
+                  <div>
+                    <img src={aa.image} alt="" className="h-64 mx-auto" />
+                  </div>
+                ))}
+              </Slider>
+            </div>
             <div className="pt-6 font-bold text-2xl text-center">
               DIGI RACER GAME
             </div>
@@ -120,7 +226,15 @@ const application = ({ location }) => {
         </div>
         <div className=" grid-cols-1 border-b-2">
           <div className="pl-12 pr-12 pt-6 pb-2">
-            <img src={rothomsimg1} alt="" className=" h-64" />
+            <div>
+              <Slider {...settings}>
+                {rothamImageData.map((aa) => (
+                  <div>
+                    <img src={aa.image} alt="" className="h-64 mx-auto" />
+                  </div>
+                ))}
+              </Slider>
+            </div>
             <div className="pt-6 font-bold text-2xl text-center">
               ROTHAMS OF LONDON
             </div>
@@ -134,7 +248,15 @@ const application = ({ location }) => {
       <div className="grid grid-cols-3">
         <div className="grid-cols-1 border-r-2 border-b-2">
           <div className="pl-12 pr-12 pt-6 pb-2">
-            <img src={tatamanzaimg1} alt="" className=" h-64" />
+            <div>
+              <Slider {...settings}>
+                {tataImageData.map((aa) => (
+                  <div>
+                    <img src={aa.image} alt="" className="h-64 mx-auto" />
+                  </div>
+                ))}
+              </Slider>
+            </div>
             <div className="pt-6 font-bold text-2xl text-center">
               TATA MANZA
             </div>
@@ -146,7 +268,15 @@ const application = ({ location }) => {
         </div>
         <div className=" grid-cols-1 border-r-2 border-b-2">
           <div className="pl-12 pr-12 pt-6 pb-2">
-            <img src={electroluximg1} alt="" className=" h-64" />
+            <div>
+              <Slider {...settings}>
+                {electroluxImageData.map((aa) => (
+                  <div>
+                    <img src={aa.image} alt="" className="h-64 mx-auto" />
+                  </div>
+                ))}
+              </Slider>
+            </div>
             <div className="pt-6 font-bold text-2xl text-center">
               ELECTROLUX
             </div>
@@ -158,7 +288,15 @@ const application = ({ location }) => {
         </div>
         <div className=" grid-cols-1 border-b-2">
           <div className="pl-12 pr-12 pt-6 pb-2">
-            <img src={panteneimg1} alt="" className=" h-64" />
+            <div>
+              <Slider {...settings}>
+                {panteneImageData.map((aa) => (
+                  <div>
+                    <img src={aa.image} alt="" className="h-64 mx-auto" />
+                  </div>
+                ))}
+              </Slider>
+            </div>
             <div className="pt-6 font-bold text-2xl text-center">PANTENE</div>
             <div className=" text-center">
               Since the brief isn't product-specific the business problem is
@@ -170,7 +308,15 @@ const application = ({ location }) => {
       <div className="grid grid-cols-3">
         <div className="grid-cols-1 border-r-2 border-b-2">
           <div className="pl-12 pr-12 pt-6 pb-2">
-            <img src={allaroimg1} alt="" className=" h-64" />
+            <div>
+              <Slider {...settings}>
+                {allaroImageData.map((aa) => (
+                  <div>
+                    <img src={aa.image} alt="" className="h-64 mx-auto" />
+                  </div>
+                ))}
+              </Slider>
+            </div>
             <div className="pt-6 font-bold text-2xl text-center">
               ALLARO HOMES
             </div>
@@ -182,7 +328,15 @@ const application = ({ location }) => {
         </div>
         <div className=" grid-cols-1 border-r-2 border-b-2">
           <div className="pl-12 pr-12 pt-6 pb-2">
-            <img src={castrolimg1} alt="" className=" h-64" />
+            <div>
+              <Slider {...settings}>
+                {castrolImageData.map((aa) => (
+                  <div>
+                    <img src={aa.image} alt="" className="h-64 mx-auto" />
+                  </div>
+                ))}
+              </Slider>
+            </div>
             <div className="pt-6 font-bold text-2xl text-center">CASTROL</div>
             <div className=" text-center">
               Since the brief isn't product-specific the business problem is
@@ -192,7 +346,15 @@ const application = ({ location }) => {
         </div>
         <div className=" grid-cols-1 border-b-2">
           <div className="pl-12 pr-12 pt-6 pb-2">
-            <img src={chotabheemimg1} alt="" className=" h-64" />
+            <div>
+              <Slider {...settings}>
+                {chotabheemImageData.map((aa) => (
+                  <div>
+                    <img src={aa.image} alt="" className="h-64 mx-auto" />
+                  </div>
+                ))}
+              </Slider>
+            </div>
             <div className="pt-6 font-bold text-2xl text-center">
               CHHOTA BHEEM
             </div>
@@ -206,7 +368,15 @@ const application = ({ location }) => {
       <div className="grid grid-cols-3">
         <div className="grid-cols-1 border-r-2 border-b-2">
           <div className="pl-12 pr-12 pt-6 pb-2">
-            <img src={closeupimg1} alt="" className=" h-64" />
+            <div>
+              <Slider {...settings}>
+                {closeupImageData.map((aa) => (
+                  <div>
+                    <img src={aa.image} alt="" className="h-64 mx-auto" />
+                  </div>
+                ))}
+              </Slider>
+            </div>
             <div className="pt-6 font-bold text-2xl text-center">CLOSE UP</div>
             <div className=" text-center">
               Since the brief isn't product-specific the business problem is
@@ -216,7 +386,15 @@ const application = ({ location }) => {
         </div>
         <div className=" grid-cols-1 border-r-2 border-b-2">
           <div className="pl-12 pr-12 pt-6 pb-2">
-            <img src={dorothyimg1} alt="" className=" h-64" />
+            <div>
+              <Slider {...settings}>
+                {dorothyImageData.map((aa) => (
+                  <div>
+                    <img src={aa.image} alt="" className="h-64 mx-auto" />
+                  </div>
+                ))}
+              </Slider>
+            </div>
             <div className="pt-6 font-bold text-2xl text-center">
               DOROTHY OF OZ-THE
             </div>
@@ -228,7 +406,15 @@ const application = ({ location }) => {
         </div>
         <div className=" grid-cols-1 border-b-2">
           <div className="pl-12 pr-12 pt-6 pb-2">
-            <img src={emcureimg1} alt="" className=" h-64" />
+            <div>
+              <Slider {...settings}>
+                {emcureImageData.map((aa) => (
+                  <div>
+                    <img src={aa.image} alt="" className="h-64 mx-auto" />
+                  </div>
+                ))}
+              </Slider>
+            </div>
             <div className="pt-6 font-bold text-2xl text-center">EMCURE</div>
             <div className=" text-center">
               Since the brief isn't product-specific the business problem is
@@ -240,7 +426,15 @@ const application = ({ location }) => {
       <div className="grid grid-cols-3">
         <div className="grid-cols-1 border-r-2 border-b-2">
           <div className="pl-12 pr-12 pt-6 pb-2">
-            <img src={godrejimg1} alt="" className=" h-64" />
+            <div>
+              <Slider {...settings}>
+                {godrejImageData.map((aa) => (
+                  <div>
+                    <img src={aa.image} alt="" className="h-64 mx-auto" />
+                  </div>
+                ))}
+              </Slider>
+            </div>
             <div className="pt-6 font-bold text-2xl text-center">
               GODREJ EON
             </div>
@@ -252,7 +446,15 @@ const application = ({ location }) => {
         </div>
         <div className=" grid-cols-1 border-r-2 border-b-2">
           <div className="pl-12 pr-12 pt-6 pb-2">
-            <img src={larsenimg1} alt="" className=" h-64" />
+            <div>
+              <Slider {...settings}>
+                {larsenImageData.map((aa) => (
+                  <div>
+                    <img src={aa.image} alt="" className="h-64 mx-auto" />
+                  </div>
+                ))}
+              </Slider>
+            </div>
             <div className="pt-6 font-bold text-2xl text-center">
               LARSEN & TOUBRO
             </div>
@@ -264,7 +466,15 @@ const application = ({ location }) => {
         </div>
         <div className=" grid-cols-1 border-b-2">
           <div className="pl-12 pr-12 pt-6 pb-2">
-            <img src={raymondimg1} alt="" className=" h-64" />
+            <div>
+              <Slider {...settings}>
+                {raymondImageData.map((aa) => (
+                  <div>
+                    <img src={aa.image} alt="" className="h-64 mx-auto" />
+                  </div>
+                ))}
+              </Slider>
+            </div>
             <div className="pt-6 font-bold text-2xl text-center">RAYMOND</div>
             <div className=" text-center">
               Since the brief isn't product-specific the business problem is

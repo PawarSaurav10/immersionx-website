@@ -10,6 +10,7 @@ const Grohe = ({ location }) => {
     bg: "bg-GROHEBG",
     title: "Grohe",
     data1: {
+      numberofcolspan: 2,
       imageurl: Groheimg1,
       h1: "Virtual shower experience with a 4-sided VR Cave Projection System",
       p1: "Grohe understood that shower systems could not be experienced first-hand by their customers. A problem they had identified quite some time back but could not come up with a solution for it.",

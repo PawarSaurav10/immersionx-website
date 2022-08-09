@@ -12,6 +12,7 @@ const TCL = ({ location }) => {
     bg: "bg-TataCommunicationsBG",
     title: "Tata Communications Experience Centre",
     data1: {
+        numberofcolspan: 2,
       imageurl: TATAimg1,
       h1: "Interactive Experience Centre with integration of the Digital Toolkit",
       p1: "Designed and built a customer experience centre for Tata Communication at their BKC office in Mumbai. The intent of setting up this centre was to enable, showcase and demonstrate their capabilities across various industry vertical .",

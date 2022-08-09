@@ -12,7 +12,7 @@ const Capsule = ({ location }) => {
     bg: "bg-CAPSULEBG",
     title: "Capsule",
     data1: {
-      numberofcolspan: 3,
+      numberofcolspan: 2,
       imageurl: Capsuleimg1,
       h1: "The Brief",
       p1: "CAPSULE is a hologram display that creates incredible interactive experiences.",
@@ -44,7 +44,7 @@ const Capsule = ({ location }) => {
           </div>
         </div>
         {/* {CapsuleData?.data1 && <LeftImageRightText data={CapsuleData?.data1} />} */}
-        {CapsuleData?.data2 && <LeftTextRightImage data={CapsuleData?.data1} />}
+        {CapsuleData?.data1 && <LeftTextRightImage data={CapsuleData?.data1} />}
         {/* {CapsuleData?.data3 && <LeftImageRightText data={CapsuleData?.data3} />} */}
         <img src={capsulevideo} alt=""/>
       </div>

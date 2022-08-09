@@ -13,6 +13,7 @@ const Audi = ({ location }) => {
     bg: "bg-AUDIBG",
     title: "AUDI",
     data1: {
+      numberofcolspan: 2,
       imageurl: Audiimg1,
       h1: "A multitouch display with marker recognition (MultiTaction) capabilities designed for Audi",
       p1: "It was the Unconference event, at Jaigarh Fort which is located at Jaipur, Rajasthan, where Audi team wanted to create something innovative that could enable the car lovers to witness the true potential of the newly launched Audi R8 V10 Plus. The event being organized by YPO (Young Presidents Organization) and sponsored by AUDI, it was obvious the audience would be young and vibrant. Keeping in view of the same Xenium Digital conceptualized an experience involving state-of-the-art MultiTaction Technology.",

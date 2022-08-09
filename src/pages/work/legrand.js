@@ -12,6 +12,7 @@ const Legrand = ({ location }) => {
     bg: "bg-LEGRANDBG",
     title: "LEGRAND",
     data1: {
+      numberofcolspan: 2,
       imageurl: LEGRANDimg1,
       h1: "Virtual Event with real-time tracking for Legrand's solution and products",
       p1: "India's first AR TracTech solution for their virtual product launch event. Our special 3d tracking cameras would capture and track a 3d printed house in realtime and layer augmented information on top of it with 3d animations and graphics.",

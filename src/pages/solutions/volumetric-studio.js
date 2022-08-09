@@ -12,19 +12,21 @@ const VolumetricStudio = ({ location }) => {
     bg: "bg-volumetric",
     title: "Volumetric Studio",
     data1: {
-      numberofcolspan: 3,
+      numberofcolspan: 2,
       imageurl: img1,
       h1: "Volumetric Capture",
       p1: `“Volumetric capture" (also known as "volumetric intelligence") technology converts a person, object, or place into 3D digital data and reproduces it as a high-quality image. Basically, volumetric capture can create spatial models of moving objects and people in real-time. This video technique captures you from different viewpoints. It captures moving images of people and creates them in 3D in NO TIME! `,
       // p2: "",
     },
     data2: {
+      numberofcolspan: 2,
       imageurl: img2,
       // p1: "The metaverse is one of those big concepts that tends to spur all kinds of ideas. Sometimes practical, often theoretical.",
       p1: "This video technique captures vou from different viewpoints. It captures moving images of people and creates them in 3D in NO TIME!.",
       p2: "Think of it as like taking one photograph of each side of a cube and then gluing the photos together into a cube shape. You now have a spatial model created from two-dimensional representations of the real thing.",
     },
     data3: {
+      numberofcolspan: 2,
       imageurl: img3,
       h1: "Creating the Metaverse with Volumetric Video and Virtual Production",
       p1: "The metaverse is one of those big concepts that tends to spur all kinds of ideas. Sometimes practical, often theoretical.",

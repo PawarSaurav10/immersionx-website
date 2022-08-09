@@ -6,8 +6,18 @@ const LeftTextRightImage = (props) => {
   return (
     <div className="bg-slate-900">
       <div className="container ">
-        <div className="grid md:grid-cols-5">
-          <div className=" flex justify-center md:col-span-2 bg-black text-white">
+        <div className= {`${
+              props?.data?.numberofcolspan === 2
+                ? "hidden md:grid md:grid-cols-2"
+                : "hidden md:grid md:grid-cols-5"
+            }`}>
+          <div className= {` ${
+              props?.data?.numberofcolspan === 2
+                ? "flex justify-center md:col-span-1 bg-black text-white"
+                : "flex justify-center md:col-span-2 bg-black text-white"
+            } `}
+          // " flex justify-center md:col-span-2 bg-black text-white"
+          >
             <div className="flex flex-col justify-center p-12  text-left">
               {props?.data?.h1 && (
                 <div className="pt-7 text-xl text-orange-300 ">
@@ -66,7 +76,7 @@ const LeftTextRightImage = (props) => {
           <div
             className={`${
               props?.data?.numberofcolspan === 2
-                ? "md:col-span-3"
+                ? "md:col-span-1"
                 : "md:col-span-3"
             } `}
           >

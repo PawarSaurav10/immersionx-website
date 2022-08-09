@@ -13,6 +13,7 @@ const WNS = ({ location }) => {
     title: "WNS",
     desc: "EXPERINCE CENTER",
     data1: {
+      numberofcolspan: 2,
       imageurl: WNSimg1,
       h1: "Interactive Experience Centre with multiple interaction zones",
       p1: "The WNS experience center is the perfect instrument to resonate an idea, create a melodious track of business-driven solutions.",

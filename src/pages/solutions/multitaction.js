@@ -18,6 +18,7 @@ const Multitaction = ({ location }) => {
       // p3: "Think of it as like taking one photograph of each side of a cube and then gluing the photos together into a cube shape. You now have a spatial model created from two-dimensional representations of the real thing.",
     },
     data2: {
+      numberofcolspan: 3,
       imageurl: COLLABORATIVEVRim2,
       h1: "CANVUS COLLABORATIVE SOFTWARE",
       p1: "Over the years, there have been many attempts at achieving team collaboration, from video conferencing to shared document services. But, these platforms have always fallen short of realizing a truly unified collaboration experience.",

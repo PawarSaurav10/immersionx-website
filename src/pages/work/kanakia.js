@@ -12,6 +12,7 @@ const Kanakia = ({ location }) => {
     bg: "bg-KANAKIABG",
     title: "Kanakia",
     data1: {
+      numberofcolspan: 2,
       imageurl: KANAKIAimg4,
       h1: "Immersive touch projection and a visual delight for kids at the Kanakia sales office",
       p1: "Kanaka commissioned Immersion to undertake 'the Aquarium' for their upcoming project, 'Codename Future'.",

@@ -22,6 +22,7 @@ const Siemens = ({ location }) => {
       // p2: "",
     },
     data2: {
+      numberofcolspan: 2,
       imageurl: SIEMENSimg4,
       // imageurl2: SIEMENSimg3,
       // h1: "Our Approach",

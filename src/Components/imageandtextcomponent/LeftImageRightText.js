@@ -3,14 +3,24 @@ import React from "react";
 // import COLLABORATIVEVRim1 from "../..images/06_OURWORK/pages//COLLABORATIVEVRim1.png";
 
 const LeftImageRightText = (props) => {
+  // console.log( props?.data?.numberofcolspan === 2
+  //   ? "md:col-span-6"
+  //   : "md:col-span-5")
   return (
     <div className="bg-slate-900">
       <div className="container ">
-        <div className="hidden md:grid md:grid-cols-5">
+        <div className=
+        {` ${
+              props?.data?.numberofcolspan === 2
+                ? "hidden md:grid md:grid-cols-2"
+                : "hidden md:grid md:grid-cols-5"
+            } `}
+        // "hidden md:grid md:grid-cols-2"
+        >
           <div
             className={`${
               props?.data?.numberofcolspan === 2
-                ? "md:col-span-2"
+                ? "md:col-span-1"
                 : "md:col-span-3"
             } `}
           >
@@ -49,7 +59,7 @@ const LeftImageRightText = (props) => {
           <div
             className={`flex ${
               props?.data?.numberofcolspan === 2
-                ? "md:col-span-3"
+                ? "md:col-span-1"
                 : "md:col-span-2"
             } bg-black text-white`}
           >

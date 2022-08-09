@@ -206,7 +206,7 @@ const OurServices = () => {
                         >
                           {/* <Link to="/solutions/vr-cave"> */}
                           <div className="text-base md:text-2xl font-bold text-white">
-                          COLLABRATIVE XR
+                          COLLABORATIVE XR
                           </div>
                           {/* <span>Graphics</span> */}
                           {/* </Link> */}

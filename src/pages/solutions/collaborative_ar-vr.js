@@ -8,18 +8,18 @@ import COLLABORATIVEVRim2 from "../../images/02_OURSERVICES/pages/COLLABORATIVEV
 const CollaborativeVRAR = ({ location }) => {
   const CollabrateVRData = {
     bg: "bg-COLLABORATIVEVRBG",
-    title: "COLLABORATIVE AR/XR",
+    title: "COLLABORATIVE XR",
     data1: {
       numberofcolspan: 3,
       imageurl: COLLABORATIVEVRim1,
       h1: "Join us in a new dimension.",
       p1: "Augmented and virtual reality have come a long way, from being just a gimmick to being an integral part of the ‘digital revolution’. Brands look at these technologies as weapons of MASS ENGAGEMENT. Be it, augmenting key information over objects &amp; surroundings or transcending the user to a make-believe virtual world, where the content can be delivered more effectively than any other medium.",
-      p2: "AR &amp; VR are the first steps towards a brand’s Digital transformation and a gateway into the future of collaboration. With tools such as VR or AR glasses and devices enabled with AR and VR collaboration is seamless and empowering. The ease of use is another added advantage since many applications are built to support these technologies. The applications of AR and VR are endless, liberate your imagination, THINK BIG.",
+      // p2: "AR &amp; VR are the first steps towards a brand’s Digital transformation and a gateway into the future of collaboration. With tools such as VR or AR glasses and devices enabled with AR and VR collaboration is seamless and empowering. The ease of use is another added advantage since many applications are built to support these technologies. The applications of AR and VR are endless, liberate your imagination, THINK BIG.",
       // p3: " Can be used for Virtual meeting rooms, training spaces, virtual shopping experiences, remote collaborations, etc.",
     },
     data2: {
       imageurl: COLLABORATIVEVRim2,
-      // p1: "With tools such as VR or AR glasses and devices enabled with AR and VR collaboration is seamless and empowering. The ease of use is another added advantage since many applications are built to support these technologies. The applications of AR and VR are endless, liberate your imagination, think BIG.",
+      p1: "AR &amp; VR are the first steps towards a brand’s Digital transformation and a gateway into the future of collaboration. With tools such as VR or AR glasses and devices enabled with AR and VR collaboration is seamless and empowering. The ease of use is another added advantage since many applications are built to support these technologies. The applications of AR and VR are endless, liberate your imagination, THINK BIG.",
       // p3: "Can be used for Virtual meeting rooms, training spaces, virtual shopping experiences, remote collaborations, etc.",
     },
   };

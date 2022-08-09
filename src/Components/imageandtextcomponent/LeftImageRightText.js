@@ -30,7 +30,6 @@ const LeftImageRightText = (props) => {
                 width="750"
                 height="500"
                 controls
-                
                 // className={`${
                 //   props?.data?.imageurl2 ? "h-1/2" : "h-full"
                 // } w-full`}
@@ -70,9 +69,7 @@ const LeftImageRightText = (props) => {
                 {props?.data?.p3 && (
                   <div className="pt-5">{props?.data?.p3}</div>
                 )}
-                {props?.data?.p4 && (
-                  <div className="pt-5">{props?.data?.p4}</div>
-                )}
+
                 <div className="list-disc">
                   {props?.data?.l1 && (
                     <div className="flex">
@@ -103,7 +100,7 @@ const LeftImageRightText = (props) => {
                   {props?.data?.h2}
                 </div>
               )}
-
+              {props?.data?.p4 && <div className="pt-5">{props?.data?.p4}</div>}
               {props?.data?.p5 && <p className="pt-5 ">{props?.data?.p5}</p>}
               {props?.data?.h3 && (
                 <div className="pt-7 text-xl text-orange-300 ">

@@ -69,9 +69,7 @@ const LeftImageRightText = (props) => {
                 {props?.data?.p3 && (
                   <div className="pt-5">{props?.data?.p3}</div>
                 )}
-                {props?.data?.p4 && (
-                  <div className="pt-5">{props?.data?.p4}</div>
-                )}
+
                 <div className="list-disc">
                   {props?.data?.l1 && (
                     <div className="flex">
@@ -102,7 +100,7 @@ const LeftImageRightText = (props) => {
                   {props?.data?.h2}
                 </div>
               )}
-
+              {props?.data?.p4 && <div className="pt-5">{props?.data?.p4}</div>}
               {props?.data?.p5 && <p className="pt-5 ">{props?.data?.p5}</p>}
               {props?.data?.h3 && (
                 <div className="pt-7 text-xl text-orange-300 ">

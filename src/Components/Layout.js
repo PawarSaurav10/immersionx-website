@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 // import { Helmet } from "react-helmet";
 import Header from "./Header";
 import Loader from "../pages/loader";
-import ScroolToTopButton from "./ScroolToTopButton";
+// import ScroolToTopButton from "./ScroolToTopButton";
 import Footer from "./footer";
 
 const Layout = ({ children,location }) => {

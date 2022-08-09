@@ -1,6 +1,6 @@
 import React from "react";
 import { Fade, Slide } from "react-reveal";
-import img from "../images/03_OURPROCESS/icon@2x.png";
+// import img from "../images/03_OURPROCESS/icon@2x.png";
 import img1 from "../images/03_OURPROCESS/001.png";
 import img2 from "../images/03_OURPROCESS/002.png";
 // import img2 from "../images/03_OURPROCESS/002-copy.png";

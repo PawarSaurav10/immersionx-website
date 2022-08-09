@@ -2,8 +2,8 @@ import React from "react";
 import Layout from "../../Components/Layout";
 import LeftImageRightText from "../../Components/imageandtextcomponent/LeftImageRightText";
 import LeftTextRightImage from "../../Components/imageandtextcomponent/LeftTextRightImage";
-import KANAKIAimg1 from "../../images/09_pages/KANAKIA/im_1@2x.png";
-import KANAKIAimg2 from "../../images/09_pages/KANAKIA/im_2@2x.png";
+// import KANAKIAimg1 from "../../images/09_pages/KANAKIA/im_1@2x.png";
+// import KANAKIAimg2 from "../../images/09_pages/KANAKIA/im_2@2x.png";
 import KANAKIAimg3 from "../../images/09_pages/KANAKIA/im_2.jpg";
 import KANAKIAimg4 from "../../images/09_pages/KANAKIA/im_1.jpg";
 

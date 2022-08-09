@@ -6,7 +6,7 @@ import video1 from "../images/ImmersionxShowreel_v02.mp4";
 // import video1 from "../images/Originalvideocompressed.mp4";
 // import mouse from "../images/01_screensaver/scrollicon@2x.png";
 // import mouse from "../images/01_screensaver/scrolldownmousedark.png";
-import mouse from "../images/01_screensaver/scrolldown-mouse.png";
+// import mouse from "../images/01_screensaver/scrolldown-mouse.png";
 import React from "react";
 import { Fade } from "react-reveal";
 import { Link } from "gatsby";

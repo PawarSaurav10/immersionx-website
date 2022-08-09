@@ -4,8 +4,8 @@ import LeftImageRightText from "../../Components/imageandtextcomponent/LeftImage
 import LeftTextRightImage from "../../Components/imageandtextcomponent/LeftTextRightImage";
 import LEGRANDimg1 from "../../images/09_pages/LEGRAND/im_1.jpg";
 import LEGRANDimg2 from "../../images/09_pages/LEGRAND/im_2.jpg";
-import LEGRANDimg3 from "../../images/09_pages/LEGRAND/im_3@2x.png";
-import LEGRANDimg4 from "../../images/09_pages/LEGRAND/im_4@2x.png";
+// import LEGRANDimg3 from "../../images/09_pages/LEGRAND/im_3@2x.png";
+// import LEGRANDimg4 from "../../images/09_pages/LEGRAND/im_4@2x.png";
 
 const Legrand = ({ location }) => {
   const LegerandData = {

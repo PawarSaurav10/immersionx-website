@@ -2,7 +2,7 @@ import React from "react";
 import LeftImageRightText from "../../Components/imageandtextcomponent/LeftImageRightText";
 import LeftTextRightImage from "../../Components/imageandtextcomponent/LeftTextRightImage";
 import Layout from "../../Components/Layout";
-import COLLABORATIVEVIDEO from "../../images/09_pages/VOLUSTUDIO/Volumetric.mp4";
+// import COLLABORATIVEVIDEO from "../../images/09_pages/VOLUSTUDIO/Volumetric.mp4";
 import img1 from "../../images/09_pages/VOLUSTUDIO/im_1.jpg";
 import img2 from "../../images/09_pages/VOLUSTUDIO/im_2.jpg";
 import img3 from "../../images/09_pages/VOLUSTUDIO/im_3.jpg";

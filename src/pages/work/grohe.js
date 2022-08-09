@@ -1,7 +1,7 @@
 import React from "react";
 import Layout from "../../Components/Layout";
 import LeftImageRightText from "../../Components/imageandtextcomponent/LeftImageRightText";
-import LeftTextRightImage from "../../Components/imageandtextcomponent/LeftTextRightImage";
+// import LeftTextRightImage from "../../Components/imageandtextcomponent/LeftTextRightImage";
 import Groheimg1 from "../../images/09_pages/GROHE/im_1@2x.png";
 import Groheimg2 from "../../images/09_pages/GROHE/im_2@2x.png";
 

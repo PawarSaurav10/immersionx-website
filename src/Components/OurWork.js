@@ -155,7 +155,7 @@ const OurWork = ({ location }) => {
           <Fade bottom big cascade>
             <div className="flex-1 px-2 pb-2 md:pb-0 flex flex-col">
               <div className="portfolio-item img-zoom ct-marketing ct-media ct-branding ct-marketing ct-webdesign py-2">
-                <Link to="/work/tlc">
+                <Link to="/work/tcl">
                   <div className="portfolio-item-wrap">
                     <div className="portfolio-image">
                       <img src={TCL} alt="" />

@@ -27,14 +27,14 @@ const Partners = () => {
         <div className="flex flex-col justify-between">
           <div className="container">
             <div className="flex flex-col justify-start">
-              <div className="flex justify-between text-white pt-8 lg:pt-52 pb-12 lg:pb-0">
+              <div className="flex justify-between text-white pt-8 lg:pt-52 lg:pl-28 pb-12 lg:pb-0">
                 <Fade bottom>
                   <div className="uppercase font-bold text-2xl md:text-5xl xl:text-7xl text-left">
                     Partners
                   </div>
                 </Fade>
               </div>
-              <div className="pt-0 lg:pt-32">
+              <div className="pt-0 lg:pt-32 lg:pl-28">
                 <Fade left>
                   <div className="text-white text-left max-w-sm text-base xl:text-lg pb-6 lg:pb-0">
                     <div className="pb-10">

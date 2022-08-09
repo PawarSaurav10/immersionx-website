@@ -30,6 +30,7 @@ const LeftImageRightText = (props) => {
                 width="750"
                 height="500"
                 controls
+                
                 // className={`${
                 //   props?.data?.imageurl2 ? "h-1/2" : "h-full"
                 // } w-full`}

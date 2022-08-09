@@ -1,9 +1,9 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
-import { faPhone, faPhoneSquare } from "@fortawesome/free-solid-svg-icons";
-import img1 from "../images/08_CONTACTUS/Layer.png";
-import img2 from "../images/08_CONTACTUS/Layer1.png";
+import { faPhone } from "@fortawesome/free-solid-svg-icons";
+// import img1 from "../images/08_CONTACTUS/Layer.png";
+// import img2 from "../images/08_CONTACTUS/Layer1.png";
 
 const ContactUs = () => {
   return (

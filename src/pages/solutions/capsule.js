@@ -1,10 +1,10 @@
 import React from "react";
-import LeftImageRightText from "../../Components/imageandtextcomponent/LeftImageRightText";
+// import LeftImageRightText from "../../Components/imageandtextcomponent/LeftImageRightText";
 import LeftTextRightImage from "../../Components/imageandtextcomponent/LeftTextRightImage";
 import Layout from "../../Components/Layout";
 import Capsuleimg1 from "../../images/09_pages/CAPSULE/im_1@2x.png";
-import Capsuleimg3 from "../../images/09_pages/CAPSULE/im_3@2x.png";
-import Capsuleimg4 from "../../images/09_pages/CAPSULE/im_4@2x.png";
+// import Capsuleimg3 from "../../images/09_pages/CAPSULE/im_3@2x.png";
+// import Capsuleimg4 from "../../images/09_pages/CAPSULE/im_4@2x.png";
 import capsulevideo from "../../images/09_pages/CAPSULE/videosim.jpg"
 
 const Capsule = ({ location }) => {

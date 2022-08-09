@@ -1,10 +1,10 @@
 import {
   faAngleUp,
-  faChevronCircleUp,
+  // faChevronCircleUp,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React, { useEffect, useState } from "react";
-import { FaArrowCircleUp } from "react-icons/fa";
+// import { FaArrowCircleUp } from "react-icons/fa";
 
 const ScroolToTopButton = () => {
   const [visible, setVisible] = useState(false);

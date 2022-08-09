@@ -4,7 +4,7 @@ import LeftTextRightImage from "../../Components/imageandtextcomponent/LeftTextR
 import Layout from "../../Components/Layout";
 import VRCAVEimg1 from "../../images/09_pages/VRCAVE/im_1.jpg";
 import VRCAVEimg3 from "../../images/09_pages/VRCAVE/im_3.jpg";
-import VRCAVEimg4 from "../../images/09_pages/VRCAVE/im_4@2x.png";
+// import VRCAVEimg4 from "../../images/09_pages/VRCAVE/im_4@2x.png";
 
 const VRCave = ({ location }) => {
   const VRCaveData = {

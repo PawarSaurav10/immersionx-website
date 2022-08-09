@@ -22,7 +22,7 @@ import TCL from "../images/WORK/TCL.png";
 // // import Groheimg2 from "../images/09_pages/GROHE/im_2@2x.png";
 import { Link } from "gatsby";
 import { Fade } from "react-reveal";
-import mouse from "../images/01_screensaver/scrolldown-mouse.png";
+// import mouse from "../images/01_screensaver/scrolldown-mouse.png";
 
 const OurWork = ({ location }) => {
   // console.log(location);

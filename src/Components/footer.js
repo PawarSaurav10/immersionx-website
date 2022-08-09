@@ -22,7 +22,7 @@ const Footer = () => {
           </div>
           <div className="flex items-center justify-center">
             {imagedata.map((aa) => (
-              <img src={aa.image} className="mr-2" />
+              <img src={aa.image} id={aa.idx} className="mr-2" alt="img"/>
             ))}
           </div>
         </div>

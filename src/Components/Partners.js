@@ -85,7 +85,7 @@ const Partners = () => {
               </div>
             </div>
             <div className="px-3">
-              <img src={img} />
+              <img src={img} alt="img"/>
             </div>
           </div>
         </div>

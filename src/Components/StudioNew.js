@@ -1,5 +1,5 @@
-import { faArrowAltCircleRight } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import { faArrowAltCircleRight } from "@fortawesome/free-solid-svg-icons";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import { Fade } from "react-reveal";
 // import img from "../images/04_STUDIO/videos@2x.png";

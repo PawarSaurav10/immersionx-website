@@ -6,6 +6,10 @@ import LEGRAND from "../images/WORK/LEGRAND.png";
 import SIEMENS from "../images/WORK/SIEMENS.png";
 import WNS from "../images/WORK/WNS.png";
 import TCL from "../images/WORK/TCL.png";
+import ACCENTURE from "../images/WORK/ACCENTURE.png";
+import JSW from "../images/WORK/JSWHAMPI.png";
+import MIND from "../images/WORK/MIND.png";
+import HCL from "../images/WORK/HCL.png";
 // import img1 from "../images/06_OURWORK/WNS@2x.png";
 // // import img1 from "../images/06_OURWORK/WNS@2x.png";
 // // import img2 from "../images/06_OURWORK/HCL@2x.png";
@@ -148,6 +152,54 @@ const OurWork = ({ location }) => {
                   </div>
                 </Link>
               </div>
+              <div className="portfolio-item img-zoom ct-marketing ct-media ct-branding ct-marketing ct-webdesign py-2">
+                <Link to="/work/accenture">
+                  <div className="portfolio-item-wrap">
+                    <div className="portfolio-image">
+                      <img src={ACCENTURE} alt="" />
+                    </div>
+                    <div
+                      className="portfolio-description"
+                      style={{
+                        bottom: "-40px",
+                        display: "flex",
+                        justifyContent: "flex-start",
+                      }}
+                    >
+                      {/* <Link to="/work/grohe"> */}
+                      <div className="text-base md:text-3xl font-bold text-white">
+                        ACCENTURE
+                      </div>
+                      {/* <span>Graphics</span> */}
+                      {/* </Link> */}
+                    </div>
+                  </div>
+                </Link>
+              </div>
+              <div className="portfolio-item img-zoom ct-marketing ct-media ct-branding ct-marketing ct-webdesign py-2">
+                <Link to="/work/jsw">
+                  <div className="portfolio-item-wrap">
+                    <div className="portfolio-image">
+                      <img src={JSW} alt="" />
+                    </div>
+                    <div
+                      className="portfolio-description"
+                      style={{
+                        bottom: "-40px",
+                        display: "flex",
+                        justifyContent: "flex-start",
+                      }}
+                    >
+                      {/* <Link to="/work/grohe"> */}
+                      <div className="text-base md:text-3xl font-bold text-white">
+                        JSW HAMPI (MUSEUM)
+                      </div>
+                      {/* <span>Graphics</span> */}
+                      {/* </Link> */}
+                    </div>
+                  </div>
+                </Link>
+              </div>
             </div>
           </Fade>
         </div>
@@ -243,6 +295,54 @@ const OurWork = ({ location }) => {
                       {/* <Link to="/work/legrand"> */}
                       <div className="text-base md:text-3xl font-bold text-white">
                         LEGRAND
+                      </div>
+                      {/* <span>Graphics</span> */}
+                      {/* </Link> */}
+                    </div>
+                  </div>
+                </Link>
+              </div>
+              <div className="portfolio-item img-zoom ct-marketing ct-media ct-branding ct-marketing ct-webdesign py-2">
+                <Link to="/work/mind">
+                  <div className="portfolio-item-wrap">
+                    <div className="portfolio-image">
+                      <img src={MIND} alt="" />
+                    </div>
+                    <div
+                      className="portfolio-description"
+                      style={{
+                        bottom: "-40px",
+                        display: "flex",
+                        justifyContent: "flex-start",
+                      }}
+                    >
+                      {/* <Link to="/work/legrand"> */}
+                      <div className="text-base md:text-3xl font-bold text-white">
+                        MIND
+                      </div>
+                      {/* <span>Graphics</span> */}
+                      {/* </Link> */}
+                    </div>
+                  </div>
+                </Link>
+              </div>
+              <div className="portfolio-item img-zoom ct-marketing ct-media ct-branding ct-marketing ct-webdesign py-2">
+                <Link to="/work/hcl">
+                  <div className="portfolio-item-wrap">
+                    <div className="portfolio-image">
+                      <img src={HCL} alt="" />
+                    </div>
+                    <div
+                      className="portfolio-description"
+                      style={{
+                        bottom: "-40px",
+                        display: "flex",
+                        justifyContent: "flex-start",
+                      }}
+                    >
+                      {/* <Link to="/work/legrand"> */}
+                      <div className="text-base md:text-3xl font-bold text-white">
+                        HCL
                       </div>
                       {/* <span>Graphics</span> */}
                       {/* </Link> */}

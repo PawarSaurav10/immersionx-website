@@ -35,7 +35,12 @@ module.exports = {
         VRCAVEBG: "url('../images/09_pages/VRCAVE/VIRTUALREALITYCAVEBG.jpg')",
         MULTITACTION: "url('../images/02_OURSERVICES/pages/COLLABORATIVEVR/MULTITACTIONBG.jpg')",
         APPLICATION: "url('../images/10_APPLICATIONs/applicationBG.jpg')",
-        ABOUTUS: "url('../images/11_ABOUTUS/aboutusbg.jpg')"
+        ABOUTUS: "url('../images/11_ABOUTUS/aboutusbg.jpg')",
+        ACCENTURE: "url('../images/09_pages/ACCENTURE/accentureBG.jpg')",
+        JSWHAMPI: "url('../images/09_pages/JSW/JSWHAMPIBG.jpg')",
+        HCL: "url('../images/09_pages/HCL/HCLBG.jpg')",
+        MIND: "url('../images/09_pages/MIND/MINDBG.jpg')",
+        COLLABORATIVEVR:"url('../images/02_OURSERVICES/pages/COLLABORATIVEVR/COLLABORATIVEVRBG.jpg')",
       },
       height: {
         79: 315,

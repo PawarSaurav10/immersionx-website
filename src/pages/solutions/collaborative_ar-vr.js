@@ -2,12 +2,12 @@ import React from "react";
 import LeftImageRightText from "../../Components/imageandtextcomponent/LeftImageRightText";
 import LeftTextRightImage from "../../Components/imageandtextcomponent/LeftTextRightImage";
 import Layout from "../../Components/Layout";
-import COLLABORATIVEVRim1 from "../../images/02_OURSERVICES/pages/COLLABORATIVEVR/COLLABORATIVEVRim_1@2x.png";
+import COLLABORATIVEVRim1 from "../../images/02_OURSERVICES/pages/COLLABORATIVEVR/COLLABORATIVEVRim_1.jpg";
 import COLLABORATIVEVRim2 from "../../images/02_OURSERVICES/pages/COLLABORATIVEVR/COLLABORATIVEVRim_2@2x.png";
 
 const CollaborativeVRAR = ({ location }) => {
   const CollabrateVRData = {
-    bg: "bg-COLLABORATIVEVRBG",
+    bg: "bg-COLLABORATIVEVR",
     title: "COLLABORATIVE XR",
     data1: {
       numberofcolspan: 3,
@@ -17,12 +17,12 @@ const CollaborativeVRAR = ({ location }) => {
       // p2: "AR &amp; VR are the first steps towards a brand’s Digital transformation and a gateway into the future of collaboration. With tools such as VR or AR glasses and devices enabled with AR and VR collaboration is seamless and empowering. The ease of use is another added advantage since many applications are built to support these technologies. The applications of AR and VR are endless, liberate your imagination, THINK BIG.",
       // p3: " Can be used for Virtual meeting rooms, training spaces, virtual shopping experiences, remote collaborations, etc.",
     },
-    data2: {
-      numberofcolspan: 3,
-      imageurl: COLLABORATIVEVRim2,
-      p1: "AR &amp; VR are the first steps towards a brand’s Digital transformation and a gateway into the future of collaboration. With tools such as VR or AR glasses and devices enabled with AR and VR collaboration is seamless and empowering. The ease of use is another added advantage since many applications are built to support these technologies. The applications of AR and VR are endless, liberate your imagination, THINK BIG.",
-      // p3: "Can be used for Virtual meeting rooms, training spaces, virtual shopping experiences, remote collaborations, etc.",
-    },
+    // data2: {
+    //   numberofcolspan: 3,
+    //   imageurl: COLLABORATIVEVRim2,
+    //   p1: "AR &amp; VR are the first steps towards a brand’s Digital transformation and a gateway into the future of collaboration. With tools such as VR or AR glasses and devices enabled with AR and VR collaboration is seamless and empowering. The ease of use is another added advantage since many applications are built to support these technologies. The applications of AR and VR are endless, liberate your imagination, THINK BIG.",
+    //   // p3: "Can be used for Virtual meeting rooms, training spaces, virtual shopping experiences, remote collaborations, etc.",
+    // },
   };
 
   return (

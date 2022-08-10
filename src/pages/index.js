@@ -42,16 +42,16 @@ const IndexPage = ({location}) => {
         {/* <OurPartners /> */}
         <Partners/> 
         <div className="self-end mt-auto">
-          <div className="py-4 px-4 bg-black">
+          <div className="px-12 py-16 bg-black">
             <Fade left>
-              <div className="grid grid-cols-2 gap-4 lg:grid-cols-4 xl:grid-cols-8 place-items-center ">
+              <div className="grid grid-cols-2 gap-16 lg:grid-cols-4 xl:grid-cols-8 place-items-center ">
                 {imageData &&
                   imageData.map((aa, idx) => {
                     return (
                       <img
                         src={aa.img}
                         key={idx}
-                        className="px-4 py-4"
+                        className="p-4"
                         alt=""
                       />
                     );

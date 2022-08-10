@@ -223,14 +223,18 @@ const BannerImage = () => {
               {/* <img src={mouse} className="w-auto h-auto" /> */}
             </Link>
           </div>
-
-          <video
-            src={video1}
-            autoPlay
-            loop
-            muted
-            className="absolute z-10 w-auto min-w-full min-h-full max-w-none brightness-40 "
-          ></video>
+          <div className="html5vid">
+            <video
+              src={video1}
+              autoPlay
+              loop
+              muted
+              playsInline
+              poster
+              preload="true"
+              className="absolute z-10 w-auto h-auto min-w-full min-h-full max-w-none brightness-40 "
+            ></video>
+          </div>
         </div>
       </div>
     </>

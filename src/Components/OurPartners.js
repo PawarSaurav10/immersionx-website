@@ -1,5 +1,6 @@
 import React from "react";
-import img from "../images/05_OURPARTNERS/OURPARTNERSim@2x.png";
+import img from "../images/05_OURPARTNERS/PARTNERS-BG.png"
+// import img from "../images/05_OURPARTNERS/OURPARTNERSim@2x.png";
 import dassaualtSystem from "../images/05_OURPARTNERS/DassaultSystèmeslogo@2x.png";
 import multitaction from "../images/05_OURPARTNERS/multitactionlogo@2x.png";
 import arhtMedia from "../images/05_OURPARTNERS/Arhtmedia@2x.png";
@@ -22,7 +23,7 @@ const OurPartners = () => {
     { img: art },
   ];
   return (
-    <div className=" bg-our-partners bg-no-repeat bg-cover h-screen">
+    <div className=" bg-our-partners bg-no-repeat bg-cover">
       <div className="container pt-5 lg:pt-44 pr-0">
         <div className="">
           <div className="flex justify-between text-white pt-8 lg:pt-0 pb-12 lg:pb-0">

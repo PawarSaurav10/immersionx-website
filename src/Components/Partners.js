@@ -1,5 +1,6 @@
 import React from "react";
 import { Fade } from "react-reveal";
+import img from "../images/05_OURPARTNERS/PARTNERS-BG.png";
 // import dassaualtSystem from "../images/05_OURPARTNERS/DassaultSystèmeslogo@2x.png";
 // import multitaction from "../images/05_OURPARTNERS/multitactionlogo@2x.png";
 // import arhtMedia from "../images/05_OURPARTNERS/Arhtmedia@2x.png";
@@ -8,7 +9,7 @@ import { Fade } from "react-reveal";
 // import displax from "../images/05_OURPARTNERS/Displaxlogo@2x.png";
 // import worldviz from "../images/05_OURPARTNERS/Worldvizlogo@2x.png";
 // import art from "../images/05_OURPARTNERS/Artlogo@2x.png";
-import img from "../images/05_OURPARTNERS/PARTNERSBGmin.png";
+// import img from "../images/05_OURPARTNERS/PARTNERSBGmin.png";
 
 const Partners = () => {
   // const imageData = [
@@ -26,7 +27,7 @@ const Partners = () => {
       <div className="hidden lg:block bg-black">
         <div className="grid grid-cols-3">
           <div className="container col-span-1">
-            <div className="flex flex-col justify-start">
+            <div className="flex flex-col items-center justify-start">
               <div className="flex justify-between text-white pt-8 lg:pt-40 pb-12 lg:pb-0">
                 <Fade bottom>
                   <div className="uppercase font-bold text-2xl md:text-5xl xl:text-7xl text-left">
@@ -38,14 +39,12 @@ const Partners = () => {
                 <Fade left>
                   <div className="text-white text-left max-w-sm text-base xl:text-lg pb-6 lg:pb-0">
                     <div className="pb-10">
-                      An exhibition of our technologies, an album of our
-                      solutions, an experience center is a theatricals act of
-                      characters in the form of installations that play their
-                      part in narrating a story. A brand story. Space Design +
-                      Content + Technology
+                      We are, who we are, because of what our people strive to
+                      help us become and our associations empower us to think
+                      BIG. execute BIG ideas.
                     </div>
                     <div>
-                      We are elated to have partners across the globe that
+                      We are elated to have partners across the alobe that
                       provide expertise to help us deliver our end goal.
                     </div>
                   </div>
@@ -54,7 +53,7 @@ const Partners = () => {
             </div>
           </div>
           <div className="col-span-2">
-            <img src={img} className="ml-auto"/>
+            <img src={img} className="ml-auto" />
           </div>
         </div>
       </div>
@@ -88,7 +87,7 @@ const Partners = () => {
               </div>
             </div>
             <div className="px-3">
-              <img src={img} alt="img"/>
+              <img src={img} alt="img" />
             </div>
           </div>
         </div>

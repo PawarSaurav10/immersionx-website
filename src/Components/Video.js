@@ -1,6 +1,6 @@
 import React from "react"
 const Video = ({ videoSrcURL, videoTitle, ...props }) => (
-    <div className="video w-full lg:w-600 xl:w-800">
+    <div className="video w-full lg:w-800 xl:w-1000">
         <iframe
             src={videoSrcURL}
             title={videoTitle}
@@ -9,7 +9,7 @@ const Video = ({ videoSrcURL, videoTitle, ...props }) => (
             webkitallowfullscreen="true"
             mozallowfullscreen="true"
             allowFullScreen
-            style={{ height: "400px" }}
+            style={{ height: "700px" }}
             
         // className="h-full"
         />

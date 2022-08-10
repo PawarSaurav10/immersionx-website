@@ -33,12 +33,12 @@ const ContactUs = () => {
         </div> */}
       </div>
       <div className="flex flex-col lg:flex-row bg-black">
-        <div className="flex-1 m-6">
+        <div className="flex-1 m-12">
           {/* <div className="flex-1"> */}
             <div className="flex justify-center items-center shadow-2xl">
               <iframe
                 title="maps"
-                className="w-full h-473 rounded"
+                className="w-full h-473 rounded-sm"
                 frameBorder="0"
                 scrolling="no"
                 src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=401,%20Hubtown%20Viva,%20Western%20Express%20Hwy,%20Saraswati%20Baug,%20Shankarwadi,%20Jogeshwari%20East,%20Mumbai,%20Maharashtra%20400060+(Your%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
@@ -46,23 +46,23 @@ const ContactUs = () => {
             {/* </div> */}
           </div>
           {/* <img src={img1} alt="" /> */}
-          <div className=" text-center m-6 text-white ">
+          <div className=" text-center m-8 text-white ">
             Office-401, Hubtown Viva, Western Express Hwy, Saraswati Baug,
             Shankarwadi, Jogeshwari East, Mumbai, Maharashtra 400060
           </div>
         </div>
-        <div className="flex-1 m-6">
+        <div className="flex-1 mr-12 my-12">
         <div className="flex justify-center items-center shadow-2xl">
               <iframe
                 title="maps"
-                className="w-full h-473 rounded"
+                className="w-full h-473 rounded-sm"
                 frameBorder="0"
                 scrolling="no"
                 src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=303-305,%20Ecoster,%20Near%20Udipi%20Vihar%20Restaurant%20Off%20Aarey%20Road,%20%20%20%20%20%20%20%20%20%20%20%20%20Vishveshwar%20Nagar%20Rd,%20Churi%20Wadi,%20Goregaon,%20Mumbai,%20Maharashtra%20%20%20%20%20%20%20%20%20%20%20%20%20400063+(immersionx%20studio)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
               ></iframe>
             </div>
           {/* <img src={img2} alt="" /> */}
-          <div className=" text-center m-6 text-white ">
+          <div className=" text-center m-8 text-white ">
             Studio-303-305, Ecoster, Near Udipi Vihar Restaurant Off Aarey Road,
             Vishveshwar Nagar Rd, Churi Wadi, Goregaon, Mumbai, Maharashtra
             400063

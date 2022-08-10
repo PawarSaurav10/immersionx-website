@@ -134,7 +134,7 @@ const application = ({ location }) => {
                 <div
                   className={`text-2xl md:text-5xl font-bold text-white pt-28 pb-4 md:pb-8 text-left ml-8 md:ml-16 uppercase`}
                 >
-                  AR. VR & MR APPS
+                  AR, VR & MR APPS
                 </div>
               </div>
             </div>

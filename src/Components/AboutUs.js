@@ -5,7 +5,7 @@ const AboutUs = () => {
   return (
     <div
       id="about-us"
-      className=" bg-ABOUTUS bg-fixed bg-no-repeat bg-cover lg:h-screen"
+      className=" bg-ABOUTUS bg-fixed bg-no-repeat bg-cover"
     >
       <div className="container flex flex-col justify-between text-white pb-8 pt-5">
         <div className="">

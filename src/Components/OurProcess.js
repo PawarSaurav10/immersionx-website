@@ -10,7 +10,7 @@ import img5 from "../images/03_OURPROCESS/layer.png";
 
 const OurProcess = () => {
   return (
-    <div className="bg-fixed bg-our-process bg-no-repeat bg-cover lg:h-screen">
+    <div className="bg-fixed bg-our-process bg-no-repeat bg-cover">
       <div className="container">
         <div className="flex justify-center flex-col pb-8 pt-5 px-3">
           <div className="">

@@ -11,7 +11,7 @@ module.exports = {
         // "our-partners": "url('../images/05_OURPARTNERS/OURPARTNERSBG@2x.png')",
         "our-partners": "url('../images/05_OURPARTNERS/PARTNERSBG.png')",
         // "our-partners": "url('../images/05_OURPARTNERS/PARTNERSBGmin.png')",
-        "our-work": "url('../images/WORK/WORKBG.png')",
+        "our-work": "url('../images/WORK/WORKBG.jpg')",
         "our-industry":
           "url('../images/07_OURINDUSTRIES/OURINDUSTRIESBG@2x.png')",
         footer: "url('../images/Copyright/Rectangle657.png')",

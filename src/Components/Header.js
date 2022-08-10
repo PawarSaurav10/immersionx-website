@@ -69,7 +69,10 @@ const Header = (props) => {
                       className="pr-2 flex items-center"
                       style={{ paddingBottom: 3 }}
                     >
-                      <FontAwesomeIcon icon={faBarsStaggered} className="h-9 w-8" />
+                      <FontAwesomeIcon
+                        icon={faBarsStaggered}
+                        className="h-9 w-8"
+                      />
                     </span>
                   )}
                   {navBar && (
@@ -128,7 +131,10 @@ const Header = (props) => {
                                 className="pr-2 flex items-center close_btn"
                                 style={{ paddingBottom: 3 }}
                               >
-                                <FontAwesomeIcon icon={faClose} className="h-9 w-8" />
+                                <FontAwesomeIcon
+                                  icon={faClose}
+                                  className="h-9 w-8"
+                                />
                               </span>
                             )}
                           </div>
@@ -146,9 +152,7 @@ const Header = (props) => {
                             setNavBar(!navBar);
                           }}
                         >
-                          <span className="nav-bar-menu-span link ">
-                            Home
-                          </span>
+                          <span className="nav-bar-menu-span link ">Home</span>
                         </Link>
                       </li>
                       <li className="navbar nav-bar-menu text-center hover:scale-110 transition-all ">
@@ -173,9 +177,7 @@ const Header = (props) => {
                             setNavBar(!navBar);
                           }}
                         >
-                          <span className="nav-bar-menu-span link">
-                            Work
-                          </span>
+                          <span className="nav-bar-menu-span link">Work</span>
                         </Link>
                       </li>
                       <li className="navbar nav-bar-menu text-center hover:scale-110 transition-all ">
@@ -212,9 +214,18 @@ const Header = (props) => {
                             setNavBar(!navBar);
                           }}
                         >
-                          <span className="nav-bar-menu-span link">
-                            Studio
-                          </span>
+                          <span className="nav-bar-menu-span link">Studio</span>
+                        </Link>
+                      </li>
+                      <li className="navbar nav-bar-menu text-center hover:scale-110 transition-all ">
+                        <Link
+                          className="cursor-pointer "
+                          // to="/contact-us"
+                          // onClick={() => {
+                          //   setNavBar(!navBar);
+                          // }}
+                        >
+                          <span className="nav-bar-menu-span link">Carrer</span>
                         </Link>
                       </li>
                       <li className="navbar nav-bar-menu text-center hover:scale-110 transition-all ">
@@ -239,25 +250,25 @@ const Header = (props) => {
         </div>
       </div>
       <div>
-      {visible && (
-        <button
-          onClick={scrollToTop}
-          className="animate-bounce transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-200 rounded-full h-10 w-10 md:h-14 md:w-14 text-right right-6 md:right-16 bottom-6 md:bottom-12 bg-blue-500 hover:bg-blue-900"
-          style={{
-            position: "fixed",
-            zIndex: 1,
-            cursor: "pointer",
+        {visible && (
+          <button
+            onClick={scrollToTop}
+            className="animate-bounce transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-200 rounded-full h-10 w-10 md:h-14 md:w-14 text-right right-6 md:right-16 bottom-6 md:bottom-12 bg-blue-500 hover:bg-blue-900"
+            style={{
+              position: "fixed",
+              zIndex: 1,
+              cursor: "pointer",
 
-            //   color: "green",
-          }}
-        >
-          <FontAwesomeIcon
-            icon={faAngleUp}
-            className="h-6 w-6 mr-2 md:h-8 md:w-8 md:mr-3 text-white"
-          />
-        </button>
-      )}
-    </div>
+              //   color: "green",
+            }}
+          >
+            <FontAwesomeIcon
+              icon={faAngleUp}
+              className="h-6 w-6 mr-2 md:h-8 md:w-8 md:mr-3 text-white"
+            />
+          </button>
+        )}
+      </div>
     </>
 
     // <div className="fixed z-50 top-0 w-full ">

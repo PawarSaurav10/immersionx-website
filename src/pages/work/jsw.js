@@ -14,21 +14,24 @@ const jsw = ({ location }) => {
     data1: {
       numberofcolspan: 2,
       imageurl: img1,
-      h1: "Interactive Experience Centre with multiple interaction zones",
-      p1: "The WNS experience center is the perfect instrument to resonate an idea, create a melodious track of business-driven solutions.",
-      p2: "Truly, a masterpiece. A symphony of experiences",
-      p3: "A symphony of experiences.",
+      h1: "Refurbishment and Software Development for JSW, Kaladham Museum at Hampi",
+      p1: "Hampi is one of the worlds heritage sites and we had the opportunity to restore its visual experience installation at the museum created by JSW Foundation. Technological offerings not just within the country but also overseas.",
+      // p2: "Truly, a masterpiece. A symphony of experiences",
+      // p3: "A symphony of experiences.",
     },
     data2: {
       numberofcolspan: 2,
       imageurl: img2,
-      h2: "The Welcome Zone",
-      p5: "The welcome zone controlled by the Digital Toolkit, welcomes the visitor. The DTK app, gives the user the option to upload the client’s credentials, relevant content, in the form of visuals and videos and give a personalized welcome message.",
-      // imageurl2: WNSimg3,
-      h3: "The Co-creation Zone",
-      p6: "A place where the content is displayed, it encourages the visitor to browse through it, interact with it first-hand. It lets other stakeholders and participants interact with the content remotely, make changes with the help of the Digital Whiteboard and add their thoughts to it.",
-      h4: "The Lounge Area",
-      p7: " Reflecting on the presented content, interacting with gamified installations, taking opinions over a self-balancing robot-based video conference and most importantly making business decisions based on the showcased content. ",
+      p1: "The set-up included viewina 3D panoramic views of the various sightseeing places made at Hampi by standing on a rotating turntable and navigating through the content with the help of a joystick controller.",
+      p2: "Using this motorized turntable, viewers can select projected image within an immersive 360-deqree screen and explore high-resolution augmented stereoscopic panoramas showing many of Hampi's most significant locations",
+      p3: "Those panoramas were augmented with animations of Hindu gods and other mvthical creatures. As the visitor naviaates through a touch screen, the dynamic interactive rendering system delivers an immersive visual experience of the real places of Hampi.",
+      // h2: "The Welcome Zone",
+      // p5: "The welcome zone controlled by the Digital Toolkit, welcomes the visitor. The DTK app, gives the user the option to upload the client’s credentials, relevant content, in the form of visuals and videos and give a personalized welcome message.",
+      // // imageurl2: WNSimg3,
+      // h3: "The Co-creation Zone",
+      // p6: "A place where the content is displayed, it encourages the visitor to browse through it, interact with it first-hand. It lets other stakeholders and participants interact with the content remotely, make changes with the help of the Digital Whiteboard and add their thoughts to it.",
+      // h4: "The Lounge Area",
+      // p7: " Reflecting on the presented content, interacting with gamified installations, taking opinions over a self-balancing robot-based video conference and most importantly making business decisions based on the showcased content. ",
       // h1: "The Co-creation Zone",
       // p1: "A place where the content is displayed, it encourages the visitor to browse through it, interact with it first-hand. It lets other stakeholders and participants interact with the content remotely, make changes with the help of the Digital Whiteboard and add their thoughts to it.",
       // h2: "The Lounge Area",
@@ -79,7 +82,3 @@ const jsw = ({ location }) => {
 };
 
 export default jsw;
-
-
-
-

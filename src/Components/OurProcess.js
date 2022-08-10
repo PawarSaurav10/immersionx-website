@@ -20,7 +20,7 @@ const OurProcess = () => {
               </div>
             </Fade>
           </div>
-          <div>
+          <div className="pb-5 lg:pb-20">
             <Slide left cascade>
               <div className=" pt-40 flex flex-1 flex-col lg:flex-row justify-center">
                 <div className="flex flex-col items-center">

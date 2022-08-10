@@ -7,7 +7,7 @@ const AboutUs = () => {
       id="about-us"
       className=" bg-ABOUTUS bg-fixed bg-no-repeat bg-cover"
     >
-      <div className="container flex flex-col justify-between text-white pb-8 pt-5">
+      <div className="container flex flex-col justify-between text-white pb-10 lg:pb-40 pt-5">
         <div className="">
           <Fade bottom>
             <div className="uppercase font-bold text-2xl md:text-5xl xl:text-7xl pt-8 lg:pt-48 text-left text-white pb-2 px-3">

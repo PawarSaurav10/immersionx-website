@@ -31,7 +31,7 @@
     @apply block lg:m-auto w-full;
   }
   .nav-bar-menu {
-    @apply block text-2xl lg:text-3xl font-bold uppercase px-4 py-3 lg:py-8 hover:text-white;
+    @apply block text-xl lg:text-2xl font-bold uppercase px-4 py-2 lg:py-4 hover:text-white;
   }
   .nav-bar-has-sublink {
     @apply flex justify-between w-full px-4 lg:px-0 py-3 lg:pb-0 lg:py-0 group-hover:bg-gray-100  border-b-2 border-gray-100 border-solid lg:border-b-0;

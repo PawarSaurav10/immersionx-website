@@ -220,12 +220,12 @@ const Header = (props) => {
                       <li className="navbar nav-bar-menu text-center hover:scale-110 transition-all ">
                         <Link
                           className="cursor-pointer "
-                          // to="/contact-us"
-                          // onClick={() => {
-                          //   setNavBar(!navBar);
-                          // }}
+                          to="/careers"
+                          onClick={() => {
+                            setNavBar(!navBar);
+                          }}
                         >
-                          <span className="nav-bar-menu-span link">Carrer</span>
+                          <span className="nav-bar-menu-span link">Careers</span>
                         </Link>
                       </li>
                       <li className="navbar nav-bar-menu text-center hover:scale-110 transition-all ">

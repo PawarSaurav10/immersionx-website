@@ -40,6 +40,7 @@ module.exports = {
         JSWHAMPI: "url('../images/09_pages/JSW/JSWHAMPIBG.jpg')",
         HCL: "url('../images/09_pages/HCL/HCLBG.jpg')",
         MIND: "url('../images/09_pages/MIND/MINDBG.jpg')",
+        Careers: "url('../images/12_CAREERS/CAREERS.jpg')",
         COLLABORATIVEVR:"url('../images/02_OURSERVICES/pages/COLLABORATIVEVR/COLLABORATIVEVRBG.jpg')",
       },
       height: {

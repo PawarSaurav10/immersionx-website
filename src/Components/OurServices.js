@@ -28,7 +28,7 @@ const OurServices = () => {
       id="solutions"
     >
       <div className="container">
-        <div className="flex flex-col justify-between text-white pb-8 pt-5 pl-0 md:pl-16">
+        <div className="flex flex-col justify-between text-white pb-8 pt-5">
           <div className="">
             <Fade bottom>
               <div className="uppercase font-bold text-2xl md:text-5xl xl:text-7xl pt-8 lg:pt-20 text-left text-white pb-2 px-3">

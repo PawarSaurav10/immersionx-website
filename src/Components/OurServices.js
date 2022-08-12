@@ -1,5 +1,5 @@
 import React from "react";
-import img1 from "../images/02_OURSERVICES/COLLABORATIVEVR@2x.jpg";
+import img1 from "../images/02_OURSERVICES/COLLABORATIVEVR@2.png";
 import img2 from "../images/02_OURSERVICES/VOLUMETRICSTUIO@2x.jpg";
 // import img2 from "../images/09_pages/VOLUSTUDIO/coverimagevolumetric.png";
 import img3 from "../images/02_OURSERVICES/Capsule.jpg";

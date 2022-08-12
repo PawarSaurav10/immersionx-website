@@ -42,6 +42,7 @@ module.exports = {
         MIND: "url('../images/09_pages/MIND/MINDBG.jpg')",
         Careers: "url('../images/12_CAREERS/CAREERS.jpg')",
         COLLABORATIVEVR:"url('../images/02_OURSERVICES/pages/COLLABORATIVEVR/COLLABORATIVEVRBG.jpg')",
+        OURPROCESSMOBILE: "url('../images/03_OURPROCESS/PROCESSbg.jpg')",
       },
       height: {
         79: 315,

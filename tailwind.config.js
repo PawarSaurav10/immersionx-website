@@ -88,6 +88,9 @@ module.exports = {
         40: ".40",
         175: "1.75",
       },
+      margin:{
+        4.5:"18px"
+      },
     },
   },
   plugins: [],

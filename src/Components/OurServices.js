@@ -167,7 +167,7 @@ const OurServices = () => {
                 </div>
                 <div className="col-span-1 md:col-span-2 ">
                   <div className="portfolio-item img-zoom ct-marketing ct-media ct-branding ct-marketing ct-webdesign pb-3">
-                    <Link to="/solutions/multitaction">
+                    <Link to="/solutions/work-experience-center">
                       <div className="portfolio-item-wrap">
                         <div className="portfolio-image">
                           <img src={img6} alt="" />
@@ -182,7 +182,7 @@ const OurServices = () => {
                         >
                           {/* <Link to="/solutions/multitaction"> */}
                           <div className="text-base md:text-2xl font-bold text-white">
-                            MULTITACTION
+                            Work Experience <div>Center</div>
                           </div>
                           {/* <span>Graphics</span> */}
                           {/* </Link> */}

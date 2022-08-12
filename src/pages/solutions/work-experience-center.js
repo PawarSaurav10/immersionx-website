@@ -8,21 +8,21 @@ import COLLABORATIVEVRim2 from "../../images/02_OURSERVICES/pages/COLLABORATIVEV
 const Multitaction = ({ location }) => {
   const MultitactionData = {
     bg: "bg-MULTITACTION",
-    title: "Multitaction",
+    title: "Work Experience Center",
     data1: {
       numberofcolspan: 3,
       imageurl: COLLABORATIVEVRim1,
       // h1: "Volumetric Capture",
-      p1: `The epitome of collaboration, MultiTaction is the benchmark in touch-based interactive installations. Compatible with a number of add-ons and accessories such as markers, pens and other. `,
-      p2: "The iWall is an extension of the Multitaction technology that provides an unparalleled user experience with a unique hardware design with unmatched capabilities. The MultiTaction iWall can be designed to any size format depending on the user’s requirement and purpose – large format walls, touch tables, curved walls etc.",
+      p1: `We create end-to-end customer experience centres for brands– Conceptualisation to Execution. This includes creating a walkthrough and user journey using interactive technology and immersive content to communicate a brand story. `,
+      // p2: "The iWall is an extension of the Multitaction technology that provides an unparalleled user experience with a unique hardware design with unmatched capabilities. The MultiTaction iWall can be designed to any size format depending on the user’s requirement and purpose – large format walls, touch tables, curved walls etc.",
       // p3: "Think of it as like taking one photograph of each side of a cube and then gluing the photos together into a cube shape. You now have a spatial model created from two-dimensional representations of the real thing.",
     },
     data2: {
       numberofcolspan: 3,
       imageurl: COLLABORATIVEVRim2,
-      h1: "CANVUS COLLABORATIVE SOFTWARE",
-      p1: "Over the years, there have been many attempts at achieving team collaboration, from video conferencing to shared document services. But, these platforms have always fallen short of realizing a truly unified collaboration experience.",
-      p3: "Now, with Canvus, there is a collaboration platform that can deliver on the promise of anywhere, anytime, any device collaboration.",
+      // h1: "CANVUS COLLABORATIVE SOFTWARE",
+      p1: "An experience centre carefully brings a selected few installations that work alongside each other. It communicates to the visitors how the brand can provide the most effective solutions. These installations are tailor-made to provide a unique brand experience every single time. The nature of these installations differ from one another and yet manage to deliver an equally impactful effect.",
+      // p3: "Now, with Canvus, there is a collaboration platform that can deliver on the promise of anywhere, anytime, any device collaboration.",
     },
   };
   return (

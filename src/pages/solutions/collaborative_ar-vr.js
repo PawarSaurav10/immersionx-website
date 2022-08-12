@@ -13,8 +13,15 @@ const CollaborativeVRAR = ({ location }) => {
       numberofcolspan: 3,
       imageurl: COLLABORATIVEVRim1,
       h1: "Join us in a new dimension.",
-      p1: "Augmented and virtual reality have come a long way, from being just a gimmick to being an integral part of the ‘digital revolution’. Brands look at these technologies as weapons of MASS ENGAGEMENT. Be it, augmenting key information over objects &amp; surroundings or transcending the user to a make-believe virtual world, where the content can be delivered more effectively than any other medium. AR &amp; VR are the first steps towards a brand’s Digital transformation and a gateway into the future of collaboration.",
-      p2: "With tools such as VR or AR glasses and devices enabled with AR and VR collaboration is seamless and empowering. The ease of use is another added advantage since many applications are built to support these technologies. The applications of AR and VR are endless, liberate your imagination, THINK BIG.",
+      p1: "Augmented and virtual reality have come a long way, from being just a gimmick to being an integral part of the ‘digital revolution’.",
+
+    h2: "Using Collaboration in Healthcare:",
+      p4:"Complete tasks, resolve problems, learn in depth with the mixed reality headgears that has hand tracking, built-in voice commands, eye tracking, spatial mapping, and large field of view. Train and collaborate with other clinicians on real medical scenarios, transferring knowledge and improving procedural understanding before operations.",
+      h3: "Using Collaboration in Oil/Gas:",
+      p6: "Two or more people wearing augmented reality glasses can come together in a photorealistic virtual space to showcase new concepts with true-to-life in real time. The view of the location in AR glasses worn by the miners can be seen by the experts and he/she will be able to guide them remotely during the process on-field.",
+      h4: "Using Collaboration for Training:",
+      p7: "The trainer and the trainees can understand complex concepts and case studies by collaborating on the same platform using mixed reality headgears. This gives the users an immersive glance into detailed images and videos. Collaborate in real-time with teams locally and remotely.",
+      p8: "Such collaborative applications of AR, VR and MR are endless, liberate your imagination, think BIG."
       // p2: "AR &amp; VR are the first steps towards a brand’s Digital transformation and a gateway into the future of collaboration. With tools such as VR or AR glasses and devices enabled with AR and VR collaboration is seamless and empowering. The ease of use is another added advantage since many applications are built to support these technologies. The applications of AR and VR are endless, liberate your imagination, THINK BIG.",
       // p3: " Can be used for Virtual meeting rooms, training spaces, virtual shopping experiences, remote collaborations, etc.",
     },

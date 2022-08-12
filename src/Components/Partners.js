@@ -26,33 +26,36 @@ const Partners = () => {
     <>
       <div className="hidden lg:block bg-black">
         <div className="grid grid-cols-3">
-          <div className="container col-span-1">
-            <div className="flex flex-col items-center justify-start">
-              <div className="flex justify-between text-white pt-8 lg:pt-40 pb-12 lg:pb-0">
-                <Fade bottom>
-                  <div className="uppercase font-bold text-2xl md:text-5xl xl:text-7xl text-left">
-                    Partners
-                  </div>
-                </Fade>
-              </div>
-              <div className="pt-0 lg:pt-32">
-                <Fade left>
-                  <div className="text-white text-left max-w-sm text-base xl:text-lg pb-6 lg:pb-0">
-                    <div className="pb-10">
-                      We are, who we are, because of what our people strive to
-                      help us become and our associations empower us to think
-                      BIG. execute BIG ideas.
+          <div className="col-span-1">
+            <div className="">
+              <div className="container flex flex-col xl:items-center justify-start pl-24">
+                <div className="flex justify-between text-white pt-8 lg:pt-40 pb-12 lg:pb-0">
+                  <Fade bottom>
+                    <div className="uppercase font-bold text-2xl md:text-5xl xl:text-7xl text-left">
+                      Partners
                     </div>
-                    <div>
-                      We are elated to have partners across the alobe that
-                      provide expertise to help us deliver our end goal.
+                  </Fade>
+                </div>
+                <div className="pt-0 lg:pt-32">
+                  <Fade left>
+                    <div className="text-white text-left max-w-sm text-base xl:text-lg pb-6 lg:pb-0 ">
+                      <div className="pb-10">
+                        We are, who we are, because of what our people strive to
+                        help us become and our associations empower us to think
+                        BIG. execute BIG ideas.
+                      </div>
+                      <div>
+                        We are elated to have partners across the alobe that
+                        provide expertise to help us deliver our end goal.
+                      </div>
                     </div>
-                  </div>
-                </Fade>
+                  </Fade>
+                </div>
               </div>
             </div>
           </div>
-          <div className="col-span-2"> 
+
+          <div className="col-span-2">
             <img src={img} alt="img" className="ml-auto" />
           </div>
         </div>

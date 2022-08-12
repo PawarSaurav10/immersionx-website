@@ -52,7 +52,7 @@ const Partners = () => {
               </div>
             </div>
           </div>
-          <div className="col-span-2">
+          <div className="col-span-2"> 
             <img src={img} alt="img" className="ml-auto" />
           </div>
         </div>

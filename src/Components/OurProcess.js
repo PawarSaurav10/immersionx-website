@@ -169,7 +169,7 @@ const OurProcess = () => {
               </Fade>
             </div>
             <div className="pb-5 lg:pb-20">
-              <Slide left cascade>
+              {/* <Slide left cascade> */}
                 <div className=" pt-40 flex flex-1 flex-col justify-center">
                   <div className="flex flex-row">
                     <Slide left cascade>
@@ -250,7 +250,7 @@ const OurProcess = () => {
                     </Slide>
                   </div>
                 </div>
-              </Slide>
+              {/* </Slide> */}
             </div>
           </div>
         </div>

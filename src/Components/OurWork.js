@@ -59,7 +59,7 @@ const OurWork = ({ location }) => {
                   <div className="">
                     We constantly challenge what is possible, we take calculated
                     risks, put in the hours, drive our workforce towards a
-                    well-meditated goal that is singular, trans- parent and
+                    well-meditated goal that is singular, transparent and
                     motivated, but most importantly, we let our work speak for
                     ourselves.
                   </div>

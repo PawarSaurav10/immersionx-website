@@ -20,9 +20,9 @@ const AboutUs = () => {
             <div className="text-white text-left max-w-3xl text-base xl:text-lg pt-14 lg:pt-20 pb-4 lg:pb-8 px-3">
               <div>
                 The pursuit of excellence in experiential solutions is a
-                never-ending journev that progresses with every new experience
+                never-ending journey that progresses with every new experience
                 that we acquire. Collocating the chapters of knowledge, wisdom
-                and failures, to bind the book titled The Art of Immersion' we
+                and failures, to bind the book titled 'The Art of Immersion' we
                 created a self-sustained world of technologists, artists,
                 economists and leaders.
               </div>

@@ -24,7 +24,7 @@ const jsw = ({ location }) => {
       imageurl: img2,
       p1: "The set-up included viewina 3D panoramic views of the various sightseeing places made at Hampi by standing on a rotating turntable and navigating through the content with the help of a joystick controller.",
       p2: "Using this motorized turntable, viewers can select projected image within an immersive 360-deqree screen and explore high-resolution augmented stereoscopic panoramas showing many of Hampi's most significant locations",
-      p3: "Those panoramas were augmented with animations of Hindu gods and other mvthical creatures. As the visitor naviaates through a touch screen, the dynamic interactive rendering system delivers an immersive visual experience of the real places of Hampi.",
+      p3: "Those panoramas were augmented with animations of Hindu gods and other mythical creatures. As the visitor navigates through a touch screen, the dynamic interactive rendering system delivers an immersive visual experience of the real places of Hampi.",
       // h2: "The Welcome Zone",
       // p5: "The welcome zone controlled by the Digital Toolkit, welcomes the visitor. The DTK app, gives the user the option to upload the client’s credentials, relevant content, in the form of visuals and videos and give a personalized welcome message.",
       // // imageurl2: WNSimg3,

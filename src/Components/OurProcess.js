@@ -30,7 +30,7 @@ const OurProcess = () => {
               <div className="pb-5 lg:pb-20">
                 {/* <Slide left cascade > */}
                 <div className=" pt-40 flex flex-1 flex-col lg:flex-row justify-center">
-                  <div className="flex flex-col items-center">
+                  <div className="flex flex-col items-center text-white text-center">
                     <Slide left cascade delay={1500}>
                       <div className="pb-8">
                         <img src={img1} alt="" className="" />
@@ -38,38 +38,52 @@ const OurProcess = () => {
                       <div className="pl-7 ml-6">
                         <img src={img5} alt="" />
                       </div>
-                      <div className="text-white text-center pl-7 ml-6 mt-3">
-                        <div className="text-2xl pb-6 uppercase text-bold">
+                      {/* <div className=""> */}
+                      <div>
+                        <div className="text-2xl pb-6 uppercase text-bold pl-7 ml-6 mt-3">
                           discover
                         </div>
-                        <div className="text-base w-48 max-w-full mx-auto">
-                          Lorem ipsum dolor sit amet, consectetur adpiscing
-                          elit.
+                      </div>
+
+                      <div className="pl-7 ml-6">
+                        <div className="text-sm w-56 max-w-full mx-auto">
+                          We brainstorm, ideate, research and develop concepts
+                          that excite, innovate and promise to provide an
+                          effective solution to the requirement at hand.
                         </div>
                       </div>
+
+                      {/* </div> */}
                     </Slide>
                   </div>
 
-                  <div className="flex flex-col items-center">
+                  <div className="flex flex-col items-center text-white text-center">
                     <Slide left cascade delay={1000}>
-                      <div className="   pb-8">
+                      <div className="pb-8">
                         <img src={img2} alt="" className="-ml-1 mt-0.5 " />
                       </div>
                       <div className="">
                         <img src={img5} alt="" />
                       </div>
-                      <div className="text-white text-center px-2  mt-3">
-                        <div className="text-2xl pb-6 uppercase text-bold">
+                      {/* <div className=""> */}
+                      <div>
+                        <div className="text-2xl pb-6 uppercase text-bold px-2 mt-3">
                           design
                         </div>
-                        <div className="text-base w-48 max-w-full mx-auto">
-                          Lorem ipsum dolor sit amet, consectetur adpiscing
-                          elit.
+                      </div>
+                      <div>
+                        <div className="text-sm w-56 max-w-full mx-auto px-2">
+                          Our team of designers, developers, engineers,
+                          marketers and tech experts successfully execute
+                          projects that are not just solution based but also a
+                          visual masterpiece.
                         </div>
                       </div>
+
+                      {/* </div> */}
                     </Slide>
                   </div>
-                  <div className="flex flex-col items-center">
+                  <div className="flex flex-col items-center text-white text-center">
                     <Slide left cascade delay={500}>
                       <div className="pb-8">
                         <img src={img3} alt="" className="-ml-2 mt-1" />
@@ -77,34 +91,47 @@ const OurProcess = () => {
                       <div className="">
                         <img src={img5} alt="" />
                       </div>
-                      <div className="text-white text-center px-2 mt-3">
-                        <div className="text-2xl pb-6 uppercase text-bold">
+                      {/* <div className=" "> */}
+                      <div>
+                        <div className="text-2xl pb-6 uppercase text-bold px-2 mt-3">
                           develop
                         </div>
-                        <div className="text-base w-48 max-w-full mx-auto">
-                          Lorem ipsum dolor sit amet, consectetur adpiscing
-                          elit.
+                      </div>
+                      <div>
+                        <div className="text-sm w-56 max-w-full mx-auto px-2">
+                          We strategize a plan of action, develop prototypes and
+                          put together the end-product by envisioning, designing
+                          and implementing.
                         </div>
                       </div>
+
+                      {/* </div> */}
                     </Slide>
                   </div>
-                  <div className="flex flex-col items-center">
+                  <div className="flex flex-col items-center text-white text-center">
                     <Slide left cascade>
-                      <div className="   pb-8">
+                      <div className="pb-8">
                         <img src={img4} alt="" className="-ml-3 mt-1" />
                       </div>
                       <div className="pr-7 mr-6">
                         <img src={img5} alt="" />
                       </div>
-                      <div className="text-white text-center pr-7 mr-6 mt-3">
-                        <div className="text-2xl pb-6 uppercase text-bold">
+                      {/* <div className=" "> */}
+                      <div>
+                        <div className="text-2xl pb-6 uppercase text-bold pr-7 mr-6 mt-3">
                           deploy
                         </div>
-                        <div className="text-base w-48 max-w-full mx-auto">
-                          Lorem ipsum dolor sit amet, consectetur adpiscing
-                          elit.
+                      </div>
+                      <div className="pr-7 mr-6">
+                        <div className="text-sm w-56 max-w-full mx-auto">
+                          After multiple levels of testing, iterations, we
+                          create a purpose-built environment with the
+                          integration of final content + software + interaction
+                          + hardware.
                         </div>
                       </div>
+
+                      {/* </div> */}
                     </Slide>
                   </div>
                 </div>
@@ -160,7 +187,7 @@ const OurProcess = () => {
       </div>
       <div className="lg:hidden bg-fixed bg-OURPROCESSMOBILE bg-no-repeat bg-cover">
         <div className="container">
-          <div className="flex items-center flex-col pb-8 pt-5 px-3">
+          <div className="flex flex-col pb-8 pt-5 px-3">
             <div className="">
               <Fade bottom>
                 <div className="uppercase font-bold text-2xl md:text-5xl xl:text-7xl pt-5 lg:pt-40 text-left text-white pb-4">
@@ -168,88 +195,93 @@ const OurProcess = () => {
                 </div>
               </Fade>
             </div>
-            <div className="pb-5 lg:pb-20">
+            <div className="flex flex-col items-center pb-5 lg:pb-20">
               {/* <Slide left cascade> */}
-                <div className=" pt-40 flex flex-1 flex-col justify-center">
-                  <div className="flex flex-row">
-                    <Slide left cascade>
-                      <div className="">
-                        <img src={img6} alt="" className="" />
+              <div className=" pt-10 flex flex-1 flex-col justify-center">
+                <div className="flex flex-row">
+                  <Slide left cascade>
+                    <div className="">
+                      <img src={img6} alt="" className="" />
+                    </div>
+                    <div className=" place-self-center pl-2">
+                      <img src={line} alt="" />
+                    </div>
+                    <div className="text-white text-center self-center pl-4">
+                      <div className="text-2xl pb-6 uppercase text-bold">
+                        DISCOVER
                       </div>
-                      <div className=" place-self-center pl-2">
-                        <img src={line} alt="" />
+                      <div className="text-sm w-48 max-w-full mx-auto">
+                        We brainstorm, ideate, research and develop
+                        concepts that excite, innovate and promise to provide an
+                        effective solution to the requirement at hand.
                       </div>
-                      <div className="text-white text-center self-center pl-4">
-                        <div className="text-2xl pb-6 uppercase text-bold">
-                          discover
-                        </div>
-                        <div className="text-base w-48 max-w-full mx-auto">
-                          Lorem ipsum dolor sit amet, consectetur adpiscing
-                          elit.
-                        </div>
-                      </div>
-                    </Slide>
-                  </div>
-
-                  <div className="flex flex-row">
-                    <Slide left cascade delay={500}>
-                      <div className="">
-                        <img src={img7} alt="" className="-mt-6" />
-                      </div>
-                      <div className=" place-self-center pl-2">
-                        <img src={line} alt="" />
-                      </div>
-                      <div className="text-white text-center self-center pl-4">
-                        <div className="text-2xl pb-6 uppercase text-bold">
-                          discover
-                        </div>
-                        <div className="text-base w-48 max-w-full mx-auto">
-                          Lorem ipsum dolor sit amet, consectetur adpiscing
-                          elit.
-                        </div>
-                      </div>
-                    </Slide>
-                  </div>
-
-                  <div className="flex flex-row">
-                    <Slide left cascade delay={1000}>
-                      <div className="">
-                        <img src={img8} alt="" className="-mt-11" />
-                      </div>
-                      <div className=" place-self-center pl-2">
-                        <img src={line} alt="" />
-                      </div>
-                      <div className="text-white text-center self-center pl-4">
-                        <div className="text-2xl pb-6 uppercase text-bold">
-                          discover
-                        </div>
-                        <div className="text-base w-48 max-w-full mx-auto">
-                          Lorem ipsum dolor sit amet, consectetur adpiscing
-                          elit.
-                        </div>
-                      </div>
-                    </Slide>
-                  </div>
-                  <div className="flex flex-row">
-                    <Slide left cascade delay={1500}>
-                      <div className="">
-                        <img src={img9} alt="" className=" -mt-6" />
-                      </div>
-                      <div className=" place-self-center pl-2">
-                        <img src={line} alt="" />
-                      </div>
-                      <div className="text-white text-center self-center pl-4">
-                        <div className="text-2xl pb-6 uppercase text-bold">
-                          discover
-                        </div>
-                        <div className="text-base w-48 max-w-full mx-auto">
-                          Lorem ipsum dolor sit amet, consectetur adpiscing
-                          elit.
-                        </div>
-                      </div>
-                    </Slide>
-                  </div>
+                    </div>
+                  </Slide>
                 </div>
+
+                <div className="flex flex-row text-white text-center self-center">
+                  <Slide left cascade delay={500}>
+                    <div className="">
+                      <img src={img7} alt="" className="-mt-6" />
+                    </div>
+                    <div className=" place-self-center pl-2">
+                      <img src={line} alt="" />
+                    </div>
+                    <div className="text-2xl pb-6 uppercase text-bold pl-4">
+                      DESIGN
+                    </div>
+                    {/* <div className="pl-4"> */}
+
+                    <div className="text-sm w-44 max-w-full mx-auto pl-4">
+                      Our team of designers, developers, engineers, marketers
+                      and tech experts successfully execute projects that are
+                      not just solution based but also a visual masterpiece.
+                    </div>
+                    {/* </div> */}
+                  </Slide>
+                </div>
+
+                <div className="flex flex-row">
+                  <Slide left cascade delay={1000}>
+                    <div className="">
+                      <img src={img8} alt="" className="-mt-11" />
+                    </div>
+                    <div className=" place-self-center pl-2">
+                      <img src={line} alt="" />
+                    </div>
+                    <div className="text-white text-center self-center pl-4">
+                      <div className="text-2xl pb-6 uppercase text-bold">
+                        DEVELOP
+                      </div>
+                      <div className="text-sm w-48 max-w-full mx-auto">
+                        We strategize a plan of action, develop prototypes and 
+                        put together the end-product by envisioning, designing
+                        and implementing.
+                      </div>
+                    </div>
+                  </Slide>
+                </div>
+                <div className="flex flex-row">
+                  <Slide left cascade delay={1500}>
+                    <div className="">
+                      <img src={img9} alt="" className=" -mt-6" />
+                    </div>
+                    <div className=" place-self-center pl-2">
+                      <img src={line} alt="" />
+                    </div>
+                    <div className="text-white text-center self-center pl-4">
+                      <div className="text-2xl pb-6 uppercase text-bold">
+                        DEPLOY
+                      </div>
+                      <div className="text-sm w-48 max-w-full mx-auto">
+                        After multiple levels of testing, iterations, we create
+                        a purpose-built environment with the integration of
+                        final content + software + interaction + hardware.
+                      </div>
+                    </div>
+                  </Slide>
+                </div>
+              </div>
               {/* </Slide> */}
             </div>
           </div>

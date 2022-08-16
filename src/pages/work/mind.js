@@ -22,7 +22,7 @@ const mind = ({ location }) => {
     data2: {
       numberofcolspan: 2,
       imageurl: img2,
-      p1: "We came up with unique storytelling concepts using technoloav and digital art installations to give the space a futuristic appeal.",
+      p1: "We came up with unique storytelling concepts using technology and digital art installations to give the space a futuristic appeal.",
       p2: "Our concept included designing the space and proposing unique tech installations for the outer facade, entrance, experience center. Executive briefing center and the NOC/SOC divisions and WAR room.",
       // h2: "The Welcome Zone",
       // p5: "The welcome zone controlled by the Digital Toolkit, welcomes the visitor. The DTK app, gives the user the option to upload the client’s credentials, relevant content, in the form of visuals and videos and give a personalized welcome message.",

@@ -1,6 +1,7 @@
 // import { faArrowAltCircleRight } from "@fortawesome/free-solid-svg-icons";
 // import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
+import ReactPlayer from "react-player";
 import { Fade } from "react-reveal";
 // import img from "../images/04_STUDIO/videos@2x.png";
 import Video from "./Video";
@@ -19,7 +20,7 @@ const StudioNew = () => {
             </div>
             <div className="flex lg:justify-center lg:items-center">
               <Fade right cascade>
-                <div className="text-white text-left max-w-sm text-sm md:text-lg px-3">
+                <div className="text-white text-left max-w-md lg:max-w-sm text-sm md:text-lg px-3">
                   <div>
                     The laboratory where we invent, innovate, create and
                     destroy. It's a showcase of our triumphs and glimpse into
@@ -34,11 +35,16 @@ const StudioNew = () => {
           <div className="flex flex-col ">
             <div className="">
               <Fade bottom>
-                <div className="flex">
-                  <Video
-                    videoSrcURL="https://www.youtube.com/embed/lMhr86ZaiR0"
-                    videoTitle="Official Music Video on YouTube"
+                <div className="flex h-500 desktop:h-700 w-full lg:w-800 desktop:w-1000">
+                  <ReactPlayer
+                    url={"https://www.youtube.com/watch?v=f_0_IljV_wU"}
+                    width= "100%"
+                    height="100%"
                   />
+                  {/* <Video
+                    videoSrcURL="https://www.youtube.com/watch?v=f_0_IljV_wU"
+                    videoTitle="Official Music Video on YouTube"
+                  /> */}
                 </div>
               </Fade>
             </div>

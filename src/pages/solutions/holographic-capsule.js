@@ -10,7 +10,7 @@ import capsulevideo from "../../images/09_pages/CAPSULE/videosim.jpg"
 const Capsule = ({ location }) => {
   const CapsuleData = {
     bg: "bg-CAPSULEBG",
-    title: "Capsule",
+    title: "Holographic Capsule",
     data1: {
       numberofcolspan: 2,
       imageurl: Capsuleimg1,

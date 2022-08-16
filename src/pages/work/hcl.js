@@ -15,14 +15,14 @@ const hcl = ({ location }) => {
       bg: "bg-HCL",
       imageurl: img1,
       h1: "Customer Experience Centre at HCL",
-      p1: "One of the very first experience centres, this country had witnessed, it was a novel concept at the time and was executed marvelously. It gave the visitors detailed information about HI's history through a timeline, HCL'stechnological offerings not just within the country but also overseas.",
+      p1: "One of the very first experience centres, this country had witnessed, it was a novel concept at the time and was executed marvelously. It gave the visitors detailed information about HCL's history through a timeline, HCL'stechnological offerings not just within the country but also overseas.",
       // p2: "Truly, a masterpiece. A symphony of experiences",
       // p3: "A symphony of experiences.",
     },
     data2: {
       numberofcolspan: 2,
       imageurl: img2,
-      p1: "It's solutions were exhibited through a brilliant installation, with a friendly user interface. A very nascent version of the Digital Toolkit was used to ensure seamless functionalitv. Nevertheless, it was a powerful tool and kent all the installations in-check",
+      p1: "It's solutions were exhibited through a brilliant installation, with a friendly user interface. A very nascent version of the Digital Toolkit was used to ensure seamless functionalitv. Nevertheless, it was a powerful tool and kept all the installations in-check",
       p2:"We directed HCL hereby creating different zones allocated to showcase different information be it their journey (Timeline Zone), their leaders (People Zone) and their product offerings (Proposition Zone)."
       // h2: "The Welcome Zone",
       // p5: "The welcome zone controlled by the Digital Toolkit, welcomes the visitor. The DTK app, gives the user the option to upload the client’s credentials, relevant content, in the form of visuals and videos and give a personalized welcome message.",

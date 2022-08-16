@@ -9,7 +9,7 @@ const Video = ({ videoSrcURL, videoTitle, ...props }) => (
             webkitallowfullscreen="true"
             mozallowfullscreen="true"
             allowFullScreen
-            className="lg:h-500 desktop:h-700"
+            className="h-500 desktop:h-700"
             // style={{ height: "700px" }}
             
         // className="h-full"

@@ -5,7 +5,8 @@ import img2 from "../images/02_OURSERVICES/VOLUMETRICSTUIO@2x.jpg";
 import img3 from "../images/02_OURSERVICES/Capsule.jpg";
 // import img4 from "../images/02_OURSERVICES/INTERACTIVEDIGITALINSTALLATION@2x.png";
 // import img5 from "../images/02_OURSERVICES/AUGMENTEDREALITY@2x@2x.png";
-import img6 from "../images/02_OURSERVICES/MULTITACTION@2x.jpg";
+// import img6 from "../images/02_OURSERVICES/MULTITACTION@2x.jpg";
+import img6 from "../images/02_OURSERVICES/SOLUTIONSEXPERIENCECENTRES_.png";
 import img7 from "../images/02_OURSERVICES/VRCAVE@2x.jpg";
 import { Link } from "gatsby";
 import { Fade } from "react-reveal";
@@ -182,7 +183,7 @@ const OurServices = () => {
                         >
                           {/* <Link to="/solutions/multitaction"> */}
                           <div className="text-base md:text-2xl font-bold text-white">
-                            Work Experience <div>Center</div>
+                            EXPERIENCE CENTRES
                           </div>
                           {/* <span>Graphics</span> */}
                           {/* </Link> */}

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect, useRef } from "react";
 import Layout from "../Components/Layout";
 import Slider from "react-slick";
 import Accenture1 from "../images/10_APPLICATIONS/ACCENTURE/01.png";
@@ -52,15 +52,38 @@ import raymondimg2 from "../images/10_APPLICATIONS/RAYMOND/02.png";
 // import { faAngleRight } from "@fortawesome/free-solid-svg-icons";
 // import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-const application = ({ location }) => {
+const Application = ({ location }) => {
+  const sliderref = useRef();
+  const [isAutoplay, setIsAutoplay] = useState(false);
+  // useEffect(() => {
+  //   setTimeout(() => {
+  //     setIsAutoplay(false);
+  //     console.log(isAutoplay, "first");
+  //   }, 5000);
+  // }, []);
+
+  useEffect(() => {
+    console.log(isAutoplay, "second");
+  }, [isAutoplay]);
+
+  // const settings1 = {
+  //   dots: true,
+  //   infinite: isAutoplay,
+  //   autoplay: isAutoplay ,
+  //   slidesToShow: 1,
+  //   slidesToScroll: 1,
+  //   pauseOnHover:isAutoplay
+  // };
 
   const settings = {
     dots: true,
     infinite: true,
-    autoplay: true,
+    autoplay: isAutoplay,
     // speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
+    pauseOnHover: false,
+    autoPlaySpeed: 300,
     // appendDots: (dots) => <ul className="p-4">{dots}</ul>,
     // customPaging: (i) => (
     //   <div className="ft-slick__dots--custom">
@@ -127,19 +150,21 @@ const application = ({ location }) => {
   return (
     <Layout location={location?.pathname}>
       {/* <div className=" bg-APPLICATION bg-cover bg-no-repeat bg-center"> */}
-        {/* <div className="pt-24 lg:pt-0 bg-black"> */}
-          <div className={` bg-APPLICATION bg-cover bg-no-repeat bg-center pt-24 lg:pt-0 bg-black`}>
-            <div className="container">
-              <div className="pt-0 md:pt-48 xl:pt-96">
-                <div
-                  className={`text-2xl md:text-5xl font-bold text-white pt-28 pb-4 md:pb-8 text-left ml-8 md:ml-16 uppercase`}
-                >
-                  AR, VR & MR APPS
-                </div>
-              </div>
+      {/* <div className="pt-24 lg:pt-0 bg-black"> */}
+      <div
+        className={` bg-APPLICATION bg-cover bg-no-repeat bg-center pt-24 lg:pt-0 bg-black`}
+      >
+        <div className="container">
+          <div className="pt-0 md:pt-48 xl:pt-96">
+            <div
+              className={`text-2xl md:text-5xl font-bold text-white pt-28 pb-4 md:pb-8 text-left ml-8 md:ml-16 uppercase`}
+            >
+              AR, VR & MR APPS
             </div>
           </div>
-        {/* </div> */}
+        </div>
+      </div>
+      {/* </div> */}
       {/* </div> */}
       <div className=" grid grid-cols-1 lg:grid-cols-3 mt-0 lg:mt-20">
         <div className="border-r-0 lg:border-r-2 border-b-2">
@@ -166,10 +191,21 @@ const application = ({ location }) => {
         <div className=" grid-cols-1 border-r-0 lg:border-r-2 border-b-2">
           <div className="pl-12 pr-12 pt-6 pb-4">
             <div>
-              <Slider speed={700} {...settings}>
+              <Slider ref={sliderref} speed={700} {...settings}>
                 {accentureImageData.map((aa) => (
-                  <div>
-                    <img src={aa.image} alt="" className="h-64 mx-auto" />
+                  <div
+                    onMouseEnter={() => {
+                      setIsAutoplay(true);
+                      sliderref.current.slickPlay();
+                    }}
+                    onMouseLeave={() => setIsAutoplay(false)}
+                  >
+                    <img
+                      src={aa.image}
+                      alt=""
+                      className="h-64 mx-auto"
+                      // onMouseMove={() => onMouseMove()}
+                    />
                   </div>
                 ))}
               </Slider>
@@ -506,4 +542,4 @@ const application = ({ location }) => {
   );
 };
 
-export default application;
+export default Application;

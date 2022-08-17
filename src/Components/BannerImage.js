@@ -6,7 +6,7 @@ import video1 from "../images/ImmersionxShowreel_v02.mp4";
 // import video1 from "../images/Originalvideocompressed.mp4";
 // import mouse from "../images/01_screensaver/scrollicon@2x.png";
 // import mouse from "../images/01_screensaver/scrolldownmousedark.png";
-// import mouse from "../images/01_screensaver/scrolldown-mouse.png";
+import mouse from "../images/01_screensaver/scrolldown-mouse.png";
 import React from "react";
 import { Fade } from "react-reveal";
 import { Link } from "gatsby";
@@ -124,17 +124,17 @@ const BannerImage = () => {
     // </BackgroundImage>
     <>
       <div className="relative">
-        <div class="relative flex flex-col justify-end h-screen overflow-hidden ">
+        <div class="relative flex flex-col justify-end lg:h-screen overflow-hidden ">
           {/* <div class=" p-5 text-2xl text-white bg-purple-300 bg-opacity-50 rounded-xl"> */}
-          <div className="container flex flex-col lg:flex-row justify-between  items-center lg:items-start relative z-30 pb-16">
-            <div className="px-4">
+          <div className="container flex flex-col lg:flex-row justify-between items-start relative z-30 pb-4 pt-44">
+            <div className="px-4 ">
               <Fade bottom>
                 <div className="">
-                  <div className="uppercase max-w-2xl text-3xl md:text-6xl lg:text-7xl desktop:text-8xl text-white text-center lg:text-left font-light  mx-auto lg:m-auto pb-0 md:pb-8 lg:pb-0">
-                    <div className="flex flex-col lg:flex-row">
+                  <div className="uppercase max-w-2xl text-3xl md:text-6xl lg:text-7xl desktop:text-8xl text-white text-left font-light mx-auto lg:m-auto pb-4">
+                    <div className="flex flex-row">
                       <div>We</div>
                       <div className="fadeIn">
-                        <span className="pl-0 lg:pl-3">are a</span>
+                        <span className="pl-2 lg:pl-3">are a</span>
                         <span></span>
                         <span></span>
                         <span></span>
@@ -217,10 +217,10 @@ const BannerImage = () => {
 
             {/* </div> */}
           </div>
-          <div className="flex justify-center z-30 pb-3">
+          <div className="flex justify-center z-30 pb-8">
             <Link to="#about-us">
-              <div className="icon-scroll"></div>
-              {/* <img src={mouse} className="w-auto h-auto" /> */}
+              {/* <div className="icon-scroll"></div> */}
+              <img src={mouse} alt="mouse" className=" w-6 h-10 md:w-auto md:h-auto" />
             </Link>
           </div>
           <div className="html5vid">
@@ -232,7 +232,7 @@ const BannerImage = () => {
               playsInline
               poster
               preload="true"
-              className="absolute z-10 w-auto h-auto min-w-full min-h-full max-w-none brightness-40 "
+              className="brightness-40 "
             ></video>
           </div>
         </div>

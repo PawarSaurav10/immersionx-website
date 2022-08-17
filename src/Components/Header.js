@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 // import Logo from "../images/01_screensaver/immersionlogo@2x.png";
-import Logo from "../images/01_screensaver/immersionlogo.png";
+// import Logo from "../images/01_screensaver/immersionlogo.png";
+import Logo from "../images/01_screensaver/logo_2.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   // faBars,

@@ -21,7 +21,7 @@
   } */
 
   .nav-bar-menu-span{
-    @apply hover:px-9 px-3 relative before:content-[''] before:transition-width before:delay-100 before:ease-in-out hover:before:content-link  before:h-0 hover:before:h-3 before:absolute before:left-0 hover:before:-left-2.5 before:top-0.5 hover:before:absolute after:content-[''] after:transition-width after:delay-100 after:ease-in hover:after:content-link  after:h-0 hover:after:h-3 after:absolute after:right-0 hover:after:-right-2.5 after:top-0.5 hover:after:absolute;
+    @apply hover:px-9 px-3 relative before:content-[''] before:transition-width before:delay-100 before:ease-in-out hover:before:content-link hover:before:-top-0.5 hover:after:-top-0.5 before:h-0 hover:before:h-3 before:absolute before:left-0 hover:before:-left-2.5 before:top-0.5 hover:before:absolute after:content-[''] after:transition-width after:delay-100 after:ease-in hover:after:content-link  after:h-0 hover:after:h-3 after:absolute after:right-0 hover:after:-right-2.5 after:top-0.5 hover:after:absolute;
   }
   .nav-bar-container {
     @apply flex justify-between items-center fixed top-0 right-0  ;

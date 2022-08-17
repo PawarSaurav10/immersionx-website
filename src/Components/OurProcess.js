@@ -35,17 +35,17 @@ const OurProcess = () => {
                       <div className="pb-8">
                         <img src={img1} alt="" className="" />
                       </div>
-                      <div className="pl-7 ml-6">
+                      <div className="pl-3 ml-6">
                         <img src={img5} alt="" />
                       </div>
                       {/* <div className=""> */}
-                      <div>
+                      <div className="pr-3">
                         <div className="text-2xl pb-6 uppercase text-bold pl-7 ml-6 mt-3">
                           discover
                         </div>
                       </div>
 
-                      <div className="pl-7 ml-6">
+                      <div className="pl-3">
                         <div className="text-sm w-56 max-w-full mx-auto">
                           We brainstorm, ideate, research and develop concepts
                           that excite, innovate and promise to provide an
@@ -62,16 +62,16 @@ const OurProcess = () => {
                       <div className="pb-8">
                         <img src={img2} alt="" className="-ml-1 mt-0.5 " />
                       </div>
-                      <div className="">
+                      <div className="pr-3">
                         <img src={img5} alt="" />
                       </div>
                       {/* <div className=""> */}
-                      <div>
+                      <div className="pr-3">
                         <div className="text-2xl pb-6 uppercase text-bold px-2 mt-3">
                           design
                         </div>
                       </div>
-                      <div>
+                      <div className="pr-3">
                         <div className="text-sm w-56 max-w-full mx-auto px-2">
                           Our team of designers, developers, engineers,
                           marketers and tech experts successfully execute
@@ -88,16 +88,16 @@ const OurProcess = () => {
                       <div className="pb-8">
                         <img src={img3} alt="" className="-ml-2 mt-1" />
                       </div>
-                      <div className="">
+                      <div className=" pr-5">
                         <img src={img5} alt="" />
                       </div>
                       {/* <div className=" "> */}
-                      <div>
+                      <div className="pr-5">
                         <div className="text-2xl pb-6 uppercase text-bold px-2 mt-3">
                           develop
                         </div>
                       </div>
-                      <div>
+                      <div  className="pr-5">
                         <div className="text-sm w-56 max-w-full mx-auto px-2">
                           We strategize a plan of action, develop prototypes and
                           put together the end-product by envisioning, designing
@@ -113,7 +113,7 @@ const OurProcess = () => {
                       <div className="pb-8">
                         <img src={img4} alt="" className="-ml-3 mt-1" />
                       </div>
-                      <div className="pr-7 mr-6">
+                      <div className="pr-16">
                         <img src={img5} alt="" />
                       </div>
                       {/* <div className=" "> */}

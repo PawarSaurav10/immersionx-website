@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 // import Logo from "../images/01_screensaver/immersionlogo@2x.png";
 // import Logo from "../images/01_screensaver/immersionlogo.png";
-import Logo from "../images/01_screensaver/logo_2.png";
+import Logo from "../images/01_screensaver/newlogo.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   // faBars,
@@ -47,7 +47,7 @@ const Header = (props) => {
           <div className="flex text-white justify-between font-bold py-4">
             <div className=" self-center px-6">
               <Link to="/" className="flex space-x-2">
-                <img src={Logo} className="h-8 " alt="img" />
+                <img src={Logo} className="h-12 " alt="img" />
               </Link>
             </div>
 
@@ -98,7 +98,7 @@ const Header = (props) => {
                     <div className="flex text-white justify-between font-bold py-4">
                       <div className="self-center px-6">
                         <Link to="/" className="flex space-x-2">
-                          <img src={Logo} className="h-8 " alt="img" />
+                          <img src={Logo} className="h-12 " alt="img" />
                         </Link>
                       </div>
                       <div className="py-2 flex">

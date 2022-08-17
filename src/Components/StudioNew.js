@@ -5,6 +5,7 @@ import ReactPlayer from "react-player";
 import { Fade } from "react-reveal";
 // import img from "../images/04_STUDIO/videos@2x.png";
 import Video from "./Video";
+import compressedvideo from "../images/04_STUDIO/compressed4mb.mp4";
 const StudioNew = () => {
   return (
     <div className="bg-fixed bg-our-studio bg-no-repeat bg-cover " id="studio">
@@ -36,11 +37,14 @@ const StudioNew = () => {
             <div className="">
               <Fade bottom>
                 <div className="flex h-500 desktop:h-700 w-full lg:w-800 desktop:w-1000">
-                  <ReactPlayer
+                <video width="750" height="500" controls>
+                  <source src={compressedvideo} type="video/mp4" />
+                </video>
+                  {/* <ReactPlayer
                     url={"https://www.youtube.com/watch?v=f_0_IljV_wU"}
                     width= "100%"
                     height="100%"
-                  />
+                  /> */}
                   {/* <Video
                     videoSrcURL="https://www.youtube.com/watch?v=f_0_IljV_wU"
                     videoTitle="Official Music Video on YouTube"

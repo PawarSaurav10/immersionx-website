@@ -144,7 +144,7 @@ const OurWork = ({ location }) => {
                     >
                       {/* <Link to="/work/grohe"> */}
                       <div className="text-base md:text-3xl font-bold text-white">
-                        SEIMENS
+                        SIEMENS
                       </div>
                       {/* <span>Graphics</span> */}
                       {/* </Link> */}

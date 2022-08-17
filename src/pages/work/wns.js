@@ -11,14 +11,14 @@ const WNS = ({ location }) => {
   const WNSData = {
     bg: "bg-WNSBG",
     title: "WNS",
-    desc: "EXPERINCE CENTER",
+    desc: "EXPERIENCE CENTRE",
     data1: {
       numberofcolspan: 2,
       imageurl: WNSimg1,
       h1: "Interactive Experience Centre with multiple interaction zones",
       p1: "The WNS experience center is the perfect instrument to resonate an idea, create a melodious track of business-driven solutions.",
       p2: "Truly, a masterpiece. A symphony of experiences",
-      p3: "A symphony of experiences.",
+      // p3: "A symphony of experiences.",
     },
     data2: {
       numberofcolspan: 2,
@@ -27,7 +27,7 @@ const WNS = ({ location }) => {
       p5: "The welcome zone controlled by the Digital Toolkit, welcomes the visitor. The DTK app, gives the user the option to upload the client’s credentials, relevant content, in the form of visuals and videos and give a personalized welcome message.",
       // imageurl2: WNSimg3,
       h3: "The Co-creation Zone",
-      p6: "A place where the content is displayed, it encourages the visitor to browse through it, interact with it first-hand. It lets other stakeholders and participants interact with the content remotely, make changes with the help of the Digital Whiteboard and add their thoughts to it.",
+      p6: "A place where the content is displayed, it encourages the visitor to browse through it, interact with it first-hand. It lets other stakeholders and participants interact with the content remotely, make notes with the help of the Digital Whiteboard and add their thoughts to it.",
       h4: "The Lounge Area",
       p7: " Reflecting on the presented content, interacting with gamified installations, taking opinions over a self-balancing robot-based video conference and most importantly making business decisions based on the showcased content. ",
       // h1: "The Co-creation Zone",

@@ -198,16 +198,16 @@ const OurProcess = () => {
             <div className="flex flex-col items-center pb-5 lg:pb-20">
               {/* <Slide left cascade> */}
               <div className=" pt-10 flex flex-1 flex-col justify-center">
-                <div className="flex flex-row">
+                <div className="flex flex-row text-white text-center">
                   <Slide left cascade>
                     <div className="">
                       <img src={img6} alt="" className="" />
                     </div>
-                    <div className=" place-self-center pl-2">
+                    <div className=" place-self-center mt-7 pl-2">
                       <img src={line} alt="" />
                     </div>
-                    <div className="text-white text-center self-center pl-4">
-                      <div className="text-2xl pb-6 uppercase text-bold">
+                    <div className="flex flex-col justify-center pl-4">
+                      <div className="text-2xl pb-3 uppercase text-bold">
                         DISCOVER
                       </div>
                       <div className="text-sm w-48 max-w-full mx-auto">
@@ -219,38 +219,38 @@ const OurProcess = () => {
                   </Slide>
                 </div>
 
-                <div className="flex flex-row text-white text-center self-center">
+                <div className="flex flex-row text-white text-center">
                   <Slide left cascade delay={500}>
                     <div className="">
-                      <img src={img7} alt="" className="-mt-6" />
+                      <img src={img7} alt="" className="-mt-5" />
                     </div>
-                    <div className=" place-self-center pl-2">
+                    <div className=" place-self-center mb-7 pl-2">
                       <img src={line} alt="" />
                     </div>
-                    <div className="text-2xl pb-6 uppercase text-bold pl-4">
-                      DESIGN
-                    </div>
-                    {/* <div className="pl-4"> */}
 
-                    <div className="text-sm w-44 max-w-full mx-auto pl-4">
-                      Our team of designers, developers, engineers, marketers
-                      and tech experts successfully execute projects that are
-                      not just solution based but also a visual masterpiece.
+                    <div className=" flex flex-col justify-center pl-4">
+                      <div className="text-2xl pb-3 uppercase text-bold">
+                        DESIGN
+                      </div>
+                      <div className="text-sm w-48 max-w-full mx-auto ">
+                        Our team of designers, developers, engineers, marketers
+                        and tech experts successfully execute projects that are
+                        not just solution based but also a visual masterpiece.
+                      </div>
                     </div>
-                    {/* </div> */}
                   </Slide>
                 </div>
 
-                <div className="flex flex-row">
+                <div className="flex flex-row text-white text-center">
                   <Slide left cascade delay={1000}>
                     <div className="">
-                      <img src={img8} alt="" className="-mt-11" />
+                      <img src={img8} alt="" className="-mt-9" />
                     </div>
-                    <div className=" place-self-center pl-2">
+                    <div className=" place-self-center mb-10   pl-2">
                       <img src={line} alt="" />
                     </div>
-                    <div className="text-white text-center self-center pl-4">
-                      <div className="text-2xl pb-6 uppercase text-bold">
+                    <div className="flex flex-col justify-center pl-4">
+                      <div className="text-2xl pb-3 uppercase text-bold">
                         DEVELOP
                       </div>
                       <div className="text-sm w-48 max-w-full mx-auto">
@@ -261,16 +261,16 @@ const OurProcess = () => {
                     </div>
                   </Slide>
                 </div>
-                <div className="flex flex-row">
+                <div className="flex flex-row text-white text-center">
                   <Slide left cascade delay={1500}>
                     <div className="">
-                      <img src={img9} alt="" className=" -mt-6" />
+                      <img src={img9} alt="" className="-mt-6" />
                     </div>
-                    <div className=" place-self-center pl-2">
+                    <div className=" place-self-center mb-14 pl-2">
                       <img src={line} alt="" />
                     </div>
-                    <div className="text-white text-center self-center pl-4">
-                      <div className="text-2xl pb-6 uppercase text-bold">
+                    <div className="flex flex-col justify-center pl-4">
+                      <div className="text-2xl pb-3 uppercase text-bold">
                         DEPLOY
                       </div>
                       <div className="text-sm w-48 max-w-full mx-auto">

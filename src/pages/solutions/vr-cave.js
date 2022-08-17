@@ -14,7 +14,7 @@ const VRCave = ({ location }) => {
       numberofcolspan: 2,
       imageurl: VRCAVEimg1,
       // h1: "",
-      p1: "Our collaborative VR platform will allow for people and businesses to collaborate and meet up in the virtual world. Teamwork is crucial and has become a challenge for global firms whose departments or subsidiaries are spread all over the world. Using virtual reality collaborative tools, you can gather all thestakeholders of your project in the same VR workspace and display your virtual prototype at scale to create and collaborate.",
+      p1: "Our collaborative VR platform will allow for people and businesses to collaborate and meet up in the virtual world. Teamwork is crucial and has become a challenge for global firms whose departments or subsidiaries are spread all over the world. Using virtual reality collaborative tools, you can gather all the stakeholders of your project in the same VR workspace and display your virtual prototype at scale to create and collaborate.",
       // p3: "",
     },
     data2: {

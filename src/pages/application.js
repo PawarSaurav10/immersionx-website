@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState, useRef } from "react";
 import Layout from "../Components/Layout";
 import Slider from "react-slick";
 import Accenture1 from "../images/10_APPLICATIONS/ACCENTURE/01.png";
@@ -55,31 +55,12 @@ import raymondimg2 from "../images/10_APPLICATIONS/RAYMOND/02.png";
 const Application = ({ location }) => {
   const sliderref = useRef();
   const [isAutoplay, setIsAutoplay] = useState(false);
-  // useEffect(() => {
-  //   setTimeout(() => {
-  //     setIsAutoplay(false);
-  //     console.log(isAutoplay, "first");
-  //   }, 5000);
-  // }, []);
-
-  useEffect(() => {
-    console.log(isAutoplay, "second");
-  }, [isAutoplay]);
-
-  // const settings1 = {
-  //   dots: true,
-  //   infinite: isAutoplay,
-  //   autoplay: isAutoplay ,
-  //   slidesToShow: 1,
-  //   slidesToScroll: 1,
-  //   pauseOnHover:isAutoplay
-  // };
 
   const settings = {
     dots: true,
     infinite: true,
     autoplay: isAutoplay,
-    // speed: 500,
+    speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
     pauseOnHover: false,

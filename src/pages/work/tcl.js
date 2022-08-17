@@ -23,7 +23,7 @@ const TCL = ({ location }) => {
       imageurl: TATAimg2,
       imageurl2: TATAimg3,
       // h1: "Our Approach",
-      p1: "Keeping this objective, we curated and deployed a centre that changed the way they use to converse with their customers. Keeping this objective, we curated and deployed a centre that changed the way they use to converse with their customers. ",
+      p1: "Keeping this objective, we curated and deployed a centre that changed the way they use to converse with their customers.",
       p2: "Our proposition included setting up their experience centre for both virtual as well as physical platforms.",
       p3: "Creating this centre enabled Tata Communications to;",
       l1: "Strengthens existing relationships with their clients",

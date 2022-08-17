@@ -17,7 +17,7 @@ const AboutUs = () => {
         </div>
         <div>
           <Fade right cascade>
-            <div className="text-white text-left max-w-3xl text-base xl:text-lg pt-14 lg:pt-20 pb-4 lg:pb-8 px-3">
+            <div className="text-white text-left max-w-3xl text-base xl:text-lg pt-6 lg:pt-20 pb-4 lg:pb-8 px-3">
               <div>
                 The pursuit of excellence in experiential solutions is a
                 never-ending journey that progresses with every new experience
@@ -29,9 +29,9 @@ const AboutUs = () => {
               <div className=" pt-7">
                 At ImmersionX, Art meets Technology to drive Innovation.
                 <div>
-                  Whether its VR Collabrations, Digital assets like the
+                  Whether its VR Collaborations, Digital assets like the
                   metaverse, motion captures, photogrammetry, Holographic Live
-                  Streams, experince centers, innovation hubs, museums, retail,
+                  Streams, experience centres, innovation hubs, museums, retail,
                   and office environments - We are receptive to every brief and
                   are drawn to any challenge. We are eager to collaborate with
                   you to create our next immersive masterpiece, which helps us

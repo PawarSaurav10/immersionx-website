@@ -53,8 +53,26 @@ import raymondimg2 from "../images/10_APPLICATIONS/RAYMOND/02.png";
 // import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Application = ({ location }) => {
-  const sliderref = useRef();
   const [isAutoplay, setIsAutoplay] = useState(false);
+  const sliderref1 = useRef();
+  const sliderref2 = useRef();
+  const sliderref3 = useRef();
+  const sliderref4 = useRef();
+  const sliderref5 = useRef();
+  const sliderref6 = useRef();
+  const sliderref7 = useRef();
+  const sliderref8 = useRef();
+  const sliderref9 = useRef();
+  const sliderref10 = useRef();
+  const sliderref11 = useRef();
+  const sliderref12 = useRef();
+  const sliderref13 = useRef();
+  const sliderref14 = useRef();
+  const sliderref15 = useRef();
+  const sliderref16 = useRef();
+  const sliderref17 = useRef();
+  const sliderref18 = useRef();
+  
   // useEffect(() => {
   //   setTimeout(() => {
   //     setIsAutoplay(false);
@@ -62,9 +80,9 @@ const Application = ({ location }) => {
   //   }, 5000);
   // }, []);
 
-  useEffect(() => {
-    console.log(isAutoplay, "second");
-  }, [isAutoplay]);
+  // useEffect(() => {
+  //   console.log(isAutoplay, "second");
+  // }, [isAutoplay]);
 
   // const settings1 = {
   //   dots: true,
@@ -78,12 +96,12 @@ const Application = ({ location }) => {
   const settings = {
     dots: true,
     infinite: true,
-    autoplay: isAutoplay,
+    autoplay: isAutoplay ? true :false,
     // speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
     pauseOnHover: false,
-    autoPlaySpeed: 300,
+    autoplaySpeed: 1000,
     // appendDots: (dots) => <ul className="p-4">{dots}</ul>,
     // customPaging: (i) => (
     //   <div className="ft-slick__dots--custom">
@@ -170,9 +188,13 @@ const Application = ({ location }) => {
         <div className="border-r-0 lg:border-r-2 border-b-2">
           <div className="pl-12 pr-12 pt-6 pb-4">
             <div>
-              <Slider speed={500} {...settings}>
+              <Slider ref={sliderref1} speed={500} {...settings}>
                 {groheImageData.map((aa) => (
-                  <div>
+                  <div onMouseEnter={() => {
+                    setIsAutoplay(true);
+                    sliderref1.current.slickPlay();
+                  }}
+                  onMouseLeave={() => setIsAutoplay(false)}>
                     <img src={aa.image} alt="" className="h-64 mx-auto" />
                   </div>
                 ))}
@@ -191,12 +213,12 @@ const Application = ({ location }) => {
         <div className=" grid-cols-1 border-r-0 lg:border-r-2 border-b-2">
           <div className="pl-12 pr-12 pt-6 pb-4">
             <div>
-              <Slider ref={sliderref} speed={700} {...settings}>
+              <Slider ref={sliderref2} speed={700} {...settings}>
                 {accentureImageData.map((aa) => (
                   <div
                     onMouseEnter={() => {
                       setIsAutoplay(true);
-                      sliderref.current.slickPlay();
+                      sliderref2.current.slickPlay();
                     }}
                     onMouseLeave={() => setIsAutoplay(false)}
                   >
@@ -220,9 +242,13 @@ const Application = ({ location }) => {
         <div className=" grid-cols-1 border-b-2">
           <div className="pl-12 pr-12 pt-6 pb-4">
             <div>
-              <Slider speed={600} {...settings}>
+              <Slider ref={sliderref3} speed={600} {...settings}>
                 {interactionImageData.map((aa) => (
-                  <div>
+                  <div onMouseEnter={() => {
+                    setIsAutoplay(true);
+                    sliderref3.current.slickPlay();
+                  }}
+                  onMouseLeave={() => setIsAutoplay(false)}>
                     <img src={aa.image} alt="" className="h-64 mx-auto" />
                   </div>
                 ))}
@@ -238,13 +264,17 @@ const Application = ({ location }) => {
           </div>
         </div>
       </div>
-      <div className="grid grid-cols-1 lg:grid-cols-3 mt-0 lg:mt-20">
+      <div className="grid grid-cols-1 lg:grid-cols-3 mt-0 ">
         <div className="grid-cols-1 border-r-0 lg:border-r-2 border-b-2">
           <div className="pl-12 pr-12 pt-6 pb-4">
             <div>
-              <Slider speed={600} {...settings}>
+              <Slider ref={sliderref4} speed={600} {...settings}>
                 {mahindraImageData.map((aa) => (
-                  <div>
+                  <div  onMouseEnter={() => {
+                    setIsAutoplay(true);
+                    sliderref4.current.slickPlay();
+                  }}
+                  onMouseLeave={() => setIsAutoplay(false)}>
                     <img src={aa.image} alt="" className="h-64 mx-auto" />
                   </div>
                 ))}
@@ -262,9 +292,13 @@ const Application = ({ location }) => {
         <div className=" grid-cols-1 border-r-0 lg:border-r-2 border-b-2">
           <div className="pl-12 pr-12 pt-6 pb-4">
             <div>
-              <Slider speed={600} {...settings}>
+              <Slider ref={sliderref5} speed={600} {...settings}>
                 {digiracerImageData.map((aa) => (
-                  <div>
+                  <div  onMouseEnter={() => {
+                    setIsAutoplay(true);
+                    sliderref5.current.slickPlay();
+                  }}
+                  onMouseLeave={() => setIsAutoplay(false)}>
                     <img src={aa.image} alt="" className="h-64 mx-auto" />
                   </div>
                 ))}
@@ -282,9 +316,13 @@ const Application = ({ location }) => {
         <div className=" grid-cols-1 border-b-2">
           <div className="pl-12 pr-12 pt-6 pb-4">
             <div>
-              <Slider speed={500} {...settings}>
+              <Slider ref={sliderref6} speed={500} {...settings}>
                 {rothamImageData.map((aa) => (
-                  <div>
+                  <div  onMouseEnter={() => {
+                    setIsAutoplay(true);
+                    sliderref6.current.slickPlay();
+                  }}
+                  onMouseLeave={() => setIsAutoplay(false)}>
                     <img src={aa.image} alt="" className="h-64 mx-auto" />
                   </div>
                 ))}
@@ -300,13 +338,17 @@ const Application = ({ location }) => {
           </div>
         </div>
       </div>
-      <div className="grid grid-cols-1 lg:grid-cols-3 mt-0 lg:mt-20">
+      <div className="grid grid-cols-1 lg:grid-cols-3 mt-0">
         <div className="grid-cols-1 border-r-0 lg:border-r-2 border-b-2">
           <div className="pl-12 pr-12 pt-6 pb-4">
             <div>
-              <Slider speed={500} {...settings}>
+              <Slider ref={sliderref7} speed={500} {...settings}>
                 {tataImageData.map((aa) => (
-                  <div>
+                  <div  onMouseEnter={() => {
+                    setIsAutoplay(true);
+                    sliderref7.current.slickPlay();
+                  }}
+                  onMouseLeave={() => setIsAutoplay(false)}>
                     <img src={aa.image} alt="" className="h-64 mx-auto" />
                   </div>
                 ))}
@@ -324,9 +366,13 @@ const Application = ({ location }) => {
         <div className=" grid-cols-1 border-r-0 lg:border-r-2 border-b-2">
           <div className="pl-12 pr-12 pt-6 pb-4">
             <div>
-              <Slider speed={700} {...settings}>
+              <Slider ref={sliderref8} speed={700} {...settings}>
                 {electroluxImageData.map((aa) => (
-                  <div>
+                  <div  onMouseEnter={() => {
+                    setIsAutoplay(true);
+                    sliderref8.current.slickPlay();
+                  }}
+                  onMouseLeave={() => setIsAutoplay(false)}>
                     <img src={aa.image} alt="" className="h-64 mx-auto" />
                   </div>
                 ))}
@@ -344,9 +390,13 @@ const Application = ({ location }) => {
         <div className=" grid-cols-1 border-b-2">
           <div className="pl-12 pr-12 pt-6 pb-4">
             <div>
-              <Slider speed={700} {...settings}>
+              <Slider ref={sliderref9} speed={700} {...settings}>
                 {panteneImageData.map((aa) => (
-                  <div>
+                  <div  onMouseEnter={() => {
+                    setIsAutoplay(true);
+                    sliderref9.current.slickPlay();
+                  }}
+                  onMouseLeave={() => setIsAutoplay(false)}>
                     <img src={aa.image} alt="" className="h-64 mx-auto" />
                   </div>
                 ))}
@@ -360,13 +410,17 @@ const Application = ({ location }) => {
           </div>
         </div>
       </div>
-      <div className="grid grid-cols-1 lg:grid-cols-3 mt-0 lg:mt-20">
+      <div className="grid grid-cols-1 lg:grid-cols-3 mt-0 ">
         <div className="grid-cols-1 border-r-0 lg:border-r-2 border-b-2">
           <div className="pl-12 pr-12 pt-6 pb-4">
             <div>
-              <Slider speed={700} {...settings}>
+              <Slider ref={sliderref10} speed={700} {...settings}>
                 {allaroImageData.map((aa) => (
-                  <div>
+                  <div   onMouseEnter={() => {
+                    setIsAutoplay(true);
+                    sliderref10.current.slickPlay();
+                  }}
+                  onMouseLeave={() => setIsAutoplay(false)}>
                     <img src={aa.image} alt="" className="h-64 mx-auto" />
                   </div>
                 ))}
@@ -384,9 +438,13 @@ const Application = ({ location }) => {
         <div className=" grid-cols-1 border-r-0 lg:border-r-2 border-b-2">
           <div className="pl-12 pr-12 pt-6 pb-4">
             <div>
-              <Slider speed={700} {...settings}>
+              <Slider ref={sliderref11} speed={700} {...settings}>
                 {castrolImageData.map((aa) => (
-                  <div>
+                  <div  onMouseEnter={() => {
+                    setIsAutoplay(true);
+                    sliderref11.current.slickPlay();
+                  }}
+                  onMouseLeave={() => setIsAutoplay(false)}>
                     <img src={aa.image} alt="" className="h-64 mx-auto" />
                   </div>
                 ))}
@@ -402,9 +460,13 @@ const Application = ({ location }) => {
         <div className=" grid-cols-1 border-b-2">
           <div className="pl-12 pr-12 pt-6 pb-4">
             <div>
-              <Slider speed={600} {...settings}>
+              <Slider ref={sliderref12} speed={600} {...settings}>
                 {chotabheemImageData.map((aa) => (
-                  <div>
+                  <div  onMouseEnter={() => {
+                    setIsAutoplay(true);
+                    sliderref12.current.slickPlay();
+                  }}
+                  onMouseLeave={() => setIsAutoplay(false)}>
                     <img src={aa.image} alt="" className="h-64 mx-auto" />
                   </div>
                 ))}
@@ -420,13 +482,17 @@ const Application = ({ location }) => {
           </div>
         </div>
       </div>
-      <div className="grid grid-cols-1 lg:grid-cols-3 mt-0 lg:mt-20">
+      <div className="grid grid-cols-1 lg:grid-cols-3 mt-0 ">
         <div className="grid-cols-1 border-r-0 lg:border-r-2 border-b-2">
           <div className="pl-12 pr-12 pt-6 pb-4">
             <div>
-              <Slider speed={700} {...settings}>
+              <Slider ref={sliderref13} speed={700} {...settings}>
                 {closeupImageData.map((aa) => (
-                  <div>
+                  <div  onMouseEnter={() => {
+                    setIsAutoplay(true);
+                    sliderref13.current.slickPlay();
+                  }}
+                  onMouseLeave={() => setIsAutoplay(false)}>
                     <img src={aa.image} alt="" className="h-64 mx-auto" />
                   </div>
                 ))}
@@ -442,9 +508,13 @@ const Application = ({ location }) => {
         <div className=" grid-cols-1 border-r-0 lg:border-r-2 border-b-2">
           <div className="pl-12 pr-12 pt-6 pb-4">
             <div>
-              <Slider speed={700} {...settings}>
+              <Slider ref={sliderref14} speed={700} {...settings}>
                 {dorothyImageData.map((aa) => (
-                  <div>
+                  <div  onMouseEnter={() => {
+                    setIsAutoplay(true);
+                    sliderref14.current.slickPlay();
+                  }}
+                  onMouseLeave={() => setIsAutoplay(false)}>
                     <img src={aa.image} alt="" className="h-64 mx-auto" />
                   </div>
                 ))}
@@ -462,9 +532,13 @@ const Application = ({ location }) => {
         <div className=" grid-cols-1 border-b-2">
           <div className="pl-12 pr-12 pt-6 pb-4">
             <div>
-              <Slider speed={700} {...settings}>
+              <Slider ref={sliderref15} speed={700} {...settings}>
                 {emcureImageData.map((aa) => (
-                  <div>
+                  <div  onMouseEnter={() => {
+                    setIsAutoplay(true);
+                    sliderref15.current.slickPlay();
+                  }}
+                  onMouseLeave={() => setIsAutoplay(false)}>
                     <img src={aa.image} alt="" className="h-64 mx-auto" />
                   </div>
                 ))}
@@ -478,13 +552,17 @@ const Application = ({ location }) => {
           </div>
         </div>
       </div>
-      <div className="grid grid-cols-1 lg:grid-cols-3 mt-0 lg:mt-20">
+      <div className="grid grid-cols-1 lg:grid-cols-3 mt-0">
         <div className="grid-cols-1 border-r-0 lg:border-r-2 border-b-2">
           <div className="pl-12 pr-12 pt-6 pb-4">
             <div>
-              <Slider speed={700} {...settings}>
+              <Slider ref={sliderref16} speed={700} {...settings}>
                 {godrejImageData.map((aa) => (
-                  <div>
+                  <div  onMouseEnter={() => {
+                    setIsAutoplay(true);
+                    sliderref16.current.slickPlay();
+                  }}
+                  onMouseLeave={() => setIsAutoplay(false)}>
                     <img src={aa.image} alt="" className="h-64 mx-auto" />
                   </div>
                 ))}
@@ -502,9 +580,13 @@ const Application = ({ location }) => {
         <div className=" grid-cols-1 border-r-0 lg:border-r-2 border-b-2">
           <div className="pl-12 pr-12 pt-6 pb-4">
             <div>
-              <Slider speed={700} {...settings}>
+              <Slider ref={sliderref17} speed={700} {...settings}>
                 {larsenImageData.map((aa) => (
-                  <div>
+                  <div  onMouseEnter={() => {
+                    setIsAutoplay(true);
+                    sliderref17.current.slickPlay();
+                  }}
+                  onMouseLeave={() => setIsAutoplay(false)}>
                     <img src={aa.image} alt="" className="h-64 mx-auto" />
                   </div>
                 ))}
@@ -522,9 +604,13 @@ const Application = ({ location }) => {
         <div className=" grid-cols-1 border-b-2">
           <div className="pl-12 pr-12 pt-6 pb-4">
             <div>
-              <Slider speed={700} {...settings}>
+              <Slider ref={sliderref18} speed={700} {...settings}>
                 {raymondImageData.map((aa) => (
-                  <div>
+                  <div  onMouseEnter={() => {
+                    setIsAutoplay(true);
+                    sliderref18.current.slickPlay();
+                  }}
+                  onMouseLeave={() => setIsAutoplay(false)}>
                     <img src={aa.image} alt="" className="h-64 mx-auto" />
                   </div>
                 ))}

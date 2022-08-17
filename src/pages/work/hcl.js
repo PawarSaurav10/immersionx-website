@@ -9,10 +9,10 @@ import img2 from "../../images/09_pages/HCL/im_2.jpg";
 
 const hcl = ({ location }) => {
   const HCLDATA = {
+    bg: "bg-HCL",
     title: "HCL",
     data1: {
       numberofcolspan: 2,
-      bg: "bg-HCL",
       imageurl: img1,
       h1: "Customer Experience Centre at HCL",
       p1: "One of the very first experience centres, this country had witnessed, it was a novel concept at the time and was executed marvelously. It gave the visitors detailed information about HCL's history through a timeline, HCL'stechnological offerings not just within the country but also overseas.",

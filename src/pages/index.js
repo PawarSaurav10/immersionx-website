@@ -17,8 +17,9 @@ import displax from "../images/05_OURPARTNERS/Displaxlogo@2x.png";
 import worldviz from "../images/05_OURPARTNERS/Worldvizlogo@2x.png";
 import art from "../images/05_OURPARTNERS/Artlogo@2x.png";
 import { Fade } from "react-reveal";
+import ProcessNew from "../Components/ProcessNew";
 
-const IndexPage = ({location}) => {
+const IndexPage = ({ location }) => {
   const imageData = [
     { img: dassaualtSystem },
     { img: multitaction },
@@ -36,11 +37,12 @@ const IndexPage = ({location}) => {
         <BannerImage />
         <AboutUs />
         <OurServices />
-        <OurProcess />
+        {/* <OurProcess /> */}
+        <ProcessNew />
         {/* <Studio /> */}
-        <StudioNew/>
+        <StudioNew />
         {/* <OurPartners /> */}
-        <Partners/> 
+        <Partners />
         <div className="self-end mt-auto">
           <div className="px-12 py-16 bg-black">
             <Fade left>
@@ -48,12 +50,7 @@ const IndexPage = ({location}) => {
                 {imageData &&
                   imageData.map((aa, idx) => {
                     return (
-                      <img
-                        src={aa.img}
-                        key={idx}
-                        className="p-4"
-                        alt=""
-                      />
+                      <img src={aa.img} key={idx} className="p-4" alt="" />
                     );
                   })}
               </div>

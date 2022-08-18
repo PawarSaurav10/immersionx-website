@@ -57,7 +57,7 @@ const OurServices = () => {
           </div>
         </Fade> */}
         <div className="flex flex-col lg:flex-row justify-between pb-6 ">
-          <div className="pr-0 lg:pr-3 py-3">
+          <div className="px-0 lg:px-3 py-3">
             <Fade bottom>
               <div className=" grid grid-cols-1 md:grid-cols-6 gap-3 ">
                 <div className="col-span-1 md:col-span-2 ">

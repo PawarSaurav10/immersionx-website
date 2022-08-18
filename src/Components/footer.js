@@ -16,8 +16,8 @@ const Footer = () => {
   return (
     <div className="bg-footer bg-no-repeat bg-cover">
       <div className="container">
-        <div className="flex flex-col lg:flex-row p-8">
-          <div className=" flex-1 flex justify-center text-black text-base p-4">
+        <div className="flex flex-col lg:flex-row py-8">
+          <div className=" flex-1 flex justify-start text-black text-base p-3">
             Copyright © 2022 ImmersionX
           </div>
           <div className="flex items-center justify-center">

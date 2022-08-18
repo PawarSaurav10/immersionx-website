@@ -77,7 +77,7 @@ module.exports = {
         width: "width",
       },
       content: {
-        link: "url('../images/minus.png')",
+        link: "url('../images/minus3.png')",
       },
       // right:{
       //   "42": "170px"
@@ -90,6 +90,9 @@ module.exports = {
       },
       margin:{
         4.5:"18px"
+      },
+      colors: {
+        'regal-red': '#F8625C',
       },
     },
   },

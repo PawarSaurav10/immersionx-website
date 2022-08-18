@@ -25,10 +25,10 @@ const Partners = () => {
   return (
     <>
       <div className="hidden lg:block bg-black">
-        <div className="grid grid-cols-3">
+        <div className="container grid grid-cols-3">
           <div className="col-span-1">
             <div className="">
-              <div className="container flex flex-col 2xl:items-center justify-start pl-3.5 2xl:pl-24 desktop:pl-3.5">
+              <div className="flex flex-col justify-start pl-3.5 2xl:pl-24 desktop:pl-3.5">
                 <div className="flex justify-between text-white pt-8 lg:pt-40 pb-12 lg:pb-0">
                   <Fade bottom>
                     <div className="uppercase font-bold text-2xl md:text-5xl xl:text-7xl text-left">

@@ -126,11 +126,11 @@ const BannerImage = () => {
       <div className="relative">
         <div class="relative flex flex-col justify-end lg:h-screen overflow-hidden ">
           {/* <div class=" p-5 text-2xl text-white bg-purple-300 bg-opacity-50 rounded-xl"> */}
-          <div className="container flex flex-col lg:flex-row justify-between items-start relative z-30 pb-4 pt-44">
+          <div className="container flex flex-col lg:flex-row justify-between items-start relative z-30 pt-44">
             <div className="px-4 ">
               <Fade bottom>
                 <div className="">
-                  <div className="uppercase max-w-2xl text-3xl md:text-6xl lg:text-7xl desktop:text-8xl text-white text-left font-light mx-auto lg:m-auto pb-4">
+                  <div className="uppercase max-w-2xl text-3xl md:text-6xl lg:text-7xl desktop:text-8xl text-white text-left font-light mx-auto lg:m-auto pb-2">
                     <div className="flex flex-row">
                       <div>We</div>
                       <div className="fadeIn">

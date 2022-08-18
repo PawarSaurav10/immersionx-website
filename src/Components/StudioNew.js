@@ -3,7 +3,7 @@
 import React from "react";
 import ReactPlayer from "react-player";
 import { Fade } from "react-reveal";
-// import img from "../images/04_STUDIO/videos@2x.png";
+import img from "../images/04_STUDIO/studio-thumbnail.jpg";
 import Video from "./Video";
 import compressedvideo from "../images/04_STUDIO/compressed4mb.mp4";
 const StudioNew = () => {
@@ -37,7 +37,8 @@ const StudioNew = () => {
             <div className="">
               <Fade bottom>
                 <div className="flex h-500 desktop:h-700 w-full lg:w-800 desktop:w-1000">
-                <video width="750" height="500" controls>
+                <video width="750" height="500" controls poster={img}>
+                {/* <source src={compressedvideo} type="video/mp4" /> */}
                   <source src={compressedvideo} type="video/mp4" />
                 </video>
                   {/* <ReactPlayer

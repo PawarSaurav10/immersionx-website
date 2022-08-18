@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from "react";
 // import Logo from "../images/01_screensaver/immersionlogo@2x.png";
 // import Logo from "../images/01_screensaver/immersionlogo.png";
-import Logo from "../images/01_screensaver/newlogo.png";
+// import Logo from "../images/01_screensaver/newlogo.png";
+import Logo from "../images/01_screensaver/logo.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   // faBars,
@@ -45,7 +46,7 @@ const Header = (props) => {
       <div className={`${hideTopBar} fixed z-50 w-full`}>
         <div className="container">
           <div className="flex text-white justify-between font-bold py-4">
-            <div className=" self-center px-6">
+            <div className=" self-center px-3">
               <Link to="/" className="flex space-x-2">
                 <img src={Logo} className="h-12 " alt="img" />
               </Link>
@@ -73,6 +74,7 @@ const Header = (props) => {
                       <FontAwesomeIcon
                         icon={faBarsStaggered}
                         className="h-9 w-8"
+                        style={{ color: "#F8625C" }}
                       />
                     </span>
                   )}
@@ -81,7 +83,7 @@ const Header = (props) => {
                       className="pr-2 flex items-center close_btn"
                       style={{ paddingBottom: 3 }}
                     >
-                      <FontAwesomeIcon icon={faClose} className="h-9 w-8" />
+                      <FontAwesomeIcon icon={faClose} className="h-9 w-8" style={{ color: "#F8625C" }}/>
                     </span>
                   )}
                 </div>
@@ -123,6 +125,7 @@ const Header = (props) => {
                                 <FontAwesomeIcon
                                   icon={faBarsStaggered}
                                   className="h-9 w-8"
+                                  style={{ color: "#F8625C" }}
                                   // size={"2xl"}
                                 />
                               </span>
@@ -135,6 +138,7 @@ const Header = (props) => {
                                 <FontAwesomeIcon
                                   icon={faClose}
                                   className="h-9 w-8"
+                                  style={{ color: "#F8625C" }}
                                 />
                               </span>
                             )}
@@ -226,7 +230,9 @@ const Header = (props) => {
                             setNavBar(!navBar);
                           }}
                         >
-                          <span className="nav-bar-menu-span link">Careers</span>
+                          <span className="nav-bar-menu-span link">
+                            Careers
+                          </span>
                         </Link>
                       </li>
                       <li className="navbar nav-bar-menu text-center hover:scale-110 transition-all ">
@@ -254,7 +260,7 @@ const Header = (props) => {
         {visible && (
           <button
             onClick={scrollToTop}
-            className="animate-bounce transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-200 rounded-full h-10 w-10 md:h-14 md:w-14 text-right right-6 md:right-16 bottom-6 md:bottom-12 bg-blue-500 hover:bg-blue-900"
+            className="animate-bounce transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-200 rounded-full h-10 w-10 md:h-14 md:w-14 text-right right-6 md:right-16 bottom-6 md:bottom-12 bg-regal-red hover:bg-red-500"
             style={{
               position: "fixed",
               zIndex: 1,

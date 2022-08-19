@@ -15,8 +15,9 @@ const ContactUs = () => {
             <span className="mr-2">
               <FontAwesomeIcon icon={faPhone} />
             </span>
-            (+91) 022 67418601
-            <div className="mt-2 ml-6"> (+91) 022 67418601</div>
+            (+91) 022 62398608
+            
+            {/* <div className="mt-2 ml-6"> (+91) 022 67418601</div> */}
           </div>
           {/* <div> (+91) 022 67418601</div> */}
           <div className="text-white text-base lowercase mt-2">

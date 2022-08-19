@@ -72,7 +72,7 @@ const Application = ({ location }) => {
   const sliderref16 = useRef();
   const sliderref17 = useRef();
   const sliderref18 = useRef();
-  
+
   // useEffect(() => {
   //   setTimeout(() => {
   //     setIsAutoplay(false);
@@ -96,7 +96,7 @@ const Application = ({ location }) => {
   const settings = {
     dots: true,
     infinite: true,
-    autoplay: isAutoplay ? true :false,
+    autoplay: isAutoplay ? true : false,
     // speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
@@ -194,7 +194,7 @@ const Application = ({ location }) => {
                     setIsAutoplay(true);
                     sliderref1.current.slickPlay();
                   }}
-                  onMouseLeave={() => setIsAutoplay(false)}>
+                    onMouseLeave={() => setIsAutoplay(false)}>
                     <img src={aa.image} alt="" className="h-64 mx-auto" />
                   </div>
                 ))}
@@ -205,12 +205,11 @@ const Application = ({ location }) => {
               GROHE APPLICATION
             </div>
             <div className="max-w-md mx-auto text-center">
-              Since the brief isn't product-specific the business problem is
-              always identified after a thorough brainstorming session
+              A VR configurator app for Grohe to select and experience the shower of your choice.
             </div>
           </div>
         </div>
-        <div className=" grid-cols-1 border-r-0 lg:border-r-2 border-b-2">
+        {/* <div className=" grid-cols-1 border-r-0 lg:border-r-2 border-b-2">
           <div className="pl-12 pr-12 pt-6 pb-4">
             <div>
               <Slider ref={sliderref2} speed={700} {...settings}>
@@ -226,7 +225,7 @@ const Application = ({ location }) => {
                       src={aa.image}
                       alt=""
                       className="h-64 mx-auto"
-                      // onMouseMove={() => onMouseMove()}
+                    // onMouseMove={() => onMouseMove()}
                     />
                   </div>
                 ))}
@@ -238,8 +237,8 @@ const Application = ({ location }) => {
               always identified after a thorough brainstorming session
             </div>
           </div>
-        </div>
-        <div className=" grid-cols-1 border-b-2">
+        </div> */}
+        {/* <div className=" grid-cols-1 border-b-2">
           <div className="pl-12 pr-12 pt-6 pb-4">
             <div>
               <Slider ref={sliderref3} speed={600} {...settings}>
@@ -248,7 +247,7 @@ const Application = ({ location }) => {
                     setIsAutoplay(true);
                     sliderref3.current.slickPlay();
                   }}
-                  onMouseLeave={() => setIsAutoplay(false)}>
+                    onMouseLeave={() => setIsAutoplay(false)}>
                     <img src={aa.image} alt="" className="h-64 mx-auto" />
                   </div>
                 ))}
@@ -262,19 +261,17 @@ const Application = ({ location }) => {
               always identified after a thorough brainstorming session
             </div>
           </div>
-        </div>
-      </div>
-      <div className="grid grid-cols-1 lg:grid-cols-3 mt-0 ">
+        </div> */}
         <div className="grid-cols-1 border-r-0 lg:border-r-2 border-b-2">
           <div className="pl-12 pr-12 pt-6 pb-4">
             <div>
               <Slider ref={sliderref4} speed={600} {...settings}>
                 {mahindraImageData.map((aa) => (
-                  <div  onMouseEnter={() => {
+                  <div onMouseEnter={() => {
                     setIsAutoplay(true);
                     sliderref4.current.slickPlay();
                   }}
-                  onMouseLeave={() => setIsAutoplay(false)}>
+                    onMouseLeave={() => setIsAutoplay(false)}>
                     <img src={aa.image} alt="" className="h-64 mx-auto" />
                   </div>
                 ))}
@@ -284,8 +281,9 @@ const Application = ({ location }) => {
               MAHINDRA SUV
             </div>
             <div className=" text-center max-w-md mx-auto">
-              Since the brief isn't product-specific the business problem is
-              always identified after a thorough brainstorming session
+              A customer focused AR application for Mahindra
+              SUV to customize the car and experience its features
+              to help buying decision.
             </div>
           </div>
         </div>
@@ -294,11 +292,11 @@ const Application = ({ location }) => {
             <div>
               <Slider ref={sliderref5} speed={600} {...settings}>
                 {digiracerImageData.map((aa) => (
-                  <div  onMouseEnter={() => {
+                  <div onMouseEnter={() => {
                     setIsAutoplay(true);
                     sliderref5.current.slickPlay();
                   }}
-                  onMouseLeave={() => setIsAutoplay(false)}>
+                    onMouseLeave={() => setIsAutoplay(false)}>
                     <img src={aa.image} alt="" className="h-64 mx-auto" />
                   </div>
                 ))}
@@ -308,21 +306,26 @@ const Application = ({ location }) => {
               DIGI RACER GAME
             </div>
             <div className=" text-center max-w-md mx-auto">
-              Since the brief isn't product-specific the business problem is
-              always identified after a thorough brainstorming session
+              A game-based application on Facebook to promote
+              the Grand Prix in India. The game then had a one lap
+              race between the Renault F1 race car and the
+              Renault Duster.
             </div>
           </div>
         </div>
-        <div className=" grid-cols-1 border-b-2">
+      </div>
+      <div className="grid grid-cols-1 lg:grid-cols-3 mt-0 ">
+        
+        <div className=" grid-cols-1 border-r-0 lg:border-r-2 border-b-2">
           <div className="pl-12 pr-12 pt-6 pb-4">
             <div>
               <Slider ref={sliderref6} speed={500} {...settings}>
                 {rothamImageData.map((aa) => (
-                  <div  onMouseEnter={() => {
+                  <div onMouseEnter={() => {
                     setIsAutoplay(true);
                     sliderref6.current.slickPlay();
                   }}
-                  onMouseLeave={() => setIsAutoplay(false)}>
+                    onMouseLeave={() => setIsAutoplay(false)}>
                     <img src={aa.image} alt="" className="h-64 mx-auto" />
                   </div>
                 ))}
@@ -332,23 +335,23 @@ const Application = ({ location }) => {
               ROTHAMS OF LONDON
             </div>
             <div className=" text-center max-w-md mx-auto">
-              Since the brief isn't product-specific the business problem is
-              always identified after a thorough brainstorming session
+              An AR interactive app for Rothmans A) Scan the pack to and see
+              a 3D view of the pack the pack from all sides. B) Drive through
+              the streets of London, and collecting these packs placed on the
+              road, to complete the game.
             </div>
           </div>
         </div>
-      </div>
-      <div className="grid grid-cols-1 lg:grid-cols-3 mt-0">
         <div className="grid-cols-1 border-r-0 lg:border-r-2 border-b-2">
           <div className="pl-12 pr-12 pt-6 pb-4">
             <div>
               <Slider ref={sliderref7} speed={500} {...settings}>
                 {tataImageData.map((aa) => (
-                  <div  onMouseEnter={() => {
+                  <div onMouseEnter={() => {
                     setIsAutoplay(true);
                     sliderref7.current.slickPlay();
                   }}
-                  onMouseLeave={() => setIsAutoplay(false)}>
+                    onMouseLeave={() => setIsAutoplay(false)}>
                     <img src={aa.image} alt="" className="h-64 mx-auto" />
                   </div>
                 ))}
@@ -358,21 +361,24 @@ const Application = ({ location }) => {
               TATA MANZA
             </div>
             <div className=" text-center max-w-md mx-auto">
-              Since the brief isn't product-specific the business problem is
-              always identified after a thorough brainstorming session
+              An app to know, 1) Tata Manza and its features 2) Find all the parts
+              needed the assemble the car, all placed in a garage
+              3) assemble the car itself 4) Drive the Manza
+              through a maze, which had pop ups at each corner, describing its
+              features.
             </div>
           </div>
         </div>
-        <div className=" grid-cols-1 border-r-0 lg:border-r-2 border-b-2">
+        <div className=" grid-cols-1 border-b-2">
           <div className="pl-12 pr-12 pt-6 pb-4">
             <div>
               <Slider ref={sliderref8} speed={700} {...settings}>
                 {electroluxImageData.map((aa) => (
-                  <div  onMouseEnter={() => {
+                  <div onMouseEnter={() => {
                     setIsAutoplay(true);
                     sliderref8.current.slickPlay();
                   }}
-                  onMouseLeave={() => setIsAutoplay(false)}>
+                    onMouseLeave={() => setIsAutoplay(false)}>
                     <img src={aa.image} alt="" className="h-64 mx-auto" />
                   </div>
                 ))}
@@ -382,21 +388,23 @@ const Application = ({ location }) => {
               ELECTROLUX
             </div>
             <div className=" text-center max-w-md mx-auto">
-              Since the brief isn't product-specific the business problem is
-              always identified after a thorough brainstorming session
+              Scan the brochure and learn more about the products of Electrolux.
             </div>
           </div>
         </div>
-        <div className=" grid-cols-1 border-b-2">
+      </div>
+      <div className="grid grid-cols-1 lg:grid-cols-3 mt-0">
+        
+        <div className=" grid-cols-1 border-r-0 lg:border-r-2 border-b-2">
           <div className="pl-12 pr-12 pt-6 pb-4">
             <div>
               <Slider ref={sliderref9} speed={700} {...settings}>
                 {panteneImageData.map((aa) => (
-                  <div  onMouseEnter={() => {
+                  <div onMouseEnter={() => {
                     setIsAutoplay(true);
                     sliderref9.current.slickPlay();
                   }}
-                  onMouseLeave={() => setIsAutoplay(false)}>
+                    onMouseLeave={() => setIsAutoplay(false)}>
                     <img src={aa.image} alt="" className="h-64 mx-auto" />
                   </div>
                 ))}
@@ -404,23 +412,21 @@ const Application = ({ location }) => {
             </div>
             <div className="pt-2 font-bold text-2xl text-center">PANTENE</div>
             <div className=" text-center max-w-md mx-auto">
-              Since the brief isn't product-specific the business problem is
-              always identified after a thorough brainstorming session
+              Branding and promotional activity for Pantene using AR for the Japanese
+              market.
             </div>
           </div>
         </div>
-      </div>
-      <div className="grid grid-cols-1 lg:grid-cols-3 mt-0 ">
-        <div className="grid-cols-1 border-r-0 lg:border-r-2 border-b-2">
+        {/* <div className="grid-cols-1 border-r-0 lg:border-r-2 border-b-2">
           <div className="pl-12 pr-12 pt-6 pb-4">
             <div>
               <Slider ref={sliderref10} speed={700} {...settings}>
                 {allaroImageData.map((aa) => (
-                  <div   onMouseEnter={() => {
+                  <div onMouseEnter={() => {
                     setIsAutoplay(true);
                     sliderref10.current.slickPlay();
                   }}
-                  onMouseLeave={() => setIsAutoplay(false)}>
+                    onMouseLeave={() => setIsAutoplay(false)}>
                     <img src={aa.image} alt="" className="h-64 mx-auto" />
                   </div>
                 ))}
@@ -434,17 +440,17 @@ const Application = ({ location }) => {
               always identified after a thorough brainstorming session
             </div>
           </div>
-        </div>
+        </div> */}
         <div className=" grid-cols-1 border-r-0 lg:border-r-2 border-b-2">
           <div className="pl-12 pr-12 pt-6 pb-4">
             <div>
               <Slider ref={sliderref11} speed={700} {...settings}>
                 {castrolImageData.map((aa) => (
-                  <div  onMouseEnter={() => {
+                  <div onMouseEnter={() => {
                     setIsAutoplay(true);
                     sliderref11.current.slickPlay();
                   }}
-                  onMouseLeave={() => setIsAutoplay(false)}>
+                    onMouseLeave={() => setIsAutoplay(false)}>
                     <img src={aa.image} alt="" className="h-64 mx-auto" />
                   </div>
                 ))}
@@ -452,8 +458,8 @@ const Application = ({ location }) => {
             </div>
             <div className="pt-2 font-bold text-2xl text-center">CASTROL</div>
             <div className=" text-center max-w-md mx-auto">
-              Since the brief isn't product-specific the business problem is
-              always identified after a thorough brainstorming session
+              For the new launch, The AR application augments special molecules that oil
+              is made up of when the Pack label is scanned.
             </div>
           </div>
         </div>
@@ -462,11 +468,11 @@ const Application = ({ location }) => {
             <div>
               <Slider ref={sliderref12} speed={600} {...settings}>
                 {chotabheemImageData.map((aa) => (
-                  <div  onMouseEnter={() => {
+                  <div onMouseEnter={() => {
                     setIsAutoplay(true);
                     sliderref12.current.slickPlay();
                   }}
-                  onMouseLeave={() => setIsAutoplay(false)}>
+                    onMouseLeave={() => setIsAutoplay(false)}>
                     <img src={aa.image} alt="" className="h-64 mx-auto" />
                   </div>
                 ))}
@@ -476,23 +482,29 @@ const Application = ({ location }) => {
               CHHOTA BHEEM
             </div>
             <div className=" text-center max-w-md mx-auto">
-              Since the brief isn't product-specific the business problem is
-              always identified after a thorough brainstorming session
+              Make the character on the card come alive by scanning the card
+              through the App. After the character comes alive, take the
+              picture with the character and share the picture on Facebook or
+              WhatsApp.
             </div>
           </div>
         </div>
       </div>
+      {/* <div className="grid grid-cols-1 lg:grid-cols-3 mt-0 ">
+        
+        
+      </div> */}
       <div className="grid grid-cols-1 lg:grid-cols-3 mt-0 ">
         <div className="grid-cols-1 border-r-0 lg:border-r-2 border-b-2">
           <div className="pl-12 pr-12 pt-6 pb-4">
             <div>
               <Slider ref={sliderref13} speed={700} {...settings}>
                 {closeupImageData.map((aa) => (
-                  <div  onMouseEnter={() => {
+                  <div onMouseEnter={() => {
                     setIsAutoplay(true);
                     sliderref13.current.slickPlay();
                   }}
-                  onMouseLeave={() => setIsAutoplay(false)}>
+                    onMouseLeave={() => setIsAutoplay(false)}>
                     <img src={aa.image} alt="" className="h-64 mx-auto" />
                   </div>
                 ))}
@@ -500,8 +512,9 @@ const Application = ({ location }) => {
             </div>
             <div className="pt-2 font-bold text-2xl text-center">CLOSE UP</div>
             <div className=" text-center max-w-md mx-auto">
-              Since the brief isn't product-specific the business problem is
-              always identified after a thorough brainstorming session
+              As a promotional activity for Yeh Jawani Hai Deewani, scan the
+              closeup pack and watch Deepika and Ranbir interact with the
+              users and dance.
             </div>
           </div>
         </div>
@@ -510,11 +523,11 @@ const Application = ({ location }) => {
             <div>
               <Slider ref={sliderref14} speed={700} {...settings}>
                 {dorothyImageData.map((aa) => (
-                  <div  onMouseEnter={() => {
+                  <div onMouseEnter={() => {
                     setIsAutoplay(true);
                     sliderref14.current.slickPlay();
                   }}
-                  onMouseLeave={() => setIsAutoplay(false)}>
+                    onMouseLeave={() => setIsAutoplay(false)}>
                     <img src={aa.image} alt="" className="h-64 mx-auto" />
                   </div>
                 ))}
@@ -524,8 +537,10 @@ const Application = ({ location }) => {
               DOROTHY OF OZ-THE
             </div>
             <div className=" text-center max-w-md mx-auto">
-              Since the brief isn't product-specific the business problem is
-              always identified after a thorough brainstorming session
+              An interactive and engaging for ‘Dorothy of Oz’ with Gesture
+              control, Gyro Sensing and Live RSS feed.
+              Users could play with the movie character TOTO by making
+              simple gestures making head movements and hand gestures
             </div>
           </div>
         </div>
@@ -534,11 +549,11 @@ const Application = ({ location }) => {
             <div>
               <Slider ref={sliderref15} speed={700} {...settings}>
                 {emcureImageData.map((aa) => (
-                  <div  onMouseEnter={() => {
+                  <div onMouseEnter={() => {
                     setIsAutoplay(true);
                     sliderref15.current.slickPlay();
                   }}
-                  onMouseLeave={() => setIsAutoplay(false)}>
+                    onMouseLeave={() => setIsAutoplay(false)}>
                     <img src={aa.image} alt="" className="h-64 mx-auto" />
                   </div>
                 ))}
@@ -546,8 +561,9 @@ const Application = ({ location }) => {
             </div>
             <div className="pt-2 font-bold text-2xl text-center">EMCURE</div>
             <div className=" text-center max-w-md mx-auto">
-              Since the brief isn't product-specific the business problem is
-              always identified after a thorough brainstorming session
+              Live AR tracking To provide, a unique insight about the
+              anticancer drugs, by using Augmented Reality to Transform a
+              Mannequin into a Real Patient.
             </div>
           </div>
         </div>
@@ -558,11 +574,11 @@ const Application = ({ location }) => {
             <div>
               <Slider ref={sliderref16} speed={700} {...settings}>
                 {godrejImageData.map((aa) => (
-                  <div  onMouseEnter={() => {
+                  <div onMouseEnter={() => {
                     setIsAutoplay(true);
                     sliderref16.current.slickPlay();
                   }}
-                  onMouseLeave={() => setIsAutoplay(false)}>
+                    onMouseLeave={() => setIsAutoplay(false)}>
                     <img src={aa.image} alt="" className="h-64 mx-auto" />
                   </div>
                 ))}
@@ -572,8 +588,11 @@ const Application = ({ location }) => {
               GODREJ EON
             </div>
             <div className=" text-center max-w-md mx-auto">
-              Since the brief isn't product-specific the business problem is
-              always identified after a thorough brainstorming session
+              Launch of Godrej Eon’snew washing machine, and a unique
+              feature in particular, called the U-Sonic Horn, which is used to
+              clean the toughest of stains. The application tracked various
+              parts of the washing machine, on which a video describing each
+              feature would be played.
             </div>
           </div>
         </div>
@@ -582,11 +601,11 @@ const Application = ({ location }) => {
             <div>
               <Slider ref={sliderref17} speed={700} {...settings}>
                 {larsenImageData.map((aa) => (
-                  <div  onMouseEnter={() => {
+                  <div onMouseEnter={() => {
                     setIsAutoplay(true);
                     sliderref17.current.slickPlay();
                   }}
-                  onMouseLeave={() => setIsAutoplay(false)}>
+                    onMouseLeave={() => setIsAutoplay(false)}>
                     <img src={aa.image} alt="" className="h-64 mx-auto" />
                   </div>
                 ))}
@@ -596,8 +615,8 @@ const Application = ({ location }) => {
               LARSEN & TOUBRO
             </div>
             <div className=" text-center max-w-md mx-auto">
-              Since the brief isn't product-specific the business problem is
-              always identified after a thorough brainstorming session
+              An AR app for L&T, Scan the ACB and get a step-by-step guide with
+              images, videos and text on how to service and troubleshoot.
             </div>
           </div>
         </div>
@@ -606,11 +625,11 @@ const Application = ({ location }) => {
             <div>
               <Slider ref={sliderref18} speed={700} {...settings}>
                 {raymondImageData.map((aa) => (
-                  <div  onMouseEnter={() => {
+                  <div onMouseEnter={() => {
                     setIsAutoplay(true);
                     sliderref18.current.slickPlay();
                   }}
-                  onMouseLeave={() => setIsAutoplay(false)}>
+                    onMouseLeave={() => setIsAutoplay(false)}>
                     <img src={aa.image} alt="" className="h-64 mx-auto" />
                   </div>
                 ))}
@@ -618,8 +637,9 @@ const Application = ({ location }) => {
             </div>
             <div className="pt-2 font-bold text-2xl text-center">RAYMOND</div>
             <div className="max-w-md text-center">
-              Since the brief isn't product-specific the business problem is
-              always identified after a thorough brainstorming session
+              An iOS application for Raymond Apparels. The application had all
+              the styles for a particular season. Users could check out all the
+              styles and the fabrics in detail.
             </div>
           </div>
         </div>

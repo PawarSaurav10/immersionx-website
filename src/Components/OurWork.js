@@ -26,7 +26,7 @@ import HCL from "../images/WORK/HCL.png";
 // // import Groheimg2 from "../images/09_pages/GROHE/im_2@2x.png";
 import { Link } from "gatsby";
 import { Fade } from "react-reveal";
-// import mouse from "../images/01_screensaver/scrolldown-mouse.png";
+import mouse from "../images/01_screensaver/scrolldown-mouse.png";
 
 const OurWork = ({ location }) => {
   // console.log(location);
@@ -34,20 +34,20 @@ const OurWork = ({ location }) => {
     <>
       <div
         id="slider"
-        className="inspiro-slider slider-fullscreen dots-creative bg-our-work bg-no-repeat bg-cover"
+        className="bg-our-work bg-no-repeat bg-cover"
       >
         <div className="slide kenburns">
           <div className="flex justify-end flex-col flex-1">
             <div className="container text-left ">
               <div className="py-5">
-                <div className="uppercase text-3xl md:text-5xl lg:text-8xl text-white text-left font-bold pb-0 md:pb-8 lg:pb-20 pt-4">
+                <div className="uppercase text-3xl md:text-5xl lg:text-8xl text-white text-left font-bold pb-6 md:pb-8 lg:pb-20 pt-40 lg:pt-60">
                   Work
                 </div>
                 {/* <div className="pb-4 lg:pb-8 uppercase text-lg lg:text-3xl text-white text-left font-semibold">
                   Experience Centers & Museums
                 </div> */}
                 <div className="text-white max-w-2xl text-justify text-xs md:text-base">
-                  <div className="pb-2 lg:pb-4">
+                  <div className="pb-3 lg:pb-4">
                     We have created a number of customer experience center and
                     other immersive exhibits that showcase our solutions in the
                     form of conceptual design, exceptional content creations and
@@ -68,8 +68,8 @@ const OurWork = ({ location }) => {
             </div>
             <div className="flex justify-center pb-3">
               <Link to="#work-clients">
-                <div className="icon-scroll"></div>
-                {/* <img src={mouse} className="w-auto h-auto" /> */}
+                {/* <div className="icon-scroll"></div> */}
+                <img src={mouse} className=" w-6 h-10 md:w-auto md:h-auto" />
               </Link>
             </div>
           </div>

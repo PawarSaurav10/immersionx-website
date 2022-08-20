@@ -77,7 +77,7 @@ module.exports = {
         width: "width",
       },
       content: {
-        link: "url('../images/minus3.png')",
+        link: "url('../images/minus4.png')",
       },
       // right:{
       //   "42": "170px"

@@ -20,7 +20,7 @@ const Header = (props) => {
   useEffect(() => {
     window.onscroll = () => {
       // console.log("third")
-      if (window.pageYOffset > 299) {
+      if (window.pageYOffset > 79) {
         // console.log("first")
         setHideTopBar("bg-black");
         setVisible(true);

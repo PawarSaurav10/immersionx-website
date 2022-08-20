@@ -156,7 +156,7 @@ const ProcessNew = () => {
                     <div className="text-3xl pb-5 uppercase text-bold">
                       DEPLOY
                     </div>
-                    <div className="text-sm w-64 max-w-full mx-auto">
+                    <div className="text-sm w-56 max-w-full mx-auto">
                       After multiple levels of testing, iterations, we create a
                       purpose-built environment with the integration of final
                       content + software + interaction + hardware.

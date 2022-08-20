@@ -175,7 +175,7 @@ const Application = ({ location }) => {
         <div className="container">
           <div className="pt-0 md:pt-48 xl:pt-96">
             <div
-              className={`text-2xl md:text-5xl font-bold text-white pt-28 pb-4 md:pb-8 text-left ml-8 md:ml-16 uppercase`}
+              className={`text-2xl md:text-5xl font-bold text-white pt-28 pb-4 md:pb-8 text-left ml-3 md:ml-16 uppercase`}
             >
               AR, VR & MR APPS
             </div>

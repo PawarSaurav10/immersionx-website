@@ -36,8 +36,8 @@ const ContactUs = () => {
       <div className="bg-black">
         <div className="container">
           <div className=" flex flex-col lg:flex-row ">
-            <div className="flex-1 m-24">
-              <div className="text-2xl text-white font-semibold mb-8">OFFICE</div>
+            <div className="flex-1 m-0 lg:m-24">
+              <div className="text-2xl text-white font-semibold mt-6 lg:mt-0 mb-8">OFFICE</div>
               <div className=" text-left mb-8 text-white ">
                 401, Hubtown Viva, Western Express Hwy, Saraswati Baug,
                 Shankarwadi, Jogeshwari East, Mumbai, Maharashtra 400060
@@ -55,8 +55,8 @@ const ContactUs = () => {
               </div>
               {/* <img src={img1} alt="" /> */}
             </div>
-            <div className="flex-1 mr-24 my-24">
-            <div className="text-2xl text-white font-semibold mb-8">STUDIO</div>
+            <div className="flex-1 mr-0 lg:mr-24 my-4 lg:my-24">
+            <div className="text-2xl text-white font-semibold mt-4 lg:mt-0 mb-8">STUDIO</div>
               <div className=" text-left mb-8 text-white ">
                 303-305, Ecoster, Near Udipi Vihar Restaurant Off Aarey
                 Road, Vishveshwar Nagar Rd, Churi Wadi, Goregaon, Mumbai,

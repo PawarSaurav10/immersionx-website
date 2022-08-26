@@ -33,7 +33,7 @@ const LeftImageRightText = (props) => {
                 alt=""
               />
             )}
-            {props?.data?.videourl && (
+            {/* {props?.data?.videourl && (
               <video
                 loop
                 autoPlay
@@ -47,7 +47,7 @@ const LeftImageRightText = (props) => {
               >
                 <source src={props?.data?.videourl} type="video/mp4" />
               </video>
-            )}
+            )} */}
             {props?.data?.imageurl2 && (
               <img
                 src={props?.data?.imageurl2}
@@ -129,6 +129,7 @@ const LeftImageRightText = (props) => {
             </div>
           </div>
         </div>
+        
         <div className="grid md:hidden md:grid-cols-5">
           <div
             className={` ${
@@ -217,6 +218,23 @@ const LeftImageRightText = (props) => {
             )}
           </div>
         </div>
+        {/* <div>
+          {props?.data?.videourl && (
+            <video
+              loop
+              autoPlay
+              width={"100%"}
+              height={"100%"}
+              controls
+              // className={`${
+              //   props?.data?.imageurl2 ? "h-1/2" : "h-full"
+              // } w-full`}
+              alt=""
+            >
+              <source src={props?.data?.videourl} type="video/mp4" />
+            </video>
+          )}
+        </div> */}
       </div>
     </div>
   );

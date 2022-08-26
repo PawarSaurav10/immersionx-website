@@ -1,10 +1,10 @@
 // import { faArrowAltCircleRight } from "@fortawesome/free-solid-svg-icons";
 // import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
-import ReactPlayer from "react-player";
+// import ReactPlayer from "react-player";
 import { Fade } from "react-reveal";
 import img from "../images/04_STUDIO/studio-thumbnail.jpg";
-import Video from "./Video";
+// import Video from "./Video";
 import compressedvideo from "../images/04_STUDIO/compressed4mb.mp4";
 const StudioNew = () => {
   return (

@@ -118,7 +118,7 @@ const OurServices = () => {
                   </div>
 
                   <div className="portfolio-item img-zoom ct-marketing ct-media ct-branding ct-marketing ct-webdesign">
-                    <Link to="/solutions/capsule">
+                    <Link to="/solutions/holographic-capsule">
                       <div className="portfolio-item-wrap">
                         <div className="portfolio-image">
                           <img src={img3} alt="" />

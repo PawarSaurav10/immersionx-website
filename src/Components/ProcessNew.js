@@ -25,7 +25,7 @@ const ProcessNew = () => {
             <div className="flex justify-between py-52">
               <div className="relative mr-5">
                 <Slide left cascade delay={1500}>
-                  <img src={img1} className="" />
+                  <img src={img1} className="" alt="img" />
                   <div className="absolute top-[50%] left-[50%] -translate-x-1/2 -translate-y-1/2 text-white text-center ">
                     <div className="flex flex-col justify-center pt-20">
                       <div className="text-3xl pb-5 uppercase text-bold">
@@ -42,7 +42,7 @@ const ProcessNew = () => {
               </div>
               <div className="relative mr-5">
                 <Slide left cascade delay={1000}>
-                  <img src={img2} className="" />
+                  <img src={img2} className="" alt="img" />
                   <div className="absolute top-[50%] left-[50%] -translate-x-1/2 -translate-y-1/2 text-white text-center ">
                     <div className="flex flex-col justify-center pt-20">
                       <div className="text-3xl pb-5 uppercase text-bold">
@@ -52,6 +52,9 @@ const ProcessNew = () => {
                         Our team of designers, developers, engineers, marketers
                         and tech experts successfully execute projects that are
                         not just solution based but also a visual masterpiece.
+                        {/* Our team of designers, developers, engineers, marketers
+                        and tech experts successfully execute projects that are
+                        a visual masterpiece. */}
                       </div>
                     </div>
                   </div>
@@ -59,7 +62,7 @@ const ProcessNew = () => {
               </div>
               <div className="relative mr-5">
                 <Slide left cascade delay={500}>
-                  <img src={img3} className="" />
+                  <img src={img3} className="" alt="img" />
                   <div className="absolute top-[50%] left-[50%] -translate-x-1/2 -translate-y-1/2 text-white text-center ">
                     <div className="flex flex-col justify-center pt-20">
                       <div className="text-3xl pb-5 uppercase text-bold">
@@ -76,7 +79,7 @@ const ProcessNew = () => {
               </div>
               <div className="relative mr-5">
                 <Slide left cascade>
-                  <img src={img4} className="" />
+                  <img src={img4} className="" alt="img" />
                   <div className="absolute top-[50%] left-[50%] -translate-x-1/2 -translate-y-1/2 text-white text-center ">
                     <div className="flex flex-col justify-center pt-20">
                       <div className="text-3xl pb-5 uppercase text-bold">
@@ -98,7 +101,7 @@ const ProcessNew = () => {
           <div className="flex flex-col items-center py-10">
             <div className="relative mb-12">
               <Slide right cascade>
-                <img src={img5} className="" />
+                <img src={img5} className="" alt="img" />
                 <div className="absolute top-[50%] left-[50%] -translate-x-1/2 -translate-y-1/2 text-white text-center ">
                   <div className="flex flex-col justify-center pt-20">
                     <div className="text-3xl pb-5 uppercase text-bold">
@@ -115,7 +118,7 @@ const ProcessNew = () => {
             </div>
             <div className="relative mb-12">
               <Slide left cascade delay={500}>
-                <img src={img6} className="" />
+                <img src={img6} className="" alt="img" />
                 <div className="absolute top-[50%] left-[50%] -translate-x-1/2 -translate-y-1/2 text-white text-center ">
                   <div className="flex flex-col justify-center pt-20">
                     <div className="text-3xl pb-5 uppercase text-bold">
@@ -123,8 +126,8 @@ const ProcessNew = () => {
                     </div>
                     <div className="text-sm w-64 max-w-full mx-auto">
                       Our team of designers, developers, engineers, marketers
-                      and tech experts successfully execute projects that are
-                      not just solution based but also a visual masterpiece.
+                      and tech experts successfully execute projects that are a
+                      visual masterpiece.
                     </div>
                   </div>
                 </div>
@@ -132,7 +135,7 @@ const ProcessNew = () => {
             </div>
             <div className="relative mb-12">
               <Slide left cascade delay={1000}>
-                <img src={img7} className="" />
+                <img src={img7} className="" alt="img" />
                 <div className="absolute top-[50%] left-[50%] -translate-x-1/2 -translate-y-1/2 text-white text-center ">
                   <div className="flex flex-col justify-center pt-20">
                     <div className="text-3xl pb-5 uppercase text-bold">
@@ -149,7 +152,7 @@ const ProcessNew = () => {
             </div>
             <div className="relative mb-12">
               <Slide left cascade delay={1500}>
-                <img src={img8} className="" />
+                <img src={img8} className="" alt="img" />
 
                 <div className="absolute top-[50%] left-[50%] -translate-x-1/2 -translate-y-1/2 text-white text-center ">
                   <div className="flex flex-col justify-center pt-20">

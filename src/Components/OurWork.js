@@ -69,7 +69,7 @@ const OurWork = ({ location }) => {
             <div className="flex justify-center pb-3">
               <Link to="#work-clients">
                 {/* <div className="icon-scroll"></div> */}
-                <img src={mouse} className=" w-6 h-10 md:w-auto md:h-auto" />
+                <img src={mouse} className=" w-6 h-10 md:w-auto md:h-auto" alt="mouse"/>
               </Link>
             </div>
           </div>

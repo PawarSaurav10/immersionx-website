@@ -1,11 +1,13 @@
 import React from "react";
+import ReactPlayer from "react-player";
 // import LeftImageRightText from "../../Components/imageandtextcomponent/LeftImageRightText";
 import LeftTextRightImage from "../../Components/imageandtextcomponent/LeftTextRightImage";
 import Layout from "../../Components/Layout";
+// import Video from "../../Components/Video";
 import Capsuleimg1 from "../../images/09_pages/CAPSULE/im_1@2x.png";
 // import Capsuleimg3 from "../../images/09_pages/CAPSULE/im_3@2x.png";
 // import Capsuleimg4 from "../../images/09_pages/CAPSULE/im_4@2x.png";
-import capsulevideo from "../../images/09_pages/CAPSULE/videosim.jpg"
+import capsulevideo from "../../images/09_pages/VOLUSTUDIO/Volumetric.mp4";
 
 const Capsule = ({ location }) => {
   const CapsuleData = {
@@ -21,7 +23,8 @@ const Capsule = ({ location }) => {
       // p3: " Can be used for Virtual meeting rooms, training spaces, virtual shopping experiences, remote collaborations, etc.",
     },
     data2: {
-      imageurl: capsulevideo,
+      // imageurl: capsulevideo,
+      videourl: capsulevideo,
       // p1: "Teamwork is crucial and has become a challenge for global firms whose departments or subsidiaries are spread all over the world. Using virtual reality collaborative tools, you can gather all thestakeholders of your project in the same VR workspace and display your virtual prototype at scale to create and collaborate.",
       // p3: "Can be used for Virtual meeting rooms, training spaces, virtual shopping experiences, remote collaborations, etc.",
     },
@@ -31,6 +34,8 @@ const Capsule = ({ location }) => {
     //   // p3: "Can be used for Virtual meeting rooms, training spaces, virtual shopping experiences, remote collaborations, etc.",
     // },
   };
+
+  console.log(CapsuleData, "first");
   return (
     <Layout location={location?.pathname}>
       <div className="pt-24 lg:pt-0 bg-black">
@@ -45,8 +50,38 @@ const Capsule = ({ location }) => {
         </div>
         {/* {CapsuleData?.data1 && <LeftImageRightText data={CapsuleData?.data1} />} */}
         {CapsuleData?.data1 && <LeftTextRightImage data={CapsuleData?.data1} />}
-        {/* {CapsuleData?.data3 && <LeftImageRightText data={CapsuleData?.data3} />} */}
-        <img src={capsulevideo} alt=""/>
+        {/* {CapsuleData?.data2 && <LeftImageRightText data={CapsuleData?.data2} />} */}
+        <div className="bg-slate-900">
+          <div className="container ">
+            <div className="player-wrapper">
+              {/* {CapsuleData?.data2.videourl && (
+              // <video
+              //   loop
+              //   autoPlay
+              //   width={"100%"}
+              //   height={"100%"}
+              //   controls
+              //   // className={`${
+              //   //   CapsuleData?.data2.imageurl2 ? "h-1/2" : "h-full"
+              //   // } w-full`}
+              //   alt=""
+              // >
+              //   <source src={CapsuleData?.data2.videourl} type="video/mp4" />
+              // </video>
+              
+            )} */}
+              <ReactPlayer
+                width="100%"
+                height="100%"
+                className="react-player"
+                url="https://www.youtube.com/watch?v=OWYXEO_Lh8Y&t=17s"
+                // videoTitle="Official Music Video on YouTube"
+              />
+            </div>
+          </div>
+        </div>
+
+        {/* <img src={capsulevideo} alt=""/> */}
       </div>
     </Layout>
   );

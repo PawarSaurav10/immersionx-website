@@ -48,7 +48,7 @@ const Header = (props) => {
           <div className="flex text-white justify-between font-bold py-4">
             <div className=" self-center px-3">
               <Link to="/" className="flex space-x-2">
-                <img src={Logo} className="h-12 " alt="img" />
+                <img src={Logo} className="h-6 md:h-12 " alt="img" />
               </Link>
             </div>
 
@@ -63,17 +63,17 @@ const Header = (props) => {
                     setNavBar(!navBar);
                   }}
                 >
-                  <span className="text-white font-semibold text-xl pr-3 uppercase">
+                  <span className="text-white font-semibold text-base md:text-xl pr-3 uppercase">
                     Menu
                   </span>
                   {!navBar && (
                     <span
                       className="pr-2 flex items-center"
-                      style={{ paddingBottom: 3 }}
+                      // style={{ paddingBottom: 3 }}
                     >
                       <FontAwesomeIcon
                         icon={faBarsStaggered}
-                        className="h-9 w-8"
+                        className="h-6 md:h-9 w-7 md:w-8"
                         style={{ color: "#F8625C" }}
                       />
                     </span>
@@ -81,9 +81,9 @@ const Header = (props) => {
                   {navBar && (
                     <span
                       className="pr-2 flex items-center close_btn"
-                      style={{ paddingBottom: 3 }}
+                      // style={{ paddingBottom: 3 }}
                     >
-                      <FontAwesomeIcon icon={faClose} className="h-9 w-8" style={{ color: "#F8625C" }}/>
+                      <FontAwesomeIcon icon={faClose} className="h-6 md:h-9 w-7 md:w-8" style={{ color: "#F8625C" }}/>
                     </span>
                   )}
                 </div>
@@ -98,15 +98,15 @@ const Header = (props) => {
                 >
                   <div className="container">
                     <div className="flex text-white justify-between font-bold py-4">
-                      <div className="self-center px-6">
+                      <div className="self-center px-3">
                         <Link to="/" className="flex space-x-2">
-                          <img src={Logo} className="h-12 " alt="img" />
+                          <img src={Logo} className="h-6 md:h-12 " alt="img" />
                         </Link>
                       </div>
                       <div className="py-2 flex">
                         <div className="block m-auto">
                           <div
-                            className="nav-bar-btn"
+                            className="nav-bar-btn items-center"
                             onClick={() => {
                               setNavBar(!navBar);
                             }}
@@ -114,17 +114,17 @@ const Header = (props) => {
                               setNavBar(!navBar);
                             }}
                           >
-                            <span className="text-white font-semibold text-xl pr-3 uppercase">
+                            <span className="text-white font-semibold text-base md:text-xl pr-3 uppercase">
                               Menu
                             </span>
                             {!navBar && (
                               <span
                                 className="pr-2 flex items-center"
-                                style={{ paddingBottom: 3 }}
+                                // style={{ paddingBottom: 3 }}
                               >
                                 <FontAwesomeIcon
                                   icon={faBarsStaggered}
-                                  className="h-9 w-8"
+                                  className="h-6 md:h-9 w-7 md:w-8"
                                   style={{ color: "#F8625C" }}
                                   // size={"2xl"}
                                 />
@@ -133,11 +133,11 @@ const Header = (props) => {
                             {navBar && (
                               <span
                                 className="pr-2 flex items-center close_btn"
-                                style={{ paddingBottom: 3 }}
+                                // style={{ paddingBottom: 3 }}
                               >
                                 <FontAwesomeIcon
                                   icon={faClose}
-                                  className="h-9 w-8"
+                                  className="h-6 md:h-9 w-7 md:w-8"
                                   style={{ color: "#F8625C" }}
                                 />
                               </span>

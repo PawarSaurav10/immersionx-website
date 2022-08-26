@@ -1,16 +1,16 @@
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState, useRef } from "react";
 import Layout from "../Components/Layout";
 import Slider from "react-slick";
-import Accenture1 from "../images/10_APPLICATIONS/ACCENTURE/01.png";
-import Accenture2 from "../images/10_APPLICATIONS/ACCENTURE/02.png";
+// import Accenture1 from "../images/10_APPLICATIONS/ACCENTURE/01.png";
+// import Accenture2 from "../images/10_APPLICATIONS/ACCENTURE/02.png";
 import groheimg1 from "../images/10_APPLICATIONS/grohe_application/01.png";
 import groheimg2 from "../images/10_APPLICATIONS/grohe_application/02.png";
 import groheimg3 from "../images/10_APPLICATIONS/grohe_application/03.png";
 import groheimg4 from "../images/10_APPLICATIONS/grohe_application/04.png";
 import groheimg5 from "../images/10_APPLICATIONS/grohe_application/05.png";
-import interactionimg1 from "../images/10_APPLICATIONS/INTERACTIVEMULTITACTIONDISPLAY/01.png";
-import interactionimg2 from "../images/10_APPLICATIONS/INTERACTIVEMULTITACTIONDISPLAY/02.png";
-import interactionimg3 from "../images/10_APPLICATIONS/INTERACTIVEMULTITACTIONDISPLAY/03.png";
+// import interactionimg1 from "../images/10_APPLICATIONS/INTERACTIVEMULTITACTIONDISPLAY/01.png";
+// import interactionimg2 from "../images/10_APPLICATIONS/INTERACTIVEMULTITACTIONDISPLAY/02.png";
+// import interactionimg3 from "../images/10_APPLICATIONS/INTERACTIVEMULTITACTIONDISPLAY/03.png";
 import mahindraimg1 from "../images/10_APPLICATIONS/MAHINDRA_SUV/01.png";
 import mahindraimg2 from "../images/10_APPLICATIONS/MAHINDRA_SUV/02.png";
 import mahindraimg3 from "../images/10_APPLICATIONS/MAHINDRA_SUV/03.png";
@@ -31,8 +31,8 @@ import electroluximg1 from "../images/10_APPLICATIONS/ELECTROLUX/01.png";
 import electroluximg2 from "../images/10_APPLICATIONS/ELECTROLUX/02.png";
 import panteneimg1 from "../images/10_APPLICATIONS/PANTENE/01.png";
 import panteneimg2 from "../images/10_APPLICATIONS/PANTENE/02.png";
-import allaroimg1 from "../images/10_APPLICATIONS/ALLARO_HOMES/01.png";
-import allaroimg2 from "../images/10_APPLICATIONS/ALLARO_HOMES/02.png";
+// import allaroimg1 from "../images/10_APPLICATIONS/ALLARO_HOMES/01.png";
+// import allaroimg2 from "../images/10_APPLICATIONS/ALLARO_HOMES/02.png";
 import castrolimg1 from "../images/10_APPLICATIONS/CASTROL/01.png";
 import castrolimg2 from "../images/10_APPLICATIONS/CASTROL/02.png";
 import chotabheemimg1 from "../images/10_APPLICATIONS/CHHOTA_BHEEM/01.png";
@@ -55,15 +55,15 @@ import raymondimg2 from "../images/10_APPLICATIONS/RAYMOND/02.png";
 const Application = ({ location }) => {
   const [isAutoplay, setIsAutoplay] = useState(false);
   const sliderref1 = useRef();
-  const sliderref2 = useRef();
-  const sliderref3 = useRef();
+  // const sliderref2 = useRef();
+  // const sliderref3 = useRef();
   const sliderref4 = useRef();
   const sliderref5 = useRef();
   const sliderref6 = useRef();
   const sliderref7 = useRef();
   const sliderref8 = useRef();
   const sliderref9 = useRef();
-  const sliderref10 = useRef();
+  // const sliderref10 = useRef();
   const sliderref11 = useRef();
   const sliderref12 = useRef();
   const sliderref13 = useRef();
@@ -116,12 +116,12 @@ const Application = ({ location }) => {
     { image: groheimg4 },
     { image: groheimg5 },
   ];
-  const accentureImageData = [{ image: Accenture1 }, { image: Accenture2 }];
-  const interactionImageData = [
-    { image: interactionimg1 },
-    { image: interactionimg2 },
-    { image: interactionimg3 },
-  ];
+  // const accentureImageData = [{ image: Accenture1 }, { image: Accenture2 }];
+  // const interactionImageData = [
+  //   { image: interactionimg1 },
+  //   { image: interactionimg2 },
+  //   { image: interactionimg3 },
+  // ];
   const mahindraImageData = [
     { image: mahindraimg1 },
     { image: mahindraimg2 },
@@ -151,7 +151,7 @@ const Application = ({ location }) => {
     { image: electroluximg2 },
   ];
   const panteneImageData = [{ image: panteneimg1 }, { image: panteneimg2 }];
-  const allaroImageData = [{ image: allaroimg1 }, { image: allaroimg2 }];
+  // const allaroImageData = [{ image: allaroimg1 }, { image: allaroimg2 }];
   const castrolImageData = [{ image: castrolimg1 }, { image: castrolimg2 }];
   const chotabheemImageData = [
     { image: chotabheemimg1 },

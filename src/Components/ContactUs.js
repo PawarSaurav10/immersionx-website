@@ -36,7 +36,7 @@ const ContactUs = () => {
       <div className="bg-black">
         <div className="container">
           <div className=" flex flex-col lg:flex-row ">
-            <div className="flex-1 m-0 lg:m-24">
+            <div className="flex-1 lg:m-24">
               <div className="text-2xl text-white font-semibold mt-6 lg:mt-0 mb-8">OFFICE</div>
               <div className=" text-left mb-8 text-white ">
                 401, Hubtown Viva, Western Express Hwy, Saraswati Baug,

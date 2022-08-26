@@ -5734,6 +5734,13 @@ gatsby-plugin-image@^2.17.0:
     objectFitPolyfill "^2.3.5"
     prop-types "^15.8.1"
 
+gatsby-plugin-mailgo@^0.12.2:
+  version "0.12.2"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-mailgo/-/gatsby-plugin-mailgo-0.12.2.tgz#9c7077af135ca02360ecc0fcbbe7b6b1e24ad4de"
+  integrity sha512-H67golEBSo//s1EoerNovKYTs1A2vO7b0mC8RX4T/BgfycIzmvv6l35YnGkpqRx6eqYkt5xfmJZPYnr2W035+A==
+  dependencies:
+    mailgo "0.12.2"
+
 gatsby-plugin-page-creator@^4.17.0:
   version "4.17.0"
   resolved "https://registry.npmjs.org/gatsby-plugin-page-creator/-/gatsby-plugin-page-creator-4.17.0.tgz"
@@ -7510,6 +7517,11 @@ lru-queue@^0.1.0:
   integrity sha512-BpdYkt9EvGl8OfWHDQPISVpcl5xZthb+XPsbELj5AQXxIC8IriDZIQYjBJPEm5rS420sjZ0TLEzRcq5KdBhYrQ==
   dependencies:
     es5-ext "~0.10.2"
+
+mailgo@0.12.2:
+  version "0.12.2"
+  resolved "https://registry.yarnpkg.com/mailgo/-/mailgo-0.12.2.tgz#b5373c027e475c933dbeabee6e2a71c516608428"
+  integrity sha512-iX4F3eOhPJ+12YlM51UNV8yTYwxHywaGP1C9Qaep/iNP2ZS+xzqHR7U3o+7HoCL19gZKysc7+MwgBEiRy8ogzA==
 
 make-dir@^3.0.0, make-dir@^3.0.2, make-dir@^3.1.0:
   version "3.1.0"

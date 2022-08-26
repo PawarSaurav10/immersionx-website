@@ -11,17 +11,18 @@ const LoaderPage = () => {
         position: "fixed",
         display: "flex",
         width: "100vw",
-        height: "100%",
+        height: "100vh",
         justifyContent: "center",
         alignItems: "center",
         zIndex: 600,
         backgroundColor: "#000000",
+        // overflow: "hidden"
       }}
     >
       {/* <img src={bg_img}/> */}
       <img
         src={loadingSpinner}
-        className="bg-logo bg-no-repeat bg-center rounded-full"
+        // className="bg-logo bg-no-repeat bg-center rounded-full"
         alt="loader"
         width="200px"
         height="200px"

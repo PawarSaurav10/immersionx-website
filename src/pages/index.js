@@ -3,7 +3,7 @@ import Layout from "../Components/Layout";
 import BannerImage from "../Components/BannerImage";
 import OurServices from "../Components/OurServices";
 // import OurPartners from "../Components/OurPartners";
-import OurProcess from "../Components/OurProcess";
+// import OurProcess from "../Components/OurProcess";
 // import Studio from "../Components/Studio";
 import StudioNew from "../Components/StudioNew";
 import Partners from "../Components/Partners";

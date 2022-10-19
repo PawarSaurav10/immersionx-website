@@ -1,3 +1,4 @@
+import { Link } from "gatsby";
 import React from "react";
 import fb from "../images/Copyright/Layer614.png";
 import insta from "../images/Copyright/Layer615.png";
@@ -7,11 +8,11 @@ import yt from "../images/Copyright/Layer618.png";
 
 const Footer = () => {
   const imagedata = [
-    { image: fb },
-    { image: insta },
-    { image: linked_in },
-    { image: vimeo },
-    { image: yt },
+    { image: fb, link: "https://www.facebook.com/ImmersionxTechnologies" },
+    { image: insta, link: "https://www.instagram.com/immersionxtechnologies/?igshid=YmMyMTA2M2Y%3D" },
+    { image: linked_in, link: "#" },
+    { image: vimeo, link: "#" },
+    { image: yt, link: "#" },
   ];
   return (
     <div className="bg-footer bg-no-repeat bg-cover">
@@ -22,7 +23,9 @@ const Footer = () => {
           </div>
           <div className="flex items-center justify-center">
             {imagedata.map((aa) => (
-              <img src={aa.image} id={aa.idx} className="mr-2" alt="img"/>
+              <Link to={aa.link}>
+                <img src={aa.image} id={aa.idx} className="mr-2" alt="img" />
+              </Link>
             ))}
           </div>
         </div>

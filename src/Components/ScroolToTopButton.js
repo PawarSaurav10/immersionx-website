@@ -12,10 +12,10 @@ const ScroolToTopButton = () => {
   useEffect(() => {
     window.onscroll = () => {
       if (window.pageYOffset > 299) {
-        console.log(window.pageYOffset, "true");
+        // console.log(window.pageYOffset, "true");
         setVisible(true);
       } else {
-        console.log(window.pageYOffset, "false");
+        // console.log(window.pageYOffset, "false");
         setVisible(false);
       }
     };

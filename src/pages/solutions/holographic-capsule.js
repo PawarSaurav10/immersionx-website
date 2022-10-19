@@ -35,7 +35,7 @@ const Capsule = ({ location }) => {
     // },
   };
 
-  console.log(CapsuleData, "first");
+  // console.log(CapsuleData, "first");
   return (
     <Layout location={location?.pathname}>
       <div className="pt-24 lg:pt-0 bg-black">

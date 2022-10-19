@@ -18,6 +18,7 @@ import worldviz from "../images/05_OURPARTNERS/Worldvizlogo@2x.png";
 import art from "../images/05_OURPARTNERS/Artlogo@2x.png";
 import { Fade } from "react-reveal";
 import ProcessNew from "../Components/ProcessNew";
+import { Helmet } from "react-helmet";
 
 const IndexPage = ({ location }) => {
   const imageData = [
@@ -34,6 +35,55 @@ const IndexPage = ({ location }) => {
   return (
     <>
       <Layout location={location?.pathname}>
+        <Helmet>
+          <title>Immersionx Technologies - Immersive Experience Creators</title>
+          <meta
+            property="og:title"
+            content="Immersionx Technologies - Immersive Experience Creators"
+          />
+          <meta
+            property="twitter:title"
+            content="Immersionx Technologies - Immersive Experience Creators"
+          />
+          <meta
+            name="description"
+            content={
+              "Technology and Design Agency creating world class experience centres, AR, VR, MR and the Metaverse"
+            }
+          />
+          <meta
+            property="og:description"
+            content={
+              "Immersionx Technologies - Technology and Design Agency creating world class experience centres, AR, VR, MR and the Metaverse"
+            }
+          />
+          <meta
+            property="twitter:description"
+            content={
+              "Immersionx Technologies - Technology and Design Agency creating world class experience centres, AR, VR, MR and the Metaverse"
+            }
+          />
+
+          {/* <meta
+          name="theme-color"
+          content="#144a95"
+          media="(prefers-color-scheme: light)"
+        />
+        <meta
+          name="theme-color"
+          content="#144a95"
+          media="(prefers-color-scheme: dark)"
+        />
+        <meta name="theme-color" content="#144a95" /> */}
+          {/* {location.pathname === "/our-currency-new" ? (
+          <>
+            <meta content="noindex" />
+            <meta content="nofollow" />
+          </>
+        ) : (
+          <></>
+        )} */}
+        </Helmet>
         <BannerImage />
         <AboutUs />
         <OurServices />

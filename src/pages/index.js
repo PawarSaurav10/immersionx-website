@@ -60,7 +60,7 @@ const IndexPage = ({ location }) => {
           <meta
             property="twitter:description"
             content={
-              "Immersionx Technologies - Technology and Design Agency creating world class experience centres, AR, VR, MR and the Metaverse"
+              "Immersionx Technologies - Technology and Design Agency creating world class experience centres, AR, VR, MR and the Metaverse" 
             }
           />
 

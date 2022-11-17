@@ -26,7 +26,7 @@ const AboutUs = () => {
                 created a self-sustained world of technologists, artists,
                 economists and leaders.
               </div>
-              <div className=" pt-7">
+              <div className=" pt-7"> 
                 At ImmersionX, Art meets Technology to drive Innovation.
                 <div>
                   Whether its VR Collaborations, Digital assets like the

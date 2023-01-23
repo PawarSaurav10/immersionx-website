@@ -1,5 +1,5 @@
 node_modules/
 .cache/
 public
-src/images.zip
+/images.zip
 *.zip

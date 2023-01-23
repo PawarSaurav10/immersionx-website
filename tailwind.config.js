@@ -4,22 +4,22 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        "hero-pattern": "url('../images/01_screensaver/screensaverBG.jpg')",
+        // "hero-pattern": "url('../images/01_screensaver/screensaverBG.jpg')",
         "our-service": "url('../images/02_OURSERVICES/Ourservicesbg@2x.jpg')",
         "our-process": "url('../images/03_OURPROCESS/ourprocessBG@2x.jpg')",
         "our-studio": "url('../images/04_STUDIO/Studiobg@2x.png')",
         // "our-partners": "url('../images/05_OURPARTNERS/OURPARTNERSBG@2x.png')",
-        "our-partners": "url('../images/05_OURPARTNERS/PARTNERSBG.png')",
+        // "our-partners": "url('../images/05_OURPARTNERS/PARTNERSBG.png')",
         // "our-partners": "url('../images/05_OURPARTNERS/PARTNERSBGmin.png')",
         "our-work": "url('../images/WORK/WORKBG.jpg')",
-        "our-industry":
-          "url('../images/07_OURINDUSTRIES/OURINDUSTRIESBG@2x.png')",
+        // "our-industry":
+        //   "url('../images/07_OURINDUSTRIES/OURINDUSTRIESBG@2x.png')",
         footer: "url('../images/Copyright/Rectangle657.png')",
-        "our-industry-1":
-          "url('../images/07_OURINDUSTRIES/OURINDUSTRIESimageBG@2x.png')",
+        // "our-industry-1":
+        //   "url('../images/07_OURINDUSTRIES/OURINDUSTRIESimageBG@2x.png')",
         "contact-us": "url('../images/08_CONTACTUS/CONTACTUSimageBG2x1.png')",
-        COLLABORATIVEVRBG:
-          "url('../images/02_OURSERVICES/pages/COLLABORATIVEVR/COLLABORATIVEVRBG@2x.png')",
+        // COLLABORATIVEVRBG:
+        //   "url('../images/02_OURSERVICES/pages/COLLABORATIVEVR/COLLABORATIVEVRBG@2x.png')",
         volumetric:
           "url('../images/09_pages/VOLUSTUDIO/VOLUMETRICSTUDIOBG.jpg')",
         TataCommunicationsBG:
@@ -33,7 +33,7 @@ module.exports = {
         LEGRANDBG: "url('../images/09_pages/LEGRAND/LEGRANDBG@2x.jpg')",
         SIEMENSBG: "url('../images/09_pages/SIEMENS/SIEMENSBG@2x.jpg')",
         VRCAVEBG: "url('../images/09_pages/VRCAVE/VIRTUALREALITYCAVEBG.jpg')",
-        MULTITACTION: "url('../images/02_OURSERVICES/pages/COLLABORATIVEVR/MULTITACTIONBG.jpg')",
+        // MULTITACTION: "url('../images/02_OURSERVICES/pages/COLLABORATIVEVR/MULTITACTIONBG.jpg')",
         APPLICATION: "url('../images/10_APPLICATIONs/applicationBG.jpg')",
         ABOUTUS: "url('../images/11_ABOUTUS/aboutusbg.jpg')",
         ACCENTURE: "url('../images/09_pages/ACCENTURE/accentureBG.jpg')",

@@ -36,8 +36,15 @@ const IndexPage = ({ location }) => {
     <>
       <Layout location={location?.pathname}>
         <Helmet>
-          <title>Immersionx Technologies - Immersive Experience Creators</title>
+          <title>
+            Extended Reality Company | Immersive Experience Company - Immersionx
+          </title>
           <meta
+            name="description"
+            content="Immersionx Technologies - Technology and Design Agency creating world class experience centres, AR, VR, MR and the Metaverse"
+          />
+          <meta name="keywords" content="extended reality company, immersive experience company"/>
+          {/* <meta
             property="og:title"
             content="Immersionx Technologies - Immersive Experience Creators"
           />
@@ -62,7 +69,7 @@ const IndexPage = ({ location }) => {
             content={
               "Immersionx Technologies - Technology and Design Agency creating world class experience centres, AR, VR, MR and the Metaverse" 
             }
-          />
+          /> */}
 
           {/* <meta
           name="theme-color"

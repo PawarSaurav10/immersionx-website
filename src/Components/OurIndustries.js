@@ -1,12 +1,12 @@
 import React from "react";
-import img1 from "../images/07_OURINDUSTRIES/AUTOMOBILE@2x.png";
-import img3 from "../images/07_OURINDUSTRIES/TELECOM@2x.png";
-import img2 from "../images/07_OURINDUSTRIES/ENGINEERING@2x@2x.png";
-import img4 from "../images/07_OURINDUSTRIES/SOFTWARE_@2x.png";
-import img5 from "../images/07_OURINDUSTRIES/RETAIL@2x@2x.png";
-import img6 from "../images/07_OURINDUSTRIES/REALESTATE@2x.png";
-import img7 from "../images/07_OURINDUSTRIES/MEDICAL@2x.png";
-import img8 from "../images/07_OURINDUSTRIES/DEFENSE@2x@2x.png";
+// import img1 from "../images/07_OURINDUSTRIES/AUTOMOBILE@2x.png";
+// import img3 from "../images/07_OURINDUSTRIES/TELECOM@2x.png";
+// import img2 from "../images/07_OURINDUSTRIES/ENGINEERING@2x@2x.png";
+// import img4 from "../images/07_OURINDUSTRIES/SOFTWARE_@2x.png";
+// import img5 from "../images/07_OURINDUSTRIES/RETAIL@2x@2x.png";
+// import img6 from "../images/07_OURINDUSTRIES/REALESTATE@2x.png";
+// import img7 from "../images/07_OURINDUSTRIES/MEDICAL@2x.png";
+// import img8 from "../images/07_OURINDUSTRIES/DEFENSE@2x@2x.png";
 // import { useHistory } from "react-router-dom";
 
 const Industries = () => {
@@ -54,7 +54,7 @@ const Industries = () => {
             <div className="px-3 py-3">
               <div className=" grid grid-cols-5 gap-3 ">
                 <div className="col-span-2">
-                  <div className="pb-3">
+                  {/* <div className="pb-3">
                     <img src={img1} alt=""/>
                   </div>
                   <div>
@@ -67,28 +67,28 @@ const Industries = () => {
                   </div>
                   <div>
                     <img src={img4} alt="" />
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
             <div className="py-3 px-3">
               <div className="grid grid-cols-5 gap-3 ">
-                <div className="col-span-2">
+                {/* <div className="col-span-2">
                   <div className="pb-3">
                     <img src={img5} alt=""/>
                   </div>
                   <div>
                     <img src={img6} alt=""/>
                   </div>
-                </div>
-                <div className="col-span-3">
+                </div> */}
+                {/* <div className="col-span-3">
                   <div className="pb-3">
                     <img src={img7} alt=""/>
                   </div>
                   <div>
                     <img src={img8} alt=""/>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

@@ -2,8 +2,4 @@ node_modules/
 .cache/
 src/images.zip
 public
-<<<<<<< HEAD
-src/images.zip
-=======
->>>>>>> b0520b66d0b7e1decc97857e9cefe3d07c59734d
 *.zip
